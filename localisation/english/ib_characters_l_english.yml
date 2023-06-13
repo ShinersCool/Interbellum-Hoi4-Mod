@@ -1,0 +1,254 @@
+﻿l_english:
+
+ AFG_CHARACTER_AMULLAH_KHAN:0 "Amanullah Khan"
+ 
+ ALA_CHARACTER_SALEH_AL_ALI:0 "Saleh al-Ali"
+ 
+ ALB_CHARACTER_PERMITI:0 "Turhan Pasha Përmeti"
+
+ ALT_CHARACTER_GURKY:0 "Grigoriy Gurky"
+ 
+ ANH_CHARACTER_QIRUI:0 "Duan Qirui"
+ 
+ ARG_CHARACTER_YRIGOYEN:0 "Hipólito Yrigoyen" 
+ 
+ ARM_CHARACTER_KHATISIAN:0 "Alexander Khatisian"
+ 
+ ASI_CHARACTER_ISDRID_MUHAMMAD:0 "Muhammad ibn Ali al-Idrisi" 
+ 
+ AST_CHARACTER_BILLY_HUGHES:0 "Billy Hughes"
+ 
+ AUS_CHARACTER_KARL_RENNER:0 "Karl Renner" 
+ 
+ AZR_CHARACTER_YUSIFBEYLI:0 "Nasib bey Yusifbeyli"
+ 
+ BEL_CHARACTER_DELACROIX:0 "Léon Delacroix"
+ 
+ BHU_CHARACTER_WANGCHUK:0 "Ugyen Wangchuck"
+ 
+ BOL_CHARACTER_JOSE_GUERRA:0 "José Gutiérrez Guerra"}
+ 
+ BRA_CHARACTER_PESSOA:0 "Epitácio Pessoa"
+ 
+ BRU_CHARACTER_JAMALUL_ALAM_II:0 "Muhammad Jamalul Alam II"
+ 
+ BLR_CHARACTER_KAZIMIERZ_CICHOWSKI:0 "Kazimierz Cichowski"
+ 
+ BUK_CHARACTER_ALIM_KHAN:0 "Sayyid Mir Mohammed Alim Khan"
+ 
+ BSM_CHARACTER_GAZA:0 "Shir Muhammad-bek Gaza"
+ 
+ BYA_CHARACTER_BOGDANOV:0 "Mikhail Bogdanov"
+ 
+ CAN_CHARACTER_BORDEN:0 "Robert Borden"
+ 
+ COL_CHARACTER_SUAREZ:0 "Marco Fidel Suárez"
+ 
+ COS_CHARACTER_TINOCO_GRANADOS:0 "Federico Tinoco Granados"
+ 
+ CHI_CHARACTER_SUN_YAT_SEN:0 "Sun Yat-sen"
+ 
+ CHL_CHARACTER_SANFUENTES:0 "Juan Luis Sanfuentes"
+ 
+ CUB_CHARACTER_MENOCAL:0 "Mario García Menocal"
+ 
+ CZE_CHARACTER_TUSAR:0 "Vlastimil Tusar"
+ 
+ DEN_CHARACTER_ZAHLE:0 "Carl Theodor Zahle"
+ 
+ DER_CHARACTER_MOHAMMED_ABDULLAH_HASSAN:0 "Mohammed Abdullah Hassan"
+ 
+ DOR_CHARACTER_KRASNOV:0 "Pyotr Krasnov"
+ 
+ ECU_CHARACTER_BAQUERIZO:0 "Alfredo Baquerizo Moreno"
+ 
+ ELS_CHARACTER_MELENDEZ:0 "Jorge Meléndez"
+ 
+ ENG_CHARACTER_DAVID_GEORGE:0 "David Lloyd George"
+ 
+ EST_CHARACTER_STRANDMAN:0 "Otto Strandman"
+ 
+ ETH_CHARACTER_ZEWDITU:0 "Zewditu"
+ 
+ FEL_CHARACTER_FELIX_DIAZ:0 "Félix Díaz"
+ 
+ FEN_CHARACTER_ZUOLIN:0 "Zhang Zuolin"
+ 
+ FIN_CHARACTER_STAHLBERG:0 "Kaarlo Juho Ståhlberg"
+ 
+ FRA_CHARACTER_CLEMENCEAU:0 "Georges Clemenceau"
+ 
+ GEO_CHARACTER_ZHORDANIA:0 "Noe Zhordania"
+ 
+ GER_CHARACTER_EBERT:0 "Friedrich Ebert"
+ 
+ GRE_CHARACTER_VENIZELOS:0 "Eleftherios Venizelos"
+ 
+ GUA_CHARACTER_CABRERA:0 "Manuel Estrada Cabrera"
+ 
+ GUK_CHARACTER_HLUSHKO_MOVA:0 "Yurii Hlushko"
+ 
+ GUZ_CHARACTER_XIANSHI:0 "Liu Xianshi"
+ 
+ GXC_CHARACTER_RONGTING:0 "Lu Rongting"
+ 
+ HJZ_CHARACTER_HUSSEIN_BIN_ALI:0 "Hussein bin Ali"
+ 
+ HNN_CHARACTER_YANKAI:0 "Tan Yankai"
+ HNN_CHARACTER_JINGYAO:0 "Zhang Jingyao"
+ 
+ HOB_CHARACTER_KENADID:0 "Ali Yusuf Kenadid"
+ 
+ HOL_CHARACTER_BEERENBROUCK:0 "Charles Ruijs de Beerenbrouck"
+ 
+ HON_CHARACTER_BERTRAND:0 "Francisco Bertrand"
+ 
+ HUN_CHARACTER_KUN:0 "Béla Kun"
+ 
+ HUT_CHARACTER_KLOCHURAK:0 "Stepan Klochurak"
+ 
+ IMO_CHARACTER_IBN_RASHID:0 "Salim ibn Rashid al-Kharusi"
+ 
+ INS_CHARACTER_STIRUM:0 "Johan Paul van Limburg Stirum"
+ 
+ IRE_CHARACTER_VALERA:0 "Éamon de Valera"
+ 
+ ITA_CHARACTER_NITTI:0 "Francesco Saverio Nitti"
+ 
+ JAP_CHARACTER_TAISHO:0 "Emperor Taishō"
+ 
+ JAS_CHARACTER_RASHID:0 "Saud bin Abdulaziz Al Rashid"
+ 
+ KHI_CHARACTER_ABDULLAH:0 "Sayid Abdullah"
+ 
+ KPR_CHARACTER_BYCH:0 "Luka Bych"
+ 
+ KSI_CHARACTER_NAMGYAL:0 "Tashi Namgyal"
+ 
+ KUM_CHARACTER_MASQUAD:0 "Maqsud Shah"
+ 
+ KUW_CHARACTER_AL_SABAH:0 "Salim Al-Mubarak Al-Sabah"
+ 
+ LUX_CHARACTER_REUTER:0 "Émile Reuter"
+ 
+ MAJ_CHARACTER_OSMAN_MAHAMUUD:0 "Osman Mahamuud"
+ 
+ LAT_CHARACTER_CAKSTE:0 "Jānis Čakste"
+ 
+ LIB_CHARACTER_DANIEL_HOWARD:0 "Daniel Edward Howard"
+ 
+ LIT_CHARACTER_SMETONA:0 "Antanas Smetona"
+ 
+ MAK_CHARACTER_MAKHNO:0 "Nestor Makhno"
+ 
+ MAL_CHARACTER_ARTHUR_YOUNG:0 "Sir Arthur Henderson Young"
+ 
+ MEX_CHARACTER_CARRANZA:0 "Venustiano Carranza"
+ 
+ MLD_CHARACTER_ISKANDER:0 "Muhammad Shamsuddeen Iskander III"
+ 
+ MNC_CHARACTER_TCHERMOEV:0 "Tapa Tchermoev"
+ 
+ MON_CHARACTER_BOGD_KHAN:0 "Bogd Khan"
+ 
+ MOR_CHARACTER_HASSAN:0 "Yusef ben Hassan"
+ 
+ NAR_CHARACTER_YUXIANG:0 "Feng Yuxiang"
+ 
+ NEP_CHARACTER_CHANDRA_RANA:0 "Chandra Shumsher Jung Bahadur Rana"
+ 
+ NIN_CHARACTER_ELFVENGREN:0 "Georg Elfvengren"
+ 
+ NAJ_CHARACTER_HUSAYN:0 "`Ali II ibn Muhsin ibn Husayn"
+ 
+ NOR_CHARACTER_KNUDSEN:0 "Gunnar Knudsen"
+ 
+ NZL_CHARACTER_MASSEY:0 "William Massey"
+ 
+ OMA_CHARACTER_BIN_FEISAL:0 "Taimur bin Feisal"
+ 
+ PAN_CHARACTER_BARAHONA:0 "Belisario Porras Barahona"
+ 
+ PAR_CHARACTER_MONTERO:0 "José Pedro Montero"
+ 
+ PER_CHARACTER_QAJAR:0 "Ahmad Shāh Qājār"
+ 
+ POL_CHARACTER_PILSUDSKI:0 "Józef Piłsudski"
+ 
+ POR_CHARACTER_CANTO_CASTRO:0 "João do Canto e Castro"
+ 
+ PRU_CHARACTER_LEGUIA:0 "Augusto B. Leguía"
+ 
+ QAT_CHARACTER_AL_THANI:0 "Abdullah bin Jassim Al Thani"
+ 
+ RAJ_CHARACTER_THESIGER:0 "Frederic Thesiger"
+ 
+ ROM_CHARACTER_BRATIANU:0 "Ion I. C. Brătianu"
+ 
+ SAF_CHARACTER_BOTHA:0 "Louis Botha"
+ 
+ SAR_CHARACTER_BROOKE:0 "Charles Vyner Brooke"
+ 
+ SHA_CHARACTER_YUEXIU:0 "Jing Yuexiu"
+ 
+ SHX_CHARACTER_XISHAN_IB:0 "Yan Xishan"
+ 
+ SIA_CHARACTER_VAJIRAVUDH:0 "King Vajiravudh Rama VI"
+ 
+ SIC_CHARACTER_LIU_XIANG:0 "Liu Xiang"
+ 
+ SIK_CHARACTER_ZENGXIN:0 "Yang Zengxin"
+ 
+ SNY_CHARACTER_AHMED_SENUSSI:0 "Ahmed Sharif as-Senussi"
+ 
+ SOV_CHARACTER_LENIN:0 "Vladamir Lenin"
+ 
+ SPR_CHARACTER_MAURA:0 "Antonio Maura"
+ 
+ SWE_CHARACTER_NILS_EDEN:0 "Nils Edén"
+ 
+ SWI_federal_assembly:0 "Federal Assembly"
+ 
+ SRL_CHARACTER_MANNING:0 "Sir William Henry Manning"
+ 
+ TIB_CHARACTER_THUBTEN_GYATSO:0 "Thubten Gyatso"
+ 
+ TMS_CHARACTER_FUNTIKOV:0 "Fyodor Adrianovich Funtikov"
+ 
+ TUK_CHARACTER_TURAR:0 "Turar Ryskululy Ryskulov"
+ 
+ TUR_CHARACTER_MEHMED:0 "Mehmed VI"
+ 
+ UAE_CHARACTER_TRIBAL_CONFEDERATION:0 "The Emirates"
+ 
+ UAS_CHARACTER_SHEIKDOM:0 "The Sheikdom of Upper Asir"
+ 
+ UKR_CHARACTER_PETLIURA:0 "Symon Petliura"
+ 
+ URG_CHARACTER_BALTASAR_BRUM:0 "Baltasar Brum"
+ 
+ USA_CHARACTER_WILSON:0 "Woodrow Wilson"
+ 
+ USR_CHARACTER_KOISOR:0 "Stanisław Kosior"
+ 
+ VEN_CHARACTER_JUAN_VICENTE_GOMEZ:0 "Juan Vicente Gómez"
+ 
+ VIL_CHARACTER_FRANCISCO_VILLA:0 "Francisco Villa"
+ 
+ WHR_CHARACTER_KOLCHAK:0 "Alexander Kolchak"
+ 
+ WUK_CHARACTER_PETRUSHEVYCH:0 "Yevhen Petrushevych"
+ 
+ XIK_CHARACTER_LIU_WENHUI:0 "Liu Wenhui"
+ 
+ XSM_CHARACTER_MA_QI:0 "Ma Qi"
+ 
+ TAN_CHARACTER_OYUN:0 "Oyun Kombu-Dorzhu oglu Sodunam-Balchyr"
+ 
+ YUG_CHARACTER_PETEY:0 "King Peter I"
+ 
+ YUN_CHARACTER_TANG_JIYAO:0 "Tang Jiyao"
+ 
+ ZAP_CHARACTER_GILDARDO:0 "Gildardo Magaña"
+ 
+ ZHI_CHARACTER_CAO_KUNG:0 "Cao Kun"

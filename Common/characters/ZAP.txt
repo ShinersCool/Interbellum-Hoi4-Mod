@@ -1,0 +1,14 @@
+characters={
+	ZAP_gildardo={
+		name=ZAP_CHARACTER_GILDARDO
+		portraits={
+			civilian={
+				large="GFX_portrait_ZAP_gildardo_large"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1939.1.1.1"
+		}
+	}
+}

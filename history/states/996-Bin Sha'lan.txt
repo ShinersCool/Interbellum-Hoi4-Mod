@@ -1,0 +1,21 @@
+state={
+	id=996
+	name="STATE_996"
+	
+	history={
+		owner = JAS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+
+	}
+	
+	provinces={
+		13308 13309 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=971
+	name="STATE_971"
+	
+	history={
+		owner = BEL
+		add_core_of = GER
+		victory_points = {
+			587 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}	
+	
+	provinces={
+		587 3444 9522 
+	}
+	manpower=124325
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

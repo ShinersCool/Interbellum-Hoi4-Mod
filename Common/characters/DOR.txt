@@ -1,0 +1,14 @@
+characters={
+	DOR_pyotr_krasnov={
+		name=DOR_CHARACTER_KRASNOV
+		portraits={
+			civilian={
+				large="GFX_portrait_dor_pyotr_krasnov_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1947.1.1.1"
+		}
+	}
+}

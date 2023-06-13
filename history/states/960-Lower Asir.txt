@@ -1,0 +1,22 @@
+state={
+	id=960
+	name="STATE_960"
+	
+	history={
+		owner = ASI
+		add_core_of = ASI
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
+	provinces={
+		8073 
+	}
+	manpower=167888
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

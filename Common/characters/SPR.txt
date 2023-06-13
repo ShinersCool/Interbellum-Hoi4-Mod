@@ -1,0 +1,14 @@
+characters={
+	SPR_antonio_maura={
+		name=SPR_CHARACTER_MAURA
+		portraits={
+			civilian={
+				large="GFX_portrait_spr_antonio_maura_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1925.1.1.1"
+		}
+	}
+}

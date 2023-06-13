@@ -1,0 +1,14 @@
+characters={
+	SNY_ahmed_senussi={
+		name=SNY_CHARACTER_AHMED_SENUSSI
+		portraits={
+			civilian={
+				large="GFX_portrait_sny_ahmed_senussi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1933.1.1.1"
+		}
+	}
+}

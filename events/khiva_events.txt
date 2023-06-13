@@ -1,0 +1,72 @@
+﻿###########################
+# khivan Events
+###########################
+
+add_namespace = khiva
+
+country_event = {
+	id = khiva.1
+	title = khiva.1.t
+	desc = khiva.1.d
+	picture = GFX_armenia_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # exile?????./.
+		name = khiva.1.a
+		ai_chance = { factor = 100 }
+		#ARM = {
+		#    transfer_state = 983
+		#}
+		custom_effect_tooltip = exile_tooltip
+	}
+	
+	option = { # exeggute
+		name = khiva.1.b
+		ai_chance = { factor = 1 }
+		#ARM = {
+		#    transfer_state = 983
+		#}
+		custom_effect_tooltip = execution_tooltip
+	}
+}
+
+country_event = {
+	id = khiva.2
+	title = khiva.2.t
+	desc = khiva.2.d
+	picture = GFX_armenia_border_war
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = KHI
+		has_offensive_war_with = TUK
+	}
+
+	
+	option = { 
+		name = khiva.2.a
+		ai_chance = { factor = 50 }
+		custom_effect_tooltip = feck_off_tooltip
+		add_timed_idea = {
+			idea = KHI_turkmen_chiefs_oppose_campaign 
+			days = 360
+		} 
+	}
+	
+	option = { 
+		name = khiva.2.b
+		ai_chance = { factor = 25 }
+		add_political_power = -150
+		custom_effect_tooltip = bribe_tooltip
+		add_timed_idea = {
+			idea = KHI_turkmen_chiefs_support_campaign
+			days = 180
+		} 
+	}
+}
+
+

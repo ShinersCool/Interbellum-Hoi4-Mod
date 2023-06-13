@@ -1,0 +1,22 @@
+state={
+	id=910
+	name="STATE_910"
+	
+	history={
+		owner = HUN
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 3
+			
+		}
+		
+	}
+	
+	provinces={
+		3700 9661 11630 
+	}
+	manpower=865327
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

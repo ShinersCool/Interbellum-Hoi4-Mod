@@ -1,0 +1,14 @@
+characters={
+	NZL_william_massey={
+		name=NZL_CHARACTER_MASSEY
+		portraits={
+			civilian={
+				large="GFX_portrait_nzl_massey_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1925.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=342
+	name="STATE_342"
+	resources={
+		chromium=18.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = TUR
+
+	}
+
+	provinces={
+		9929 10038 11917 12013 12016 
+	}
+	manpower=181344
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=7.000
+}

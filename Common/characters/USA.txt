@@ -1,0 +1,14 @@
+characters={
+	USA_woodrow_wilson={
+		name=USA_CHARACTER_WILSON
+		portraits={
+			civilian={
+				large="GFX_portrait_usa_woodrow_wilson_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1924.1.1.1"
+		}
+	}
+}

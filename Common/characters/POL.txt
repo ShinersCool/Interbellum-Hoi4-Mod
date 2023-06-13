@@ -1,0 +1,14 @@
+characters={
+	POL_jozef_pilsudski={
+		name=POL_CHARACTER_PILSUDSKI
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_jozef_pilsudski_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1935.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	XSM_ma_qi={
+		name=XSM_CHARACTER_MA_QI
+		portraits={
+			civilian={
+				large="GFX_portrait_xsm_ma_qi_large"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1931.1.1.1"
+		}
+	}
+}

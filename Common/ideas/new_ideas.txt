@@ -1,0 +1,408 @@
+ideas = {
+
+	country = {
+		weakened_military = {
+		    picture = weakened_military
+			
+			allowed = {
+				tag = ENG
+				tag = FRA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    manpower = 0.3
+				army_attack_factor = -0.3
+				attrition = 0.4
+			}
+
+		}
+
+	}
+	
+	country = {
+		white_terror_idea = {
+		    picture = white_terror
+			
+			allowed = {
+				tag = HUN
+			}
+			
+			available = { 
+				has_completed_focus = white_terror
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    communism_drift = -0.02
+			}
+
+		}
+
+	}
+
+	country = {
+		white_terror_idea_2 = {
+		    picture = white_terror
+			
+			allowed = {
+				tag = HUN
+			}
+			
+			available = { 
+				has_completed_focus = white_terror
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    communism_drift = -0.05
+				neutrality_drift = 0.10
+			}
+
+		}
+
+	}
+	country = {
+		white_terror_idea_3 = {
+		    picture = white_terror
+			
+			allowed = {
+				tag = HUN
+			}
+			
+			available = { 
+				has_completed_focus = force_exile
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			    communism_drift = -0.05
+				neutrality_drift = 0.10
+				recruitable_population = -0.0025
+			}
+
+		}
+
+	}
+	
+	country = {
+		monarchist_return = {
+		    picture = white_terror
+			
+			allowed = {
+				tag = HUN
+			}
+			
+			available = { 
+				has_completed_focus = begin_monarchist_return
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.05
+			}
+
+		}
+
+	}
+	country = {
+		horthys_grip = {
+		    picture = white_terror
+			
+			allowed = {
+				tag = HUN
+			}
+			
+			available = { 
+				has_completed_focus = hun_authoritarian
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+					
+				war_support_weekly = 0.003
+				party_popularity_stability_factor = 0.005
+			}
+
+		}
+
+	}
+	country = {
+		mor_resistance = {
+		    picture = idea_chi_war_of_resistance2
+			
+			allowed = {
+				tag = MOR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.01
+				political_power_cost = 0.5
+			}
+
+		}
+
+	}	
+	country = {
+		anhui_remobalisation = {
+		    picture = #
+			
+			allowed = {
+				tag = ANH
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = 0.02
+				add_ideas=low_economic_mobilisation
+				
+
+			}
+
+		}
+
+	}	
+	country = {
+		saudi_ikhwan = {
+		    picture = #
+			
+			allowed = {
+				tag = SAU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.02
+				weekly_manpower = 1000 
+				
+
+			}
+
+		}
+
+	}	
+	country = {
+		KHI_cossack_officers = {
+		    picture = GFX_idea_KHI_cossack_officers
+			
+			allowed = {
+				tag = KHI
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+				cavalry_attack_factor = 0.10
+				breakthrough_factor = 0.10
+				army_org_factor = 0.15
+				experience_gain_cavalry_training_factor = 1
+				command_power_gain = 0.2
+				max_command_power = 20
+				
+				
+			}
+
+		}
+
+	}		
+	
+	country = {
+		KHI_turkmen_chiefs_oppose_campaign = {
+		    picture = #
+			
+			allowed = {
+				tag = KHI
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#add_stability = -0.2
+				war_stability_factor = -0.3
+				stability_weekly_factor = -0.5
+				war_support_weekly = -0.01
+				war_support_weekly_factor = -1
+				neutrality_drift = -0.1
+			}
+
+		}
+
+	}	
+
+	country = {
+		KHI_turkmen_chiefs_support_campaign = {
+		    picture = #
+			
+			allowed = {
+				tag = KHI
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				#add_stability = -0.2
+				war_support_weekly = 0.01
+				war_support_weekly_factor = 0.5
+				recruitable_population_factor = 0.03
+				mobilization_speed = 0.25
+				#paying em
+				consumer_goods_factor = 0.05
+			}
+
+		}
+
+	}	
+	
+	country = {
+		MOR_question_of_tanger = {
+		    picture = GFX_idea_MOR_question_of_tanger
+			
+			allowed = {
+				tag = MOR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+				improve_relations_maintain_cost_factor = -0.5
+				opinion_gain_monthly_factor = 0.15
+				political_power_factor = 0.1
+				
+				drift_defence_factor = -0.5
+				
+				
+			}
+
+		}
+
+	}	
+}
+
+

@@ -1,0 +1,14 @@
+characters={
+	ZHI_cao_kung={
+		name=ZHI_CHARACTER_CAO_KUNG
+		portraits={
+			civilian={
+				large="GFX_portrait_zhi_cao_kung_large"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="1938.1.1.1"
+		}
+	}
+}

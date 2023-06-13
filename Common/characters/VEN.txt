@@ -1,0 +1,14 @@
+characters={
+	VEN_juan_vicente_gomez={
+		name=VEN_CHARACTER_JUAN_VICENTE_GOMEZ
+		portraits={
+			civilian={
+				large="GFX_portrait_ven_juan_vicente_gomez_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1935.1.1.1"
+		}
+	}
+}

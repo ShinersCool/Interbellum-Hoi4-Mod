@@ -1,0 +1,27 @@
+
+state={
+	id=404
+	name="STATE_404"
+
+	history={
+		owner = TUK
+		victory_points = {
+			7597 1 
+		}
+		add_core_of = TUK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		7600 7657 12329 
+	}
+	manpower=667036
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

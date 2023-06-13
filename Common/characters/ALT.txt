@@ -1,0 +1,14 @@
+characters={
+	ALT_grigoriy_gurky={
+		name=ALT_CHARACTER_GURKY
+		portraits={
+			civilian={
+				large="GFX_portrait_alt_gurky_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1937.1.1.1"
+		}
+	}
+}

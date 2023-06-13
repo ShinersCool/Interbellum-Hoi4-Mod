@@ -1,0 +1,52 @@
+﻿focus_tree = { 
+	id = ZHI
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ZHI
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = ZHI_anti_anhui_south
+		icon = GFX_goal_
+		x = 25
+		y = 0
+		cost = 10
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  
+			ANH = { has_idea = anhui_remobalisation }
+		}	
+
+		completion_reward = {
+			create_faction = anti_anhui_faction
+			YUN = {
+				country_event = {
+					id = yunnan_ib.1 
+					days = 5
+				}
+			}	
+			GXC = {
+				country_event = {
+					id = guangxi_ib.1 
+					days = 5
+				}
+			}	
+			FEN = {
+				country_event = {
+					id = fengtian.2 
+					days = 5
+				}
+			}	
+		}
+	}
+
+}
+
+

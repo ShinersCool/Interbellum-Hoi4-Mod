@@ -1,0 +1,24 @@
+state={
+	id=921
+	name="STATE_921"
+	
+	history={
+		owner = TUK
+		add_core_of = TUK
+		add_core_of = WHR
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+
+		}	
+	
+	}
+	
+	provinces={
+		4578 4636 4686 7556 7597 7777 10148 10353 10366 10506 10601 12340 12397 
+	}
+	manpower=66532
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

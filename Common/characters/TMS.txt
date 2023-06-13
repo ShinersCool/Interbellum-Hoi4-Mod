@@ -1,0 +1,14 @@
+characters={
+	TMS_funtikov={
+		name=TMS_CHARACTER_FUNTIKOV
+		portraits={
+			civilian={
+				large="GFX_portrait_tms_funtikov_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1926.5.1.1"
+		}
+	}
+}

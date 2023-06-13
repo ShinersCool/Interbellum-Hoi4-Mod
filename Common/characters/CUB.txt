@@ -1,0 +1,14 @@
+characters={
+	CUB_mario_garcia_menocal={
+		name=CUB_CHARACTER_MENOCAL
+		portraits={
+			civilian={
+				large="GFX_portrait_cub_menocal_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1941.1.1.1"
+		}
+	}
+}

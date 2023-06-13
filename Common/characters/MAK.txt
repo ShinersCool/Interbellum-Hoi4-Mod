@@ -1,0 +1,14 @@
+characters={
+	MAK_makhno={
+		name=MAK_CHARACTER_MAKHNO
+		portraits={
+			civilian={
+				large="GFX_portrait_mak_makhno_large"
+			}
+		}
+		country_leader={
+			ideology=anarchism
+			expire="1934.1.1.1"
+		}
+	}
+}

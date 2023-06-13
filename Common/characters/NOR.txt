@@ -1,0 +1,14 @@
+characters={
+	NOR_knudsen={
+		name=NOR_CHARACTER_KNUDSEN
+		portraits={
+			civilian={
+				large="GFX_portrait_nor_knudsen_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1928.12.1.1"
+		}
+	}
+}

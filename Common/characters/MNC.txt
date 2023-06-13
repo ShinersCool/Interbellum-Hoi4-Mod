@@ -1,0 +1,14 @@
+characters={
+	MNC_tapa_chermoyev={
+		name=MNC_CHARACTER_TCHERMOEV
+		portraits={
+			civilian={
+				large="GFX_portrait_mnc_chermoyev_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1937.1.1.1"
+		}
+	}
+}

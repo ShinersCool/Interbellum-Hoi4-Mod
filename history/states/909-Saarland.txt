@@ -1,0 +1,30 @@
+state={
+	id=909
+	name="STATE_909"
+	resources={
+		steel=59.000
+		aluminium=14.000
+	}
+	
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		
+		victory_points = {
+			11531 5 
+		}		
+		add_core_of = GER
+		#set_demilitarized_zone = yes #DEJURE DEMILITARIZESD
+	}
+	
+	provinces={
+		11531 
+	}
+	manpower=504623
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

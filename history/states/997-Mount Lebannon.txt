@@ -1,0 +1,19 @@
+state={
+	id=997
+	name="STATE_997"
+	
+	history={
+		owner = FRA
+		add_core_of = LEB
+		add_core_of = SYR
+
+	}
+	
+	provinces={
+		13312 
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

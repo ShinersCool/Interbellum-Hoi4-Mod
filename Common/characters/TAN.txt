@@ -1,0 +1,14 @@
+characters={
+	TAN_oyun={
+		name=TAN_CHARACTER_OYUN
+		portraits={
+			civilian={
+				large="GFX_portrait_tan_oyun_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1940.1.1.1"
+		}
+	}
+}

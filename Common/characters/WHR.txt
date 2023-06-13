@@ -1,0 +1,14 @@
+characters={
+	WHR_alexander_kolchak={
+		name=WHR_CHARACTER_KOLCHAK
+		portraits={
+			civilian={
+				large="GFX_portrait_whr_alexander_kolchak_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1920.1.1.1"
+		}
+	}
+}

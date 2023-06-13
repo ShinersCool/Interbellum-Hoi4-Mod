@@ -1,0 +1,14 @@
+characters={
+	RAJ_thesiger={
+		name=RAJ_CHARACTER_THESIGER
+		portraits={
+			civilian={
+				large="GFX_portrait_raj_thesiger_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1933.1.1.1"
+		}
+	}
+}

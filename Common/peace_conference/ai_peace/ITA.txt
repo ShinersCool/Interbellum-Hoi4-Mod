@@ -1,0 +1,82 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+    # If Italy defeats Ethiopia, they want to take the states for themselves (primarily), not do other fancy stuff
+    ITA_wants_ethiopia = {
+        peace_action_type = take_states
+        enable = {
+            tag = ITA  # Negotiatior is italy
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = {is_core_of = ETH }  # Ethiopian Territory
+            NOT = {
+                any_subject_country = {
+                    original_tag = ETH
+                }
+            }
+        }
+
+        ai_desire = 50  # 50 percent higher desire
+    }
+
+
+    ITA_no_puppet_ethiopia = {
+        peace_action_type = { puppet liberate force_government }
+        enable = {
+            tag = ITA  # Negotiatior is italy
+            FROM.FROM.FROM = { is_core_of = ETH }  # Ethiopian Territory
+        }
+
+        ai_desire = -100  # 100 percent lower desire
+    }
+
+    ITA_take_aushun_territories = {
+        peace_action_type = take_states
+        enable = {
+            ROOT = {
+                tag = ITA  # Negotiatior is italy
+            }
+
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = { state = 103 }
+            FROM.FROM.FROM = { state = 163 } 
+            FROM.FROM.FROM = { state = 907 }
+            FROM.FROM.FROM = { state = 736 }
+            FROM.FROM.FROM = { state = 885 }
+            FROM.FROM.FROM = { state = 897 }
+            FROM.FROM.FROM = { state = 898 } 
+            FROM.FROM.FROM = { state = 899 } 
+        }
+
+        ai_desire = 50  # 50 percent higher desire
+    }
+
+    ITA_take_north_africa = {
+        peace_action_type = take_states
+        enable = {
+            ROOT = {
+                tag = ITA  # Negotiatior is italy
+            }
+
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = { state = 458 }  
+            FROM.FROM.FROM = { state = 665 }  
+            FROM.FROM.FROM = { state = 448 }  
+            FROM.FROM.FROM = { state = 661 } 
+            FROM.FROM.FROM = { state = 449 }  
+            FROM.FROM.FROM = { state = 450 }   
+            FROM.FROM.FROM = { state = 663 }  
+            FROM.FROM.FROM = { state = 451 }  
+            FROM.FROM.FROM = { state = 273 }  
+            FROM.FROM.FROM = { state = 850 }  
+            FROM.FROM.FROM = { state = 854 }  
+            FROM.FROM.FROM = { state = 852 }  
+            FROM.FROM.FROM = { state = 851 }  
+            FROM.FROM.FROM = { state = 853 }  
+            FROM.FROM.FROM = { state = 849 }  
+        }
+
+        ai_desire = 50  # 50 percent higher desire
+    }
+}

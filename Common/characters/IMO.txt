@@ -1,0 +1,14 @@
+characters={
+	IMO_salim_ibn_rashid={
+		name=IMO_CHARACTER_IBN_RASHID
+		portraits={
+			civilian={
+				large="GFX_portrait_imo_salim_ibn_rashid_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1940.1.1.1"
+		}
+	}
+}

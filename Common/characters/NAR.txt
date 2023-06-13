@@ -1,0 +1,14 @@
+characters={
+	NAR_yuxiang={
+		name=NAR_CHARACTER_YUXIANG
+		portraits={
+			civilian={
+				large="GFX_portrait_nar_yuxiang_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1948.1.1.1"
+		}
+	}
+}

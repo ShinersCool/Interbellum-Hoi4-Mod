@@ -1,0 +1,32 @@
+state={
+	id=1011
+	name="STATE_1011"
+	provinces={
+		13329
+	}
+	
+	history={
+		owner = MSG
+		add_core_of = MSG
+		#add_claim_by = TIB
+
+		##to chekkk
+		#set_demilitarized_zone = yes
+		#buildings = {
+		#	infrastructure = 3
+		#	industrial_complex = 1
+		#	#air_base = 4
+		#	13320 = {
+		#		naval_base = 2
+		#	}
+		
+		victory_points = {
+			13329 1 
+		}
+	
+	}
+	state_category=rural
+	manpower=3201
+	buildings_max_level_factor=1.000
+	local_supplies=4.000
+}

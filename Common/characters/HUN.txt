@@ -1,0 +1,14 @@
+characters={
+	HUN_bela_kun={
+		name=HUN_CHARACTER_KUN
+		portraits={
+			civilian={
+				large="GFX_portrait_hun_bela_kun_large"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1938.1.1.1"
+		}
+	}
+}

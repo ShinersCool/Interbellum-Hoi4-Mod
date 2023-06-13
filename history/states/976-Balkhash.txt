@@ -1,0 +1,24 @@
+state={
+	id=976
+	name="STATE_976"
+	
+	history={
+		owner = TUK
+		add_core_of = TUK
+		add_core_of = WHR
+		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+
+		}	
+	
+	}
+	
+	provinces={
+		4651 7711 7795 7856 10550 10619 12529 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+	local_supplies=0.000
+}

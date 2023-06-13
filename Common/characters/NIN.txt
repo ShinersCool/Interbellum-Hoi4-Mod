@@ -1,0 +1,14 @@
+characters={
+	NIN_elfvengren={
+		name=NIN_CHARACTER_ELFVENGREN
+		portraits={
+			civilian={
+				large="GFX_portrait_nin_elfvengren_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1927.1.1.1"
+		}
+	}
+}

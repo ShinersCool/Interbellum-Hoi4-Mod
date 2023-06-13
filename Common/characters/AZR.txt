@@ -1,0 +1,14 @@
+characters={
+	AZR_nasib_bey_yusifbeyli={
+		name=AZR_CHARACTER_YUSIFBEYLI
+		portraits={
+			civilian={
+				large="GFX_portrait_azr_nasib_bey_yusifbeyli_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1920.4.1.1"
+		}
+	}
+}

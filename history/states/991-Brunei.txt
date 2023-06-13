@@ -1,0 +1,29 @@
+state={
+	id=991
+	name="STATE_991"
+	
+	history={
+		owner = BRU
+		victory_points = {
+			7387 5 
+		}
+		buildings = {
+			infrastructure = 2
+			7387 = {
+				naval_base = 2
+
+			}
+		}
+		
+		add_core_of = BRU
+
+	}
+	
+	provinces={
+		7387 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+characters={
+	KHI_abdullah={
+		name=KHI_CHARACTER_ABDULLAH
+		portraits={
+			civilian={
+				large="GFX_portrait_khi_abdullah_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1933.1.1.1"
+		}
+	}
+}

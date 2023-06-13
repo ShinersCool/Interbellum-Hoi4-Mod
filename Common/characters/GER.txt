@@ -1,0 +1,14 @@
+characters={
+	GER_friedrich_ebert={
+		name=GER_CHARACTER_EBERT
+		portraits={
+			civilian={
+				large="GFX_portrait_ger_friedrich_ebert_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1925.1.1.1"
+		}
+	}
+}

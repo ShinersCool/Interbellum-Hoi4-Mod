@@ -1,0 +1,23 @@
+state={
+	id=925
+	name="STATE_925"
+	
+	history={
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		    infrastructure = 1
+			industrial_complex = 1
+			
+		}
+		
+	}
+	
+	provinces={
+		5093 8060 12870 
+	}
+	manpower=432000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

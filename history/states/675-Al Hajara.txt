@@ -1,0 +1,26 @@
+
+state={
+	id=675
+	name="STATE_675"
+
+	history={
+		owner = ENG
+		victory_points = {
+			12413 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+
+	}
+
+	provinces={
+		4951 12413 
+	}
+	manpower=81396
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

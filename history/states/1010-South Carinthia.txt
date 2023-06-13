@@ -1,0 +1,26 @@
+state={
+	id=1010
+	name="STATE_1010"
+	
+	history={
+		owner = AUS
+		victory_points = {
+			13327 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = YUG
+
+	}	
+	
+	provinces={
+		11612 13327 13328
+	}
+	manpower=37303
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

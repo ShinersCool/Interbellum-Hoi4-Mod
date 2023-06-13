@@ -1,0 +1,14 @@
+characters={
+	JAP_emperor_taisho={
+		name=JAP_CHARACTER_TAISHO
+		portraits={
+			civilian={
+				large="GFX_portrait_jap_taisho_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1926.1.1.1"
+		}
+	}
+}

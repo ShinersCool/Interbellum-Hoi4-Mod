@@ -1,0 +1,25 @@
+state={
+	id=989
+	name="STATE_989"
+	
+	history={
+		owner = MAJ
+		add_core_of = MAJ
+		victory_points = {
+			1966 5
+		}
+		buildings = {
+			infrastructure = 2
+			
+		}	
+
+	}
+	
+	provinces={
+		1966 4909 10818 10891 
+	}
+	manpower=257223
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

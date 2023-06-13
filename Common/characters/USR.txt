@@ -1,0 +1,14 @@
+characters={
+	USR_kosior={
+		name=USR_CHARACTER_KOISOR
+		portraits={
+			civilian={
+				large="GFX_portrait_usr_kosior_large"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1939.1.1.1"
+		}
+	}
+}

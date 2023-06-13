@@ -1,0 +1,33 @@
+state={
+	id=1015
+	name="STATE_1015"
+	provinces={
+		13331
+	}
+	
+	
+	history={
+		owner = JAP 
+		add_core_of = CHI
+		#add_claim_by = SPA
+		#add_claim_by = FRA
+		##to chekkk
+		set_demilitarized_zone = yes
+		#buildings = {
+		#	infrastructure = 3
+		#	industrial_complex = 1
+		#	#air_base = 4
+		#	13320 = {
+		#		naval_base = 2
+
+		
+		victory_points = {
+			13331 10 
+		}
+	
+	}
+	state_category=city
+	manpower=34000
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

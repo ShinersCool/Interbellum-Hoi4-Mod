@@ -1,0 +1,14 @@
+characters={
+	LUX_reuter={
+		name=LUX_CHARACTER_REUTER
+		portraits={
+			civilian={
+				large="GFX_portrait_lux_reuter_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1974.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=913
+	name="STATE_913"
+	
+	history={
+		owner = MEX
+		buildings = {
+		infrastructure = 3
+		dockyard = 1
+		8057 = {
+				naval_base = 3
+			}
+		
+		}
+		add_core_of = MEX
+		
+	}
+	
+	provinces={
+		1945 8057 10895 
+	}
+	manpower=627547
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

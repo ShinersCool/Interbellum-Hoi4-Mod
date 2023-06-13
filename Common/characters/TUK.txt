@@ -1,0 +1,14 @@
+characters={
+	TUK_turar={
+		name=TUK_CHARACTER_TURAR
+		portraits={
+			civilian={
+				large="GFX_portrait_tuk_turar_large"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1938.1.1.1"
+		}
+	}
+}

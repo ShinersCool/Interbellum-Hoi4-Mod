@@ -1,0 +1,615 @@
+﻿focus_tree = {
+	id = jabal_shammar_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 100
+			tag = JAS
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+
+	focus = {
+		id = the_future_of_the_emirate
+		icon = GFX_goal_the_future_of_the_emirate
+		x = 10
+		y = 1
+		#relative_position_id = AST_empower_the_workers
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+		}		
+		bypass = {
+		}
+		
+		cost = 5
+		#prerequisite = { focus = AST_workers_paradise }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+		}
+	}
+focus = {
+		id = a_unified_arabia
+		icon = GFX_goal_a_unified_arabia
+		x = 1
+		y = 1
+		relative_position_id = the_future_of_the_emirate
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = the_future_of_the_emirate }
+		mutually_exclusive = { focus = a_divided_arabia }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_stability = 0.1
+		}
+		ai_will_do = {
+		}
+	}
+focus = {
+		id = a_divided_arabia
+		icon = GFX_goal_a_divided_arabia
+		x = -1
+		y = 1
+		relative_position_id = the_future_of_the_emirate
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = the_future_of_the_emirate }
+		mutually_exclusive = { focus = a_unified_arabia }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_opinion_modifier = { target = SAU modifier = medium_increase }
+			add_opinion_modifier = { target = HJZ modifier = medium_increase }
+		}
+		ai_will_do = {
+		}
+	}
+
+focus = {
+		id = strengthen_ties_with_the_french
+		icon = GFX_goal_strenghthen_ties_with_the_french
+		x = -1
+		y = 1
+		relative_position_id = a_divided_arabia
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+		}		
+		bypass = {
+		}
+		
+		cost = 6
+		
+		prerequisite = { focus = a_divided_arabia }
+		mutually_exclusive = { focus = strengthen_ties_with_the_ottoman_empire }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_opinion_modifier = { target = FRA modifier = large_increase }
+			reverse_add_opinion_modifier = { target = FRA modifier = medium_increase }
+			increase_research_speed = 5
+		}
+		ai_will_do = {
+		}
+	}	
+focus = {
+		id = strengthen_ties_with_the_british
+		icon = GFX_goal_strenghthen_ties_with_the_british
+		x = 1
+		y = 1
+		relative_position_id = a_divided_arabia
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+		}		
+		bypass = {
+		}
+		
+		cost = 6
+		
+		prerequisite = { focus = a_divided_arabia }
+		mutually_exclusive = { focus = strengthen_ties_with_the_ottoman_empire }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_opinion_modifier = { target = ENG modifier = large_increase }
+			reverse_add_opinion_modifier = { target = ENG modifier = medium_increase }
+		}
+		ai_will_do = {
+		}
+	}	
+focus = {
+		id = strengthen_ties_with_the_ottoman_empire
+		icon = GFX_goal_combine_research_efforts
+		x = -3
+		y = 1
+		relative_position_id = a_divided_arabia
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = ENG }
+			NOT = { is_in_faction_with = FRA }
+			NOT = { TUR = { is_puppet = no } }
+		}		
+		bypass = {
+		}
+		
+		cost = 6
+		
+		prerequisite = { focus = a_divided_arabia }
+		mutually_exclusive = { focus = strengthen_ties_with_the_british }
+		mutually_exclusive = { focus = strengthen_ties_with_the_french }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_opinion_modifier = { target = TUR modifier = medium_increase }
+			reverse_add_opinion_modifier = { target = TUR modifier = medium_increase }
+		}
+		ai_will_do = {
+		}
+	}	
+focus = {
+		id = seek_military_guidance
+		icon = GFX_goal_seek_military_guidance
+		x = 0
+		y = 1
+		relative_position_id = strengthen_ties_with_the_british
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = strengthen_ties_with_the_british }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 1000
+		}
+		ai_will_do = {
+		}
+	}	
+focus = {
+		id = combine_research_efforts
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = strengthen_ties_with_the_french
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = strengthen_ties_with_the_french }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+		ai_will_do = {
+		}
+	}	
+focus = {
+		id = begin_westernisation
+		icon = GFX_goal_combine_research_efforts
+		x = 1
+		y = 1
+		relative_position_id = combine_research_efforts
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+		}		
+		bypass = {
+		}
+		
+		cost = 8
+		
+		prerequisite = { focus = seek_military_guidance }
+		prerequisite = { focus = combine_research_efforts }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_popularities = {
+	                democratic = 10
+	                neutrality = 85
+	                fascism = 0
+	                communism = 5
+					
+			}		
+			add_country_leader_trait = indecisive
+		}
+		ai_will_do = {
+		}
+	}	
+focus = {
+		id = reduce_power_of_the_emir
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = begin_westernisation
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = begin_westernisation }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    set_stability = 4.5
+		    set_popularities = {
+	                democratic = 25
+	                neutrality = 70
+	                fascism = 0
+	                communism = 5
+					
+			}	
+		}	
+		ai_will_do = {	
+		}
+	}	
+focus = {
+		id = assasinate_the_emir
+		icon = GFX_goal_combine_research_efforts
+		x = 1
+		y = 1
+		relative_position_id = reduce_power_of_the_emir
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			NOT = { ideology_leader = neutrality }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = reduce_power_of_the_emir }
+		mutually_exclusive = { focus = coup_the_government }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    kill_ideology_leader = neutrality
+			add_manpower = 1500
+		    start_civil_war = {
+                ruling_party = neutrality
+                ideology = democratic
+                size = 0.6
+                capital = 851
+                states = { 
+                    850 851
+                }
+			}	
+			create_unit = {
+                division = "name = \"Jabal Free Division\" division_template = \"Infantry Division\" start_experience_factor = 0.5"
+                owner = JAS
+			}	
+		}	
+		ai_will_do = {	
+		}
+	}	
+focus = {
+		id = coup_the_government
+		icon = GFX_goal_combine_research_efforts
+		x = -1
+		y = 1
+		relative_position_id = reduce_power_of_the_emir
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			NOT = { ideology_leader = democratic }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = reduce_power_of_the_emir }
+		mutually_exclusive = { focus = assasinate_the_emir }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 1500	
+            set_political_party = {
+                ideology = democratic
+                popularity = 78
+				
+            }			
+		    set_stability = 2.5
+		    set_popularities = {
+	                democratic = 78
+	                neutrality = 5
+	                fascism = 0
+	                communism = 17
+	
+			}	
+		}			    
+		ai_will_do = {	
+		}
+	}	
+focus = {
+		id = join_the_allies
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = coup_the_government
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			has_political_power > 250
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = coup_the_government }
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            ENG = { add_to_faction = JAS }  
+		    add_opinion_modifier = {
+                target = ENG
+                modifier = large_increase
+		    }	
+		    add_opinion_modifier = {
+                target = FRA
+                modifier = large_increase
+		    }	
+		    reverse_add_opinion_modifier = {
+                target = ENG
+                modifier = medium_increase
+		    }	
+		    reverse_add_opinion_modifier = {
+                target = FRA
+                modifier = medium_increase	
+		    }
+		}	
+		ai_will_do = {	
+		}
+	}
+focus = {
+		id = demand_british_colonies
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = assasinate_the_emir
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			NOT = { is_in_faction_with = ENG }
+			NOT = { has_war_with = ENG }
+			850 = { is_owned_by = JAS }
+			851 = { is_owned_by = JAS }
+			has_political_power > 250
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = assasinate_the_emir }
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            set_state_owner = 291
+			set_state_owner = 455
+			set_state_owner = 656
+			set_state_owner = 675
+			add_opinion_modifier = {
+                target = ENG
+                modifier = medium_decrease
+			}	
+			add_opinion_modifier = {
+                target = FRA
+                modifier = medium_decrease
+			}
+		}	
+		ai_will_do = {	
+		}
+	}			
+focus = {
+		id = receive_ottoman_industry
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = strengthen_ties_with_the_ottoman_empire
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			NOT = { is_in_faction_with = ENG }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = TUR }
+			NOT = { TUR = { is_puppet = no } }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = strengthen_ties_with_the_ottoman_empire }
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+            add_manpower = 2300
+		    add_building_construction = {
+                type = arms_factory
+                level = 5
+                instant_build = yes
+			}	
+		}	
+		ai_will_do = {	
+		}
+	}	
+focus = {
+		id = allign_with_the_sultan
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = receive_ottoman_industry
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			NOT = { is_in_faction_with = ENG }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = TUR }
+			NOT = { TUR = { is_puppet = no } }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = receive_ottoman_industry }
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_opinion_modifier = { target = TUR modifier = large_increase }
+			reverse_add_opinion_modifier = { target = TUR modifier = large_increase }
+			add_country_leader_trait = caliph
+		}	
+		ai_will_do = {	
+		}
+	}				
+focus = {
+		id = form_the_islamic_caliphate
+		icon = GFX_goal_combine_research_efforts
+		x = 0
+		y = 1
+		relative_position_id = receive_ottoman_industry
+		
+		available = {
+			NOT = { is_in_faction_with = SAU }
+			NOT = { is_in_faction_with = TUR }
+			NOT = { is_in_faction_with = ENG }
+			NOT = { has_war_with = TUR }
+			NOT = { TUR = { is_puppet = no } }
+		}		
+		bypass = {
+		}
+		
+		cost = 10
+		
+		prerequisite = { focus = receive_ottoman_industry }
+		
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_faction = islamic_caliphate
+			JAS = { add_to_faction = TUR }
+			set_faction_leader = yes
+		}	
+		ai_will_do = {	
+		}
+	}					
+}		

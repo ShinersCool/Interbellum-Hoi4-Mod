@@ -1,0 +1,14 @@
+characters={
+	CHI_sun_yat_sen={
+		name=CHI_CHARACTER_SUN_YAT_SEN
+		portraits={
+			civilian={
+				large="GFX_portrait_chi_sun_yat_sen_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1925.1.1.1"
+		}
+	}
+}

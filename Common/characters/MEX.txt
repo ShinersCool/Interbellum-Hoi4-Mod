@@ -1,0 +1,14 @@
+characters={
+	MEX_carranza={
+		name=MEX_CHARACTER_CARRANZA
+		portraits={
+			civilian={
+				large="GFX_portrait_mex_carranza_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1920.5.21.1"
+		}
+	}
+}

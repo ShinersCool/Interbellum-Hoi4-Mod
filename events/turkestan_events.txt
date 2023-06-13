@@ -1,0 +1,28 @@
+﻿###########################
+# turkestan Events
+###########################
+
+add_namespace = turkestan
+
+country_event = {
+	id = turkestan.1
+	title = turkestan.1.t
+	desc = turkestan.1.d
+	picture = GFX_anhui_mongolia
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = TUR
+	}
+	
+	option = {
+		name = turkestan.1.a
+		ai_chance = { factor = 100 }
+		add_war_support = 0.05
+
+	}
+}
+		

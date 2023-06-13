@@ -1,0 +1,14 @@
+characters={
+	SIA_vajiravudh={
+		name=SIA_CHARACTER_VAJIRAVUDH
+		portraits={
+			civilian={
+				large="GFX_portrait_sia_vajiravudh_large"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1925.1.1.1"
+		}
+	}
+}

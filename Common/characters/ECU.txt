@@ -1,0 +1,14 @@
+characters={
+	ECU_alfredo_baquerizo={
+		name=ECU_CHARACTER_BAQUERIZO
+		portraits={
+			civilian={
+				large="GFX_portrait_ecu_alfredo_baquerizo_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1951.1.1.1"
+		}
+	}
+}

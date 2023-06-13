@@ -1,0 +1,14 @@
+characters={
+	INS_limburg_stirum={
+		name=INS_CHARACTER_STIRUM
+		portraits={
+			civilian={
+				large="GFX_portrait_ins_limburg_stirum_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1937.1.1.1"
+		}
+	}
+}

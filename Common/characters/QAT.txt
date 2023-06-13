@@ -1,0 +1,14 @@
+characters={
+	QAT_al_thani={
+		name=QAT_CHARACTER_AL_THANI
+		portraits={
+			civilian={
+				large="GFX_portrait_qat_al_thani_large"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1957.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	FRA_georges_clemenceau={
+		name=FRA_CHARACTER_CLEMENCEAU
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_georges_clemenceau_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1929.1.1.1"
+		}
+	}
+}

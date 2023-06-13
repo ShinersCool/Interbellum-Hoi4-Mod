@@ -1,0 +1,14 @@
+characters={
+	OMA_taimur_bin_feisal={
+		name=OMA_CHARACTER_BIN_FEISAL
+		portraits={
+			civilian={
+				large="GFX_portrait_oma_taimur_bin_feisal_large"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+		}
+	}
+}

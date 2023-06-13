@@ -1,0 +1,14 @@
+characters={
+	GEO_noe_zhordania={
+		name=GEO_CHARACTER_ZHORDANIA
+		portraits={
+			civilian={
+				large="GFX_portrait_geo_noe_zhordania_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1953.1.1.1"
+		}
+	}
+}

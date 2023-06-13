@@ -1,0 +1,31 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		964 3783 6918 9854 
+	}
+	history={
+		owner = FEN
+		add_core_of = CHI
+		#add_claim_by = SPA
+		#add_claim_by = FRA
+		##to chekkk
+		set_demilitarized_zone = yes
+		#buildings = {
+		#	infrastructure = 3
+		#	industrial_complex = 1
+		#	#air_base = 4
+		#	13320 = {
+		#		naval_base = 2
+
+		
+		#victory_points = {
+		#	13320 10 
+		#}
+	
+	}
+	manpower=12300
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

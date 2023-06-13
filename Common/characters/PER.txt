@@ -1,0 +1,14 @@
+characters={
+	PER_qajar={
+		name=PER_CHARACTER_QAJAR
+		portraits={
+			civilian={
+				large="GFX_portrait_per_qajar_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1930.1.1.1"
+		}
+	}
+}

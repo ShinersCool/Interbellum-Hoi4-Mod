@@ -1,0 +1,14 @@
+characters={
+	LAT_cakste={
+		name=LAT_CHARACTER_CAKSTE
+		portraits={
+			civilian={
+				large="GFX_portrait_lat_cakste_large"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1927.1.1.1"
+		}
+	}
+}

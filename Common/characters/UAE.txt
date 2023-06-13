@@ -1,0 +1,14 @@
+characters={
+	UAE_tribal_confederation={
+		name=UAE_CHARACTER_TRIBAL_CONFEDERATION
+		portraits={
+			civilian={
+				large="GFX_portrait_uae_tribal_confederation_large"
+			}
+		}
+		country_leader={
+			ideology=tribalism
+			expire="1924.1.1.1"
+		}
+	}
+}

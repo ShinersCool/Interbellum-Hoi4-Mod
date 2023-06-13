@@ -1,0 +1,14 @@
+characters={
+	COS_tinoco_granados={
+		name=COS_CHARACTER_TINOCO_GRANADOS
+		portraits={
+			civilian={
+				large="GFX_portrait_cos_tinoco_granados_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1931.1.1.1"
+		}
+	}
+}

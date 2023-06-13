@@ -1,0 +1,14 @@
+characters={
+	KUM_masquad={
+		name=KUM_CHARACTER_MASQUAD
+		portraits={
+			civilian={
+				large="GFX_portrait_kum_masquad_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1930.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	URG_baltasar_brum={
+		name=URG_CHARACTER_BALTASAR_BRUM
+		portraits={
+			civilian={
+				large="GFX_portrait_urg_baltasar_brum_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1933.1.1.1"
+		}
+	}
+}

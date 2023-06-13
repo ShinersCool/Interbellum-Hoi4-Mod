@@ -1,0 +1,27 @@
+state={
+	id=968
+	name="STATE_968"
+	
+	history={
+		owner = ZHI
+		add_core_of = CHI
+		add_core_of = ZHI
+		buildings = {
+			infrastructure = 2
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+	
+	provinces={
+		1169 1188 4032 4058 4093 4190 4208 7092 10003 10053 11980 12062 
+	}
+	manpower=6144966
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

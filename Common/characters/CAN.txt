@@ -1,0 +1,14 @@
+characters={
+	CAN_borden={
+		name=CAN_CHARACTER_BORDEN
+		portraits={
+			civilian={
+				large="GFX_portrait_can_borden_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1937.1.1.1"
+		}
+	}
+}

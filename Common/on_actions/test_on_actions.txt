@@ -1,0 +1,115 @@
+on_actions = {
+    on_startup = {
+	    effect = {
+		        if = {
+					limit = {
+					    has_game_rule = { 
+						rule = world_micronation_status
+						option = WORLD_MICRONATIONS
+						}	
+					}
+					HUT = {
+		                transfer_state = 945
+	                }
+	            }
+			}
+		}	
+   on_startup = {
+	    effect = {
+		        if = {
+					limit = {
+					    has_game_rule = { 
+						rule = eng_colonial_status
+						option = ENG_COLONIES
+						}	
+					}
+					SRL = {
+		                transfer_state = 422
+	                }
+					KSI = {
+		                transfer_state = 944
+	                }
+					MLD = {
+		                transfer_state = 281
+	                }
+	            }
+			}
+		}		
+	on_startup = {
+		effect = {	
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 983
+					num_provinces = 2
+					on_win = armenia.1
+					on_lose = armenia.2
+					on_cancel = armenia.3
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 984
+					num_provinces = 2
+					on_win = armenia.2
+					on_lose = armenia.1
+					on_cancel = armenia.3
+				}
+			}
+		}	
+	}	
+	on_startup = {
+		effect = {	
+			IRE = {
+				declare_war_on = {
+					target = ENG
+					type = take_state_focus
+					generator = { 113 119 134 }	
+				}
+			}
+		}	
+	}		
+	on_startup = {
+		effect = {	
+			ALA = {
+				declare_war_on = {
+					target = FRA
+					type = take_state_focus
+					generator = { 799 }	
+				}
+			}
+		}	
+	}	
+	on_startup = {
+		effect = {	
+            FRA = {
+                country_event = { 
+                    id = syria_news.1
+                    days = 3  # Fires on July 2 1919
+                }
+			}
+		}
+	}	
+	on_startup = {
+		effect = {	
+            ANH = {
+                country_event = { 
+                    id = anhui.1
+                    days = 94  # Fires on October 1 1919
+                }
+			}				
+			
+		}	
+	}	
+	on_startup = {
+		effect = {	
+            YUG = {
+                country_event = { 
+                    id = yugoslavia_ib.1
+                }
+			}				
+			
+		}	
+	}		
+}

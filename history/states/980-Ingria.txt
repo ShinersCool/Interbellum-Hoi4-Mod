@@ -1,0 +1,23 @@
+state={
+	id=980
+	name="STATE_980"
+	
+	history={
+		owner = NIN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = NIN
+
+	}
+	
+	provinces={
+		3050 9105 11162 
+	}
+	manpower=443
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=982
+	name="STATE_982"
+	
+	history={
+		owner = BUL
+		add_core_of = BUL
+		add_claim_by = YUG
+
+	}
+	
+	provinces={
+		13289 13290 13291 13292 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

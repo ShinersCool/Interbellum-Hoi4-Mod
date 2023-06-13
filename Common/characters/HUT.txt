@@ -1,0 +1,14 @@
+characters={
+	HUT_stephan_klochurak={
+		name=HUT_CHARACTER_KLOCHURAK
+		portraits={
+			civilian={
+				large="GFX_portrait_hut_stephan_klochurak_large"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1980.1.1.1"
+		}
+	}
+}

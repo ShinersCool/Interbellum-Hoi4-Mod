@@ -1,0 +1,1022 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
+### search_filters = {FOCUS_FILTER_PROPAGANDA}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+# Reminder that focus filters prio has to be handled in the generic focus file :)
+
+focus_tree = {
+	id = soviet_ib
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+		   add = 10
+		   tag = SOV
+		}  
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	continuous_focus_position = { x = 50 y = 1600 }
+
+#	focus = {
+#		id = SOV_IB_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	focus = {
+		id = SOV_IB_expansion
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 15
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 10
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_west_expansion
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -3
+		y = 1
+		relative_position_id = SOV_IB_expansion
+		prerequisite = { focus = SOV_IB_expansion }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_east_expansion
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 3
+		y = 1
+		relative_position_id = SOV_IB_expansion
+		prerequisite = { focus = SOV_IB_expansion }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = SOV_IB_south_expansion
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = SOV_IB_expansion
+		prerequisite = { focus = SOV_IB_expansion }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_turkestan
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 2
+		y = 1
+		relative_position_id = SOV_IB_east_expansion
+		prerequisite = { focus = SOV_IB_east_expansion }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 6
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_basmachi
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 6
+		y = 1
+		relative_position_id = SOV_IB_east_expansion
+		prerequisite = { focus = SOV_IB_east_expansion }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 6
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_central_asia_commies
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 2
+		y = 1
+		relative_position_id = SOV_IB_turkestan
+		prerequisite = { focus = SOV_IB_turkestan }
+		prerequisite = { focus = SOV_IB_basmachi }
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 10
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_polandisdumb
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -5
+		y = 1
+		relative_position_id = SOV_IB_west_expansion
+		prerequisite = { focus = SOV_IB_west_expansion }
+		
+		available = { has_war_with = POL }
+		mutually_exclusive = { focus = SOV_IB_polandiscool }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.05
+		}
+	}
+	focus = {
+		id = SOV_IB_expand_litbel
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -2
+		y = 1
+		relative_position_id = SOV_IB_polandisdumb
+		prerequisite = { focus = SOV_IB_polandisdumb }
+		
+		available = { NOT = {  
+						has_war_with = POL 
+					}
+				}	
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_ukraine_expand
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = SOV_IB_polandisdumb
+		prerequisite = { focus = SOV_IB_polandisdumb }
+		
+		available = { NOT = {  
+						has_war_with = POL 
+					}
+				}	
+		
+		bypass = {
+
+		}
+
+		cost = 5
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	focus = {
+		id = SOV_IB_polandiscool
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -3
+		y = 1
+		relative_position_id = SOV_IB_west_expansion
+		prerequisite = { focus = SOV_IB_west_expansion }
+		
+		available = { has_war_with = POL }
+		mutually_exclusive = { focus = SOV_IB_polandisdumb }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.95
+		}
+	}
+	focus = {
+		id = SOV_IB_baltic_peace
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -1
+		y = 2
+		relative_position_id = SOV_IB_west_expansion
+		prerequisite = { focus = SOV_IB_west_expansion }
+		
+		available = { has_war_with = EST } 
+		available = { has_war_with = LIT }
+		available = { has_war_with = LAT }
+		mutually_exclusive = { focus = SOV_IB_baltic_war }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.95
+		}
+	}
+	focus = {
+		id = SOV_IB_baltic_war
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 1
+		y = 2
+		relative_position_id = SOV_IB_west_expansion
+		prerequisite = { focus = SOV_IB_west_expansion }
+		
+		available = { has_war_with = EST } 
+		available = { has_war_with = LIT }
+		available = { has_war_with = LAT }
+		
+		mutually_exclusive = { focus = SOV_IB_baltic_peace }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.05
+		}
+	}
+	focus = {
+		id = SOV_IB_baltic_commie
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = SOV_IB_baltic_war
+		prerequisite = { focus = SOV_IB_baltic_war }
+		
+		available = { has_war_with = EST } 
+		available = { has_war_with = LIT }
+		available = { has_war_with = LAT }
+		
+		
+		bypass = {
+
+		}
+
+		cost = 5
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_caucasus_expand
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = SOV_IB_south_expansion
+		prerequisite = { focus = SOV_IB_south_expansion }
+		
+		available = { has_war_with = DOR } 
+		available = { has_war_with = KPR }
+		available = { has_war_with = WHR }
+		
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_mnc
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = SOV_IB_caucasus_expand
+		prerequisite = { focus = SOV_IB_caucasus_expand }
+		
+		available = { has_war_with = WHR }
+		
+		
+		bypass = {
+
+		}
+
+		cost = 6
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = AZR
+			}
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_Armenia
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 2
+		y = 1
+		relative_position_id = SOV_IB_mnc
+		prerequisite = { focus = SOV_IB_mnc }
+		
+		available = { has_war_with = WHR }
+		
+		
+		bypass = {
+
+		}
+
+		cost = 5
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = ARM
+			}
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_georgia
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = SOV_IB_mnc
+		prerequisite = { focus = SOV_IB_mnc }
+		
+		available = { has_war_with = WHR }
+		
+		
+		bypass = {
+
+		}
+
+		cost = 5
+		
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = GEO
+			}
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	focus = {
+		id = SOV_IB_victory
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 2
+		relative_position_id = SOV_IB_georgia
+		
+		available = { NOT = {  
+						has_war_with = WHR
+					}
+					OR = {
+						has_completed_focus = SOV_IB_baltic_commie
+						has_completed_focus = SOV_IB_baltic_peace
+					}
+					OR = {
+						has_completed_focus = SOV_IB_polandisdumb
+						has_completed_focus = SOV_IB_polandiscool
+					}
+					has_completed_focus = SOV_IB_central_asia_commies
+					has_completed_focus = SOV_IB_Armenia
+					has_completed_focus = SOV_IB_georgia				
+				}	
+		bypass = {
+
+		}
+
+		cost = 10
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}			
+	focus = {
+		id = SOV_IB_red_army
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 17
+		y = 0
+		relative_position_id = SOV_IB_expansion
+		
+		available = { has_war_with = WHR }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			add_ideas = limited_conscription
+			add_manpower=15000
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_conscription
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -2
+		y = 1
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		prerequisite = { focus = SOV_IB_red_army }
+		
+		bypass = {
+
+		}
+
+		cost = 7
+		
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_cheka
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -4
+		y = 1
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		prerequisite = { focus = SOV_IB_red_army }
+		
+		bypass = {
+
+		}
+
+		cost = 7
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_comissars
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 2
+		y = 1
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		prerequisite = { focus = SOV_IB_red_army }
+		
+		bypass = {
+
+		}
+
+		cost = 7
+		
+		completion_reward = {
+			add_ideas = {	
+				SOV_politicized_military
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_cavalry
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 2
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		prerequisite = { focus = SOV_IB_conscription }
+		prerequisite = { focus = SOV_IB_comissars }
+		
+		bypass = {
+
+		}
+
+		cost = 7
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_black_army
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 3
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		prerequisite = { focus = SOV_IB_cavalry }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_GRAIN
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 8
+		y = 1
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		#prerequisite = { focus = SOV_IB_cavalry }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	focus = {
+		id = SOV_IB_kulak
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 7
+		y = 2
+		relative_position_id = SOV_IB_red_army
+		
+		available = { has_war_with = WHR }
+		prerequisite = { focus = SOV_IB_GRAIN }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = SOV_IB_grain_ukraine
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 9
+		y = 2
+		relative_position_id = SOV_IB_red_army
+		
+		available = { 
+					USR = { 
+							is_puppet = yes 
+						}
+					}			
+		prerequisite = { focus = SOV_IB_GRAIN }
+		
+		bypass = {
+
+		}
+
+		cost = 8
+		
+		completion_reward = {
+			
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}							
+}

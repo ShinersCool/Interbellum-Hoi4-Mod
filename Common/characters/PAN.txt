@@ -1,0 +1,14 @@
+characters={
+	PAN_barahona={
+		name=PAN_CHARACTER_BARAHONA
+		portraits={
+			civilian={
+				large="GFX_portrait_pan_barahona_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1942.1.1.1"
+		}
+	}
+}

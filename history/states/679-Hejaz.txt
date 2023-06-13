@@ -1,0 +1,35 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = HJZ
+		victory_points = {
+			12758 1 
+		}
+		victory_points = {
+			12883 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 4
+			12883 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = HJZ
+
+	}
+
+	provinces={
+		2033 4981 7934 10835 
+	}
+	manpower=1007334
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+characters={
+	LIB_daniel_howard={
+		name=LIB_CHARACTER_DANIEL_HOWARD
+		portraits={
+			civilian={
+				large="GFX_portrait_lib_daniel_howard_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1935.1.1.1"
+		}
+	}
+}

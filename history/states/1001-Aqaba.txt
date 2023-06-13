@@ -1,0 +1,25 @@
+state={
+	id=1001
+	name="STATE_1001"
+	
+	history={
+		owner = HJZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			11976 1 
+		}
+		add_core_of = JOR
+
+	}
+	
+	provinces={
+		11976 13261 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

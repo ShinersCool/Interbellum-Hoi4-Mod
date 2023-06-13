@@ -1,0 +1,14 @@
+characters={
+	EST_strandman={
+		name=EST_CHARACTER_STRANDMAN
+		portraits={
+			civilian={
+				large="GFX_portrait_est_strandman_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1941.1.1.1"
+		}
+	}
+}

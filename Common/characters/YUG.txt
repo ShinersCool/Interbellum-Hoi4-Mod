@@ -1,0 +1,14 @@
+characters={
+	YUG_petey={
+		name=YUG_CHARACTER_PETEY
+		portraits={
+			civilian={
+				large="GFX_portrait_yug_petey_large"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchy
+			expire="1921.1.1.1"
+		}
+	}
+}

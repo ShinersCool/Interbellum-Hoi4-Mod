@@ -1,0 +1,111 @@
+﻿###########################
+# Armenian Events
+###########################
+
+add_namespace = armenia
+
+country_event = {
+	id = armenia.1
+	title = "Aras War"
+	desc = armenia.1.d
+	picture = GFX_armenia_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Armenia Victory
+		name = "What shall this tell for Azerbaijan?"
+		ai_chance = { factor = 100 }
+		ARM = {
+		    transfer_state = 983
+		}
+
+	}
+}
+
+country_event = {
+	id = armenia.2
+	title = "Aras War"
+	desc = armenia.2.d
+	picture = GFX_armenia_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Azeri victory
+		name = "What shall this tell for Armenia?"
+		ai_chance = { factor = 100 }
+		finalize_border_war = {
+			defender_win = yes
+			attacker = 983
+			defender = 984
+		}
+	}
+}
+
+country_event = {
+	id = armenia.3
+	title = "Aras War"
+	desc = armenia.3.d
+	picture = GFX_armenia_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Sue For Peace
+		name = "This isn't over yet!"
+		ai_chance = { factor = 100 }
+		cancel_border_war = {
+			dont_fire_events = yes
+			defender = 983
+			attacker = 984
+		}
+	}
+}
+#azerbaijan moment
+country_event = {
+	id = armenia.4
+	title = "The Shusha Massacre"
+	desc = armenia.4.d
+	picture = GFX_armenia_shusha_massacre
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Armenia
+		name = "Murderers! They shall pay!"
+		ai_chance = { factor = 100 }
+		trigger = { TAG = ARM }
+		984 = {
+			add_manpower = -12345
+			damage_building = {
+    				type = infrastructure
+    				damage = 1
+			}
+		}
+		add_opinion_modifier = {
+   	 		target = AZR
+    			modifier = commited_massacre
+		}	
+	}
+	
+	
+	option = { # Azerbaijan
+		name = "They had it coming."
+		ai_chance = { factor = 100 }
+		trigger = { TAG = AZR }
+	}
+	
+	option = { # Caucasus
+		name = "The world observes the developments in silent horror."
+		ai_chance = { factor = 100 }
+		trigger = {
+			TAG = SOV 
+			TAG = PER
+			TAG = TUR
+		}
+	}

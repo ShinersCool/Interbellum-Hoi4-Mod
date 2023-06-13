@@ -1,0 +1,41 @@
+﻿###########################
+# Yunnan Events
+###########################
+
+add_namespace = yunnan_ib
+
+country_event = {
+	id = yunnan_ib.1
+	title = "Zhili Clique proposes Anti-Anhui Alliance"
+	desc = yunnan_ib.1.d
+	picture = GFX_zhili_fengtian_alliance
+	
+	fire_only_once = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = YUN
+	}
+	
+	option = { # Yunnan accepts
+		name = "The Beiyang Government has been a thorn in our side, send a representative to Hengyang!"
+		ai_chance = { factor = 95 }
+		ZHI = {
+			country_event = {
+				id = zhili.2
+			}	
+		}	
+
+	}
+	option = { #Yunnan denies
+		name = "We must follow our own path"
+		ai_chance = { factor = 5 }
+		ZHI = {
+			country_event = {
+				id = zhili.5 #not added
+			}	
+		}
+
+	}
+}		

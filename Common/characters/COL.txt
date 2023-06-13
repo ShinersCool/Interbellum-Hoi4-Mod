@@ -1,0 +1,14 @@
+characters={
+	COL_marco_suarez={
+		name=COL_CHARACTER_SUAREZ
+		portraits={
+			civilian={
+				large="GFX_portrait_col_marco_suarez_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1927.1.1.1"
+		}
+	}
+}

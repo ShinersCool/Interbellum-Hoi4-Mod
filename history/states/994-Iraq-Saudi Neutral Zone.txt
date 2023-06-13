@@ -1,0 +1,19 @@
+state={
+	id=994
+	name="STATE_994"
+	
+	history={
+		owner = JAS
+		add_core_of = SAU
+		add_core_of = IRQ
+
+	}
+	
+	provinces={
+		13304 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

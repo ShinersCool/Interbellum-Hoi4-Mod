@@ -1,0 +1,22 @@
+state={
+	id=961
+	name="STATE_961"
+	
+	history={
+		owner = UAS
+		add_core_of = UAS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	provinces={
+		5006 13276 13277
+	}
+	manpower=167888
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

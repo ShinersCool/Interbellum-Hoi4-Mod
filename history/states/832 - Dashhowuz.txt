@@ -1,0 +1,29 @@
+
+state={
+	id=832
+	name="STATE_832"
+
+	history={
+		owner = TMS
+		victory_points = {
+			1493 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = TMS
+		add_core_of = KHI
+		add_core_of = WHR
+
+	}
+
+	provinces={
+		1493 1649 7618
+	}
+	manpower=66532
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=4.000
+}

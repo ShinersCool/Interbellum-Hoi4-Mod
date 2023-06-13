@@ -1,0 +1,14 @@
+characters={
+	MON_bogd_khan={
+		name=MON_CHARACTER_BOGD_KHAN
+		portraits={
+			civilian={
+				large="GFX_portrait_mon_bogd_khan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1925.5.1.1"
+		}
+	}
+}

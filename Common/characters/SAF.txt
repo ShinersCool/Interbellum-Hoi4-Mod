@@ -1,0 +1,14 @@
+characters={
+	SAF_louis_botha={
+		name=SAF_CHARACTER_BOTHA
+		portraits={
+			civilian={
+				large="GFX_portrait_saf_louis_botha_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1919.8.27.1"
+		}
+	}
+}

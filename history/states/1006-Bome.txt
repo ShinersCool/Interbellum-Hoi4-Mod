@@ -1,0 +1,32 @@
+state={
+	id=1006
+	name="STATE_1006"
+	provinces={
+		13323 13324 
+	}
+	
+	history={
+		owner = POW
+		add_core_of = POW
+		add_claim_by = TIB
+
+		##to chekkk
+		#set_demilitarized_zone = yes
+		#buildings = {
+		#	infrastructure = 3
+		#	industrial_complex = 1
+		#	#air_base = 4
+		#	13320 = {
+		#		naval_base = 2
+		#	}
+		
+		victory_points = {
+			13323 1 
+		}
+	
+	}
+	state_category=pastoral
+	manpower=7508
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

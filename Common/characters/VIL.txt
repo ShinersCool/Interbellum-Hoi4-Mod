@@ -1,0 +1,14 @@
+characters={
+	VIL_francisco_villa={
+		name=VIL_CHARACTER_FRANCISCO_VILLA
+		portraits={
+			civilian={
+				large="GFX_portrait_vil_francisco_villa_large"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1923.1.1.1"
+		}
+	}
+}

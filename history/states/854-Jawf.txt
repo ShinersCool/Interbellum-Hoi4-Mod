@@ -1,0 +1,20 @@
+
+state={
+	id=854
+	name="STATE_854"
+
+	history={
+		owner = JAS
+		add_core_of = SAU
+		add_core_of = JAS
+
+	}
+
+	provinces={
+		12749 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

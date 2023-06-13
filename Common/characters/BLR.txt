@@ -1,0 +1,14 @@
+characters={
+	BLR_kazimierz_cichowski={
+		name=BLR_CHARACTER_KAZIMIERZ_CICHOWSKI
+		portraits={
+			civilian={
+				large="GFX_portrait_blr_kazimierz_cichowski_large"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1937.1.1.1"
+		}
+	}
+}

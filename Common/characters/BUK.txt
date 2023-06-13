@@ -1,0 +1,14 @@
+characters={
+	BUK_alim_khan={
+		name=BUK_CHARACTER_ALIM_KHAN
+		portraits={
+			civilian={
+				large="GFX_portrait_buk_alim_khan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1944.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+state={
+	id=1007
+	name="STATE_1007"
+	provinces={
+		13325 
+	}
+	
+	history={
+		owner = LIG
+		add_core_of = LIG
+		#add_claim_by = TIB
+
+		##to chekkk
+		#set_demilitarized_zone = yes
+		#buildings = {
+		#	infrastructure = 3
+		#	industrial_complex = 1
+		#	#air_base = 4
+		#	13320 = {
+		#		naval_base = 2
+		#	}
+		
+		victory_points = {
+			13325 1 
+		}
+	
+	}
+	state_category=pastoral
+	manpower=7508
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}

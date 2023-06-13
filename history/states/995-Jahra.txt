@@ -1,0 +1,21 @@
+state={
+	id=995
+	name="STATE_995"
+	
+	history={
+		add_core_of = KUW
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	
+	provinces={
+		13305 13306 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

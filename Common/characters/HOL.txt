@@ -1,0 +1,14 @@
+characters={
+	HOL_beerenbrouck={
+		name=HOL_CHARACTER_BEERENBROUCK
+		portraits={
+			civilian={
+				large="GFX_portrait_hol_beerenbrouck_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1936.1.1.1"
+		}
+	}
+}

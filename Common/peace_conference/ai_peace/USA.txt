@@ -1,0 +1,48 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+    # We want a base in this region
+    USA_take_okinawa = {
+        peace_action_type = { take_states }
+        enable = {
+            FROM.FROM.FROM = {
+                state = 526 # Okinawa
+            }
+            ROOT = {
+                original_tag = USA
+            }
+        }
+        ai_desire = 200
+    }
+
+
+    # Don't give Okinawa to Japan
+    USA_take_okinawa_part_two = {
+        peace_action_type = { puppet force_government }
+        enable = {
+            FROM.FROM.FROM = {
+                state = 526 # Okinawa
+            }
+            ROOT = {
+                original_tag = USA
+            }
+        }
+        ai_desire = -75
+    }
+
+
+    USA_dont_liberate_the_wrong_usa = {
+        peace_action_type = { puppet force_government liberate }
+        enable = {
+            FROM = {
+                OR = {
+                    tag = USB
+                    tag = CSA
+                }
+            }
+        }
+        ai_desire = -200
+    }
+}

@@ -1,0 +1,14 @@
+characters={
+	GRE_venizelos={
+		name=GRE_CHARACTER_VENIZELOS
+		portraits={
+			civilian={
+				large="GFX_portrait_gre_venizelos_large"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchy
+			expire="1936.1.1.1"
+		}
+	}
+}

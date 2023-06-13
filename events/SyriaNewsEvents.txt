@@ -1,0 +1,28 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = syria_news
+
+# Damascus Program
+news_event = {
+	id = syria_news.1
+	title = "syria_news.1.t"
+	desc = syria_news.1.d
+	picture = GFX_syria_news_event_001
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = FRA
+		
+	}
+
+	
+	option = {
+		name = syria_news.1.a
+	}
+}
+

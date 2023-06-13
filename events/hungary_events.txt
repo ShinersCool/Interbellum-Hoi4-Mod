@@ -1,0 +1,166 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = hungary_commie
+
+country_event = {
+	id = hungary_commie.1
+	title = "The Treaty of Trianon"
+	desc = hungary_commie.1.d
+	picture = GFX_trianon_treaty
+	
+	trigger = {
+	    original_tag = HUN
+		has_completed_focus = trianon_enforce
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Sue For Peace
+		name = "Sue For Peace"
+		ai_chance = { factor = 95 }
+		drop_cosmetic_tag = yes
+		set_popularities = {
+	        democratic = 70
+	        neutrality = 15
+	        fascism = 0
+	        communism = 15
+        }
+		set_politics = {
+	        ruling_party = democratic
+			elections_allowed = yes
+		}	
+		create_country_leader = {
+			name = "Gyula Peidl"
+			desc = ""
+			picture = gyula.dds
+			expire = "1921.1.1"
+			ideology = socialism
+			traits = {
+				
+			}
+		}
+		set_state_owner = 942
+		white_peace = CZE
+		white_peace = ROM
+		white_peace = FRA
+		CZE = {
+		    transfer_state = 664
+		}
+		AUS = {
+		    transfer_state = 910
+		}
+		YUG = {
+		    transfer_state = 911
+		}
+		set_cosmetic_tag = HUN_first_rep
+
+	}
+	option = { # Continue the Effort!
+		name = "Continue the Effort!"
+		ai_chance = { factor = 5 }
+		add_stability = -0.3
+		add_manpower = 6000
+		
+	}
+}
+	
+country_event = {	
+	id = hungary_commie.2
+	title = "The Monarchy Question"
+	desc = hungary_commie.2.d
+	picture = GFX_charles_i
+	
+	trigger = {
+	    tag = HUN
+		has_completed_focus = hun_monarchism
+	}
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { # habsburg 
+		name = "A Habsburg on the Throne"
+		ai_chance = { factor = 50 }
+		set_popularities = {
+	        democratic = 0
+	        neutrality = 100
+	        fascism = 0
+	        communism = 0
+        }
+		set_politics = {
+	        ruling_party = neutrality
+			elections_allowed = no
+		}	
+		create_country_leader = {
+			name = "Charles I"
+			desc = ""
+			picture = charles_i.dds
+			expire = "1922.1.4"
+			ideology = despotism
+			traits = {
+				
+			}
+		}
+
+	}
+	option = { # Ferdinand 1
+		name = "Invite Ferdinand I of Romania"
+		ai_chance = { factor = 50 }
+		ROM = { country_event = { id = hungary_commie.3 } }
+		
+	}	
+}
+
+country_event = {
+	id = hungary_commie.3
+	title = "Horthy's Proposition"
+	desc = hungary_commie.3.d
+	picture = GFX_ferdinand_i
+	
+	trigger = {
+	   tag = ROM 
+	   { country_event = { id = hungary_commie.2 } } 
+	}
+	
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
+	option = { # habsburg 
+		name = "Of course!"
+		ai_chance = { factor = 75 }
+		HUN = {
+				set_popularities = {
+					democratic = 0
+					neutrality = 100
+					fascism = 0
+					communism = 0
+				}
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+				}	
+				create_country_leader = {
+					name = "Ferdinand I"
+					desc = ""
+					picture = ferdinand_i.dds
+					expire = "1922.1.4"
+					ideology = despotism
+					traits = {
+				
+					}
+				}
+			}	
+
+	}
+	option = { # Ferdinand 1
+		name = "They do not deserve us"
+		ai_chance = { factor = 25 }
+		HUN = { add_opinion_modifier = { target = ROM modifier = medium_decrease } }
+	
+	}	
+}
+
+
+

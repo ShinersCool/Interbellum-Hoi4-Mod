@@ -1,0 +1,28 @@
+
+state={
+	id=957
+	name="STATE_957"
+
+	history={
+		victory_points = {
+			12465 5 
+		}
+		owner = KHI
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+		add_core_of = KHI
+
+	}
+
+	provinces={
+		10435 10485 12324 12465 13274 
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

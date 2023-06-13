@@ -1,0 +1,34 @@
+state={
+	id=979
+	name="STATE_979"
+	
+	history={
+		owner = BLR
+		victory_points = {
+			11370 20 
+		}
+		victory_points = {
+			11313 1 
+		}
+		victory_points = {
+			6232 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+
+	}
+	
+	provinces={
+		215 216 304 360 3267 3759 6232 6556 9554 11216 11313 11370 
+	}
+	manpower=284500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=2.000
+}

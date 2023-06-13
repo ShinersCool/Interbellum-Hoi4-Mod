@@ -1,0 +1,22 @@
+state={
+	id=959
+	name="STATE_959"
+	
+	history={
+		add_core_of = BUK
+		owner = BUK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	provinces={
+		756 1632 9605 13275 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

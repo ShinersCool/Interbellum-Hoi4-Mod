@@ -1,0 +1,14 @@
+characters={
+	PAR_montero={
+		name=PAR_CHARACTER_MONTERO
+		portraits={
+			civilian={
+				large="GFX_portrait_par_montero_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1927.1.1.1"
+		}
+	}
+}

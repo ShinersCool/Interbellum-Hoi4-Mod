@@ -1,0 +1,14 @@
+characters={
+	FEL_felix_diaz={
+		name=FEL_CHARACTER_FELIX_DIAZ
+		portraits={
+			civilian={
+				large="GFX_portrait_fel_felix_diaz_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1945.1.1.1"
+		}
+	}
+}

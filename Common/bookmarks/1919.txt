@@ -1,0 +1,90 @@
+bookmarks = {
+	bookmark = {
+		name = "Daybreak of Democracy"
+		desc = "DAYBREAK_OF_DEMOCRACY_BOOKMARK_LOC"
+		date = 1919.6.29.12
+		picture = "GFX_daybreak_of_democracy_bookmark"
+		default_country = "FRA"
+	
+		FRA = {
+			history = FRA_DD_DESC_LOC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		USA = {
+			history = USA_DD_DESC_LOC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ENG = {
+			history = ENG_DD_DESC_LOC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+			
+		}
+		GER = {
+			history = GER_DD_DESC_LOC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		ITA = {
+			history = ITA_DD_DESC_LOC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}			
+		}
+		JAP = {
+			history = JAP_DD_DESC_LOC
+			ideology = democratic
+			ideas={
+			}	
+			focuses = {
+			}		
+		}
+		SOV = {
+			history = SOV_DD_DESC_LOC
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"---"={
+			history = "DD_DESC_LOC"
+		}
+
+		# minors (shiners gf reference) ####
+		"HUN"={
+			minor = yes
+			history = "HUN_DD_DESC_LOC"
+			ideology = neutrality
+			ideas = {
+				HUN_interventionism
+			}
+			focuses = {
+				HUN_elect_a_king
+				HUN_secret_rearmament
+				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

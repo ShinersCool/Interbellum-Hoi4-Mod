@@ -1,0 +1,93 @@
+﻿###########################
+# Anhui Events
+###########################
+
+add_namespace = anhui
+
+country_event = {
+	id = anhui.1
+	title = "Mongolian Intervention"
+	desc = anhui.1.d
+	picture = GFX_anhui_mongolia
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = ANH
+	}
+	
+	option = { # Anhui Occupies Mongolia
+		name = "Mongolia's fate is in our hands."
+		ai_chance = { factor = 100 }
+		MON = {
+			country_event = {
+				id = mongolia.1
+			}
+
+		}
+
+	}
+}
+		
+country_event = {
+	id = anhui.2
+	title = "Mongolia Rejects"
+	desc = anhui.2.d
+	picture = GFX_anhui_mongolia
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = ANH
+	}
+	
+	option = { # Anhui declares war on Mongolia
+		name = "Annihilation is their fate."
+		ai_chance = { factor = 80 }
+		ANH = {
+			declare_war_on = {
+			target = MON
+			type = take_state_focus
+			generator = { 817 938 819 330 818 820 981 } 
+			}
+		}
+
+	}
+	option = { # Anhui does not declare war on Mongolia
+		name = "We must respect their decision."
+		ai_chance = { factor = 20 }
+		ANH = {
+			add_stability = -0.3
+		}
+
+	}
+}			
+
+country_event = {
+	id = anhui.3
+	title = "The Cliques Surround us"
+	desc = anhui.3.d
+	picture = GFX_anhui_mongolia
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = ANH
+	}
+	
+	option = { # Anhui remobalises army
+		name = "Remobalise the Military"
+		ai_chance = { factor = 100 }
+		ANH = {
+			add_ideas=anhui_remobalisation
+			add_ideas=low_economic_mobilisation
+		}
+
+	}
+}	

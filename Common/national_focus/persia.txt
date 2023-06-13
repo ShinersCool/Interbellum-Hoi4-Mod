@@ -1,0 +1,59 @@
+﻿focus_tree = { ###### In Development by Armin,
+	id = PER
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = PER_sign_the_anglo-persian_agreement
+		icon = GFX_goal_
+		x = 25
+		y = 0
+		cost = 12.8
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.15
+			add_ideas = PER_idea_anglo-persian_agreement #Not Ready
+			unlock_decision_category_tooltip = temp.decison #Not Ready
+			country_event = {
+				id = PER_agreement.1 #Not Ready
+				hour = 18
+			}
+		}
+	}
+
+	focus = {
+		id = temp_2
+		icon = GFX_goal_
+		relative_position_id = PER_sign_the_anglo-persian_agreement
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+		}
+		prerequisite = { focus = PER_sign_the_anglo-persian_agreement }
+	}
+ 
+	#Shah's return to Tehran
+	#Chooze Mirza Hassan Khan Moshir al-Doulah as the head of the government
+	#Establish close relations with Russia	---then-->	#{Russo-Persian Treaty of Friendship (1921)}
+	#Seyed Diya and Reza Khan Mirpanj's coup 1921-02-22
+	#Seyyed Zia's dismissal and then appointing Qawam al-Sultaneh as the head of the ministerial office 1921-05-22
+
+
+}
+
+

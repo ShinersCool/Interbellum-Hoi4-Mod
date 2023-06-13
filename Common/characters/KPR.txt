@@ -1,0 +1,14 @@
+characters={
+	KPR_luka_bych={
+		name=KPR_CHARACTER_BYCH
+		portraits={
+			civilian={
+				large="GFX_portrait_kpr_luka_bych_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1944.1.1.1"
+		}
+	}
+}

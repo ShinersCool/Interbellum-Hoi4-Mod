@@ -1,0 +1,62 @@
+﻿focus_tree = { 
+	id = FEN
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FEN
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = FEN_seek_zhilli_alliance
+		icon = GFX_goal_
+		x = 25
+		y = 0
+		cost = 4.5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  
+			981 = { is_owned_by = ANH }
+			820 = { is_owned_by = ANH }
+			981 = { is_owned_by = ANH }
+			817 = { is_owned_by = ANH }
+			938 = { is_owned_by = ANH }
+			819 = { is_owned_by = ANH }
+			818 = { is_owned_by = ANH }
+		}	
+
+		completion_reward = {
+			ZHI = {
+				country_event = {
+					id = zhili.1 
+					hour = 18
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = temp_2
+		icon = GFX_goal_
+		relative_position_id = PER_sign_the_anglo-persian_agreement
+		x = 0
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+		}
+		prerequisite = { focus = PER_sign_the_anglo-persian_agreement }
+	}
+
+
+
+}
+
+

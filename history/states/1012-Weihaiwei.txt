@@ -1,0 +1,32 @@
+state={
+	id=1012
+	name="STATE_1012"
+	provinces={
+		13330
+	}
+	
+	history={
+		owner = ENG
+		add_core_of = CHI
+		#add_claim_by = TIB
+
+		##to chekkk
+		set_demilitarized_zone = yes
+		#buildings = {
+		#	infrastructure = 3
+		#	industrial_complex = 1
+		#	#air_base = 4
+		#	13320 = {
+		#		naval_base = 2
+		#	}
+		
+		victory_points = {
+			13330 1 
+		}
+	
+	}
+	state_category=city
+	manpower=3201
+	buildings_max_level_factor=1.000
+	local_supplies=6.000
+}

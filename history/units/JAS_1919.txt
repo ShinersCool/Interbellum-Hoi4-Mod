@@ -1,0 +1,64 @@
+﻿division_template = {
+	name = "Shammari Infantry Brigade"
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Shammari Cavalry Corp"  
+	division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		camelry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		camelry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Ejército de Cuba #####
+	division= {	# "1st Shammari Cavalry Corp"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2057 # Havana
+		division_template = "Shammari Cavalry Corp"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	# "1st Shammari Infantry Division"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2057 # Havana
+		division_template = "Shammari Infantry Brigade" 
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SAU"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}

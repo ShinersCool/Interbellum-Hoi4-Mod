@@ -1,0 +1,22 @@
+state={
+	id=965
+	name="STATE_965"
+	
+	history={
+		owner = FEL
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 1
+		}	
+
+	}
+	
+	provinces={
+		13280 13282 
+	}
+	manpower=415832
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=1000
+	name="STATE_1000"
+	
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+		add_core_of = SYR
+		add_core_of = KUR
+	}
+	
+	provinces={
+		1938 10804 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

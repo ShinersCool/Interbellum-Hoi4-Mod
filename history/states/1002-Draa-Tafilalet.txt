@@ -1,0 +1,23 @@
+state={
+	id=1002
+	name="STATE_1002"
+	
+	history={
+		owner = MOR
+		add_core_of = MOR
+		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	provinces={
+		1989 4022 5046 7908 13315 13316 13317 13318 13319
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

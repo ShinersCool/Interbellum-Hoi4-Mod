@@ -1,0 +1,83 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+    
+    RUS_wants_russian_empire_back = {
+        peace_action_type = { take_states puppet } 
+        enable = {
+            tag = RUS
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = {
+                OR = {
+                    region = 37
+                    region = 38
+                    region = 13
+                    region = 131
+                    region = 130
+                    region = 134
+                    region = 135
+                    region = 132
+                    region = 148
+                    region = 149
+                    region = 136
+                    region = 236
+                    region = 238
+                    region = 237
+                    region = 250
+                    state = 842
+                    state = 78
+                    state = 766
+                }
+            }
+        }
+
+        ai_desire = 50  # 50 percent higher desire
+    }
+
+    SOV_wants_russian_empire_back = {
+        peace_action_type = take_states
+        enable = {
+            has_country_flag = SOV_soviet_union
+            tag = SOV  # Negotiatior is soviet union
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = {
+                OR = {
+                    region = 37
+                    region = 38
+                    region = 13
+                    region = 131
+                    region = 130
+                    region = 134
+                    region = 135
+                    region = 132
+                    region = 148
+                    region = 149
+                }
+            }  # Königsberg
+        }
+
+        ai_desire = 50  # 50 percent higher desire
+    }
+
+    SOV_wants_russian_empire_back_as_puppets = {
+        peace_action_type = puppet
+        enable = {
+            NOT = { has_country_flag = SOV_soviet_union }
+            tag = SOV  # Negotiatior is soviet union
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = {
+                OR = {
+                    region = 37
+                    region = 38
+                    region = 13
+                    region = 131
+                    region = 130
+                    region = 134
+                }
+            }  # Königsberg
+        }
+
+        ai_desire = 50  # 50 percent higher desire
+    }
+}

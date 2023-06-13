@@ -1,0 +1,14 @@
+characters={
+	DER_mohammed_abdullah_hassan={
+		name=DER_CHARACTER_MOHAMMED_ABDULLAH_HASSAN
+		portraits={
+			civilian={
+				large="GFX_portrait_der_mohammed_abdullah_hassan_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1920.12.21.1"
+		}
+	}
+}

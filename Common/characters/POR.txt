@@ -1,0 +1,14 @@
+characters={
+	POR_joao_do_canto_e_castro={
+		name=POR_CHARACTER_CANTO_CASTRO
+		portraits={
+			civilian={
+				large="GFX_portrait_por_joao_do_canto_e_castro_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1934.1.1.1"
+		}
+	}
+}

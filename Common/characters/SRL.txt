@@ -1,0 +1,14 @@
+characters={
+	SRL_william_manning={
+		name=SRL_CHARACTER_MANNING
+		portraits={
+			civilian={
+				large="GFX_portrait_srl_manning_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1932.1.1.1"
+		}
+	}
+}

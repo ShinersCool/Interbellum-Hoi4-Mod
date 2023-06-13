@@ -1,0 +1,34 @@
+peace_action_modifiers = {  
+    RUS_reclaim_territory_peace = {
+        category = occupation
+        peace_action_type = take_states
+        enable = {
+            tag = RUS
+            FROM = { tag = ROOT }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = {
+                OR = {
+                    region = 37
+                    region = 38
+                    region = 13
+                    region = 131
+                    region = 130
+                    region = 134
+                    region = 135
+                    region = 132
+                    region = 148
+                    region = 149
+                    region = 136
+                    region = 236
+                    region = 238
+                    region = 237
+                    region = 250
+                    state = 842
+                    state = 78
+                    state = 766
+                }
+            }
+        }
+
+        cost_multiplier = 0.5
+    }
+}

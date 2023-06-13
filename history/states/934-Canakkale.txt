@@ -1,0 +1,27 @@
+state={
+	id=934
+	name="STATE_934"
+	
+	history={
+		owner = ENG
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+
+			}
+
+		}
+	}
+	
+	provinces={
+		849 6864 9887 
+	}
+	manpower=359284
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

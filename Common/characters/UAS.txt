@@ -1,0 +1,14 @@
+characters={
+	UAS_upper_asir_shekidom={
+		name=UAS_CHARACTER_SHEIKDOM
+		portraits={
+			civilian={
+				large="GFX_portrait_uas_sheikdom_large"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1950.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	HON_bertrand={
+		name=HON_CHARACTER_BERTRAND
+		portraits={
+			civilian={
+				large="GFX_portrait_hon_bertrand_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1926.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	GUZ_liu_xianshi={
+		name=GUZ_CHARACTER_XIANSHI
+		portraits={
+			civilian={
+				large="GFX_portrait_guz_liu_xianshi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1927.1.1.1"
+		}
+	}
+}

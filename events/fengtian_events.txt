@@ -1,0 +1,41 @@
+﻿###########################
+# fengtian Events
+###########################
+
+add_namespace = fengtian
+
+country_event = {
+	id = fengtian.2
+	title = "Zhili Clique proposes Anti-Anhui Alliance"
+	desc = fengtian.2.d
+	picture = GFX_zhili_fengtian_alliance
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = FEN
+	}
+	
+	option = { # fengtian accepts
+		name = "The Beiyang Government has been a thorn in our side, send a representative to Hengyang!"
+		ai_chance = { factor = 95 }
+		ZHI = {
+			country_event = {
+				id = zhili.4
+			}	
+		}	
+
+	}
+	option = { #fengtian denies
+		name = "We must follow our own path"
+		ai_chance = { factor = 5 }
+		ZHI = {
+			country_event = {
+				id = zhili.5 
+			}	
+		}
+
+	}
+}		

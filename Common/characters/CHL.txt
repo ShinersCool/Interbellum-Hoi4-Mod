@@ -1,0 +1,14 @@
+characters={
+	CHL_sanfuentes={
+		name=CHL_CHARACTER_SANFUENTES
+		portraits={
+			civilian={
+				large="GFX_portrait_chl_sanfuentes_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1930.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	BSM_gaza={
+		name=BSM_CHARACTER_GAZA
+		portraits={
+			civilian={
+				large="GFX_portrait_bsm_gaza_large"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1944.1.1.1"
+		}
+	}
+}

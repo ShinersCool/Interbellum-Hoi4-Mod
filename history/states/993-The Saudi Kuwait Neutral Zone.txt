@@ -1,0 +1,19 @@
+state={
+	id=993
+	name="STATE_993"
+	
+	history={
+		owner = SAU
+		add_core_of = SAU
+		add_core_of = KUW
+
+	}
+	
+	provinces={
+		13302 13303 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

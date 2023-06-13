@@ -1,0 +1,14 @@
+characters={
+	SIC_liu_xiang={
+		name=SIC_CHARACTER_LIU_XIANG
+		portraits={
+			civilian={
+				large="GFX_portrait_sic_liu_xiang_large"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1938.1.1.1"
+		}
+	}
+}

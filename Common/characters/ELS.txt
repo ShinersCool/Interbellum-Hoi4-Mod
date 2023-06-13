@@ -1,0 +1,14 @@
+characters={
+	ELS_melendez={
+		name=ELS_CHARACTER_MELENDEZ
+		portraits={
+			civilian={
+				large="GFX_portrait_els_melendez_large"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1953.1.1.1"
+		}
+	}
+}

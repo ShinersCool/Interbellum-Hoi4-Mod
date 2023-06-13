@@ -1,0 +1,14 @@
+characters={
+	IRE_valera={
+		name=IRE_CHARACTER_VALERA
+		portraits={
+			civilian={
+				large="GFX_portrait_ire_valera_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1975.1.1.1"
+		}
+	}
+}

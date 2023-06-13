@@ -1,0 +1,14 @@
+characters={
+	BRA_pessoa={
+		name=BRA_CHARACTER_PESSOA
+		portraits={
+			civilian={
+				large="GFX_portrait_bra_pessoa_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1942.1.1.1"
+		}
+	}
+}

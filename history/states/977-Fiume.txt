@@ -1,0 +1,25 @@
+state={
+	id=977
+	name="STATE_977"
+	
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = YUG
+		add_core_of = SLV
+		
+		set_demilitarized_zone = yes
+
+	}
+	
+	provinces={
+		11564 
+	}
+	manpower=61157
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=2.000
+}

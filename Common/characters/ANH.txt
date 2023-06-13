@@ -1,0 +1,14 @@
+characters={
+	ANH_duan_qirui={
+		name=ANH_CHARACTER_QIRUI
+		portraits={
+			civilian={
+				large="GFX_portrait_anh_duan_large"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1936.1.1.1"
+		}
+	}
+}

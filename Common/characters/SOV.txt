@@ -1,0 +1,14 @@
+characters={
+	SOV_vladamir_lenin={
+		name=SOV_CHARACTER_LENIN
+		portraits={
+			civilian={
+				large="GFX_portrait_sov_vladamir_lenin_large"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1924.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+﻿###########################
+# Yugoslavia Events
+###########################
+
+add_namespace = yugoslavia_ib
+
+country_event = {
+	id = yugoslavia_ib.1
+	title = "Klagenfurt Basin Retreat Order"
+	desc = yugoslavia_ib.1.d
+	picture = GFX_yugoslavia_carinthia
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = YUG
+	}
+	
+	option = { # Retreats from Carinthia
+		name = "We must follow the Greater Powers at Play."
+		ai_chance = { factor = 100 }
+		1010 = { set_demilitarized_zone = yes }
+
+	}
+}

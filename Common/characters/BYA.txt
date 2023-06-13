@@ -1,0 +1,14 @@
+characters={
+	BYA_mikhail_bogdanov={
+		name=BYA_CHARACTER_BOGDANOV
+		portraits={
+			civilian={
+				large="GFX_portrait_bya_bogdanov_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1942.1.1.1"
+		}
+	}
+}

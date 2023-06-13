@@ -1,0 +1,14 @@
+characters={
+	ALA_saleh_al_ali={
+		name=ALA_CHARACTER_SALEH_AL_ALI
+		portraits={
+			civilian={
+				large="GFX_portrait_ala_saleh_al_ali_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1950.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	DEN_zahle={
+		name=DEN_CHARACTER_ZAHLE
+		portraits={
+			civilian={
+				large="GFX_portrait_den_zahle_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1946.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	AUS_karl_renner={
+		name=AUS_CHARACTER_KARL_RENNER
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_karl_renner_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1950.1.1.1"
+		}
+	}
+}

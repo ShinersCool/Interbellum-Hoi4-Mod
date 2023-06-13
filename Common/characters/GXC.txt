@@ -1,0 +1,14 @@
+characters={
+	GXC_lu_rongting={
+		name=GXC_CHARACTER_RONGTING
+		portraits={
+			civilian={
+				large="GFX_portrait_gxc_lu_rongting_large"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1928.1.1.1"
+		}
+	}
+}

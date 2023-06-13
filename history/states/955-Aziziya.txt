@@ -1,0 +1,23 @@
+state={
+	id=955
+	name="STATE_955"
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = LBA
+
+	}
+	
+	provinces={
+		1041 1118 1174 4176 9980 12009 13271 13272 13273
+	}
+	manpower=5500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

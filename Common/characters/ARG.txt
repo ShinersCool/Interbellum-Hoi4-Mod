@@ -1,0 +1,14 @@
+characters={
+	ARG_yrigoyen={
+		name=ARG_CHARACTER_YRIGOYEN
+		portraits={
+			civilian={
+				large="GFX_portrait_arg_yrigoyen_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1936.1.1.1"
+		}
+	}
+}

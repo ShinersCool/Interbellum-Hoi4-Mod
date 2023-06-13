@@ -1,0 +1,14 @@
+characters={
+	WUK_petrushevych={
+		name=WUK_CHARACTER_PETRUSHEVYCH
+		portraits={
+			civilian={
+				large="GFX_portrait_wuk_petrushevych_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1940.1.1.1"
+		}
+	}
+}

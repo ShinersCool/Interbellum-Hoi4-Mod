@@ -1,0 +1,14 @@
+characters={
+	CZE_tusar={
+		name=CZE_CHARACTER_TUSAR
+		portraits={
+			civilian={
+				large="GFX_portrait_cze_tusar_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1924.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	SWE_nils_eden={
+		name=SWE_CHARACTER_NILS_EDEN
+		portraits={
+			civilian={
+				large="GFX_portrait_swe_nils_eden_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1945.1.1.1"
+		}
+	}
+}

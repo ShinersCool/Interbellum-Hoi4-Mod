@@ -1,0 +1,30 @@
+
+state={
+	id=200
+	name="STATE_200" # Zaporozhe
+	manpower = 1294082
+	state_category = town
+
+	history={
+		owner = USR
+		buildings = {
+			infrastructure = 3 #was: 5
+			air_base = 3
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = WHR
+		add_core_of = USR
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+			}
+		}
+	}
+
+	provinces={
+		429 3767 6596 9571 9729 11700 
+	}
+
+	local_supplies=0.0 
+}

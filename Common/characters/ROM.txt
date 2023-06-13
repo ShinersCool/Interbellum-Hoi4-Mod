@@ -1,0 +1,14 @@
+characters={
+	ROM_bratianu={
+		name=ROM_CHARACTER_BRATIANU
+		portraits={
+			civilian={
+				large="GFX_portrait_rom_bratianu_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1927.1.1.1"
+		}
+	}
+}

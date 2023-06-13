@@ -1,0 +1,14 @@
+characters={
+	MAL_arthur_young={
+		name=MAL_CHARACTER_ARTHUR_YOUNG
+		portraits={
+			civilian={
+				large="GFX_portrait_mal_arthur_young_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1938.1.1.1"
+		}
+	}
+}

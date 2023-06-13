@@ -1,0 +1,26 @@
+
+state={
+	id=933
+	name="STATE_933"
+
+	history={
+		owner = GEO
+		victory_points = {
+			10472 5 
+		}
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		7454 10403 
+	}
+	manpower=343709
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

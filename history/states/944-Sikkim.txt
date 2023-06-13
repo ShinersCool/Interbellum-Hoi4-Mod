@@ -1,0 +1,22 @@
+state={
+	id=944
+	name="STATE_944"
+	
+	history={
+		owner = RAJ
+		add_core_of = KSI
+		buildings = {
+		    infrastructure = 1
+			industrial_complex = 1
+		}
+		
+	}
+	
+	provinces={
+		4435 
+	}
+	manpower=81721
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

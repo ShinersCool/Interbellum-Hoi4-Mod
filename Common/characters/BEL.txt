@@ -1,0 +1,14 @@
+characters={
+	BEL_delacroix={
+		name=BEL_CHARACTER_DELACROIX
+		portraits={
+			civilian={
+				large="GFX_portrait_bel_delacroix_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1929.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=990
+	name="STATE_990"
+	
+	history={
+		owner = HOB
+		add_core_of = HOB
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			infrastructure = 2
+			12991 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	
+	provinces={
+		1964 2020 5065 12840 12991 
+	}
+	manpower=257223
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,14 @@
+characters={
+	ENG_david_george={
+		name=ENG_CHARACTER_DAVID_GEORGE
+		portraits={
+			civilian={
+				large="GFX_portrait_eng_david_george_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1945.1.1.1"
+		}
+	}
+}

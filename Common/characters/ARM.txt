@@ -1,0 +1,14 @@
+characters={
+	ARM_alexander_khatisian={
+		name=ARM_CHARACTER_KHATISIAN
+		portraits={
+			civilian={
+				large="GFX_portrait_arm_khatisian_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1945.1.1.1"
+		}
+	}
+}

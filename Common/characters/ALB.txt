@@ -1,0 +1,14 @@
+characters={
+	ALB_permiti={
+		name=ALB_CHARACTER_PERMITI
+		portraits={
+			civilian={
+				large="GFX_portrait_alb_permeti_large"
+			}
+		}
+		country_leader={
+			ideology=constitutional_monarchy
+			expire="1927.1.1.1"
+		}
+	}
+}

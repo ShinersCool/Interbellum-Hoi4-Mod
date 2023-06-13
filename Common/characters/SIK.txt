@@ -1,0 +1,14 @@
+characters={
+	SIK_yang_zengxin={
+		name=SIK_CHARACTER_ZENGXIN
+		portraits={
+			civilian={
+				large="GFX_portrait_sik_zengxin_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1928.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+characters={
+	YUN_tang_jiyao={
+		name=YUN_CHARACTER_TANG_JIYAO
+		portraits={
+			civilian={
+				large="GFX_portrait_YUN_tang_jiyao_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1927.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+characters={
+	HNN_tan_yankai={
+		name=HNN_CHARACTER_YANKAI
+		portraits={
+			civilian={
+				large="GFX_portrait_hnn_tan_yankai_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1930.1.1.1"
+		}
+	}
+	HHN_zhang_jingyao={
+		name=HNN_CHARACTER_JINGYAO
+		portraits={
+			civilian={
+				large="GFX_portrait_hnn_zhang_jingyao_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1933.1.1.1"
+		}
+	}
+}

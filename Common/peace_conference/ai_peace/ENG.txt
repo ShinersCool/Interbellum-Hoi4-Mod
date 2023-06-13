@@ -1,0 +1,80 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+    uk_sevres = {
+        peace_action_type = take_states
+        enable = {
+            FROM.FROM.FROM = {
+                OR = {
+                    state = 454 
+                    state = 837
+                    state = 355
+                    state = 291
+                    state = 675
+                    state = 676
+                    state = 930
+                }
+            }
+            ROOT = {
+                is_colonial_power = yes
+                original_tag = ENG
+            }
+        }
+        ai_desire = 150
+    }
+
+    uk_annex_ireland = {
+        peace_action_type = take_states
+        enable = {
+            FROM.FROM.FROM = {
+                is_core_of = IRE
+            }
+            ROOT = {
+                original_tag = ENG
+            }
+        }
+        ai_desire = 150
+    }
+    
+    uk_gain_colonies = {
+        peace_action_type = take_states
+        enable = {
+            FROM.FROM = {
+                OR = {
+                    tag = GER
+                    tag = FRA
+                }
+            }
+            FROM.FROM.FROM = {
+                NOT = {
+                    is_core_of = FROM.FROM
+                }
+                OR = {
+                    is_on_continent = asia
+                    is_on_continent = africa
+                }
+            }
+            ROOT = {
+                is_colonial_power = yes
+                original_tag = ENG
+            }
+        }
+        ai_desire = 75
+    }
+
+    uk_doesnt_care_about_continental_affairs = {
+        peace_action_type = take_states
+        enable = {
+            FROM.FROM.FROM = {
+                is_on_continent = europe
+            }
+            ROOT = {
+                is_colonial_power = yes
+                original_tag = ENG
+            }
+        }
+        ai_desire = -30
+    }
+}

@@ -1,0 +1,14 @@
+characters={
+	FEN_zhang_zuolin={
+		name=FEN_CHARACTER_ZUOLIN
+		portraits={
+			civilian={
+				large="GFX_portrait_fen_zhang_zuolin_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1928.1.1.1"
+		}
+	}
+}

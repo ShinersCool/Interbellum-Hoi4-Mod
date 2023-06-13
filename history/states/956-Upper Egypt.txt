@@ -1,0 +1,23 @@
+state={
+	id=956
+	name="STATE_956"
+	
+	history={
+		owner = SNY
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = EGY
+
+	}
+	
+	provinces={
+		10907 12733 
+	}
+	manpower=6500
+	impassable = yes
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

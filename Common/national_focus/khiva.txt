@@ -1,0 +1,238 @@
+﻿focus_tree = { ###### In Development by Armin,
+	id = KHI
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KHI
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = KHI_contact_the_opposition
+		icon = GFX_goal_KHI_contact_the_opposition
+		x = 5
+		y = 0
+		cost = 8.57
+		#available_if_capitulated = yes
+		#search_filters = { }
+		mutually_exclusive = { focus = KHI_throwing_off_the_yoke }
+		completion_reward = {
+			add_command_power = 50
+			add_opinion_modifier = {
+				target = WHR
+				modifier = united_against_bolshevism
+			}
+			WHR = {
+				add_opinion_modifier = {
+					target = KHI
+					modifier = united_against_bolshevism
+				}
+			}
+		}
+	}
+
+	
+	focus = {
+		id = KHI_request_support
+		icon = GFX_goal_KHI_contact_the_opposition
+		x = 4
+		y = 1
+		cost = 4.4
+		#available_if_capitulated = yes
+		#search_filters = { }
+		available = {
+			has_completed_focus = KHI_contact_the_opposition
+			WHR = {
+				has_opinion = { 
+					target = KHI
+					value > 49
+				}
+			}
+		}
+		completion_reward = {
+			add_command_power = 50
+			add_timed_idea = {
+				idea = KHI_cossack_officers 
+				days = 730
+			} 
+			unlock_decision_category_tooltip = KHI_preparing
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+				producer = WHR
+			}
+			add_opinion_modifier = {
+				target = WHR
+				modifier = receiving_aids
+			}
+		}
+	}
+
+	focus = {
+		id = KHI_foreign_affairs
+		icon = GFX_goal_KHI_foreign_affairs
+		x = 8
+		y = 1
+		cost = 10
+		#available_if_capitulated = yes
+		#search_filters = { }
+		#mutually_exclusive = { focus = KHI_contact_the_opposition }
+		completion_reward = {
+			add_political_power = -50
+			improve_relations_maintain_cost_factor = -0.5
+			opinion_gain_monthly_factor = 0.25
+		
+		}
+	}
+	
+	focus = {
+		id = KHI_pressure_bukhara
+		icon = GFX_goal_KHI_pressure_bukhara
+		x = 7
+		y = 2
+		cost = 4.2
+		available = {
+			has_completed_focus = KHI_foreign_affairs
+			has_war_with = TUK
+		}
+		#available_if_capitulated = yes
+		#search_filters = { }
+		#mutually_exclusive = { focus = KHI_contact_the_opposition }
+		completion_reward = {
+			add_political_power = -50
+			BUK = {
+				add_opinion_modifier = {
+					target = KHI
+					modifier = hesitant_support
+				}
+				add_war_support = -0.15
+				give_military_access = KHI
+				add_to_war = {
+					targeted_alliance = KHI
+					enemy = TUK
+					hostility_reason = asked_to_join
+				}
+			}
+			
+		}
+	}
+
+	focus = {
+		id = KHI_resolving_rivalries
+		icon = GFX_goal_KHI_resolving_rivalries
+		x = 9
+		y = 2
+		cost = 4.3
+		available = {
+			has_completed_focus = KHI_foreign_affairs
+			has_war_with = TUK
+		}
+		#available_if_capitulated = yes
+		#search_filters = { }
+		#mutually_exclusive = { focus = KHI_contact_the_opposition }
+		completion_reward = {
+			add_political_power = -50
+			improve_relations_maintain_cost_factor = -0.5
+			opinion_gain_monthly_factor = 0.25
+		
+		}
+	}
+
+
+	focus = {
+		id = KHI_throwing_off_the_yoke
+		icon = GFX_goal_KHI_throwing_off_the_yoke
+		x = 11
+		y = 0
+		cost = 4.23
+		#available_if_capitulated = yes
+		#search_filters = { }
+		mutually_exclusive = { focus = KHI_contact_the_opposition }
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.15
+		
+		}
+	}
+	
+	focus = {
+		id = KHI_raising_the_troops
+		icon = GFX_goal_KHI_raising_the_troops
+		x = 6
+		y = 3
+		cost = 2.56
+		#available_if_capitulated = yes
+		#search_filters = { }
+		#mutually_exclusive = { focus = KHI_contact_the_opposition }
+		completion_reward = {
+			division_template = {
+				name = "Atlylaryň topary"
+				#is_locked = yes
+				#division_cap = 3 
+				division_names_group = USA_INF_01
+				priority = 200
+				template_counter = 3
+				regiments = {
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 0 y = 2 }
+				}
+				#support = {
+				#military_police = { x = 0 y = 0 }
+				#}
+			}
+			957 = {
+				create_unit = {
+					#division = name = Urgençden atlylaryň topary division_template = Atlylaryň topary start_experience_factor = 0.1
+					division = "name = \"Urgençden atlylaryň topary \" division_template = \"Atlylaryň topary\" start_experience_factor = 0.05" 
+					owner = KHI
+				}
+				create_unit = {
+					#division = name = "Hiwadan atlylaryň topary division_template = Atlylaryň topary start_experience_factor = 0.1
+					division = "name = \"Hiwadan atlylaryň topary \" division_template = \"Atlylaryň topary\" start_experience_factor = 0.05"
+					owner = KHI
+				}
+				create_unit = {
+					division = "name = \"Daşoguzdan atlylaryň topary \" division_template = \"Atlylaryň topary\" start_experience_factor = 0.05"
+					#division = name = Daşoguzdan atlylaryň topary division_template = Atlylaryň topary start_experience_factor = 0.1
+					owner = KHI
+				}
+			}
+			add_war_support = -0.10
+			TUK = {
+				country_event = {
+					id = turkestan.1
+				}
+			}
+		
+		}
+	}
+ 
+ 
+	
+	#Shah's return to Tehran
+	#Chooze Mirza Hassan Khan Moshir al-Doulah as the head of the government
+	#Establish close relations with Russia	---then-->	#{Russo-Persian Treaty of Friendship (1921)}
+	#Seyed Diya and Reza Khan Mirpanj's coup 1921-02-22
+	#Seyyed Zia's dismissal and then appointing Qawam al-Sultaneh as the head of the ministerial office 1921-05-22
+	#957 = {
+	#			create_unit = {
+	#				division = "name = \"Urgençden atlylaryň topary"\" division_template = \"Atlylaryň topary\" start_experience_factor = 0.1"
+	#				owner = KHI
+	#			}
+	#			create_unit = {
+	#				division = "name = \"Hiwadan atlylaryň topary"\" division_template = \"Atlylaryň topary\" start_experience_factor = 0.1"
+	#				owner = KHI
+	#			}
+	#			create_unit = {
+	#				division = "name = \"Daşoguzdan atlylaryň topary"\" division_template = \"Atlylaryň topary\" start_experience_factor = 0.1"
+	#			}
+	#		}
+#
+}
+
+

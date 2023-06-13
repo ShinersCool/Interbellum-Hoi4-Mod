@@ -1,0 +1,14 @@
+characters={
+	KSI_tashi_namgyal={
+		name=KSI_CHARACTER_NAMGYAL
+		portraits={
+			civilian={
+				large="GFX_portrait_ksi_tashi_namgyal_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1963.1.1.1"
+		}
+	}
+}

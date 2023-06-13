@@ -1,0 +1,14 @@
+characters={
+	LIT_smetona={
+		name=LIT_CHARACTER_SMETONA
+		portraits={
+			civilian={
+				large="GFX_portrait_LIT_smetona_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1944.1.1.1"
+		}
+	}
+}

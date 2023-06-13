@@ -1,0 +1,14 @@
+characters={
+	FIN_stahlberg={
+		name=FIN_CHARACTER_STAHLBERG
+		portraits={
+			civilian={
+				large="GFX_portrait_fin_stahlberg_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1952.1.1.1"
+		}
+	}
+}
