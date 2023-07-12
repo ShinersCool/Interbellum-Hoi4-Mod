@@ -1,3 +1,11 @@
+BRC_UK = {
+    color = rgb { 196 68 100 }
+    color_ui = rgb { 150 21 38 }
+}
+SLO_HUN_puppet = {
+    color = rgb { 153 48 62 }
+    color_ui = rgb { 153 48 62 }
+}
 MOR_FRA_protectorate = {
     color = rgb { 61 90 165 }
     color_ui = rgb { 61 90 165 }

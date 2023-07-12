@@ -7,7 +7,7 @@
 ### search_filters = {FOCUS_FILTER_ANNEXATION}
 
 focus_tree = {
-	id = hungary_commie
+	id = hungary_ib
 	
 	country = {
 		factor = 0
@@ -27,42 +27,6 @@ focus_tree = {
 
 	continuous_focus_position = { x = 50 y = 1600 }
 
-#	focus = {
-#		id = HUN_
-#		icon = GFX_
-#		prerequisite = { focus = }
-#		mutually_exclusive = { focus =  }
-#		x = -3
-#		y = 0
-#		relative_position_id = 
-#
-#		cost = 10
-#
-#		ai_will_do = {
-#			factor = 1
-#		}
-#
-#		available = {
-#
-#		}
-#		
-#		bypass = {
-#
-#		}
-#
-#		cancel_if_invalid = yes
-#		continue_if_invalid = no
-#		available_if_capitulated = no
-#
-#		complete_tooltip = {
-#
-#		}
-#
-#		completion_reward = {
-#
-#		}
-#	}
-
 	focus = {
 		id = trianon_enforce
 		icon = GFX_focus_ETH_callout_to_the_world
@@ -71,28 +35,27 @@ focus_tree = {
 		#relative_position_id = 
 		#prerequisite = { focus = }
 		
-		available = { has_war_with = ROM }
+		available = { 
+			has_war_with = ROM 
+		}
 		
 		bypass = {
-
 		}
 
 		cost = 4
 		
 		completion_reward = {
-			country_event = { id = hungary_commie.1 }
+			HUN = {
+				country_event = { 
+					id = hungary_ib.1
+				}
+			}	
 		}
 
-	    cancel_if_invalid = yes
-		continue_if_invalid = no
 		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 1.0
 		}
 	}
 
@@ -106,51 +69,48 @@ focus_tree = {
 		available = { has_government = democratic }
 
 		bypass = {
-
 		}
 
 		cost = 1.50
 		prerequisite = { focus = trianon_enforce }
 		
 		completion_reward = {
-			drop_cosmetic_tag = yes
-			set_politics = {
-				ruling_party = neutrality
-				last_election = "1919.8.1"
-				election_frequency = 48
-				elections_allowed = no
-			}
-			set_popularities = {
-				democratic = 25
-				fascism = 5
-				neutrality = 35
-				communism = 35
-			}
-			create_country_leader = {
-				name = "István Friedrich"
-				desc = ""
-				picture = istván_friedrich.dds
-				expire = "1921.1.1"
-				ideology = oligarchism
-				traits = {
-		
+			HUN = {
+				drop_cosmetic_tag = yes
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1919.8.1"
+					election_frequency = 48
+					elections_allowed = no
 				}
-			}	
+				set_popularities = {
+					democratic = 25
+					fascism = 5
+					neutrality = 35
+					communism = 35
+				}
+				create_country_leader = {
+					name = "István Friedrich"
+					desc = ""
+					picture = istván_friedrich.dds
+					expire = "1921.1.1"
+					ideology = oligarchism
+					traits = {
+					}
+				}	
+			}
 		}
-
+		
 	    cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
 		
+		complete_tooltip = {
+		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
 	focus = {
 		id = white_terror
 		icon = GFX_focus_ETH_callout_to_the_world
@@ -168,9 +128,10 @@ focus_tree = {
 		prerequisite = { focus = overthrow_gyula_peidl }
 		
 		completion_reward = {
-			add_timed_idea = { idea = white_terror_idea days = 70 }
-			add_political_power = 75
-
+			HUN = {
+				add_timed_idea = { idea = white_terror_idea days = 70 }
+				add_political_power = 75
+			}	
 		}
 
 	    cancel_if_invalid = yes
@@ -178,7 +139,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		complete_tooltip = {
-
 		}
 		
 		ai_will_do = {
@@ -203,9 +163,11 @@ focus_tree = {
 		prerequisite = { focus = white_terror }
 		
 		completion_reward = {
-			remove_ideas = white_terror_idea
-			add_ideas = white_terror_idea_2
-			add_stability = -0.25
+			HUN = {
+				remove_ideas = white_terror_idea
+				add_ideas = white_terror_idea_2
+				add_stability = -0.25
+			}	
 
 		}
 
@@ -239,12 +201,14 @@ focus_tree = {
 		prerequisite = { focus = imprison_socialists }
 		
 		completion_reward = {
-			remove_ideas = white_terror_idea_2
-			add_ideas = white_terror_idea_3
-			add_popularity = {
-				ideology = communism
-				popularity = -0.1
-			}
+			HUN = {
+				remove_ideas = white_terror_idea_2
+				add_ideas = white_terror_idea_3
+				add_popularity = {
+					ideology = communism
+					popularity = -0.1
+				}
+			}	
 		}
 
 	    cancel_if_invalid = yes
@@ -277,11 +241,13 @@ focus_tree = {
 		prerequisite = { focus = imprison_socialists }
 		
 		completion_reward = {
-			add_popularity = {
-				ideology = communism
-				popularity = -0.15
-			}
-			add_manpower = -1500
+			HUN = { 
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+				add_manpower = -1500
+			}	
 		}
 
 	    cancel_if_invalid = yes
@@ -314,15 +280,16 @@ focus_tree = {
 		prerequisite = { focus = white_terror }
 		
 		completion_reward = {
-			create_country_leader = {
-				name = "Károly Huszár"
-				desc = ""
-				picture = huszar.dds
-				expire = "1921.1.1"
-				ideology = oligarchism
-				traits = {
-		
-				}
+			HUN = {
+				create_country_leader = {
+					name = "Károly Huszár"
+					desc = ""
+					picture = huszar.dds
+					expire = "1921.1.1"
+					ideology = oligarchism
+					traits = {
+					}
+				}	
 			}	
 		}
 
@@ -356,24 +323,26 @@ focus_tree = {
 		prerequisite = { focus = install_karoly }
 		
 		completion_reward = {
-			set_popularities = {
-				democratic = 13
-				neutrality = 80
-				fascism = 2
-				communism = 5
-			}
-			create_country_leader = {
-				name = "The Coalition Government"
-				desc = ""
-				picture = hun_coalition.dds
-				expire = "1921.1.1"
-				ideology = oligarchism
-				traits = {
-		
+			HUN = {
+				set_popularities = {
+					democratic = 13
+					neutrality = 80
+					fascism = 2
+					communism = 5
 				}
-			}	
+				create_country_leader = {
+					name = "The Coalition Government"
+					desc = ""
+					picture = hun_coalition.dds
+					expire = "1921.1.1"
+					ideology = oligarchism
+					traits = {
 		
-		}
+					}
+				}	
+		
+			}
+		}	
 
 	    cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -405,7 +374,9 @@ focus_tree = {
 		prerequisite = { focus = hold_parliamentary_elections }
 		
 		completion_reward = {
-			add_ideas = monarchist_return
+			HUN = {
+				add_ideas = monarchist_return
+			}	
 		}
 
 	    cancel_if_invalid = yes
@@ -438,24 +409,26 @@ focus_tree = {
 		prerequisite = { focus = begin_monarchist_return }
 		
 		completion_reward = {
-			set_politics = {
-				ruling_party = neutrality
-				last_election = "1920.2.1"
-				election_frequency = 48
-				elections_allowed = no
-			}
-			create_country_leader = {
-				name = "Miklos Horthy"
-				desc = ""
-				picture = horthy.dds
-				expire = "1950.1.1"
-				ideology = despotism
-				traits = {
+			HUN = {
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1920.2.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				create_country_leader = {
+					name = "Miklos Horthy"
+					desc = ""
+					picture = horthy.dds
+					expire = "1950.1.1"
+					ideology = despotism
+					traits = {
 		
+					}
 				}
 			}
 		}
-
+		
 	    cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -486,9 +459,11 @@ focus_tree = {
 		prerequisite = { focus = horthys_regency }
 		
 		completion_reward = {
-			remove_ideas = monarchist_return
-			add_political_power = 20
-			add_ideas = horthys_grip
+			HUN = {
+				remove_ideas = monarchist_return
+				add_political_power = 20
+				add_ideas = horthys_grip
+			}	
 		}
 
 	    cancel_if_invalid = yes
@@ -522,7 +497,11 @@ focus_tree = {
 		prerequisite = { focus = horthys_regency }
 		
 		completion_reward = {
-			country_event = { id = hungary_commie.2 }
+			HUN = {
+				country_event = { 
+					id = hungary_ib.2 
+				}	
+			}	
 		}
 
 	    cancel_if_invalid = yes

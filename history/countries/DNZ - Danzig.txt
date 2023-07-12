@@ -87,18 +87,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = fascism
-	last_election = "1935.4.7"
+	ruling_party = democratic
+	last_election = "1920.12.6"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
-set_popularities = { #popularities based on 1933 election statistics.
-	democratic = 22
-	fascism = 62
-	communism = 6
-	neutrality = 10
+set_popularities = { #popularities based on 1919 election statistics.
+	democratic = 63
+	fascism = 15
+	communism = 0
+	neutrality = 16
+	socialism = 6
 }
+
+recruit_character = DNZ_heinrich_sahm
 
 create_country_leader = {
 	name = "Albert Forster"

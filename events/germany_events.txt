@@ -1,0 +1,66 @@
+﻿###########################
+# Germany Events
+###########################
+
+add_namespace = germany_ib
+
+country_event = {
+	id = germany_ib.1
+	title = "germany_ib.1.t"
+	desc = germany_ib.1.d
+	picture = GFX_versailles
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = GER
+	}
+	
+	option = { # Activates Versailles countdown
+		name = "germany_ib.1.o"
+		ai_chance = { factor = 100 }
+		GER = {
+			unlock_decision_category_tooltip = GER_versailles
+			unlock_decision_tooltip = GER_versailles_effective
+			activate_decision = GER_versailles_effective
+		}
+
+	}
+}		
+
+country_event = {
+	id = germany_ib.2
+	title = "germany_ib.2.t"
+	desc = germany_ib.2.d
+	picture = GFX_versailles
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = GER
+	}
+	
+	option = { # Accepts Versailles
+		name = "germany_ib.2.o"
+		ai_chance = { factor = 100 }
+		POL = {
+			transfer_state = 807
+		}	
+		DNZ = {
+			transfer_state = 85
+		}	
+		DEN = {
+			transfer_state = 1017
+		}		
+		FRA = {
+			transfer_state = 188
+		}		
+		GER = {
+			add_ideas = disarmed_nation
+		}	
+	}
+}	

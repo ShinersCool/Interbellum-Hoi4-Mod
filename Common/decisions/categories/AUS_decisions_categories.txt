@@ -1,0 +1,9 @@
+AUS_saint_germain_en_laye = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		tag = AUS
+	}
+	visible = { always = true }
+	priority = 500
+}

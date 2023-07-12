@@ -1,0 +1,14 @@
+characters={
+	SLO_janousek={
+		name=SLO_CHARACTER_JANOUSEK
+		portraits={
+			civilian={
+				large="GFX_portrait_SLO_janousek_large"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1941.1.1.1"
+		}
+	}
+}

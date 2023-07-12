@@ -1,0 +1,30 @@
+﻿focus_tree = { 
+	id = SLO
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SLO
+			ideology = communism
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = SLO_the_last_monument
+		icon = GFX_goal_generic_soviet_construction
+		x = 1
+		y = 0
+		cost = 2920
+		available_if_capitulated = no
+		#search_filters = { }
+		completion_reward = {
+			add_stability = 0.01
+		}
+	}
+
+}
+
+

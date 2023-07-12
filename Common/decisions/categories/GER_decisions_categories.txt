@@ -1,0 +1,28 @@
+GER_form_reichstag = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		original_tag = GER
+	}
+	visible_when_empty = yes
+	priority = 450
+}
+
+GER_versailles = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		original_tag = GER
+	}
+	visible_when_empty = yes
+	priority = 500
+}
+GER_anti_french_rhineland_propaganda = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		original_tag = GER
+	}
+	visible_when_empty = yes
+	priority = 400
+}

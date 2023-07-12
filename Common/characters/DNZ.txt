@@ -1,0 +1,14 @@
+characters={
+	DNZ_heinrich_sahm={
+		name=DNZ_CHARACTER_HEINRICH_SAHM
+		portraits={
+			civilian={
+				large="GFX_portrait_dnz_heinrich_sahm_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1939.10.3"
+		}
+	}
+}

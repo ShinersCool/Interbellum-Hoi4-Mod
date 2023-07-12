@@ -1,0 +1,136 @@
+﻿focus_tree = { 
+	id = GER_ib
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = ger_weimar_constitution
+		icon = GFX_goal_
+		x = 25
+		y = 0
+		cost = 6.43
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  
+			has_government = democratic
+		}	
+		completion_reward = {
+			GER = {
+				unlock_decision_category_tooltip = GER_form_reichstag
+				unlock_decision_tooltip = GER_form_the_reichstag
+			}	
+		}
+	}
+
+	focus = {
+		id = ger_war_guilt_committee
+		icon = GFX_goal_
+		relative_position_id = ger_weimar_constitution
+		x = 1
+		y = 1
+		cost = 1.43
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+			GER = {
+				add_ideas = ger_war_guilt_committee_idea
+			}
+		}
+		prerequisite = { focus = ger_weimar_constitution }
+	}
+	
+	focus = {
+		id = ger_volkspflege
+		icon = GFX_goal_
+		relative_position_id = ger_war_guilt_committee
+		x = -1
+		y = 1
+		cost = 3
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+			GER = {
+				add_ideas = {
+					agency_for_homeland_service_volkspflege
+				}
+				remove_ideas = {
+					agency_for_homeland_service
+				}	
+				unlock_decision_tooltip = GER_boost_anti_french_sentiment
+			}
+		}
+		prerequisite = { focus = ger_war_guilt_committee }
+	}	
+
+	focus = {
+		id = ger_form_reichswehr
+		icon = GFX_goal_
+		relative_position_id = ger_weimar_constitution
+		x = -3
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+			GER = {
+				activate_advisor = walther_reinhardt
+				activate_advisor = gustav_noske
+			}
+		}
+		prerequisite = { focus = ger_weimar_constitution }
+	}
+	focus = {
+		id = ger_form_reichsmarine
+		icon = GFX_goal_
+		relative_position_id = ger_form_reichswehr
+		x = -1
+		y = 1
+		cost = 3
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+			GER = {
+				activate_advisor = adolf_von_trotha
+				add_ideas = { 
+					ger_navy_refitting 
+				}
+			}
+		}
+		prerequisite = { focus = ger_form_reichswehr }
+	}	
+	focus = {
+		id = ger_form_reichwaffenamt
+		icon = GFX_goal_
+		relative_position_id = ger_form_reichswehr
+		x = 1
+		y = 1
+		cost = 3
+		available_if_capitulated = yes
+		#search_filters = { }
+
+		completion_reward = {
+			GER = {
+				add_ideas = { 
+					ger_reichwaffenamt 
+				}
+			}
+		}
+		prerequisite = { focus = ger_form_reichswehr }
+	}	
+
+}
+
+

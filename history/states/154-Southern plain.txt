@@ -13,6 +13,13 @@ state={
 
 		}
 		add_core_of = HUN
+		1919.6.29.12 = {		
+			ROM = {
+				set_province_controller = 699
+				set_province_controller = 730
+				set_province_controller = 11646
+			} 			
+		}
 
 	}
 

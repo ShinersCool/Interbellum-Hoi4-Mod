@@ -60,6 +60,8 @@
  
  DOR_CHARACTER_KRASNOV:0 "Pyotr Krasnov"
  
+ DNZ_CHARACTER_HEINRICH_SAHM:0 "Heinrich Sahm"
+ 
  ECU_CHARACTER_BAQUERIZO:0 "Alfredo Baquerizo Moreno"
  
  ELS_CHARACTER_MELENDEZ:0 "Jorge Meléndez"
@@ -81,6 +83,9 @@
  GEO_CHARACTER_ZHORDANIA:0 "Noe Zhordania"
  
  GER_CHARACTER_EBERT:0 "Friedrich Ebert"
+ GER_CHARACTER_GUSTAV_NOSKE:0 "Gustav Noske"
+ GER_CHARACTER_WALTER_REINHARDT:0 "Walther Reinhardt"
+ GER_CHARACTER_ADOLF_VON_TROTHA:0 "Adolf von Trotha"
  
  GRE_CHARACTER_VENIZELOS:0 "Eleftherios Venizelos"
  
@@ -204,6 +209,8 @@
  SOV_CHARACTER_LENIN:0 "Vladamir Lenin"
  
  SPR_CHARACTER_MAURA:0 "Antonio Maura"
+ 
+ SLO_CHARACTER_JANOUSEK:0 "Antonín Janoušek"
  
  SWE_CHARACTER_NILS_EDEN:0 "Nils Edén"
  

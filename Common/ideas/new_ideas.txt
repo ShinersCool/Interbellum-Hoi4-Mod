@@ -238,7 +238,7 @@ ideas = {
 	}	
 	country = {
 		saudi_ikhwan = {
-		    picture = #
+		    picture = GFX_idea_saudi_ikhwan
 			
 			allowed = {
 				tag = SAU
@@ -304,7 +304,7 @@ ideas = {
 	
 	country = {
 		KHI_turkmen_chiefs_oppose_campaign = {
-		    picture = #
+		    picture = GFX_idea_KHI_turkmen_chiefs_oppose_campaign
 			
 			allowed = {
 				tag = KHI
@@ -337,7 +337,7 @@ ideas = {
 
 	country = {
 		KHI_turkmen_chiefs_support_campaign = {
-		    picture = #
+		    picture = GFX_idea_KHI_turkmen_chiefs_support_campaign
 			
 			allowed = {
 				tag = KHI
@@ -402,7 +402,152 @@ ideas = {
 
 		}
 
+	}
+	country = {
+		ger_war_guilt_committee_idea = {
+		    picture = GFX_idea_ger_war_guilt_committee
+			
+			allowed = {
+				tag = GER
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = 0.02
+				stability_weekly = -0.01
+
+			}
+
+		}
+
 	}	
+	country = {
+		agency_for_homeland_service = {
+		    picture = GFX_idea_agency_for_homeland_service
+			
+			allowed = {
+				tag = GER
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.05
+				stability_weekly = -0.02
+				war_support_weekly = 0.02
+
+			}
+
+		}
+
+	}	
+	country = {
+		agency_for_homeland_service_volkspflege = {
+		    picture = GFX_idea_agency_for_homeland_service_volkspflege
+			
+			allowed = {
+				tag = GER
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.05
+				stability_weekly = -0.02
+				war_support_weekly = 0.04
+				drift_defence_factor = 0.1
+
+			}
+
+		}
+
+	}	
+	country = {
+		ger_navy_refitting = {
+		    picture = GFX_idea_GER_navy_refitting
+			
+			allowed = {
+				tag = GER
+			}
+			
+			available = { 
+				has_completed_focus = ger_form_reichsmarine
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+
+		}
+
+	}	
+	country = {
+		ger_reichwaffenamt = {
+		    picture = GFX_idea_ger_reichwaffenamt
+			
+			allowed = {
+				tag = GER
+			}
+			
+			available = { 
+				has_completed_focus = ger_form_reichwaffenamt
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+
+		}
+
+	}		
 }
 
 

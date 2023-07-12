@@ -111,5 +111,26 @@ on_actions = {
 			}				
 			
 		}	
+	}
+	on_startup = {
+		effect = {	
+            GER = {
+                country_event = { 
+                    id = germany_ib.1
+                }
+			}				
+			
+		}	
+	}		
+	on_startup = {
+		effect = {	
+            AUS = {
+                country_event = { 
+                    id = austria_ib.1
+					days = 79 #signed on september 16th
+                }
+			}				
+			
+		}	
 	}		
 }

@@ -1,4 +1,7 @@
 ﻿l_english:
+ BRC_UK:0 "British Cameroons"
+ SLO_HUN_puppet:0 "Slovak Soviet Republic"
+ SLO_HUN_puppet_DEF:0 "the Slovak Soviet Republic"
  MOR_FRA_protectorate:0 "French protectorate in Morocco"
  MOR_FRA_protectorate_DEF:0 "the French protectorate in Morocco"
  ENG_ceylon:0 "Island of Ceylon and its Territories and Dependencies"
@@ -9,7 +12,7 @@
  AUS_German:0 "Republic of German-Austria"
  AUS_German_DEF:0 "the Republic of German-Austria"
  CHI_junta:0 "Constitutional Protection Junta"
- CHI_junta_DEF:0 "the Hungarian Republic"
+ CHI_junta_DEF:0 "the Constitutional Protection Junta"
  HUN_first_rep:0 "Hungarian Republic"
  HUN_first_rep_DEF:0 "the Hungarian Republic"
  INS_HOL_democratic:0 "Dutch East Indies"

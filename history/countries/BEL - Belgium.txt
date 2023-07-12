@@ -119,6 +119,13 @@ set_technology = {
 	}
 }
 
+971 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 30
+	set_garrison_strength = 0.2
+}
+
 recruit_character = BEL_delacroix
 
 set_politics = {

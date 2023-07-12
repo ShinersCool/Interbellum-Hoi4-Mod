@@ -10,9 +10,9 @@ state=
 		owner = ANH
 		add_core_of = CHI
 		#add_core_of = ZHI
-		#victory_points = {
-		#	10000 5 
-		#}
+		victory_points = {
+			10000 5 
+		}
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3 #was: 5

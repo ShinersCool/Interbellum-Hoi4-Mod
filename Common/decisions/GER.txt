@@ -1,0 +1,151 @@
+GER_form_reichstag = {
+	GER_form_the_reichstag = {
+		
+		priority = 100
+		
+		cost = 10
+		
+		icon = decision_icon
+		
+		available = {
+			has_civil_war = no
+			has_war = no
+		}		
+		
+		visible = {
+			has_country_leader = {
+				character = GER_friedrich_ebert
+			}
+			has_completed_focus = ger_weimar_constitution
+		}
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_government = democratic
+			}
+		}
+		
+		days_remove = 360
+		
+		remove_effect = { 
+			set_capital = {state = 64}	
+		}
+		
+		fire_only_once = yes
+    }
+}	
+
+GER_versailles = {
+	GER_versailles_effective = {
+		
+		priority = 100
+		
+		cost = 50
+		
+		icon = decision_icon
+		fire_only_once = yes
+		available = {
+			has_civil_war = no
+			has_war = no			
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = GER_friedrich_ebert
+			}
+		}
+	
+		days_remove = 196
+		
+		remove_effect = { 
+			GER = { 
+				country_event = {
+					id = germany_ib.2
+				}	
+			}
+		}	
+
+    }
+
+}	
+
+GER_anti_french_rhineland_propaganda = {
+	GER_boost_anti_french_sentiment = {
+		
+		priority = 100
+		
+		cost = 25
+		
+		icon = decision_icon
+		available = {
+			has_civil_war = no
+			has_war = no
+			has_completed_focus = ger_volkspflege			
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = GER_friedrich_ebert
+			}
+			has_completed_focus = ger_volkspflege
+		}
+		
+		days_remove = 60
+		remove_effect = { 
+			FRA = { 
+				42 = {
+					start_resistance = yes
+					add_compliance = -5
+					add_resistance = 5
+				}
+				51 = {
+					start_resistance = yes
+					add_compliance = -5
+					add_resistance = 5
+				}
+				909 = {
+					start_resistance = yes
+					add_compliance = -5
+					add_resistance = 5
+				}				
+			}
+		}	
+
+    }
+	GER_anti_communist_propaganda = {
+		
+		priority = 90
+		
+		cost = 30
+		
+		icon = decision_icon
+		available = {
+			has_civil_war = no
+			has_war = no		
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = GER_friedrich_ebert
+			}
+		}
+		
+		complete_effect = {
+			GER = { 
+				add_stability = -0.05
+			}
+		}	
+		days_remove = 80
+		
+		remove_effect = { 
+			GER = { 
+				add_popularity = {
+					ideology = communism
+					popularity = -0.05
+				}
+			}
+		}	
+
+    }
+}	

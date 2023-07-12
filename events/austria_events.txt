@@ -1,0 +1,77 @@
+﻿###########################
+# Austria Events
+###########################
+
+add_namespace = austria_ib
+
+country_event = {
+	id = austria_ib.1
+	title = "austria_ib.1.t"
+	desc = austria_ib.1.d
+	picture = GFX_versailles
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = AUS
+	}
+	
+	option = { # Activates Saint Germain en Laye countdown
+		name = "austria_ib.1.o"
+		ai_chance = { factor = 100 }
+		AUS = {
+			unlock_decision_category_tooltip = AUS_saint_germain_en_laye
+			unlock_decision_tooltip = AUS_saint_germain_en_laye_effective
+			activate_decision = AUS_saint_germain_en_laye_effective
+		}
+
+	}
+}		
+
+country_event = {
+	id = austria_ib.2
+	title = "austria_ib.2.t"
+	desc = austria_ib.2.d
+	picture = GFX_germain_en_laye
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = AUS
+	}
+	
+	option = { # Accepts Saint Germain en Laye
+		name = "austria_ib.2.o"
+		ai_chance = { factor = 100 }
+		CZE = {
+			transfer_state = 943
+			transfer_state = 69
+			transfer_state = 74
+		}	
+		AUS = {
+			transfer_state = 910
+		}	
+		ITA = {
+			transfer_state = 39
+		}		
+		FRA = {
+			give_guarantee = AUS
+		}	
+		ENG = {
+			give_guarantee = AUS
+		}
+		ITA = {
+			give_guarantee = AUS
+		}			
+		AUS = {
+			add_ideas = disarmed_nation
+		}	
+		AUS = {
+			drop_cosmetic_tag = AUS_German
+		}	
+	}
+}	

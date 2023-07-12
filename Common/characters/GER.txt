@@ -11,4 +11,124 @@ characters={
 			expire="1925.1.1.1"
 		}
 	}
-}
+	GER_gustav_noske={
+		name=GER_CHARACTER_GUSTAV_NOSKE
+		portraits={
+			army={
+				large="GFX_portrait_ger_gustav_noske"
+			}
+			army={
+				small="GFX_idea_gustav_noske"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = gustav_noske
+			allowed  = {
+				original_tag  = GER
+			}
+			available  = {
+				has_completed_focus = ger_form_reichswehr
+				NOT  = {
+					has_government = fascism 
+				}
+			}
+			ledger = army
+			cost = 5.00
+			traits  = {
+				army_infantry_1
+			}
+			do_effect  = {
+				NOT  = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 10.000
+			}
+		}	
+	}	
+	GER_walther_reinhardt={
+		name=GER_CHARACTER_WALTER_REINHARDT
+		portraits={
+			army={
+				large="GFX_portrait_ger_walther_reinhardt"
+			}
+			army={
+				small="GFX_idea_walther_reinhardt"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = walther_reinhardt
+			allowed  = {
+				original_tag  = GER
+			}
+			available  = {
+				has_completed_focus = ger_form_reichswehr
+				NOT  = {
+					has_government = fascism 
+				}
+			}
+			ledger = army
+			cost = 5.00
+			traits  = {
+				army_chief_offensive_2
+			}
+			do_effect  = {
+				NOT  = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 10.000
+			}
+		}	
+	}
+	GER_adolf_von_trotha={
+		name=GER_CHARACTER_ADOLF_VON_TROTHA
+		portraits={
+			army={
+				large="GFX_portrait_ger_adolf_von_trotha"
+			}
+			navy={
+				small="GFX_idea_adolf_von_trotha"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = adolf_von_trotha
+			allowed  = {
+				original_tag  = GER
+			}
+			available  = {
+				has_completed_focus = ger_form_reichsmarine
+				NOT  = {
+					has_government = fascism 
+					has_government = neutrality
+				}
+			}
+			ledger = navy
+			cost = 5.00
+			traits  = {
+			}
+			do_effect  = {
+				NOT  = {
+					has_government = fascism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 10.000
+			}
+		}	
+		navy_leader={
+			traits={ gentlemanly naval_lineage}
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=0
+		}		
+	}		
+}		

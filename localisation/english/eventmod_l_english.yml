@@ -17,3 +17,19 @@
  anhui.3.d:0 "Rumours have arrisen that the Fengtian and Zhili Cliques have alligned together to stiffle our power. Not only have they attempted to corner ourselves in our own lands, they have also arranged for Duan's righthand man, Xu Shuzheng, to be dismissed by current president Xu Shichang.\n\nThese acts will not be tolerated. We must remobalise ourselves for war in the coming future!"
  
  yugoslavia_ib.1.d:0 "An order was given from the Entente at the Paris Peace Conference to the ourselves to completely retreat from the northern B zone of the Klagenfurt Basin area in Austria in a time frame set to end on 31 July, at the latest, to enable the commission to carry out the planned plebiscite. Our forces in Carinthia are staggering against the Austrian Counter-Offensive. Taking the risk of a plebiscite to vote in our favour may be a better option, for now."
+ 
+ germany_ib.1.t:0 "The Treaty of Versailles"
+ germany_ib.1.d:0 "The Entente yesterday had forced upon us a treaty which will cripple our Reich! Territories are to be ceded across our nation, our armies are to be reduced significantly and war reparations are to be payed. We can only wait until this horrific treaty becomes effective..."
+ germany_ib.1.o:0 "We can not yet oppose this"
+ 
+ germany_ib.2.t:0 "Versailles is upon Ourselves"
+ germany_ib.2.d:0 "Today, the Treaty of Versailles, signed on the 28th of July, comes into effect. Our territories in the east will fall to Poland, plebiscite zones will be created in Denmark and Belgium, our military might will be heavily restricted and vast reparations must be payed. Can we save ourselves?"
+ germany_ib.2.o:0 "We have no other option"
+ 
+ austria_ib.1.t:0 "The Treaty of Saint-Germain-en-Laye"
+ austria_ib.1.d:0 "The Entente has forced upon us a treaty which will cripple the remnants of the Austo-Hungarian Empire! Territories are to be ceded across our nation and our armies are to be disarmed. We can only wait until this horrific treaty becomes effective..."
+ austria_ib.1.o:0 "We can not yet oppose this"
+ 
+ austria_ib.2.t:0 "Saint-Germain-en-Laye is upon Ourselves"
+ austria_ib.2.d:0 "Today, the Treaty of Saint-Germain-en-Laye, signed on the 10th September, comes into effect. Southern Tyrol will fall to Italy, our German majority territory in Bohemia will become part of Czechoslovakia, plebiscite zones will be created in southern Carinthia with the Kingdom of Serbs, Croats and Slovenes and our military might will be heavily restricted. Can we save ourselves?"
+ austria_ib.2.o:0 "We have no other option"

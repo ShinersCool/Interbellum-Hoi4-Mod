@@ -13328,5 +13328,6 @@
 13327;185;219;43;land;false;mountain;1
 13328;169;12;38;land;false;mountain;1
 13329;255;174;201;land;false;mountain;6
-13330;185;122;87;land;true;urban;6
-13331;200;191;231;land;true;hills;6
+13330;185;122;87;land;true;hills;6
+13331;200;191;231;land;true;urban;1
+13332;48;179;82;land;false;forest;1

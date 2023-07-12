@@ -81,7 +81,7 @@ if = {
 	}
 }
 
-set_rule = { can_join_factions }
+set_rule = { can_join_factions = no }
 
 set_politics = {
 	ruling_party = democratic

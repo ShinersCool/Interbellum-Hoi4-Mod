@@ -1,3 +1,7 @@
+BRC = {
+	color = rgb { 0 122 94 }
+	color_ui = rgb { 0 158 121 }
+}
 XIK = {
 	color = rgb { 137 82 39 }
 	color_ui = rgb { 137 82 39 }
@@ -337,7 +341,7 @@ HUN = {
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
-	color = rgb { 40 108 112 }
+	color = rgb { 55 129 135 }
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
@@ -449,7 +453,7 @@ SAF = {
 	color_ui = rgb { 198 169 248 }
 }
 SAU = {
-	color = rgb { 190 198 163 }
+	color = rgb { 0 108 53 }
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {
