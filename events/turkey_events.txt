@@ -1,0 +1,40 @@
+﻿###########################
+# Turkey Events
+###########################
+
+add_namespace = colour_ottomans
+
+country_event = {
+	id = colour_ottomans.1
+	title = "Ottoman Map Colour"
+	desc = colour_ottomans.1.d 
+	picture = GFX_colour_ottomans
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Green (((( W BEST COLOR ALHAMDULLILAH!! RED IS DISCUSTING FOR OTTOMANS))))
+		name = colour_ottomans.1.a
+		
+		custom_effect_tooltip = TUR_green_tt
+		
+		hidden_effect = {
+			set_cosmetic_tag = TUR_green
+		}
+		
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { # Red ((((Eww DISCUSTING))))
+		name = colour_ottomans.1.b
+		
+		custom_effect_tooltip = TUR_red_tt
+		
+		hidden_effect = {
+			set_cosmetic_tag = TUR_red
+		}		
+		
+		ai_chance = { factor = 100 }
+	}
+}

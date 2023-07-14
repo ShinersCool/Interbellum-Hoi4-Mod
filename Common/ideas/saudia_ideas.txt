@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		saudi_ikhwan = {
+		    picture = #
+			
+			allowed = {
+				tag = SAU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 25
+				army_org_factor = -0.10
+				army_attack_factor = 0.15
+				experience_gain_army = 0.05
+			}
+
+		}
+
+	}
+}
+
+

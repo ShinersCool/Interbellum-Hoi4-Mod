@@ -1,0 +1,36 @@
+﻿###########################
+# Wolrd News Events
+###########################
+
+add_namespace = treaty_of_neuilly_sur_seine
+
+# Damascus Program
+news_event = {
+	id = treaty_of_neuilly_sur_seine.1
+	title = "Treaty of Neuilly-sur-Seine"
+	desc = treaty_of_neuilly_sur_seine.1.d
+	picture = GFX_treaty_of_neuilly_sur_seine
+	
+	major = no
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+
+	option = {
+		name = treaty_of_neuilly_sur_seine.1.a
+		
+		982 = {
+			transfer_state_to = YUG 
+		}
+		946 = {
+			transfer_state_to = GRE 
+		}
+		
+		YUG = {
+			add_state_core = 982
+		}
+	}
+}
+

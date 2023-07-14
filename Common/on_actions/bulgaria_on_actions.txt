@@ -1,0 +1,13 @@
+on_actions = {		
+	on_startup = {
+		effect = {	
+            BUL = {
+                country_event = { 
+                    id = treaty_of_neuilly_sur_seine.1
+					days = 90 #signed on september 27th
+                }
+			}				
+			
+		}	
+	}		
+}

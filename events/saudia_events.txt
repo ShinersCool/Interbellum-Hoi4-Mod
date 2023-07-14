@@ -1,0 +1,205 @@
+﻿###########################
+# Saudia Events
+###########################
+
+add_namespace = saudia_border_conflict
+
+country_event = {
+	id = saudia_border_conflict.1
+	title = "Kuwaiti Troops Retreat!"
+	desc = saudia_border_conflict.1.d
+	picture = GFX_saudia_border_conflict_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "The ikhwan bring another victory home!"
+		add_political_power = 50
+		add_war_support = 0.02
+		add_command_power = 20
+		army_experience = 5
+	}
+}
+
+country_event = {
+	id = saudia_border_conflict.2
+	title = "Saudi Troops Retreat!"
+	desc = saudia_border_conflict.2.d
+	picture = GFX_saudia_border_conflict_2
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "The ikhwan have disappointed us."
+		add_political_power = -100
+		add_stability = -0.04
+		add_war_support = -0.04
+	}
+}
+
+country_event = {
+	id = saudia_border_conflict.3
+	title = "Kuwaiti Troops Hold The Line!"
+	desc = saudia_border_conflict.3.d
+	picture = GFX_saudia_border_conflict_3
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Those pesky Kuwaitis!"
+		add_political_power = -50
+		add_stability = -0.02
+		add_war_support = -0.02
+	}
+}
+
+country_event = {
+	id = saudia_border_conflict.4
+	title = "saudia_border_conflict.4.t"
+	desc = saudia_border_conflict.4.d
+	picture = GFX_saudia_border_conflict_4
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Put thoose pests in thier place!"
+		add_political_power = 50
+		add_war_support = 0.04
+		add_stability = 0.04
+		army_experience = 10
+	}
+}
+
+country_event = {
+	id = saudia_border_conflict.5
+	title = "saudia_border_conflict.5.t"
+	desc = saudia_border_conflict.5.d
+	picture = GFX_saudia_border_conflict_5
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "DAMNIT! THEESE DAMN RAIDS HAVE TO STOP!"
+		add_political_power = -100
+		add_stability = -0.04
+		add_war_support = -0.04
+	}
+}
+
+country_event = {
+	id = saudia_border_conflict.6
+	title = "saudia_border_conflict.6.t"
+	desc = saudia_border_conflict.6.d
+	picture = GFX_saudia_border_conflict_6
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Atleast its a stalemate."
+		add_stability = 0.01
+		add_war_support = 0.01
+	}
+}
+
+country_event = {
+	id = saudia_border_conflict.7
+	title = "Kuwaiti Troops Hold The Line!"
+	desc = saudia_border_conflict.3.d
+	picture = GFX_saudia_border_conflict_3
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Those pesky Iraqis!"
+		add_political_power = -50
+		add_stability = -0.02
+		add_war_support = -0.02
+	}
+}
+
+add_namespace = battle_of_jahra
+
+country_event = {
+	id = battle_of_jahra.1
+	title = "Siege of Red Fort"
+	desc = saudia_border_conflict.1.d
+	picture = GFX_battle_of_jahra
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Push on! Well get them eventualy!"
+		custom_effect_tooltip = SAU_push_on_tt
+		
+		random_list = {
+			0.4 = {
+				custom_effect_tooltip = SAU_won_jahra
+				add_manpower = -440
+				annex_country = {
+					target = KUW
+					transfer_troops = no
+				}
+			}
+			0.6 = {
+				custom_effect_tooltip = SAU_lost_jahra
+				add_manpower = -1280
+				KUW = {
+					transfer_state = 993
+				}
+				add_stability = -0.04
+				add_war_support = -0.04
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "Agree to begin negotiations."
+		add_stability = -0.02
+		custom_effect_tooltip = SAU_begin_negotiations_tt
+		993 = {
+			set_demilitarized_zone = yes
+		}
+		ai_chance = { factor = 100 }
+	}
+}

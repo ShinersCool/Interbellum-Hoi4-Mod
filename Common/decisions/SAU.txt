@@ -1,0 +1,163 @@
+SAU_raiding = {
+	SAU_raid_kuwait = {
+		
+		priority = 1
+		
+		cost = 25
+		
+		icon = decision_icon
+		
+		available = {
+		
+		}		
+		
+		visible = {
+		
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 7
+		
+		remove_effect = {  
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 859
+					num_provinces = 1
+					on_win = saudia_border_conflict.1
+					on_lose = saudia_border_conflict.2
+					on_cancel = saudia_border_conflict.3
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 656
+					num_provinces = 1
+					on_win = saudia_border_conflict.4
+					on_lose = saudia_border_conflict.5
+					on_cancel = saudia_border_conflict.6
+				}
+			}
+		}
+    }
+	
+	SAU_raid_iraq = {
+		
+		priority = 1
+		
+		cost = 25
+		
+		icon = decision_icon
+		
+		available = {
+			SAU =  {
+				owns_state = 994
+			}
+		}		
+		
+		visible = {
+		
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 7
+		
+		remove_effect = {  
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 994
+					num_provinces = 1
+					on_win = saudia_border_conflict.1
+					on_lose = saudia_border_conflict.2
+					on_cancel = saudia_border_conflict.7
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 291
+					num_provinces = 1
+					on_win = saudia_border_conflict.4
+					on_lose = saudia_border_conflict.5
+					on_cancel = saudia_border_conflict.6
+				}
+			}
+		}
+    }
+}
+
+SAU_integration = {
+
+	SAU_integrate_kuwait = {
+		
+		priority = 1
+		
+		cost = 25
+		
+		icon = decision_icon
+		
+		available = {
+			656 = {
+				is_owned_by = SAU
+			}
+		}		
+		
+		visible = {
+			656 = {
+				is_owned_by = SAU
+			}
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 80
+		
+		remove_effect = {  
+			SAU = {
+				add_state_core = 656
+				add_state_core = 995
+			}
+		}
+    }
+}
+
+SAU_ikhwan = {
+
+	SAU_recruite_troops = {
+		
+		priority = 1
+		
+		cost = 10
+		
+		icon = decision_icon
+		picture = GFX_ikhwan_image
+		available = {
+		}		
+		
+		visible = {
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 1
+		
+		remove_effect = {  
+			set_variable =  {
+				ikhwan_anger = 150
+			}
+		}
+    }
+
+}

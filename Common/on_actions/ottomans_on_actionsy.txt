@@ -1,0 +1,13 @@
+on_actions = {		
+	on_startup = {
+		effect = {	
+            TUR = {
+                country_event = { 
+                    id = ataturk.1
+					days = 67 #september 4th
+                }
+			}				
+			
+		}	
+	}		
+}
