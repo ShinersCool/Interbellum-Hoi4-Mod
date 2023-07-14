@@ -100,11 +100,21 @@ if = {
 	}
 }
 
+set_cosmetic_tag = SHA_Anhui
+
+ANH = {
+	set_autonomy = {
+		target = SHA
+		autonomy_state = autonomy_ib_clique
+	}
+}	
+
+recruit_character = SHA_chen_shufan
 recruit_character = SHA_jing_yuexiu
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1918.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

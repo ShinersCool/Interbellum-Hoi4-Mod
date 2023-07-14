@@ -90,18 +90,7 @@ on_actions = {
                 }
 			}
 		}
-	}	
-	on_startup = {
-		effect = {	
-            ANH = {
-                country_event = { 
-                    id = anhui.1
-                    days = 94  # Fires on October 1 1919
-                }
-			}				
-			
-		}	
-	}	
+	}		
 	on_startup = {
 		effect = {	
             YUG = {

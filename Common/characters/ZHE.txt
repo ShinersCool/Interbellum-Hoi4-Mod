@@ -1,0 +1,14 @@
+characters={
+	ZHE_lu_yongxiang={
+		name=ZHE_CHARACTER_LU_YONGXIANG
+		portraits={
+			civilian={
+				large="GFX_portrait_zhe_lu_yongxiang_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1933.5.15.1"
+		}
+	}
+}

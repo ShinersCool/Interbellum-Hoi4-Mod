@@ -1,0 +1,14 @@
+characters={
+	JGS_qi_xieyuan={
+		name=JGS_CHARACTER_QI_XIEYUAN
+		portraits={
+			civilian={
+				large="GFX_portrait_jgs_qi_xieyuan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1946.1.1.1"
+		}
+	}
+}

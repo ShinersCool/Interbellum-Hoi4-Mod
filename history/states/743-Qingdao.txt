@@ -7,8 +7,8 @@ state=
 	
 	
 	history= {
-		owner = ANH
-		add_core_of = CHI
+		owner = SND
+		add_core_of = SND
 		#add_core_of = ZHI
 		victory_points = {
 			10000 5 

@@ -11,4 +11,16 @@ characters={
 			expire="1936.1.1.1"
 		}
 	}
+	SHA_chen_shufan={
+		name=SHA_CHARACTER_CHEN_SHUFAN
+		portraits={
+			civilian={
+				large="GFX_portrait_sha_chen_shufan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1949.1.1.1"
+		}
+	}	
 }

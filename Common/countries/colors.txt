@@ -1,3 +1,23 @@
+JGS = {
+	color = rgb { 204 162 26 }
+	color_ui = rgb { 254 205 33 }
+}
+SND = {
+	color = rgb { 204 162 26 }
+	color_ui = rgb { 254 205 33 }
+}
+FUJ = {
+	color = rgb { 204 162 26 }
+	color_ui = rgb { 254 205 33 }
+}
+ZHE = {
+	color = rgb { 204 162 26 }
+	color_ui = rgb { 254 205 33 }
+}
+NCM = {
+	color = rgb { 141 105 158 }
+	color_ui = rgb { 105 90 132 }
+}
 BRC = {
 	color = rgb { 0 122 94 }
 	color_ui = rgb { 0 158 121 }

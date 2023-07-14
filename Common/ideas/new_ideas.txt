@@ -547,6 +547,78 @@ ideas = {
 
 		}
 
+	}	
+	country = {
+		anh_shanghai_administration = {
+		    picture = GFX_idea_anh_shanghai_administration
+			
+			allowed = {
+				tag = ANH
+			}
+			
+			available = { 
+				has_completed_focus = ANH_appoint_lu_yongxiang_zhejiang
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.05
+				drift_defence_factor = 0.25
+			}
+
+		}
+
+	}		
+	country = {
+		home_of_the_beiyang_government = {
+		    picture = GFX_idea_home_of_the_beiyang_government
+			
+			allowed = {
+				OR = {
+					tag = ANH
+					tag = FEN
+					tag = ZHI
+				}	
+			}
+			
+			available = { 
+				OR = {
+					ANH = {
+						controls_state = 608
+					}
+					ZHI = {
+						controls_state = 608
+					}
+					FEN = {
+						controls_state = 608
+					}
+				}
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.05
+				drift_defence_factor = 0.25
+			}
+
+		}
+
 	}		
 }
 

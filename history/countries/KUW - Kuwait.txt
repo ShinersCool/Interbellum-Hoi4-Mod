@@ -7,7 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 5
+set_convoys = 800
 
 #recruit_character = KUW_pot
 #recruit_character = KUW_aco2

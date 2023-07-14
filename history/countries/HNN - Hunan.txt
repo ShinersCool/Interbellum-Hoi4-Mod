@@ -52,6 +52,14 @@ set_convoys = 8
 	}
 }
 
+ANH = {
+	set_autonomy = {
+		target = HNN
+		autonomy_state = autonomy_ib_clique
+	}
+}	
+
+set_cosmetic_tag = HNN_Anhui
 
 set_politics = {
 	ruling_party = neutrality

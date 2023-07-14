@@ -1,0 +1,14 @@
+characters={
+	FUJ_wang_yongquan={
+		name=FUJ_CHARACTER_WANG_YOUNGQUAN
+		portraits={
+			civilian={
+				large="GFX_portrait_fuj_wang_yongquan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1942.1.1.1"
+		}
+	}
+}

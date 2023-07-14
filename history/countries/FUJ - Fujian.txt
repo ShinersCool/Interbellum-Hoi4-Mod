@@ -1,0 +1,70 @@
+﻿capital = 595
+
+#oob = "ABK_1936"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		strategic_bomber1 = 1
+		naval_bomber1 = 1
+	}
+}
+
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+
+set_cosmetic_tag = FUJ_Anhui
+
+ANH = {
+	set_autonomy = {
+		target = FUJ
+		autonomy_state = autonomy_ib_clique
+	}
+}	
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1912.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 5
+	communism = 10
+	neutrality = 85
+}
+
+
+recruit_character = FUJ_wang_yongquan
+
+

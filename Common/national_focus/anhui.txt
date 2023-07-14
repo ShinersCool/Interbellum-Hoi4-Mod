@@ -1,0 +1,82 @@
+﻿focus_tree = { 
+	id = ANH
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ANH
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = ANH_appoint_lu_yongxiang_zhejiang
+		icon = GFX_goal_
+		x = 5
+		y = 0
+		cost = 6.58
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  
+			tag = ANH
+		}	
+
+		completion_reward = {
+			ZHE = {
+				transfer_state = 596
+				transfer_state = 613
+			}	
+			ANH = {
+				set_autonomy = {
+					target = ZHE
+					autonomy_state = autonomy_ib_clique
+				}	
+				add_ideas = anh_shanghai_administration
+			}
+			ZHE = { 
+				set_cosmetic_tag = ZHE_Anhui
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1912.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				set_popularities = {
+					democratic = 0
+					fascism = 10
+					communism = 5
+					neutrality = 85
+				}
+			}	
+		}	
+	}
+	focus = {
+		id = ANH_mongolia_intervention
+		icon = GFX_goal_
+		x = 2
+		y = 2
+		cost = 6.7
+		available_if_capitulated = no
+		#search_filters = { }
+		relative_position_id = ANH_appoint_lu_yongxiang_zhejiang
+		prerequisite = { focus = ANH_appoint_lu_yongxiang_zhejiang }
+		
+		available = {  
+			tag = ANH
+		}	
+
+		completion_reward = {
+			ANH = {
+				country_event = {
+					id = anhui.1
+				}	
+			}	
+		}	
+	}	
+
+}
+
+

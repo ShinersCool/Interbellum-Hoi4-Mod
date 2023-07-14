@@ -1,0 +1,14 @@
+characters={
+	NCM_ma_fuxiang={
+		name=NCM_CHARACTER_MA_FUXIANG
+		portraits={
+			civilian={
+				large="GFX_portrait_ncm_ma_fuxiang_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1932.1.1.1"
+		}
+	}
+}

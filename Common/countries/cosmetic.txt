@@ -1,3 +1,27 @@
+JGS_Zhilli = {
+	color = rgb { 101 137 46 }
+	color_ui = rgb { 144 198 67 }
+}
+SND_Anhui = {
+	color = rgb { 29 29 107 }
+	color_ui = rgb { 153 153 153 }
+}
+FUJ_Anhui = {
+	color = rgb { 29 29 107 }
+	color_ui = rgb { 153 153 153 }
+}
+SHA_Anhui = {
+	color = rgb { 29 29 107 }
+	color_ui = rgb { 153 153 153 }
+}
+HNN_Anhui = {
+	color = rgb { 29 29 107 }
+	color_ui = rgb { 153 153 153 }
+}
+ZHE_Anhui = {
+	color = rgb { 29 29 107 }
+	color_ui = rgb { 153 153 153 }
+}
 BRC_UK = {
     color = rgb { 196 68 100 }
     color_ui = rgb { 150 21 38 }

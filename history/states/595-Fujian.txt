@@ -3,11 +3,9 @@ state= {
 	name="STATE_595"
 	manpower = 11755600
 	state_category = city
-	history=
-	{
-		owner = ANH
-		add_core_of = CHI
-		add_core_of = ANH
+	history={
+		owner = FUJ
+		add_core_of = FUJ
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

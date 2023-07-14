@@ -78,6 +78,8 @@
  
  FIN_CHARACTER_STAHLBERG:0 "Kaarlo Juho Ståhlberg"
  
+ FUJ_CHARACTER_WANG_YOUNGQUAN:0 "Wang Yongquan"
+ 
  FRA_CHARACTER_CLEMENCEAU:0 "Georges Clemenceau"
  
  GEO_CHARACTER_ZHORDANIA:0 "Noe Zhordania"
@@ -124,6 +126,8 @@
  
  JAS_CHARACTER_RASHID:0 "Saud bin Abdulaziz Al Rashid"
  
+ JGS_CHARACTER_QI_XIEYUAN:0 "Qi Xieyuan"
+ 
  KHI_CHARACTER_ABDULLAH:0 "Sayid Abdullah"
  
  KPR_CHARACTER_BYCH:0 "Luka Bych"
@@ -160,6 +164,8 @@
  
  NAR_CHARACTER_YUXIANG:0 "Feng Yuxiang"
  
+ NCM_CHARACTER_MA_FUXIANG:0 "Ma Fuxiang"
+ 
  NEP_CHARACTER_CHANDRA_RANA:0 "Chandra Shumsher Jung Bahadur Rana"
  
  NIN_CHARACTER_ELFVENGREN:0 "Georg Elfvengren"
@@ -195,6 +201,7 @@
  SAR_CHARACTER_BROOKE:0 "Charles Vyner Brooke"
  
  SHA_CHARACTER_YUEXIU:0 "Jing Yuexiu"
+ SHA_CHARACTER_CHEN_SHUFAN:0 "Chen Shufan"
  
  SHX_CHARACTER_XISHAN_IB:0 "Yan Xishan"
  
@@ -203,6 +210,8 @@
  SIC_CHARACTER_LIU_XIANG:0 "Liu Xiang"
  
  SIK_CHARACTER_ZENGXIN:0 "Yang Zengxin"
+ 
+ SND_CHARACTER_ZHANG_HUAIZHI:0 "Zhang Huaizhi"
  
  SNY_CHARACTER_AHMED_SENUSSI:0 "Ahmed Sharif as-Senussi"
  
@@ -257,5 +266,7 @@
  YUN_CHARACTER_TANG_JIYAO:0 "Tang Jiyao"
  
  ZAP_CHARACTER_GILDARDO:0 "Gildardo Magaña"
+ 
+ ZHE_CHARACTER_LU_YONGXIANG:0 "Lu Yongxiang"
  
  ZHI_CHARACTER_CAO_KUNG:0 "Cao Kun"

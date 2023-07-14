@@ -1,0 +1,14 @@
+characters={
+	SND_zhang_huaizhi={
+		name=SND_CHARACTER_ZHANG_HUAIZHI
+		portraits={
+			civilian={
+				large="GFX_portrait_snd_zhang_huaizhi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1934.1.1.1"
+		}
+	}
+}
