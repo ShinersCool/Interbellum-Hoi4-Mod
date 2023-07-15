@@ -3,7 +3,7 @@ characters={
 		name=MAL_CHARACTER_ARTHUR_YOUNG
 		portraits={
 			civilian={
-				large="GFX_portrait_mal_arthur_young_large"
+				large="gfx/leaders/MAL/portrait_large_arthur_young.dds"
 			}
 		}
 		country_leader={

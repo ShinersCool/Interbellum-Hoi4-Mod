@@ -3,7 +3,7 @@ characters={
 		name=MAJ_CHARACTER_OSMAN_MAHAMUUD
 		portraits={
 			civilian={
-				large="GFX_portrait_maj_osman_mahamuud_large"
+				large="gfx/leaders/MAJ/portrait_large_osman_mahamuud.dds"
 			}
 		}
 		country_leader={
