@@ -3,7 +3,7 @@ characters={
 		name=ITA_CHARACTER_NITTI
 		portraits={
 			civilian={
-				large="GFX_portrait_ita_francesco_nitti_large"
+				large="gfx/leaders/ITA/portrait_large_francesco_nitti.dds"
 			}
 		}
 		country_leader={

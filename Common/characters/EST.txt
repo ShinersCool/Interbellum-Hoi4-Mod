@@ -3,7 +3,7 @@ characters={
 		name=EST_CHARACTER_STRANDMAN
 		portraits={
 			civilian={
-				large="GFX_portrait_est_strandman_large"
+				large="gfx/leaders/EST/portrait_large_strandman.dds"
 			}
 		}
 		country_leader={

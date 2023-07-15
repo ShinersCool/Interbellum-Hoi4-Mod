@@ -3,7 +3,7 @@ characters={
 		name=FRA_CHARACTER_CLEMENCEAU
 		portraits={
 			civilian={
-				large="GFX_portrait_fra_georges_clemenceau_large"
+				large="gfx/leaders/FRA/portrait_large_georges_clemenceau.dds"
 			}
 		}
 		country_leader={

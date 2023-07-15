@@ -3,7 +3,7 @@ characters={
 		name=ETH_CHARACTER_ZEWDITU
 		portraits={
 			civilian={
-				large="GFX_portrait_eth_zewditu_large"
+				large="gfx/leaders/ETH/portrait_large_zewditu.dds"
 			}
 		}
 		country_leader={

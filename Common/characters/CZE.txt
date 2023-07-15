@@ -3,7 +3,7 @@ characters={
 		name=CZE_CHARACTER_TUSAR
 		portraits={
 			civilian={
-				large="GFX_portrait_cze_tusar_large"
+				large="gfx/leaders/CZE/portrait_large_tusar.dds"
 			}
 		}
 		country_leader={

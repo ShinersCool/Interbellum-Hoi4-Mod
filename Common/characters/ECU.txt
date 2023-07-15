@@ -3,7 +3,7 @@ characters={
 		name=ECU_CHARACTER_BAQUERIZO
 		portraits={
 			civilian={
-				large="GFX_portrait_ecu_alfredo_baquerizo_large"
+				large="gfx/leaders/ECU/portrait_large_alfredo_baquerizo.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=HUN_CHARACTER_KUN
 		portraits={
 			civilian={
-				large="GFX_portrait_hun_bela_kun_large"
+				large="gfx/leaders/HUN/portrait_large_bela_kun.dds"
 			}
 		}
 		country_leader={

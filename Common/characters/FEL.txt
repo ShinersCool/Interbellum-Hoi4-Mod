@@ -3,7 +3,7 @@ characters={
 		name=FEL_CHARACTER_FELIX_DIAZ
 		portraits={
 			civilian={
-				large="GFX_portrait_fel_felix_diaz_large"
+				large="gfx/leaders/FEL/portrait_large_felix_diaz.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=DOR_CHARACTER_KRASNOV
 		portraits={
 			civilian={
-				large="GFX_portrait_dor_pyotr_krasnov_large"
+				large="gfx/leaders/DOR/portrait_large_pyotr_krasnov.dds"
 			}
 		}
 		country_leader={

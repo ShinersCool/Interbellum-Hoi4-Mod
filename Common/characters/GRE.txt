@@ -3,7 +3,7 @@ characters={
 		name=GRE_CHARACTER_VENIZELOS
 		portraits={
 			civilian={
-				large="GFX_portrait_gre_venizelos_large"
+				large="gfx/leaders/GRE/portrait_large_venizelos.dds"
 			}
 		}
 		country_leader={

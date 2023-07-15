@@ -3,7 +3,7 @@ characters={
 		name=IRE_CHARACTER_VALERA
 		portraits={
 			civilian={
-				large="GFX_portrait_ire_valera_large"
+				large="gfx/leaders/IRE/portrait_large_valera.dds"
 			}
 		}
 		country_leader={
