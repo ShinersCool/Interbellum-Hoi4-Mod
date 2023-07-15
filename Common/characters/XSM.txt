@@ -3,7 +3,7 @@ characters={
 		name=XSM_CHARACTER_MA_QI
 		portraits={
 			civilian={
-				large="GFX_portrait_xsm_ma_qi_large"
+				large="gfx/leaders/XSM/portrait_large_ma_qi.dds"
 			}
 		}
 		country_leader={

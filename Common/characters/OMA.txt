@@ -3,7 +3,7 @@ characters={
 		name=OMA_CHARACTER_BIN_FEISAL
 		portraits={
 			civilian={
-				large="GFX_portrait_oma_taimur_bin_feisal_large"
+				large="gfx/leaders/OMA/portrait_large_taimur_bin_feisal.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=SND_CHARACTER_ZHANG_HUAIZHI
 		portraits={
 			civilian={
-				large="GFX_portrait_snd_zhang_huaizhi_large"
+				large="gfx/leaders/SND/portrait_large_zhang_huaizhi.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=WHR_CHARACTER_KOLCHAK
 		portraits={
 			civilian={
-				large="GFX_portrait_whr_alexander_kolchak_large"
+				large="gfx/leaders/WHR/portrait_large_alexander_kolchak.dds"
 			}
 		}
 		country_leader={

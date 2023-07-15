@@ -3,7 +3,7 @@ characters={
 		name=USA_CHARACTER_WILSON
 		portraits={
 			civilian={
-				large="GFX_portrait_usa_woodrow_wilson_large"
+				large="gfx/leaders/USA/portrait_large_woodrow_wilson.dds"
 			}
 		}
 		country_leader={

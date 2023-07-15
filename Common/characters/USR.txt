@@ -3,7 +3,7 @@ characters={
 		name=USR_CHARACTER_KOISOR
 		portraits={
 			civilian={
-				large="GFX_portrait_usr_kosior_large"
+				large="gfx/leaders/USR/portrait_large_kosior.dds"
 			}
 		}
 		country_leader={

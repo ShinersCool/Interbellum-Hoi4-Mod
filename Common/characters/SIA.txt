@@ -3,7 +3,7 @@ characters={
 		name=SIA_CHARACTER_VAJIRAVUDH
 		portraits={
 			civilian={
-				large="GFX_portrait_sia_vajiravudh_large"
+				large="gfx/leaders/SIA/portrait_large_vajiravudh.dds"
 			}
 		}
 		country_leader={

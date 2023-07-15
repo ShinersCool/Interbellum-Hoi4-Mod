@@ -3,7 +3,7 @@ characters={
 		name=SNY_CHARACTER_AHMED_SENUSSI
 		portraits={
 			civilian={
-				large="GFX_portrait_sny_ahmed_senussi_large"
+				large="gfx/leaders/SND/portrait_large_ahmed_senussi.dds"
 			}
 		}
 		country_leader={

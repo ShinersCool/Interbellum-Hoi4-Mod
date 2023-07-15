@@ -3,7 +3,7 @@ characters={
 		name=SIC_CHARACTER_LIU_XIANG
 		portraits={
 			civilian={
-				large="GFX_portrait_sic_liu_xiang_large"
+				large="gfx/leaders/SIC/portrait_large_liu_xiang.dds"
 			}
 		}
 		country_leader={

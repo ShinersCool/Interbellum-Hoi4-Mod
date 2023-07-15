@@ -3,7 +3,7 @@ characters={
 		name=SHX_CHARACTER_XISHAN_IB
 		portraits={
 			civilian={
-				large="GFX_portrait_shx_yan_xishan_ib_large"
+				large="gfx/leaders/SHX/portrait_large_yan_xishan_ib.dds"
 			}
 		}
 		country_leader={

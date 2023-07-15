@@ -3,7 +3,7 @@ characters={
 		name=PAR_CHARACTER_MONTERO
 		portraits={
 			civilian={
-				large="GFX_portrait_par_montero_large"
+				large="gfx/leaders/PAR/portrait_large_montero.dds"
 			}
 		}
 		country_leader={

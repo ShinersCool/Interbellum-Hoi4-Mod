@@ -3,7 +3,7 @@ characters={
 		name=QAT_CHARACTER_AL_THANI
 		portraits={
 			civilian={
-				large="GFX_portrait_qat_al_thani_large"
+				large="gfx/leaders/QAT/portrait_large_al_thani.dds"
 			}
 		}
 		country_leader={

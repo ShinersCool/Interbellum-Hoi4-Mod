@@ -3,7 +3,7 @@ characters={
 		name=NAR_CHARACTER_YUXIANG
 		portraits={
 			civilian={
-				large="GFX_portrait_nar_yuxiang_large"
+				large="gfx/leaders/NAR/portrait_large_yuxiang.dds"
 			}
 		}
 		country_leader={

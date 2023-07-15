@@ -3,7 +3,7 @@ characters={
 		name=ZHI_CHARACTER_CAO_KUNG
 		portraits={
 			civilian={
-				large="GFX_portrait_zhi_cao_kung_large"
+				large="gfx/leaders/ZHI/portrait_large_cao_kung.dds"
 			}
 		}
 		country_leader={

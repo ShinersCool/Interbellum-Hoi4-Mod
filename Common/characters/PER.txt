@@ -3,7 +3,7 @@ characters={
 		name=PER_CHARACTER_QAJAR
 		portraits={
 			civilian={
-				large="GFX_portrait_per_qajar_large"
+				large="gfx/leaders/PER/portrait_large_qajar.dds"
 			}
 		}
 		country_leader={
