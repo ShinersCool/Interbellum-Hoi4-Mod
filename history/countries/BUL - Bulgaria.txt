@@ -182,7 +182,7 @@ if = { #DLC
 		monarchism = 15
 	}
 
-	#recruit_character = BUL_boris_iii
+	recruit_character = BUL_Boris_III
 	#recruit_character = BUL_georgi_dimitrov
 	#recruit_character = BUL_nikola_mushanov
 	#recruit_character = BUL_hristo_lukov

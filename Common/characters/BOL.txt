@@ -3,7 +3,7 @@ characters={
 		name=BOL_CHARACTER_JOSE_GUERRA
 		portraits={
 			civilian={
-				large="GFX_portrait_bol_jose_guerra_large"
+				large="gfx/leaders/BOL/portrait_large_jose_guerra.dds"
 			}
 		}
 		country_leader={
