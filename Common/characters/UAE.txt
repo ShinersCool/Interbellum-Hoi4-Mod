@@ -1,6 +1,6 @@
 characters={
 	UAE_tribal_confederation={
-		name=UAE_CHARACTER_TRIBAL_CONFEDERATION
+		name="Trucial States Council"
 		portraits={
 			civilian={
 				large="gfx/leaders/UAE/portrait_large_tribal_confederation.dds"

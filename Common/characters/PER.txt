@@ -7,7 +7,19 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=semi_constitutional_monarchy
+			expire="1930.1.1.1"
+		}
+	}
+	PER_Vosugh_Dowleh={
+		name="Hasan Vosugh od-Dowleh"
+		portraits={
+			civilian={
+				large="gfx/leaders/PER/portrait_large_Vosugh_Dowleh.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
 			expire="1930.1.1.1"
 		}
 	}

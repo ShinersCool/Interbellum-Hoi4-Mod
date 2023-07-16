@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		PER_Gilan_Jungal_Movement = {
+		    picture = Gilan_Jungal_Movement
+			
+			allowed = {
+				tag = PER
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = -25
+				army_org_factor = -0.10
+				army_attack_factor = -0.15
+				experience_gain_army = -0.05
+				communism_drift = 0.03
+			}
+
+		}
+        PER_Qajar_shah = {
+		    picture = PER_Qajar_shah
+			
+			allowed = {
+				tag = PER
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.02
+				democratic_drift = -0.01
+			}
+
+		}
+		MUH_BP = {
+		    picture = MUH_BP
+			
+			allowed = {
+				tag = MUH
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.01
+				local_resources_factor = -0.3
+			}
+
+		}
+	}
+}
+
+
