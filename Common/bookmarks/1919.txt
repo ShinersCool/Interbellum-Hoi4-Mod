@@ -72,14 +72,28 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_DD_DESC_LOC"
-			ideology = neutrality
+			ideology = communism
 			ideas = {
-				HUN_interventionism
 			}
 			focuses = {
-				HUN_elect_a_king
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+		"PER"={
+			minor = yes
+			history = "PER_DD_DESC_LOC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SYR"={
+			minor = yes
+			history = "SYR_DD_DESC_LOC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
 			}
 		}
 		effect = {
