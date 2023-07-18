@@ -102,13 +102,13 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = democratic 
+	ruling_party = conservative 
 	last_election = "1919.6.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 90
+	conservative = 90
 	communism = 10
 }
 
@@ -122,7 +122,7 @@ recruit_character = PAR_montero
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 20
+		conservative = 20
 		communism = 30
 		neutrality = 50
 	}

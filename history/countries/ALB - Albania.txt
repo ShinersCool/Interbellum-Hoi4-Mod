@@ -37,7 +37,7 @@ set_technology = {
 recruit_character = ALB_permiti
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,7 +45,7 @@ set_politics = {
 
 set_popularities = {
 	monarchism = 35
-	democratic = 65
+	conservative = 65
 }
 
 set_convoys = 5

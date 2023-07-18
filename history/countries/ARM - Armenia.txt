@@ -84,14 +84,14 @@ if = {
 set_rule = { can_join_factions = no }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1917.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	fascism = 0
-	democratic = 65
+	conservative = 65
 	communism = 10
 	neutrality = 25
 }

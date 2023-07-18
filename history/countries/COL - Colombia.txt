@@ -128,13 +128,13 @@ set_convoys = 10
 
 set_convoys = 5
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1918.8.7"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 99
+	conservative = 99
 	communism = 1
 }
 
@@ -142,14 +142,14 @@ recruit_character = COL_marco_suarez
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservative
 		last_election = "1938.5.1"
 		election_frequency = 48  
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 100
+		conservative = 100
 	}
 
 	##recruit_character = COL_eduardo_santos

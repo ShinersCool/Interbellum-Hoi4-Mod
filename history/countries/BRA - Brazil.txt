@@ -160,7 +160,7 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1919.6.17"
 	election_frequency = 48
 	elections_allowed = yes
@@ -168,7 +168,7 @@ set_politics = {
 
 set_popularities = {
 	neutrality = 26
-	democratic = 74
+	conservative = 74
 }
 
 recruit_character = BRA_pessoa

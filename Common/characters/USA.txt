@@ -11,4 +11,16 @@ characters={
 			expire="1924.1.1.1"
 		}
 	}
+	USA_Waarden_Harding={
+		name="Warden G. Harding"
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/portrait_large_harding.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1923.1.1.1"
+		}
+	}
 }

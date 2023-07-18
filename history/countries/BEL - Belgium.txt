@@ -129,27 +129,27 @@ set_technology = {
 recruit_character = BEL_delacroix
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1918.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
+	conservative = 83
 	fascism = 11
 	communism = 6
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservative
 		last_election = "1939.4.2"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 87
+		conservative = 87
 		fascism = 8
 		communism = 5
 	}

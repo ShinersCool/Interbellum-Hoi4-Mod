@@ -15,7 +15,7 @@ if = {
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
 #GRE_communism
-#GRE_democratic
+#GRE_conservative
 #GRE_fascism
 #GRE_neutrality
 set_cosmetic_tag = GRE_neutrality
@@ -175,7 +175,7 @@ set_convoys = 10
 			days = 730
 		}
 		set_popularities = {
-			democratic = 10
+			conservative = 10
 			fascism = 22
 			communism = 26
 			neutrality = 42
@@ -298,13 +298,13 @@ set_convoys = 10
 recruit_character = GRE_venizelos
 
 set_politics = {
-	ruling_party = democracy
+	ruling_party = conservative
 	last_election = "1935.6.9"
 	election_frequency = 7
 	elections_allowed = yes # none after offset 1
 }
 set_popularities = {
-	democratic = 52
+	conservative = 52
 	fascism = 2
 	communism = 8
 	neutrality = 38

@@ -1,14 +1,14 @@
 ﻿###########################
-# USAn Events
+#US of A Events
 ###########################
 
-add_namespace = USA
+add_namespace = usa
 
-country_event = {
-	id = USA.1
+ news_event = {
+	id = usa.1
 	title = "1919 Kimball mining disaster"
-	desc = USA.1.d
-	picture = GFX_trianon_treaty
+	desc = usa.1.d
+	picture = GFX_syria_news_event_001
 	
 	fire_only_once = yes
 	
@@ -17,18 +17,18 @@ country_event = {
 		tag = USA
 		date > 1919.7.18
 	}
-	option = { # USA Victory
+	option = { 
 		name = "Big Sad"
 		ai_chance = { factor = 100 }
 		stability_factor = -0.05
 		manpower = -6
 	}
 }
-country_event = {
-	id = USA.2
+ news_event = {
+	id = usa.2
 	title = "Chicago Race Riot of 1919"
-	desc = USA.2.d
-	picture = GFX_trianon_treaty
+	desc = usa.2.d
+	picture = GFX_syria_news_event_001
 	
 	fire_only_once = yes
 	
@@ -37,10 +37,90 @@ country_event = {
 		tag = USA
 		date > 1919.7.27
 	}
-	option = { # USA Victory
+	option = { 
 		name = "Big Sad"
 		ai_chance = { factor = 100 }
 		stability_factor = -0.05
 		manpower = -38
+	}
+}
+ country_event = {
+	id = usa.3
+	title = "1920 US elections"
+	desc = usa.3.d
+	picture = GFX_trianon_treaty
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		date > 1919.11.2
+	}
+	option = { 
+		name = "Warden G. Harding"
+		ai_chance = { factor = 100 }
+		set_politics = {
+			ruling_party = conservative
+			elections_allowed = yes
+			last_election = "1919.11.2"
+			election_frequency = 48
+			long_name = "Republicans"
+			name = "Republicans"
+		}
+		create_country_leader = {
+			name = "James M. Cox"
+			desc = "POLITICS_JAMES_COX_DESC"
+			picture = "gfx/leaders/USA/portrait_large_cox.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+			}
+		}
+		retire_character = USA_CHARACTER_WILSON
+	}
+	option = { 
+		name = "James M. Cox"
+		ai_chance = { factor = 100 }
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			last_election = "1919.11.2"
+			election_frequency = 48
+			long_name = "Democrats"
+			name = "Democrats"
+		}
+		create_country_leader = {
+			name = "James M. Cox"
+			desc = "POLITICS_JAMES_COX_DESC"
+			picture = "gfx/leaders/USA/portrait_large_cox.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+			}
+		}
+		retire_character = USA_CHARACTER_WILSON
+	}
+	option = { 
+		name = "There is someone more competnet"
+		ai_chance = { factor = 100 }
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			last_election = "1919.11.2"
+			election_frequency = 48
+			long_name = "Democrats"
+			name = "Democrats"
+		}
+		create_country_leader = {
+			name = "Edith Wilson"
+			desc = "POLITICS_Edith_Wilson_DESC"
+			picture = "gfx/leaders/USA/portrait_large_Edith.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+			}
+		}
+		retire_character = USA_CHARACTER_WILSON
 	}
 }
