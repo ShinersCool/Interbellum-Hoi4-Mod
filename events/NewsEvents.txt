@@ -1,0 +1,36 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Woodrow Willson collapses during speach
+news_event = {
+	id =  
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_000
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = USA
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = USA }
+	}
+}
+
+
+
+
+
+

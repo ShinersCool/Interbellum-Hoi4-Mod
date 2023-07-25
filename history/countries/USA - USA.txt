@@ -318,10 +318,14 @@ set_popularities = {
 
 
 add_ideas = {
-	undisturbed_isolation
+	USA_Great_War_Victory
+	USA_Wilsonianism
+	USA_Jim_Crow
+	USA_Spanish_Flu
+	USA_Red_Scare
+	USA_Espionage_Sedition_Act
 	disarmed_nation
 	free_trade
-	home_of_the_free
 }
 
 # DIPLOMACY

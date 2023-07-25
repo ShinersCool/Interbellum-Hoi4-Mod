@@ -1,0 +1,14 @@
+RTU_expand = {
+	icon = rtu_expand
+	picture = GFX_decision_rtu_expand
+	
+	priority = 1
+	
+	allowed = {
+		tag = RTU
+	}
+	
+	visible = {
+		tag = RTU
+	}
+}

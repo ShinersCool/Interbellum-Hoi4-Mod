@@ -1,0 +1,751 @@
+RTU_expand = {
+	RTU_expand_izmit = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			347 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			347 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			347 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_kastamonu = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			356 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			356 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			356 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+
+	RTU_expand_samsun = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			355 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			355 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			355 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_sivas = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			349 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			349 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			349 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+
+	RTU_expand_kayseri = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			348 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			348 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			348 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_konya = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			346 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			346 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			346 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_afyon = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			343 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			343 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			343 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_antalya = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			342 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			342 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			342 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_manisa = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			928 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			928 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			928 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_trabzon = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			354 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			354 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			354 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_tunceli = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			353 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			353 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			353 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_malatya = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			344 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			344 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			344 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_van = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			800 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			800 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			800 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_hakkari = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			352 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			352 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			352 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+	
+	RTU_expand_edirne = {
+		
+		priority = 1
+		
+		cost = 100
+		
+		icon = decision_icon
+		
+		available = {
+			341 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+			
+			NOT = {
+				has_country_flag = expanded_cf
+			}
+		}		
+		
+		visible = {
+			341 = {
+				any_neighbor_state = {
+					is_owned_by = RTU
+				}
+			}
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 30
+		
+		remove_effect = { 
+			341 = {
+			transfer_state_to = RTU 
+			}
+			
+			hidden_effect = {
+				set_country_flag = {
+				flag = expanded_cf
+				days = 140
+				value = 1
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+}

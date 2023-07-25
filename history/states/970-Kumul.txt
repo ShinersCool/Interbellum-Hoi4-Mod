@@ -4,7 +4,6 @@ state={
 	
 	history={
 		owner = KUM
-		add_core_of = CHI
 		buildings = {
 			infrastructure = 0
 

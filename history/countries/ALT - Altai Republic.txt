@@ -78,6 +78,14 @@ if = {
 		basic_torpedo = 1
 	}
 }
+
+WHR = {
+	set_autonomy = {
+		target = ALT
+		autonomous_state = autonomy_ib_informal_protectorate
+	}
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1918.1.1"

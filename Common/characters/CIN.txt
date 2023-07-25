@@ -1,0 +1,14 @@
+characters={
+	CIN_uzun_saltinsky={
+		name=CIN_CHARACTER_UZUN_SALTINSKY
+		portraits={
+			civilian={
+				large="GFX_portrait_cin_uzun_saltinsky_large"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1930.1.1.1"
+		}
+	}
+}

@@ -4,7 +4,6 @@ state={
 
 	history={
 		owner = GUZ
-		add_core_of = CHI
 		add_core_of = GUZ
 		buildings = {
 			infrastructure = 1

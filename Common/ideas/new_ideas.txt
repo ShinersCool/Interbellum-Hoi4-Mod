@@ -5,8 +5,10 @@ ideas = {
 		    picture = weakened_military
 			
 			allowed = {
-				tag = ENG
-				tag = FRA
+				OR = {
+					tag = ENG
+					tag = FRA
+				}	
 			}
 			
 			available = { 
@@ -33,7 +35,7 @@ ideas = {
 	
 	country = {
 		white_terror_idea = {
-		    picture = white_terror
+		    picture = white_terror_idea
 			
 			allowed = {
 				tag = HUN
@@ -62,7 +64,7 @@ ideas = {
 
 	country = {
 		white_terror_idea_2 = {
-		    picture = white_terror
+		    picture = white_terror_idea_2
 			
 			allowed = {
 				tag = HUN
@@ -91,7 +93,7 @@ ideas = {
 	}
 	country = {
 		white_terror_idea_3 = {
-		    picture = white_terror
+		    picture = white_terror_idea_3
 			
 			allowed = {
 				tag = HUN
@@ -122,7 +124,7 @@ ideas = {
 	
 	country = {
 		monarchist_return = {
-		    picture = white_terror
+		    picture = monarchist_return
 			
 			allowed = {
 				tag = HUN
@@ -150,7 +152,7 @@ ideas = {
 	}
 	country = {
 		horthys_grip = {
-		    picture = white_terror
+		    picture = horthys_grip
 			
 			allowed = {
 				tag = HUN
@@ -180,7 +182,7 @@ ideas = {
 	}
 	country = {
 		mor_resistance = {
-		    picture = idea_chi_war_of_resistance2
+		    picture = mor_resistance
 			
 			allowed = {
 				tag = MOR
@@ -208,7 +210,7 @@ ideas = {
 	}	
 	country = {
 		anhui_remobalisation = {
-		    picture = #
+		    picture = anhui_remobalisation
 			
 			allowed = {
 				tag = ANH

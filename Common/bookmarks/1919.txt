@@ -72,16 +72,76 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_DD_DESC_LOC"
-			ideology = neutrality
+			ideology = communism
 			ideas = {
-				HUN_interventionism
 			}
 			focuses = {
-				HUN_elect_a_king
-				HUN_secret_rearmament
-				HUN_renounce_the_treaty_of_trianon
 			}
 		}
+		"PER"={
+			minor = yes
+			history = "PER_DD_DESC_LOC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SYR"={
+			minor = yes
+			history = "SYR_DD_DESC_LOC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SAU"={
+			minor = yes
+			history = "SAU_DD_DESC_LOC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"KHI"={
+			minor = yes
+			history = "KHI_DD_DESC_LOC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
+		"ANH"={
+			minor = yes
+			history = "ANH_DD_DESC_LOC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}	
+		"ZHI"={
+			minor = yes
+			history = "ZHI_DD_DESC_LOC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}	
+		"FEN"={
+			minor = yes
+			history = "FEN_DD_DESC_LOC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
+
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

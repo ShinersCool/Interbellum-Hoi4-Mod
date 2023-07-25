@@ -1,0 +1,48 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+    # siu
+    FRA_take_latkia = {
+        peace_action_type = { take_states }
+        enable = {
+            FROM.FROM.FROM = {
+                state = 932 # Latkia
+            }
+            ROOT = {
+                original_tag = FRA
+            }
+        }
+        ai_desire = 300
+    }
+
+
+    # Don't Puppet Allawite Rebels 
+    FRA_puppet_allawite = {
+        peace_action_type = { puppet force_government }
+        enable = {
+            FROM.FROM.FROM = {
+                state = 526 # Latkia
+            }
+            ROOT = {
+                original_tag = FRA
+            }
+        }
+        ai_desire = -75
+    }
+
+
+	# Don't Give Latkia to Syria
+    FRA_give_latkia_syria = {
+        peace_action_type = { puppet force_government liberate }
+        enable = {
+            FROM = {
+                OR = {
+                    tag = FRA
+                }
+            }
+        }
+        ai_desire = -200
+    }
+}

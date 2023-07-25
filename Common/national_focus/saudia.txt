@@ -1,0 +1,439 @@
+﻿focus_tree = { 
+	id = SAU
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAU
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = SAU_the_saudi_economy
+		icon = GFX_SAU_the_saudi_economy
+		cost = 10
+		
+		x = 5
+		y = 1
+		#relative_position_id = SAU_
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_relocate_the_court_to_riyadh
+		icon = GFX_SAU_relocate_the_court_to_riyadh
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = SAU_the_saudi_economy
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_the_saudi_economy
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_date_selling
+		icon = GFX_SAU_the_saudi_economy
+		cost = 10
+		
+		x = -2
+		y = 1
+		relative_position_id = SAU_relocate_the_court_to_riyadh
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_relocate_the_court_to_riyadh
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			292 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+
+            }
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = SAU_horses_for_bombay
+		icon = GFX_SAU_the_saudi_economy
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = SAU_date_selling
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_date_selling
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			292 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+
+            }
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_camels_for_cairo
+		icon = GFX_SAU_camels_for_cairo
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = SAU_date_selling
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_date_selling
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			292 = {
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+
+            }
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_support_caravan_trade
+		icon = GFX_SAU_support_caravan_trade
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = SAU_date_selling
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_camels_for_cairo
+		}
+	
+		prerequisite = {
+			focus = SAU_horses_for_bombay
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			292 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+
+            }
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_fund_the_creation_of_mic
+		icon = GFX_SAU_fund_the_creation_of_mic
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = SAU_relocate_the_court_to_riyadh
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_relocate_the_court_to_riyadh
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			292 = {
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+
+            }
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_buy_egyptian_british_guns
+		icon = GFX_SAU_buy_egyptian_british_guns
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = SAU_fund_the_creation_of_mic
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_fund_the_creation_of_mic
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1500
+				producer = EGY
+			}
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_improve_riyadh
+		icon = GFX_SAU_improve_riyadh
+		cost = 10
+		
+		x = 0
+		y = 5
+		relative_position_id = SAU_the_saudi_economy
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_buy_egyptian_british_guns
+		}
+		
+		prerequisite = {
+			focus = SAU_support_caravan_trade
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+			add_extra_state_shared_building_slots = 4
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	# Political Tree
+	
+	focus = {
+		id = SAU_greater_destiny
+		icon = GFX_SAU_greater_destiny
+		cost = 10
+		
+		x = 12
+		y = 1
+		#relative_position_id = SAU_
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_greater_destiny
+		icon = GFX_SAU_greater_destiny
+		cost = 10
+		
+		x = 12
+		y = 1
+		#relative_position_id = SAU_
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = SAU_end_of_jabal_shammar
+		icon = GFX_SAU_end_of_jabal_shammar
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = SAU_greater_destiny
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = SAU_greater_destiny
+		}
+	
+		available = {
+			date > 1920.03.7
+		}
+
+		completion_reward = {
+			SAU = {
+            declare_war_on = {
+                target = JAS
+                type = annex_everything
+            }
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+}
+
+

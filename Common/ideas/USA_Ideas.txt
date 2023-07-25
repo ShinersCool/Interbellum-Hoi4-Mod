@@ -1,0 +1,169 @@
+ideas = {
+	country = {
+		USA_Great_War_Victory = {
+		    picture = USA_NUMBAH_1
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+				army_attack_factor = 0.05
+				experience_gain_army = 0.05
+				democratic_drift = 0.1
+				stability_factor = 0.1
+				stability_weekly = 0.1
+			}
+
+		}
+        USA_Wilsonianism = {
+		    picture = Wilsonianism
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = -0.04
+				opinion_gain_monthly_factor = -0.05
+				justify_war_goal_time = -0.1
+				political_power_cost = 0.1
+			}
+
+		}
+		USA_Jim_Crow = {
+		    picture = USA_Donald_Trump
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.05
+				local_resources_factor = -0.01
+				monthly_population = -0.05
+				consumer_goods = 0.05
+			}
+
+		}
+		USA_Spanish_Flu = {
+		    picture = Spanish_Flu
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.08
+				local_resources_factor = -0.1
+				monthly_population = -0.2
+				production_factory_efficiency_gain_factor = -0.1
+			}
+
+		}
+		USA_Red_Scare = {
+		    picture = USA_Red_Scare
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.04
+				production_factory_efficiency_gain_factor = -0.05
+				monthly_population = -0.05
+				socialism_drift = 0.01
+				communism_drift = 0.01
+			}
+
+		}
+		USA_Espionage_Sedition_Act = {
+		    picture = USA_Espionage_Sedition_Act
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.04
+				democratic_drift = -0.04
+			}
+
+		}
+	}
+}
+
+

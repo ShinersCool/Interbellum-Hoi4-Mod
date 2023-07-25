@@ -1,0 +1,112 @@
+ideas = {
+	country = {
+		CIN_volunteer_army_control = {
+		    picture = CIN_volunteer_army_control
+			
+			allowed = {
+				tag = CIN
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.01
+				stability_factor = -0.05
+				stability_weekly = -0.05
+			}
+
+		}
+	}	
+	country = {
+		CIN_reliance_on_bolshevik_aid = {
+		    picture = GFX_idea_CIN_bolshevik_aid
+			
+			allowed = {
+				tag = CIN
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = -0.2
+				communism_acceptance = 30
+			}
+
+		}
+	}	
+	country = {
+		CIN_use_school_book_pages_for_money = {
+		    picture = GFX_idea_CIN_use_school_books_for_money
+			
+			allowed = {
+				tag = CIN
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				consumer_goods_factor = 0.3
+			}
+
+		}
+	}	
+	country = {
+		CIN_less_education = {
+		    picture = GFX_idea_CIN_less_education 
+			
+			allowed = {
+				tag = CIN
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.05
+			}
+
+		}
+	}	
+}
+
+

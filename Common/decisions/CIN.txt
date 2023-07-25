@@ -1,0 +1,135 @@
+CIN_proclaim_emirate = {
+	CIN_proclaim_independent_monarchy = {
+		
+		priority = 100
+		
+		cost = 25
+		
+		icon = decision_icon
+		
+		fire_only_once = yes
+		
+		available = {
+			tag = CIN
+			has_civil_war = no
+			has_government = monarchism
+		}
+		
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_government = monarchism
+			}
+		}
+		
+		visible = {
+			has_country_leader = {
+				character = CIN_uzun_saltinsky
+			}
+		}
+	
+		days_remove = 80
+		
+		remove_effect = { 
+			TUR = { 
+				country_event = {
+					id = turkey_ib.2
+				}	
+			}
+		}	
+
+    }
+}	
+
+CIN_economy = {
+	CIN_use_school_books_for_money = {
+		
+		priority = 90
+		
+		cost = 10
+		
+		icon = decision_icon
+		available = {
+			tag = CIN
+			has_civil_war = no
+			has_government = monarchism
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = CIN_uzun_saltinsky
+			}
+		}
+		complete_effect = {
+			CIN = {
+				add_timed_idea = {
+					idea = CIN_use_school_book_pages_for_money
+					days = 100
+				}
+			}	
+		}	
+		days_remove = 100
+		
+		remove_effect = { 
+			CIN = { 
+				add_timed_idea = {
+					idea = CIN_less_education
+					days = 85
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_government = monarchism
+			}
+		}
+
+    }
+}	
+
+CIN_submit_to_the_soviets = {
+	CIN_submit_to_the_soviets_annexation = {
+		
+		priority = 90
+		
+		cost = 0
+		
+		icon = decision_icon
+		available = {
+			tag = CIN
+			has_civil_war = no
+			has_government = monarchism
+			SOV = {
+				OR = {
+					controls_state = 821
+					controls_state = 828
+					controls_state = 232
+				}	
+			}				
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = CIN_uzun_saltinsky
+			}
+		}
+		
+		complete_effect = {
+			SOV = {
+				transfer_state = 1022
+			}	
+		}	
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_government = monarchism
+			}
+		}
+
+    }
+}	

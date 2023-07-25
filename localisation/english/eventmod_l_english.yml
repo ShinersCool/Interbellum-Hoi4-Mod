@@ -33,3 +33,12 @@
  austria_ib.2.t:0 "Saint-Germain-en-Laye is upon Ourselves"
  austria_ib.2.d:0 "Today, the Treaty of Saint-Germain-en-Laye, signed on the 10th September, comes into effect. Southern Tyrol will fall to Italy, our German majority territory in Bohemia will become part of Czechoslovakia, plebiscite zones will be created in southern Carinthia with the Kingdom of Serbs, Croats and Slovenes and our military might will be heavily restricted. Can we save ourselves?"
  austria_ib.2.o:0 "We have no other option"
+ 
+ USA.3.t:0 "WOODROW WILSON COLLAPSES DURING SPEECH!"
+ USA.3.d:0 "Wilson delivered a speech in Denver on the morning of September 25, Although Wilson was scheduled to speak at least five more times on the tour, after delivering his speech in Pueblo he was described as very tired and suffering. He collapsed at 10 p.m. that night and the remainder of the tour was cancelled upon his doctor's orders.which was enthusiastically received by the general public. /n/n§RPresident Wilson's health will further deteriorate"
+ USA.3.a:0 "Send for a doctor, immediately!"
+ 
+ turkey_ib.2.t:0 "The North Caucasian Emirate seeks protection under Sultan Mehmed VI"
+ turkey_ib.2.d:0 "The North Caucasian Emirate has recently announced itself as an independent monarchy from the Russian Empire and the RSFSR. They now ask of us to grant them protection. How shall we proceed?"
+ turkey_ib.2.a:0 "We must grant protection to our Muslim brothers!"
+ turkey_ib.2.b:0 "We should not involve ourselves with a conflict such as the Russian Civil War"

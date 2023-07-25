@@ -1,0 +1,43 @@
+SAU_ikhwan = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_ikhwan_image
+	allowed = {
+		tag = SAU
+	}
+	visible = {
+		tag = SAU
+	}
+	custom_icon = {
+		tag = SAU
+		value = ikhwan_anger
+		desc = ikhwan_anger_desc 
+		visible = {
+			country_exists = SAU
+		}
+	}
+	priority = 1
+}
+
+SAU_raiding = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		tag = SAU
+	}
+	visible = {
+		tag = SAU
+	}
+	priority = 2
+}
+
+SAU_integration = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		tag = SAU
+	}
+	visible = {
+		tag = SAU
+	}
+	priority = 3
+}

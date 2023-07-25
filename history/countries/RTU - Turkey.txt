@@ -1,0 +1,122 @@
+﻿capital = 49
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1919.2.8"
+	election_frequency = 24
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascism = 0
+	neutrality = 35
+	communism = 5
+	democratic = 60
+}
+
+set_stability = 0.4
+set_war_support = 0.3
+
+create_country_leader = {
+	name = "Mustafa Kemal Atatürk"
+	desc = ""
+	picture = GFX_portrait_Turkey_Mustafa_Kemal_Ataturk
+	ideology = conservatism    
+	traits = {
+		#
+	}
+}
+
+set_convoys = 0
+
+set_oob = "RTU_1919"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_recon = 1
+	tech_support = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	basic_train = 1
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_submarine = 1
+	}	
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		
+	}
+}
+
+###################
+#### 3D MODELS ####
+###################
+
+#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
+#TUR_communism
+#TUR_democratic
+#TUR_fascism
+#TUR_neutrality
+

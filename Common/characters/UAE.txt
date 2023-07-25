@@ -1,9 +1,9 @@
 characters={
 	UAE_tribal_confederation={
-		name=UAE_CHARACTER_TRIBAL_CONFEDERATION
+		name="Trucial States Council"
 		portraits={
 			civilian={
-				large="GFX_portrait_uae_tribal_confederation_large"
+				large="gfx/leaders/UAE/portrait_large_tribal_confederation.dds"
 			}
 		}
 		country_leader={

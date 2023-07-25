@@ -108,3 +108,11 @@
  
  AUS_saint_germain_en_laye:0 "The Treaty of Saint-Germain-en-Laye"
  AUS_saint_germain_en_laye_effective:0 "The Treaty of Saint-Germain-en-Laye Comes into Effect"
+ 
+ CIN_proclaim_emirate:0 "Proclaim the Emirate"
+ CIN_economy:0 "The Economy within the Emirate"
+ CIN_submit_to_the_soviets:0 "Submit to the Soviets"
+ CIN_submit_to_the_soviets_annexation:0 "Allow the Emirate to be Annexed"
+ CIN_proclaim_independent_monarchy:0 "Announce an Independent Monarchy"
+ CIN_use_school_books_for_money:0 "Use School Book Pages to Print more Tumen"
+ 
