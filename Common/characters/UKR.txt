@@ -3,7 +3,7 @@ characters={
 		name=UKR_CHARACTER_PETLIURA
 		portraits={
 			civilian={
-				large="gfx/leaders/UKR/portrait_large_petliura.dds"
+				large="GFX_portrait_ukr_petliura_large"
 			}
 		}
 		country_leader={

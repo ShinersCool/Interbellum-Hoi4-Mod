@@ -3,7 +3,7 @@ characters={
 		name=KSI_CHARACTER_NAMGYAL
 		portraits={
 			civilian={
-				large="gfx/leaders/KSI/portrait_large_tashi_namgyal.dds"
+				large="GFX_portrait_ksi_tashi_namgyal_large"
 			}
 		}
 		country_leader={

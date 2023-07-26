@@ -3,7 +3,7 @@ characters={
 		name=TUK_CHARACTER_TURAR
 		portraits={
 			civilian={
-				large="gfx/leaders/TUK/portrait_large_turar.dds"
+				large="GFX_portrait_tuk_turar_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=MEX_CHARACTER_CARRANZA
 		portraits={
 			civilian={
-				large="gfx/leaders/MEX/portrait_large_carranza.dds"
+				large="GFX_portrait_mex_carranza_large"
 			}
 		}
 		country_leader={

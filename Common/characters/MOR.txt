@@ -3,7 +3,7 @@ characters={
 		name=MOR_CHARACTER_HASSAN
 		portraits={
 			civilian={
-				large="gfx/leaders/MOR/portrait_large_yusef_ben_hassan.dds"
+				large="GFX_portrait_mor_yusef_ben_hassan_large"
 			}
 		}
 		country_leader={

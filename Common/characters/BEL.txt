@@ -3,7 +3,7 @@ characters={
 		name=BEL_CHARACTER_DELACROIX
 		portraits={
 			civilian={
-				large="gfx/leaders/BEL/portrait_large_delacroix.dds"
+				large="GFX_portrait_bel_delacroix_large"
 			}
 		}
 		country_leader={

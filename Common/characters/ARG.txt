@@ -3,7 +3,7 @@ characters={
 		name=ARG_CHARACTER_YRIGOYEN
 		portraits={
 			civilian={
-				large="gfx/leaders/ARG/portrait_large_yrigoyen.dds"
+				large="GFX_portrait_arg_yrigoyen_large"
 			}
 		}
 		country_leader={

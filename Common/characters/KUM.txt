@@ -3,7 +3,7 @@ characters={
 		name=KUM_CHARACTER_MASQUAD
 		portraits={
 			civilian={
-				large="gfx/leaders/KUN/portrait_large_masquad.dds"
+				large="GFX_portrait_kum_masquad_large"
 			}
 		}
 		country_leader={

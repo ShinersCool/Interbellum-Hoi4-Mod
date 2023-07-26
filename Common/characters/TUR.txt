@@ -3,7 +3,7 @@ characters={
 		name=TUR_CHARACTER_MEHMED
 		portraits={
 			civilian={
-				large="gfx/leaders/TUR/portrait_large_mehmed.dds"
+				large="GFX_portrait_tur_mehmed_large"
 			}
 		}
 		country_leader={

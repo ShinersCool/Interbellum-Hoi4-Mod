@@ -3,7 +3,7 @@ characters={
 		name=MON_CHARACTER_BOGD_KHAN
 		portraits={
 			civilian={
-				large="gfx/leaders/MON/portrait_large_bogd_khan.dds"
+				large="GFX_portrait_mon_bogd_khan_large"
 			}
 		}
 		country_leader={

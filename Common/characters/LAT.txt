@@ -3,7 +3,7 @@ characters={
 		name=LAT_CHARACTER_CAKSTE
 		portraits={
 			civilian={
-				large="gfx/leaders/LAT/portrait_large_cakste.dds"
+				large="GFX_portrait_lat_cakste_large"
 			}
 		}
 		country_leader={

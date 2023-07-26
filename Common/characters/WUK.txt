@@ -3,7 +3,7 @@ characters={
 		name=WUK_CHARACTER_PETRUSHEVYCH
 		portraits={
 			civilian={
-				large="gfx/leaders/WUK/portrait_large_petrushevych.dds"
+				large="GFX_portrait_wuk_petrushevych_large"
 			}
 		}
 		country_leader={

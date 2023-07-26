@@ -3,7 +3,7 @@ characters={
 		name=SIK_CHARACTER_ZENGXIN
 		portraits={
 			civilian={
-				large="gfx/leaders/SIK/portrait_large_zengxin.dds"
+				large="GFX_portrait_sik_zengxin_large"
 			}
 		}
 		country_leader={

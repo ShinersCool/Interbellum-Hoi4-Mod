@@ -3,7 +3,7 @@ characters={
 		name=DNZ_CHARACTER_HEINRICH_SAHM
 		portraits={
 			civilian={
-				large="gfx/leaders/DNZ/portrait_large_heinrich_sahm.dds"
+				large="GFX_portrait_dnz_heinrich_sahm_large"
 			}
 		}
 		country_leader={

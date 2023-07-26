@@ -3,7 +3,7 @@ characters={
 		name=PRU_CHARACTER_LEGUIA
 		portraits={
 			civilian={
-				large="gfx/leaders/PRU/portrait_large_leguia.dds"
+				large="GFX_portrait_pru_leguia_large"
 			}
 		}
 		country_leader={

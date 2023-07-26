@@ -3,7 +3,7 @@ characters={
 		name=GEO_CHARACTER_ZHORDANIA
 		portraits={
 			civilian={
-				large="gfx/leaders/GEO/portrait_large_noe_zhordania.dds"
+				large="GFX_portrait_geo_noe_zhordania_large"
 			}
 		}
 		country_leader={

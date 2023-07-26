@@ -3,7 +3,7 @@ characters={
 		name=SHA_CHARACTER_YUEXIU
 		portraits={
 			civilian={
-				large="gfx/leaders/SHA/portrait_large_jing_yuexiu.dds"
+				large="GFX_portrait_sha_jing_yuexiu_large"
 			}
 		}
 		country_leader={
@@ -15,7 +15,7 @@ characters={
 		name=SHA_CHARACTER_CHEN_SHUFAN
 		portraits={
 			civilian={
-				large="gfx/leaders/SHA/portrait_large_chen_shufan.dds"
+				large="GFX_portrait_sha_chen_shufan_large"
 			}
 		}
 		country_leader={

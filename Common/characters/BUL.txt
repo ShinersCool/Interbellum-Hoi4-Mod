@@ -1,9 +1,9 @@
 characters={
-	BUL_Boris_III={
-		name="Boris III"
+	AFG_amullah_khan={
+		name=AFG_CHARACTER_AMULLAH_KHAN
 		portraits={
 			civilian={
-				large="gfx/leaders/BUL/portrait_large_Boris_III.dds"
+				large="GFX_portrait_afg_amullah_khan_large"
 			}
 		}
 		country_leader={

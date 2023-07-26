@@ -3,7 +3,7 @@ characters={
 		name=SAR_CHARACTER_BROOKE
 		portraits={
 			civilian={
-				large="gfx/leaders/SAR/portrait_large_charles_brooke.dds"
+				large="GFX_portrait_sar_charles_brooke_large"
 			}
 		}
 		country_leader={

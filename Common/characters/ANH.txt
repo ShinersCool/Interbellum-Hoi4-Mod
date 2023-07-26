@@ -3,7 +3,7 @@ characters={
 		name=ANH_CHARACTER_QIRUI
 		portraits={
 			civilian={
-				large="gfx/leaders/ANH/portrait_large_qirui.dds"
+				large="GFX_portrait_anh_duan_large"
 			}
 		}
 		country_leader={

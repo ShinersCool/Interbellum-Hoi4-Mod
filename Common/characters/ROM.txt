@@ -3,7 +3,7 @@ characters={
 		name=ROM_CHARACTER_BRATIANU
 		portraits={
 			civilian={
-				large="gfx/leaders/ROM/portrait_large_bratianu.dds"
+				large="GFX_portrait_rom_bratianu_large"
 			}
 		}
 		country_leader={

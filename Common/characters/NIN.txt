@@ -3,7 +3,7 @@ characters={
 		name=NIN_CHARACTER_ELFVENGREN
 		portraits={
 			civilian={
-				large="gfx/leaders/NIN/portrait_large_elfvengren.dds"
+				large="GFX_portrait_nin_elfvengren_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=MNC_CHARACTER_TCHERMOEV
 		portraits={
 			civilian={
-				large="gfx/leaders/MNC/portrait_large_chermoyev.dds"
+				large="GFX_portrait_mnc_chermoyev_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=SPR_CHARACTER_MAURA
 		portraits={
 			civilian={
-				large="gfx/leaders/SPR/portrait_large_antonio_maura.dds"
+				large="GFX_portrait_spr_antonio_maura_large"
 			}
 		}
 		country_leader={

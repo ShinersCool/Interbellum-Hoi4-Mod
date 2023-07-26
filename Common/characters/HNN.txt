@@ -3,7 +3,7 @@ characters={
 		name=HNN_CHARACTER_YANKAI
 		portraits={
 			civilian={
-				large="gfx/leaders/HNN/portrait_large_tan_yankai.dds"
+				large="GFX_portrait_hnn_tan_yankai_large"
 			}
 		}
 		country_leader={
@@ -15,7 +15,7 @@ characters={
 		name=HNN_CHARACTER_JINGYAO
 		portraits={
 			civilian={
-				large="gfx/leaders/HNN/portrait_large_zhang_jingyao.dds"
+				large="GFX_portrait_hnn_zhang_jingyao_large"
 			}
 		}
 		country_leader={

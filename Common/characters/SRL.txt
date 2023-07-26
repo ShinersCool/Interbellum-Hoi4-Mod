@@ -3,7 +3,7 @@ characters={
 		name=SRL_CHARACTER_MANNING
 		portraits={
 			civilian={
-				large="gfx/leaders/SRL/portrait_large_manning.dds"
+				large="GFX_portrait_srl_manning_large"
 			}
 		}
 		country_leader={

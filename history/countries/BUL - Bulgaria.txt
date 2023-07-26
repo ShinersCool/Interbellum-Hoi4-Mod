@@ -30,9 +30,9 @@ if = { #DLC
 
 	#You don't want Bulgarian party names? Just remove these lines
 	set_party_name = { # DLC
-		ideology = conservative
-		name = BUL_conservative_party_bftb
-		long_name = BUL_conservative_party_bftb_bulgarian_long
+		ideology = democratic
+		name = BUL_democratic_party_bftb
+		long_name = BUL_democratic_party_bftb_bulgarian_long
 	}	
 
 	###################
@@ -41,7 +41,7 @@ if = { #DLC
 
 	#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
 	#BUL_communism
-	#BUL_conservative
+	#BUL_democratic
 	#BUL_fascism
 	#BUL_neutrality
 	set_cosmetic_tag = BUL_neutrality
@@ -176,7 +176,7 @@ if = { #DLC
 	}
 
 	set_popularities = { 
-		conservative = 50
+		democratic = 50
 		fascism = 5
 		neutrality = 30
 		monarchism = 15
@@ -260,7 +260,7 @@ if = { #DLC
 
 	#RULING PARTY
 	set_politics = { #DLC
-		ruling_party = conservative
+		ruling_party = democratic
 		last_election = "1935.1.22"
 		election_frequency = 48
 		elections_allowed = no
@@ -274,13 +274,13 @@ if = { #DLC
 
 		#POLITICS
 		set_popularities = { #VANILLA
-			conservative = 50
+			democratic = 50
 			fascism = 5
 			neutrality = 30
 			monarchism  = 15
 		}
 		set_politics = { #VANILLA
-			ruling_party = conservative
+			ruling_party = democratic
 			last_election = "1931.6.21"
 			election_frequency = 48
 			elections_allowed = no
@@ -340,7 +340,7 @@ if = {
 	
 	#POLIICS
 	set_popularities = { #VANILLA & DLC //  # Will get +7 from Italian focus: Potential Allies in the Balkans
-		conservative = 5
+		democratic = 5
 		fascism = 35
 		neutrality = 60
 	}

@@ -3,7 +3,7 @@ characters={
 		name=VEN_CHARACTER_JUAN_VICENTE_GOMEZ
 		portraits={
 			civilian={
-				large="gfx/leaders/VEN/portrait_large_juan_vicente_gomez.dds"
+				large="GFX_portrait_ven_juan_vicente_gomez_large"
 			}
 		}
 		country_leader={

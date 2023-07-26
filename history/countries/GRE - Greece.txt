@@ -15,7 +15,7 @@ if = {
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
 #GRE_communism
-#GRE_conservative
+#GRE_democratic
 #GRE_fascism
 #GRE_neutrality
 set_cosmetic_tag = GRE_neutrality
@@ -175,7 +175,7 @@ set_convoys = 10
 			days = 730
 		}
 		set_popularities = {
-			conservative = 10
+			democratic = 10
 			fascism = 22
 			communism = 26
 			neutrality = 42

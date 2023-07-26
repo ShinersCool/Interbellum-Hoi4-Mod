@@ -3,7 +3,7 @@ characters={
 		name=POW_wangqin_dundui
 		portraits={
 			civilian={
-				large="gfx/leaders/POW/POW_wangqin_dundui.dds"
+				large="GFX_portrait_afg_amullah_khan_large"
 			}
 		}
 		country_leader={

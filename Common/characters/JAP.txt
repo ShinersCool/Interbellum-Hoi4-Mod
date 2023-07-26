@@ -3,7 +3,7 @@ characters={
 		name=JAP_CHARACTER_TAISHO
 		portraits={
 			civilian={
-				large="gfx/leaders/JAP/portrait_large_taisho.dds"
+				large="GFX_portrait_jap_taisho_large"
 			}
 		}
 		country_leader={

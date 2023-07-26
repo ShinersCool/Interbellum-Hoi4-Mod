@@ -3,7 +3,7 @@ characters={
 		name=KHI_CHARACTER_ABDULLAH
 		portraits={
 			civilian={
-				large="gfx/leaders/KHI/portrait_large_abdullah.dds"
+				large="GFX_portrait_khi_abdullah_large"
 			}
 		}
 		country_leader={

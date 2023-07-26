@@ -3,7 +3,7 @@ characters={
 		name=ENG_CHARACTER_DAVID_GEORGE
 		portraits={
 			civilian={
-				large="gfx/leaders/ENG/portrait_large_david_george.dds"
+				large="GFX_portrait_eng_david_george_large"
 			}
 		}
 		country_leader={

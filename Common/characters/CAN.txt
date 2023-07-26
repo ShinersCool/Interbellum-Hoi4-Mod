@@ -3,7 +3,7 @@ characters={
 		name=CAN_CHARACTER_BORDEN
 		portraits={
 			civilian={
-				large="gfx/leaders/CAN/portrait_large_borden.dds"
+				large="GFX_portrait_can_borden_large"
 			}
 		}
 		country_leader={

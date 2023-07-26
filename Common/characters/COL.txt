@@ -3,7 +3,7 @@ characters={
 		name=COL_CHARACTER_SUAREZ
 		portraits={
 			civilian={
-				large="gfx/leaders/COL/portrait_large_marco_suarez.dds"
+				large="GFX_portrait_col_marco_suarez_large"
 			}
 		}
 		country_leader={

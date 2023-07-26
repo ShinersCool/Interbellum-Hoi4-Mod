@@ -218,13 +218,13 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = conservative
+		ruling_party = democratic
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		conservative = 100
+		democratic = 100
 	}
 
 	#retire_character = SAF_j_b_m_hertzog

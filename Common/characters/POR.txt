@@ -3,7 +3,7 @@ characters={
 		name=POR_CHARACTER_CANTO_CASTRO
 		portraits={
 			civilian={
-				large="gfx/leaders/POR/portrait_large_canto_e_castro.dds"
+				large="GFX_portrait_por_joao_do_canto_e_castro_large"
 			}
 		}
 		country_leader={

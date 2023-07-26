@@ -3,7 +3,7 @@ characters={
 		name=ASI_CHARACTER_ISDRID_MUHAMMAD
 		portraits={
 			civilian={
-				large="gfx/leaders/ASI/portrait_large_isdrid_muhammad.dds"
+				large="GFX_portrait_asi_isdrid_muhammad_large"
 			}
 		}
 		country_leader={

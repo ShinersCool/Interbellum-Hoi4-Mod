@@ -3,7 +3,7 @@ characters={
 		name=PAN_CHARACTER_BARAHONA
 		portraits={
 			civilian={
-				large="gfx/leaders/PAN/portrait_large_barahona.dds"
+				large="GFX_portrait_pan_barahona_large"
 			}
 		}
 		country_leader={

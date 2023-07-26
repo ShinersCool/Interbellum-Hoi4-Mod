@@ -3,7 +3,7 @@ characters={
 		name=XIK_CHARACTER_LIU_WENHUI
 		portraits={
 			civilian={
-				large="gfx/leaders/XIK/portrait_large_liu_wenhui.dds"
+				large="GFX_portrait_xik_liu_wenhui_large"
 			}
 		}
 		country_leader={

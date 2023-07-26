@@ -3,7 +3,7 @@ characters={
 		name=HOB_CHARACTER_KENADID
 		portraits={
 			civilian={
-				large="gfx/leaders/HOB/portrait_large_ali_yusuf_kenadid.dds"
+				large="GFX_portrait_hob_ali_yusuf_kenadid_large"
 			}
 		}
 		country_leader={

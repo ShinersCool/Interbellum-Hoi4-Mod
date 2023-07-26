@@ -3,7 +3,7 @@ characters={
 		name=TMS_CHARACTER_FUNTIKOV
 		portraits={
 			civilian={
-				large="gfx/leaders/TMS/portrait_large_funtikov.dds"
+				large="GFX_portrait_tms_funtikov_large"
 			}
 		}
 		country_leader={

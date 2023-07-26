@@ -3,7 +3,7 @@ characters={
 		name=INS_CHARACTER_STIRUM
 		portraits={
 			civilian={
-				large="gfx/leaders/INS/portrait_large_limburg_stirum.dds"
+				large="GFX_portrait_ins_limburg_stirum_large"
 			}
 		}
 		country_leader={

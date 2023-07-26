@@ -3,7 +3,7 @@ characters={
 		name=SWI_federal_assembly
 		portraits={
 			civilian={
-				large="gfx/leaders/SWI/portrait_SWI_federal_building.dds"
+				large=GFX_portrait_SWI_federal_assembly
 			}
 		}
 		country_leader={
@@ -12,4 +12,3 @@ characters={
 			id=-1
 		}
 	}
-}

@@ -3,7 +3,7 @@ characters={
 		name=ALB_CHARACTER_PERMITI
 		portraits={
 			civilian={
-				large="gfx/leaders/ALB/portrait_large_permeti.dds"
+				large="GFX_portrait_alb_permeti_large"
 			}
 		}
 		country_leader={

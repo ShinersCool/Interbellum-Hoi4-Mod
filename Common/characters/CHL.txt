@@ -3,7 +3,7 @@ characters={
 		name=CHL_CHARACTER_SANFUENTES
 		portraits={
 			civilian={
-				large="gfx/leaders/CHL/portrait_large_sanfuentes.dds"
+				large="GFX_portrait_chl_sanfuentes_large"
 			}
 		}
 		country_leader={

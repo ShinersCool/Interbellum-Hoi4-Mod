@@ -3,7 +3,7 @@ characters={
 		name=KUW_CHARACTER_AL_SABAH
 		portraits={
 			civilian={
-				large="gfx/leaders/KUW/portrait_large_al_sabah.dds"
+				large="GFX_portrait_kuw_al_sabah_large"
 			}
 		}
 		country_leader={

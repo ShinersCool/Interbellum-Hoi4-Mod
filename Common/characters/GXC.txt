@@ -3,7 +3,7 @@ characters={
 		name=GXC_CHARACTER_RONGTING
 		portraits={
 			civilian={
-				large="gfx/leaders/GXC/portrait_large_lu_rongting.dds"
+				large="GFX_portrait_gxc_lu_rongting_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=HJZ_CHARACTER_HUSSEIN_BIN_ALI
 		portraits={
 			civilian={
-				large="gfx/leaders/HJZ/portrait_large_hussein_bin_ali.dds"
+				large="GFX_portrait_hjz_hussein_bin_ali_large"
 			}
 		}
 		country_leader={

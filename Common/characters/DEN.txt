@@ -3,7 +3,7 @@ characters={
 		name=DEN_CHARACTER_ZAHLE
 		portraits={
 			civilian={
-				large="gfx/leaders/DEN/portrait_large_zahle.dds"
+				large="GFX_portrait_den_zahle_large"
 			}
 		}
 		country_leader={

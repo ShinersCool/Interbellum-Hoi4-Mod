@@ -3,7 +3,7 @@ characters={
 		name=JAS_CHARACTER_RASHID
 		portraits={
 			civilian={
-				large="gfx/leaders/JAS/portrait_large_abdulaziz_al_rashid.dds"
+				large="GFX_portrait_jas_abdulaziz_al_rashid_large"
 			}
 		}
 		country_leader={

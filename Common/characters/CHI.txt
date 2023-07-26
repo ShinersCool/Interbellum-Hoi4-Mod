@@ -3,7 +3,7 @@ characters={
 		name=CHI_CHARACTER_SUN_YAT_SEN
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/portrait_large_sun_yat_sen.dds"
+				large="GFX_portrait_chi_sun_yat_sen_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=SAF_CHARACTER_BOTHA
 		portraits={
 			civilian={
-				large="gfx/leaders/SAF/portrait_large_louis_botha.dds"
+				large="GFX_portrait_saf_louis_botha_large"
 			}
 		}
 		country_leader={

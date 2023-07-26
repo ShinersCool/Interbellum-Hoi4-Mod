@@ -3,7 +3,7 @@ characters={
 		name=FEN_CHARACTER_ZUOLIN
 		portraits={
 			civilian={
-				large="gfx/leaders/FEN/portrait_large_zhang_zuolin.dds"
+				large="GFX_portrait_fen_zhang_zuolin_large"
 			}
 		}
 		country_leader={

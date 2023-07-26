@@ -3,7 +3,7 @@ characters={
 		name=BUK_CHARACTER_ALIM_KHAN
 		portraits={
 			civilian={
-				large="gfx/leaders/BUK/portrait_large_alim_khan.dds"
+				large="GFX_portrait_buk_alim_khan_large"
 			}
 		}
 		country_leader={

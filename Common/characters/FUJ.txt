@@ -3,7 +3,7 @@ characters={
 		name=FUJ_CHARACTER_WANG_YOUNGQUAN
 		portraits={
 			civilian={
-				large="gfx/leaders/FUJ/portrait_large_wang_yongquan.dds"
+				large="GFX_portrait_fuj_wang_yongquan_large"
 			}
 		}
 		country_leader={

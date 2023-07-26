@@ -3,7 +3,7 @@ characters={
 		name=LUX_CHARACTER_REUTER
 		portraits={
 			civilian={
-				large="gfx/leaders/LUX/portrait_large_reuter.dds"
+				large="GFX_portrait_lux_reuter_large"
 			}
 		}
 		country_leader={

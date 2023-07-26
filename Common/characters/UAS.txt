@@ -3,7 +3,7 @@ characters={
 		name=UAS_CHARACTER_SHEIKDOM
 		portraits={
 			civilian={
-				large="gfx/leaders/UAS/portrait_large_sheikdom.dds"
+				large="GFX_portrait_uas_sheikdom_large"
 			}
 		}
 		country_leader={

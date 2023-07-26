@@ -3,7 +3,7 @@ characters={
 		name=AST_CHARACTER_BILLY_HUGHES
 		portraits={
 			civilian={
-				large="gfx/leaders/AST/portrait_large_billy_hughes.dds"
+				large="GFX_portrait_ast_billy_hughes_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=NCM_CHARACTER_MA_FUXIANG
 		portraits={
 			civilian={
-				large="gfx/leaders/NCM/portrait_large_ma_fuxiang.dds"
+				large="GFX_portrait_ncm_ma_fuxiang_large"
 			}
 		}
 		country_leader={

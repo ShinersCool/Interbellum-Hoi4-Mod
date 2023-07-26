@@ -3,7 +3,7 @@ characters={
 		name=LIT_CHARACTER_SMETONA
 		portraits={
 			civilian={
-				large="gfx/leaders/LIT/portrait_large_smetona.dds"
+				large="GFX_portrait_LIT_smetona_large"
 			}
 		}
 		country_leader={

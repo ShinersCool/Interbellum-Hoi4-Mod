@@ -290,14 +290,14 @@ set_convoys = 100
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = conservative
+		ruling_party = democratic
 		last_election = "1937.10.23"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		conservative = 99
+		democratic = 99
 		communism = 1
 	}
 

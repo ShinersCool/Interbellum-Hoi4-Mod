@@ -88,7 +88,7 @@ WHR = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		conservative = 25
+		democratic = 25
 		fascism = 20
 		communism = 5
 		neutrality = 50

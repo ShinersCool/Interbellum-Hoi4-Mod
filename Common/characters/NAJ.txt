@@ -3,7 +3,7 @@ characters={
 		name=NAJ_CHARACTER_HUSAYN
 		portraits={
 			civilian={
-				large="gfx/leaders/NAJ/portrait_large_husayn.dds"
+				large="GFX_portrait_naj_husayn_large"
 			}
 		}
 		country_leader={

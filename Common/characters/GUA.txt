@@ -3,7 +3,7 @@ characters={
 		name=GUA_CHARACTER_CABRERA
 		portraits={
 			civilian={
-				large="gfx/leaders/GUA/portrait_large_cabrera.dds"
+				large="GFX_portrait_gua_cabrera_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=SLO_CHARACTER_JANOUSEK
 		portraits={
 			civilian={
-				large="gfx/leaders/SLO/portrait_large_janousek.dds"
+				large="GFX_portrait_SLO_janousek_large"
 			}
 		}
 		country_leader={

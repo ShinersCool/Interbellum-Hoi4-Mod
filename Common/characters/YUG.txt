@@ -3,7 +3,7 @@ characters={
 		name=YUG_CHARACTER_PETEY
 		portraits={
 			civilian={
-				large="gfx/leaders/YUG/portrait_large_petey.dds"
+				large="GFX_portrait_yug_petey_large"
 			}
 		}
 		country_leader={

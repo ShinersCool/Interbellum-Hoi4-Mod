@@ -3,7 +3,7 @@ characters={
 		name=BRU_CHARACTER_JAMALUL_ALAM_II
 		portraits={
 			civilian={
-				large="gfx/leaders/BRU/portrait_large_jamalul_alam.dds"
+				large="GFX_portrait_bru_jamalul_alam_large"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=IMO_CHARACTER_IBN_RASHID
 		portraits={
 			civilian={
-				large="gfx/leaders/IMO/portrait_large_salim_ibn_rashid.dds"
+				large="GFX_portrait_imo_salim_ibn_rashid_large"
 			}
 		}
 		country_leader={

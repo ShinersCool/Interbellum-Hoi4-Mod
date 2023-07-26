@@ -3,7 +3,7 @@ characters={
 		name=GUK_CHARACTER_HLUSHKO_MOVA
 		portraits={
 			civilian={
-				large="gfx/leaders/GUK/portrait_large_yuri_hlushko_mova.dds"
+				large="GFX_portrait_GUK_yuri_hlushko_mova_large"
 			}
 		}
 		country_leader={

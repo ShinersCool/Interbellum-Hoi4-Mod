@@ -3,7 +3,7 @@ characters={
 		name=HOL_CHARACTER_BEERENBROUCK
 		portraits={
 			civilian={
-				large="gfx/leaders/HOL/portrait_large_beerenbrouck.dds"
+				large="GFX_portrait_hol_beerenbrouck_large"
 			}
 		}
 		country_leader={

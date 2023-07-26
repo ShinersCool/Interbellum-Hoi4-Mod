@@ -3,7 +3,7 @@ characters={
 		name=SOV_CHARACTER_LENIN
 		portraits={
 			civilian={
-				large="gfx/leaders/SOV/portrait_large_vladamir_lenin.dds"
+				large="GFX_portrait_sov_vladamir_lenin_large"
 			}
 		}
 		country_leader={

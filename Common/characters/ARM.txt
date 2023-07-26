@@ -3,7 +3,7 @@ characters={
 		name=ARM_CHARACTER_KHATISIAN
 		portraits={
 			civilian={
-				large="gfx/leaders/ARM/portrait_large_khatisian.dds"
+				large="GFX_portrait_arm_khatisian_large"
 			}
 		}
 		country_leader={

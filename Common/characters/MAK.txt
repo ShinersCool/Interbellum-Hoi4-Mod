@@ -3,7 +3,7 @@ characters={
 		name=MAK_CHARACTER_MAKHNO
 		portraits={
 			civilian={
-				large="gfx/leaders/MAK/portrait_large_makhno.dds"
+				large="GFX_portrait_mak_makhno_large"
 			}
 		}
 		country_leader={

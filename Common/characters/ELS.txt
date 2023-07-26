@@ -3,7 +3,7 @@ characters={
 		name=ELS_CHARACTER_MELENDEZ
 		portraits={
 			civilian={
-				large="gfx/leaders/ELS/portrait_large_melendez.dds"
+				large="GFX_portrait_els_melendez_large"
 			}
 		}
 		country_leader={

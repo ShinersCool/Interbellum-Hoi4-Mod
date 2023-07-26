@@ -3,7 +3,7 @@ characters={
 		name=NOR_CHARACTER_KNUDSEN
 		portraits={
 			civilian={
-				large="gfx/leaders/NOR/portrait_large_knudsen.dds"
+				large="GFX_portrait_nor_knudsen_large"
 			}
 		}
 		country_leader={
