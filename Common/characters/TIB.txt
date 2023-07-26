@@ -3,7 +3,7 @@ characters={
 		name=TIB_CHARACTER_THUBTEN_GYATSO
 		portraits={
 			civilian={
-				large="GFX_portrait_tib_thubten_gyatso_large"
+				large="gfx/leaders/TIB/portrait_large_thubten_gyatso.dds"
 			}
 		}
 		country_leader={

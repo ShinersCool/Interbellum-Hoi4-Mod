@@ -3,7 +3,7 @@ characters={
 		name=AUS_CHARACTER_KARL_RENNER
 		portraits={
 			civilian={
-				large="GFX_portrait_aus_karl_renner_large"
+				large="gfx/leaders/AUS/portrait_large_karl_renner.dds"
 			}
 		}
 		country_leader={

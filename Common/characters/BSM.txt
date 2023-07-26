@@ -3,7 +3,7 @@ characters={
 		name=BSM_CHARACTER_GAZA
 		portraits={
 			civilian={
-				large="GFX_portrait_bsm_gaza_large"
+				large="gfx/leaders/BSM/portrait_bsm_gaza_large.dds"
 			}
 		}
 		country_leader={

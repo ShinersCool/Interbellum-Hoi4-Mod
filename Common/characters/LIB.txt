@@ -3,7 +3,7 @@ characters={
 		name=LIB_CHARACTER_DANIEL_HOWARD
 		portraits={
 			civilian={
-				large="GFX_portrait_lib_daniel_howard_large"
+				large="gfx/leaders/LIB/portrait_large_daniel_howard.dds"
 			}
 		}
 		country_leader={

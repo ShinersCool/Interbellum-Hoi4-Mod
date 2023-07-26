@@ -3,7 +3,7 @@ characters={
 		name=CUB_CHARACTER_MENOCAL
 		portraits={
 			civilian={
-				large="GFX_portrait_cub_menocal_large"
+				large="gfx/leaders/CUB/portrait_large_menocal.dds"
 			}
 		}
 		country_leader={

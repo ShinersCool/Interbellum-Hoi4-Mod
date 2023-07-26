@@ -3,7 +3,7 @@ characters={
 		name=COS_CHARACTER_TINOCO_GRANADOS
 		portraits={
 			civilian={
-				large="GFX_portrait_cos_tinoco_granados_large"
+				large="gfx/leaders/COS/portrait_large_tinoco_granados.dds"
 			}
 		}
 		country_leader={

@@ -275,14 +275,14 @@ if = {
 recruit_character = AST_billy_hughes
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 98
+	conservative = 98
 	communism = 2
 }
 
@@ -290,14 +290,14 @@ set_convoys = 100
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservative
 		last_election = "1937.10.23"
 		election_frequency = 36
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 99
+		conservative = 99
 		communism = 1
 	}
 

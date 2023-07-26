@@ -3,7 +3,7 @@ characters={
 		name=KPR_CHARACTER_BYCH
 		portraits={
 			civilian={
-				large="GFX_portrait_kpr_luka_bych_large"
+				large="gfx/leaders/KPR/portrait_large_luka_bych.dds"
 			}
 		}
 		country_leader={

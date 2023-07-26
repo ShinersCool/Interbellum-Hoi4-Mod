@@ -3,7 +3,7 @@ characters={
 		name=FIN_CHARACTER_STAHLBERG
 		portraits={
 			civilian={
-				large="GFX_portrait_fin_stahlberg_large"
+				large="gfx/leaders/FIN/portrait_large_stahlberg.dds"
 			}
 		}
 		country_leader={

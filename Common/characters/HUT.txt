@@ -3,7 +3,7 @@ characters={
 		name=HUT_CHARACTER_KLOCHURAK
 		portraits={
 			civilian={
-				large="GFX_portrait_hut_stephan_klochurak_large"
+				large="gfx/leaders/HUT/portrait_large_stephan_klochurak.dds"
 			}
 		}
 		country_leader={

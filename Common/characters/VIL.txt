@@ -3,7 +3,7 @@ characters={
 		name=VIL_CHARACTER_FRANCISCO_VILLA
 		portraits={
 			civilian={
-				large="GFX_portrait_vil_francisco_villa_large"
+				large="gfx/leaders/VIL/portrait_large_juan_francisco_villa.dds"
 			}
 		}
 		country_leader={

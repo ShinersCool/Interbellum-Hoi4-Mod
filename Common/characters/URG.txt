@@ -3,7 +3,7 @@ characters={
 		name=URG_CHARACTER_BALTASAR_BRUM
 		portraits={
 			civilian={
-				large="GFX_portrait_urg_baltasar_brum_large"
+				large="gfx/leaders/URG/portrait_large_baltasar_brum.dds"
 			}
 		}
 		country_leader={

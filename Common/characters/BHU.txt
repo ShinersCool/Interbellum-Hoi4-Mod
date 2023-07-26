@@ -3,7 +3,7 @@ characters={
 		name=BHU_CHARACTER_WANGCHUK
 		portraits={
 			civilian={
-				large="GFX_portrait_bhu_wangchuk_large"
+				large="gfx/leaders/BHU/portrait_large_wangchuk.dds"
 			}
 		}
 		country_leader={

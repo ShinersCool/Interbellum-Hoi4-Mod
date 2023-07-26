@@ -56,14 +56,14 @@ set_convoys = 50
 recruit_character = WHR_alexander_kolchak
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1919.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 55
+	conservative = 55
 	fascism = 0
 	communism = 0
 	neutrality = 45
@@ -88,7 +88,7 @@ WHR = {
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 25
+		conservative = 25
 		fascism = 20
 		communism = 5
 		neutrality = 50

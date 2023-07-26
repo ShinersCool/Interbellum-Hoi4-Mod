@@ -1,0 +1,11 @@
+on_actions = {		
+	on_daily_SAU = {
+		effect = {
+			add_to_variable = {
+				var = SAU.ikhwan_anger 
+				value = 1
+				tooltip = add_1_to_var_tt
+			}
+		}
+	}		
+}

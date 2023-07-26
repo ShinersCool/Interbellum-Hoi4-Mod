@@ -3,7 +3,7 @@ characters={
 		name=NEP_CHARACTER_CHANDRA_RANA
 		portraits={
 			civilian={
-				large="GFX_portrait_nep_chandra_rana_large"
+				large="gfx/leaders/NEP/portrait_large_chandra_rana.dds"
 			}
 		}
 		country_leader={

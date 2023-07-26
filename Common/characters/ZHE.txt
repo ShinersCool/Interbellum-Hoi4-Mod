@@ -3,7 +3,7 @@ characters={
 		name=ZHE_CHARACTER_LU_YONGXIANG
 		portraits={
 			civilian={
-				large="GFX_portrait_zhe_lu_yongxiang_large"
+				large="gfx/leaders/ZHE/portrait_large_lu_yongxiang.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=JGS_CHARACTER_QI_XIEYUAN
 		portraits={
 			civilian={
-				large="GFX_portrait_jgs_qi_xieyuan_large"
+				large="gfx/leaders/JGS/portrait_large_qi_xieyuan.dds"
 			}
 		}
 		country_leader={

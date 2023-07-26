@@ -3,7 +3,7 @@ characters={
 		name=ALT_CHARACTER_GURKY
 		portraits={
 			civilian={
-				large="GFX_portrait_alt_gurky_large"
+				large="gfx/leaders/ALT/portrait_large_gurky.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=NZL_CHARACTER_MASSEY
 		portraits={
 			civilian={
-				large="GFX_portrait_nzl_massey_large"
+				large="gfx/leaders/NZL/portrait_large_massey.dds"
 			}
 		}
 		country_leader={

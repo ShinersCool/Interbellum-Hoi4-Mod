@@ -3,7 +3,7 @@ characters={
 		name=YUN_CHARACTER_TANG_JIYAO
 		portraits={
 			civilian={
-				large="GFX_portrait_YUN_tang_jiyao_large"
+				large="gfx/leaders/YUN/portrait_large_tang_jiyao.dds"
 			}
 		}
 		country_leader={

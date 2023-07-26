@@ -163,6 +163,31 @@ ideas = {
 			}
 
 		}
+		USA_Edith_Wilson = {
+		    picture = USA_Edith_Wilson
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.04
+				democratic_drift = 0.04
+			}
+
+		}
 	}
 }
 

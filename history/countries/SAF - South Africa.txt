@@ -182,13 +182,13 @@ set_convoys = 25
 recruit_character = SAF_louis_botha
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
+	conservative = 75
 	fascism = 20
 	communism = 5
 }
@@ -218,13 +218,13 @@ set_popularities = {
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = conservative
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 100
+		conservative = 100
 	}
 
 	#retire_character = SAF_j_b_m_hertzog

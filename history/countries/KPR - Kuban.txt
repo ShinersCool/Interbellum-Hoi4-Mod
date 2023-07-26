@@ -57,14 +57,14 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1919.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 50
+	conservative = 50
 	fascism = 0
 	communism = 25
 	neutrality = 25
@@ -80,7 +80,7 @@ recruit_character = KPR_luka_bych
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 25
+		conservative = 25
 		fascism = 20
 		communism = 5
 		neutrality = 50

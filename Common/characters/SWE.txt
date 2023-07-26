@@ -3,7 +3,7 @@ characters={
 		name=SWE_CHARACTER_NILS_EDEN
 		portraits={
 			civilian={
-				large="GFX_portrait_swe_nils_eden_large"
+				large="gfx/leaders/SWE/portrait_large_nils_eden.dds"
 			}
 		}
 		country_leader={

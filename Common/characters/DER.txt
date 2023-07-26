@@ -3,7 +3,7 @@ characters={
 		name=DER_CHARACTER_MOHAMMED_ABDULLAH_HASSAN
 		portraits={
 			civilian={
-				large="GFX_portrait_der_mohammed_abdullah_hassan_large"
+				large="gfx/leaders/DER/portrait_large_mohammed_abdullah_hassan.dds"
 			}
 		}
 		country_leader={

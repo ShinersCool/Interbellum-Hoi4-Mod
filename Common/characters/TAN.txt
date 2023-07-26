@@ -3,7 +3,7 @@ characters={
 		name=TAN_CHARACTER_OYUN
 		portraits={
 			civilian={
-				large="GFX_portrait_tan_oyun_large"
+				large="gfx/leaders/TAN/portrait_large_oyun.dds"
 			}
 		}
 		country_leader={

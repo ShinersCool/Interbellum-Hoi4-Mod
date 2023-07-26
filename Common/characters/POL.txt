@@ -3,7 +3,7 @@ characters={
 		name=POL_CHARACTER_PILSUDSKI
 		portraits={
 			civilian={
-				large="GFX_portrait_pol_jozef_pilsudski_large"
+				large="gfx/leaders/POL/portrait_large_jozef_pilsudski.dds"
 			}
 		}
 		country_leader={

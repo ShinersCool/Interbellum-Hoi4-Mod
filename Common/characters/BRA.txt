@@ -3,7 +3,7 @@ characters={
 		name=BRA_CHARACTER_PESSOA
 		portraits={
 			civilian={
-				large="GFX_portrait_bra_pessoa_large"
+				large="gfx/leaders/BRA/portrait_large_pessoa.dds"
 			}
 		}
 		country_leader={

@@ -103,21 +103,21 @@ set_stability = 0.8
 recruit_character = LUX_reuter
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1918.6.3"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 92
+	conservative = 92
 	fascism = 3
 	communism = 5
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
-		last_election = "1937.6.6"
+		ruling_party = conservative
+		last_election = "1918.11.11"
 		election_frequency = 36
 		elections_allowed = yes
 	}

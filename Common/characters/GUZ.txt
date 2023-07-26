@@ -3,7 +3,7 @@ characters={
 		name=GUZ_CHARACTER_XIANSHI
 		portraits={
 			civilian={
-				large="GFX_portrait_guz_liu_xianshi_large"
+				large="gfx/leaders/GUZ/portrait_large_liu_xianshi.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=ALA_CHARACTER_SALEH_AL_ALI
 		portraits={
 			civilian={
-				large="GFX_portrait_ala_saleh_al_ali_large"
+				large="gfx/leaders/ALA/portrait_large_saleh_al_ali.dds"
 			}
 		}
 		country_leader={

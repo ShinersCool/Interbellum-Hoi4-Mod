@@ -3,7 +3,7 @@ characters={
 		name=MLD_CHARACTER_ISKANDER
 		portraits={
 			civilian={
-				large="GFX_portrait_mld_shamsuddeen_iskander_large"
+				large="gfx/leaders/MLD/portrait_large_shamsuddeen_iskander.dds"
 			}
 		}
 		country_leader={

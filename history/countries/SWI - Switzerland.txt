@@ -360,13 +360,13 @@ if = { #########   By Blood Alone Stuff
 recruit_character = SWI_federal_assembly 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 96
+	conservative = 96
 	fascism = 2
 	communism = 2
 }
@@ -374,7 +374,7 @@ set_popularities = {
 #1939.1.1 = {
 #	#next election october 39
 #	set_popularities = {
-#		democratic = 95
+#		conservative = 95
 #		fascism = 2
 #		communism = 3
 #	}

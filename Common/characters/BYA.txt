@@ -3,7 +3,7 @@ characters={
 		name=BYA_CHARACTER_BOGDANOV
 		portraits={
 			civilian={
-				large="GFX_portrait_bya_bogdanov_large"
+				large="gfx/leaders/BYA/portrait_bya_bogdanov_large.dds"
 			}
 		}
 		country_leader={

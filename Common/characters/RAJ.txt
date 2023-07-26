@@ -3,7 +3,7 @@ characters={
 		name=RAJ_CHARACTER_THESIGER
 		portraits={
 			civilian={
-				large="GFX_portrait_raj_thesiger_large"
+				large="gfx/leaders/RAJ/portrait_large_thesiger.dds"
 			}
 		}
 		country_leader={

@@ -3,7 +3,7 @@ characters={
 		name=GER_CHARACTER_EBERT
 		portraits={
 			civilian={
-				large="GFX_portrait_ger_friedrich_ebert_large"
+				large="gfx/leaders/GER/portrait_large_friedrich_ebert.dds"
 			}
 		}
 		country_leader={
@@ -15,7 +15,7 @@ characters={
 		name=GER_CHARACTER_GUSTAV_NOSKE
 		portraits={
 			army={
-				large="GFX_portrait_ger_gustav_noske"
+				large="gfx/leaders/GER/portrait_large_gustav_noske.dds"
 			}
 			army={
 				small="GFX_idea_gustav_noske"
@@ -52,7 +52,7 @@ characters={
 		name=GER_CHARACTER_WALTER_REINHARDT
 		portraits={
 			army={
-				large="GFX_portrait_ger_walther_reinhardt"
+				large="gfx/leaders/GER/portrait_large_walther_reinhardt.dds"
 			}
 			army={
 				small="GFX_idea_walther_reinhardt"
@@ -89,7 +89,7 @@ characters={
 		name=GER_CHARACTER_ADOLF_VON_TROTHA
 		portraits={
 			army={
-				large="GFX_portrait_ger_adolf_von_trotha"
+				large="gfx/leaders/GER/portrait_large_adolf_von_trotha.dds"
 			}
 			navy={
 				small="GFX_idea_adolf_von_trotha"

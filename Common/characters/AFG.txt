@@ -3,7 +3,7 @@ characters={
 		name=AFG_CHARACTER_AMULLAH_KHAN
 		portraits={
 			civilian={
-				large="GFX_portrait_afg_amullah_khan_large"
+				large="gfx/leaders/AFG/portrait_large_amullah_khan.dds"
 			}
 		}
 		country_leader={

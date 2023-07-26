@@ -3,7 +3,7 @@ characters={
 		name=BLR_CHARACTER_KAZIMIERZ_CICHOWSKI
 		portraits={
 			civilian={
-				large="GFX_portrait_blr_kazimierz_cichowski_large"
+				large="gfx/leaders/BLR/portrait_large_kazimierz_cichowski.dds"
 			}
 		}
 		country_leader={

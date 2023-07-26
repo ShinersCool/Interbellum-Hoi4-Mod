@@ -3,7 +3,7 @@ characters={
 		name=ZAP_CHARACTER_GILDARDO
 		portraits={
 			civilian={
-				large="GFX_portrait_ZAP_gildardo_large"
+				large="gfx/leaders/ZAP/portrait_large_gildardo.dds"
 			}
 		}
 		country_leader={

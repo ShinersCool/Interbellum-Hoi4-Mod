@@ -3,7 +3,7 @@ characters={
 		name=AZR_CHARACTER_YUSIFBEYLI
 		portraits={
 			civilian={
-				large="GFX_portrait_azr_nasib_bey_yusifbeyli_large"
+				large="gfx/leaders/AZR/portrait_azr_nasib_bey_yusifbeyli_large.dds"
 			}
 		}
 		country_leader={
