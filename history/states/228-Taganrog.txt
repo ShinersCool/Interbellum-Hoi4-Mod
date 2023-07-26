@@ -18,6 +18,11 @@ state={
 		add_core_of = UKR
 		add_core_of = WHR
 		add_core_of = USR
+		1919.6.29.12 = {		
+			DOR = {
+				set_province_controller = 9461			
+			} 			
+		}
 	}
 
 	provinces={

@@ -4,20 +4,17 @@ state={
 	name="STATE_238"
 
 	history={
-		owner = WHR
+		owner = DOR
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = WHR
-		victory_points = {
-			775 1 
-		}
+		add_core_of = DOR
 
 	}
 
 	provinces={
-		3417 3443 3464 3777 6417 6468 6490 6765 6796 9415 9581 11400 11403 
+		426 3417 3443 3464 3777 6417 6468 6490 9415 9581 11400 11403 
 	}
 	manpower=556677
 	buildings_max_level_factor=1.000

@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+		DOR_bolshevik_anti_cossack_terror = {
+		    picture = DOR_bolshevik_anti_cossack_terror
+			
+			allowed = {
+				tag = DOR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.1
+				weekly_manpower = -500
+				stability_factor = -0.35
+				communism_drift = -0.25
+			}
+
+		}
+	}	
+	country = {
+		DOR_triumph_of_the_upper_don_rebellion = {
+		    picture = DOR_triumph_of_the_upper_don_rebellion
+			
+			allowed = {
+				tag = DOR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_speed_factor = 0.15
+				experience_gain_army_unit = 0.2
+				
+			}
+
+		}
+	}	
+}
+
+
