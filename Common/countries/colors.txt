@@ -321,8 +321,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 160 36 40 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 61 114 26 }
+	color_ui = rgb { 61 114 26 }
 }
 GRE = {
 	color = rgb { 42 124 211 }
