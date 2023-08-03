@@ -1,0 +1,147 @@
+﻿###########################
+# Afghanistan Events
+###########################
+
+add_namespace = afghanistan
+
+country_event = {
+	id = afghanistan.1
+	title = "British Army Retreats!"
+	desc = afghanistan.1.d
+	picture = GFX_afghanistan_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "We showed those damn Brits!"
+		AFG = {
+			transfer_state = 442
+			add_state_core  = 442
+		}	
+	}
+}
+
+country_event = {
+	id = afghanistan.2
+	title = "Our Army Collapses!"
+	desc = afghanistan.2.d
+	picture = GFX_afghanistan_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Damn those Brits!"
+			
+			ENG  = {
+				puppet = AFG
+				
+				set_autonomy = {
+				target = AFG
+				autonomy_state = autonomy_ib_protectorate
+				}
+			}
+		
+			
+	}
+}
+
+country_event = {
+	id = afghanistan.3
+	title = "Stalemate At The Frontline!"
+	desc = afghanistan.2.d
+	picture = GFX_afghanistan_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Damnit!"
+		
+	}
+}
+
+add_namespace = eng_afghanistan
+
+country_event = {
+	id = eng_afghanistan.1
+	title = "Afghan Army Retreats!"
+	desc = eng_afghanistan.1.d
+	picture = GFX_afghanistan_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "We showed those damn Afghans!"
+		AFG = {
+			transfer_state = 442
+			add_state_core  = 442
+		}	
+	}
+}
+
+country_event = {
+	id = eng_afghanistan.2
+	title = "Our Army Collapses!"
+	desc = eng_afghanistan.2.d
+	picture = GFX_afghanistan_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Damn those bastards!"
+			
+			ENG  = {
+				puppet = AFG
+				
+				set_autonomy = {
+				target = AFG
+				autonomy_state = autonomy_ib_protectorate
+				}
+			}
+		
+			
+	}
+}
+
+country_event = {
+	id = eng_afghanistan.3
+	title = "Stalemate At The Frontline!"
+	desc = eng_afghanistan.2.d
+	picture = GFX_afghanistan_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Damnit!"
+		
+	}
+}
