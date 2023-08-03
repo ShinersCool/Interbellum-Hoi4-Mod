@@ -1,3 +1,7 @@
+ICU = {
+	color = rgb { 62 120 217  }
+	color_ui = rgb { 62 120 217 }
+}
 JGS = {
 	color = rgb { 204 162 26 }
 	color_ui = rgb { 254 205 33 }
@@ -477,7 +481,7 @@ SAU = {
 	color_ui = rgb { 222 247 198 }
 }
 SIA = {
-	color = rgb { 171 175 131 }
+	color = rgb { 142 5 55 }
 	color_ui = rgb { 222 247 198 }
 }
 SIK = {

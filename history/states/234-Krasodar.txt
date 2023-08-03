@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = KPR
+		add_claim_by = MNC
 		victory_points = {
 			3720 1 
 		}

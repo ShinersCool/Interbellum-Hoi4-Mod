@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		BUK_shia_sunni_conflict = {
+		    picture = "GFX_BUK_shia_sunni_conflict"
+			
+			allowed = {
+				tag = BUK
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly_factor = -0.03
+				resistance_growth = 0.25
+				stability_factor = -0.05
+			}
+
+		}
+	}
+}
+
+

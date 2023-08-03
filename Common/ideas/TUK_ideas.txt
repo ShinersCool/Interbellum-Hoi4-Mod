@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		pan_turkist_political_struggle = {
+		    picture = #
+			
+			allowed = {
+				tag = TKU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.30
+				stability_weekly = -0.05
+				autonomy_gain = 0.30
+				custom_modifier_tooltip = TUK_turkist_struggle_tt
+			}
+
+		}
+
+	}
+}
+
+

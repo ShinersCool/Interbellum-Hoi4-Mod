@@ -52,7 +52,12 @@ set_convoys = 20
 	}
 }
 
+add_ideas = {
+	pan_turkist_political_struggle
+}
+
 recruit_character = TUK_turar
+recruit_character = TUK_Aristarkh
 
 set_politics = {
 	ruling_party = communism
@@ -64,7 +69,8 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 100
+	communism = 83
+	socialism = 17
 	neutrality = 0
 }
 
