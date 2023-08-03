@@ -1,0 +1,25 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "1-ya diviziya"
+	division_names_group = TUK_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+
+	}
+	is_locked = yes 
+}
+
+units = {					
+	division= {	# 	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4300
+		division_template = "1-ya diviziya"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.1
+
+	}			
+}

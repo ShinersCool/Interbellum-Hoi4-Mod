@@ -1,0 +1,14 @@
+characters={
+	SRU_anton_denikin={
+		name=SRU_CHARACTER_ANTON_DENIKIN
+		portraits={
+			civilian={
+				large="GFX_portrait_sru_anton_denikin_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1947.1.1.1"
+		}
+	}
+}

@@ -10,6 +10,7 @@ state={
 		}
 		add_core_of = KPR
 		add_core_of = WHR
+		add_claim_by = MNC
 		victory_points = {
 			11696 3 
 		}

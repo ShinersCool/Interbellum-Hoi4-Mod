@@ -1,0 +1,172 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Regimiento Camacho de Artillería"			
+	division_names_group = BOL_ART_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+	}
+	is_locked = yes 
+}
+
+division_template = {
+	name = "División de Ejército" 	
+	division_names_group = BOL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = 	{
+		engineer = { x = 0 y = 0 }
+	}
+	is_locked = yes 
+}
+
+division_template = {
+	name = "Colorados de Bolivia"			
+	division_names_group = BOL_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+	}	
+	priority = 0
+	is_locked = yes 
+}
+
+division_template = {
+	name = "Regimiento de Infantería"			
+	division_names_group = BOL_INF_03
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+	}	
+	priority = 0
+	is_locked = yes 
+}
+
+division_template = {
+	name = "Regimiento 1.ª de Caballería"			
+	division_names_group = BOL_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }	
+	}	
+	priority = 0
+	is_locked = yes 
+}
+
+
+units = {		
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5230
+		division_template = "Regimiento 1.ª de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8211
+		division_template = "Regimiento 1.ª de Caballería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8157
+		division_template = "Regimiento Camacho de Artillería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5320
+		division_template = "Regimiento Camacho de Artillería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}	
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8157
+		division_template = "División de Ejército"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5230
+		division_template = "Colorados de Bolivia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10938
+		division_template = "Regimiento de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}	
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 8225
+		division_template = "Regimiento de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}	
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12973
+		division_template = "Regimiento de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}
+	division= {	# 		
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 10924
+		division_template = "Regimiento de Infantería"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+
+	}	
+}	

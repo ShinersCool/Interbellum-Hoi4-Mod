@@ -1,0 +1,135 @@
+﻿# Infantry
+BOL_ART_01 = {
+	name = "Regimiento Camacho de Artillería"
+
+	for_countries = { BOL }
+
+	can_use = { always = yes }
+
+	division_types = { "artillery" }
+
+	fallback_name = "Regimiento Camacho de Artillería"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Regimiento “Camacho” 1.º de Artillería" }
+		2 = { "Regimiento “Bolivar” 2.º de Artillería" }
+		3 = { "Regimiento Camacho 3.º de Artillería" }
+		4 = { "Regimiento Camacho 4.º de Artillería" }
+		5 = { "Regimiento Camacho 5.º de Artillería" }
+		6 = { "Regimiento Camacho 6.º de Artillería" }
+		7 = { "Regimiento Camacho 7.º de Artillería" }
+		8 = { "Regimiento Camacho 8.º de Artillería" }
+		9 = { "Regimiento Camacho 9.º de Artillería" }
+		10 = { "Regimiento Camacho 10.º de Artillería" }
+	}
+}
+
+BOL_INF_01 = {
+	name = "División de Ejército"
+
+	for_countries = { BOL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "División de Ejército"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1.ª División de Ejército" }
+		2 = { "2.ª División de Ejército" }
+		3 = { "3.ª División de Ejército" }
+		4 = { "4.ª División de Ejército" }
+		5 = { "5.ª División de Ejército" }
+		6 = { "6.ª División de Ejército" }
+		7 = { "7.ª División de Ejército" }
+		8 = { "8.ª División de Ejército" }
+		9 = { "9.ª División de Ejército" }
+		10 = { "10.ª División de Ejército" }
+	}
+}
+
+BOL_INF_02 = {
+	name = "Colorados de Bolivia"
+
+	for_countries = { BOL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Colorados de Bolivia"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1.ª Colorados de Bolivia" }
+		2 = { "2.ª Colorados de Bolivia" }
+		3 = { "3.ª Colorados de Bolivia" }
+		4 = { "4.ª Colorados de Bolivia" }
+		5 = { "5.ª Colorados de Bolivia" }
+		6 = { "6.ª Colorados de Bolivia" }
+		7 = { "7.ª Colorados de Bolivia" }
+		8 = { "8.ª Colorados de Bolivia" }
+		9 = { "9.ª Colorados de Bolivia" }
+		10 = { "10.ª Colorados de Bolivia" }
+	}
+}
+
+BOL_INF_03 = {
+	name = "Regimiento de Infantería"
+
+	for_countries = { BOL }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Regimiento de Infantería"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Regimiento “Sucre” 2.º de Infantería" }
+		2 = { "Regimiento  “Pérez” 3.º de Infantería" }
+		3 = { "Regimiento “Loa” 4.º de Infantería" }
+		4 = { "Regimiento “Campero” 5.º de Infantería" }
+		5 = { "Regimiento 6.º de Infantería" }
+		6 = { "Regimiento 7.º de Infantería" }
+		7 = { "Regimiento 8.º de Infantería" }
+		8 = { "Regimiento 9.º de Infantería" }
+		9 = { "Regimiento 10.º de Infantería" }
+		10 = { "Regimiento 11.º de Infantería" }
+	}
+}
+
+BOL_CAV_01 = {
+	name = "Regimiento 1.ª de Caballería"
+
+	for_countries = { BOL }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "Regimiento 1.ª de Caballería"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "Regimiento 1.ª de Caballería “Avaroa”" }
+		2 = { "Regimiento 2.º de Caballería “Ballivían”" }
+		3 = { "Regimiento 3.ª de Caballería" }
+		4 = { "Regimiento 4.ª de Caballería" }
+		5 = { "Regimiento 5.ª de Caballería" }
+		6 = { "Regimiento 6.ª de Caballería" }
+		7 = { "Regimiento 7.ª de Caballería" }
+		8 = { "Regimiento 8.ª de Caballería" }
+		9 = { "Regimiento 9.ª de Caballería" }
+		10 = { "Regimiento 10.ª de Caballería" }
+	}
+}

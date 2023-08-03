@@ -1,0 +1,38 @@
+﻿###########################
+# oman Events
+###########################
+
+add_namespace = oman_ib
+
+country_event = {
+	id = oman_ib.1
+	title = "oman_ib.1.t"
+	desc = oman_ib.1.d
+	picture = GFX_oman_rebels_subdued
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		if = {
+			927 = {
+				resistance < 25
+			}
+		}	
+	}
+	
+	option = { # Treaty of Seeb
+		name = "oman_ib.1.a"
+		ai_chance = { factor = 100 }
+		IMO = {	
+			transfer_state = 927
+		}
+		OMA = { 
+			remove_ideas = { 
+				OMA_muscat_rebellion
+			}
+		}	
+
+	}
+}

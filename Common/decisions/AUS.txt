@@ -18,6 +18,14 @@ AUS_saint_germain_en_laye = {
 			}
 		}
 	
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_government = democratic
+			}
+		}	
+	
 		days_remove = 309
 		
 		remove_effect = { 

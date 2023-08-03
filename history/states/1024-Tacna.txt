@@ -1,0 +1,26 @@
+state={
+	id=1024
+	name="STATE_1024"
+	
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PRU
+		add_core_of = CHL
+		victory_points = {
+			13086 1 
+		}
+
+	}	
+	
+	provinces={
+		13086 
+	}
+	manpower=120000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

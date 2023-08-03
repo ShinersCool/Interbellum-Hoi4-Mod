@@ -126,6 +126,11 @@ set_technology = {
 	set_garrison_strength = 0.2
 }
 
+add_ideas = { 
+	BEL_in_flanders_fields
+	limited_conscription
+}	
+
 recruit_character = BEL_delacroix
 
 set_politics = {

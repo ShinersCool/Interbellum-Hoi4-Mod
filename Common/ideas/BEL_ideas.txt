@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		BEL_in_flanders_fields = {
+		    picture = BEL_in_flanders_fields
+			
+			allowed = {
+				tag = BEL
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = -0.005
+				surrender_limit = -0.15
+				
+			}
+
+		}
+	}	
+}

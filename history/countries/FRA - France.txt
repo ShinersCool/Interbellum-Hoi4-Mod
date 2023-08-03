@@ -31,6 +31,23 @@ set_research_slots = 3
 set_stability = 0.5
 add_command_power = 20
 
+#Diplomacy
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = ICU
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	else = {
+		puppet = ICU
+	}
+}
 
 # Starting tech
 set_technology = {

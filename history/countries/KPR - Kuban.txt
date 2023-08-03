@@ -55,6 +55,12 @@ set_convoys = 10
 	}
 }
 
+SRU = {
+	puppet = {
+		target = KPR
+		end_wars = no
+	}	
+}
 
 set_politics = {
 	ruling_party = conservative

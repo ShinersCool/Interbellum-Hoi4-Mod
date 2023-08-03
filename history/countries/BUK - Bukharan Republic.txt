@@ -4,6 +4,10 @@ oob = "BUK_1919"
 
 set_research_slots = 2
 
+add_ideas = {
+	BUK_shia_sunni_conflict
+}
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

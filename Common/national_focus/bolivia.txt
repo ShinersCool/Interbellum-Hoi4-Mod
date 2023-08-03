@@ -1,0 +1,39 @@
+﻿focus_tree = { 
+	id = BOL
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BOL
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+
+	focus = {
+		id = BOL_overthrow_liberals
+		icon = GFX_goal_
+		x = 5
+		y = 0
+		cost = 6.58
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  
+			BOL = {
+				conservative > 0.50
+			}	
+		}	
+
+		completion_reward = {
+			BOL = {
+				country_event = {
+					id = bolivia_ib.1
+				}
+			}	
+		}	
+	}
+}
+
+

@@ -116,3 +116,8 @@
  CIN_proclaim_independent_monarchy:0 "Announce an Independent Monarchy"
  CIN_use_school_books_for_money:0 "Use School Book Pages to Print more Tumen"
  
+ OMA_muscat_rebellion:0 "The Muscat Rebellion"
+ OMA_subdue_muscat_rebellion:0 "Subdue the Rebels"
+ 
+ BOL_support_republicans:0 "Support the Republicans"
+ BOL_support_republican_takeover:0 "Gain Republican Popularity" 

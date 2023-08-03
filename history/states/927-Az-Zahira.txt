@@ -9,6 +9,9 @@ state={
 	history={
 		owner = OMA
 		add_core_of = IMO
+		victory_points = {
+			5049 5 
+		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -19,7 +22,7 @@ state={
 	}
 
 	provinces={
-		5049 
+		5049 13333 13334 13335
 	}
 	manpower=123000
 	buildings_max_level_factor=1.000

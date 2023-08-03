@@ -1,0 +1,32 @@
+ideas = {
+	country = {
+		BOL_native_suppression = {
+		    picture = BOL_native_suppression
+			
+			allowed = {
+				tag = BOL
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.02
+				research_speed_factor = -0.15
+				political_power_gain = -0.25
+				construction_speed = -0.1
+				
+			}
+
+		}
+	}	
+}

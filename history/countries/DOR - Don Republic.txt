@@ -57,6 +57,13 @@ set_convoys = 05
 	}
 }
 
+SRU = {
+	puppet = {
+		target = DOR
+		end_wars = no
+	}	
+}
+
 add_ideas = {
 	DOR_bolshevik_anti_cossack_terror
 	DOR_triumph_of_the_upper_don_rebellion

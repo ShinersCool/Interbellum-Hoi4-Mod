@@ -1,0 +1,35 @@
+OMA_muscat_rebellion = {
+	OMA_subdue_muscat_rebellion = {
+		
+		priority = 100
+		
+		cost = 35
+		
+		icon = decision_icon
+		available = {
+			tag = OMA
+			has_civil_war = no
+			has_war = no			
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = OMA_taimur_bin_feisal
+			}
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			OMA = { 
+				927 = {
+					add_compliance = 5
+					add_resistance = -5
+				}
+			}
+		}	
+
+    }
+
+}	
+

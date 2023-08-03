@@ -75,9 +75,8 @@ set_popularities = {
 create_faction = "white_movement"
 
 WHR = {
-	add_to_faction = DOR
-	add_to_faction = KPR
 	add_to_faction = TMS
+	add_to_faction = SRU
 }	
 
 1939.1.1 = {

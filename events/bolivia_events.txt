@@ -1,0 +1,33 @@
+﻿###########################
+# bolivia Events
+###########################
+
+add_namespace = bolivia_ib
+
+country_event = {
+	id = bolivia_ib.1
+	title = "bolivia_ib.1.t"
+	desc = bolivia_ib.1.d
+	picture = GFX_bolivia_coup
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_completed_focus = BOL_overthrow_liberals
+	}
+	
+	option = { # Coup
+		name = "bolivia_ib.1.a"
+		ai_chance = { factor = 100 }
+		BOL = {	
+			set_politics = {
+			ruling_party = conservative
+			elections_allowed = no
+			long_name = BOL_conservative_party_long
+			name = BOL_conservative_party
+		}	
+
+	}
+}

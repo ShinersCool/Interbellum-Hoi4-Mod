@@ -1,0 +1,49 @@
+BOL_support_republicans = {
+	BOL_support_republican_takeover = {
+		
+		priority = 100
+		
+		cost = 35
+		
+		icon = decision_icon
+		available = {
+			tag = BOL
+			has_civil_war = no
+			has_war = no			
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = BOL_jose_guerra
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 10
+				has_government = democratic
+			}
+		}
+	
+		complete_effect = { 
+			BOL = { 
+				add_stability = -0.05
+			}
+		}
+		
+		days_remove = 60
+		
+		remove_effect = { 
+			BOL = { 
+				add_popularity = {
+					ideology = conservative
+					popularity = 0.05
+				}	
+			}
+		}	
+
+    }
+
+}	
+

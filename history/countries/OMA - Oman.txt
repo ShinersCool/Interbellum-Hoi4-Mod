@@ -79,6 +79,9 @@ set_stability = 0.8
 	}
 }
 
+add_ideas = { 
+	OMA_muscat_rebellion
+}	
 
 ENG = { 
 	set_autonomy = {
@@ -87,6 +90,13 @@ ENG = {
 		freedom_level = 0.65
 	}
 }	
+
+927 = {
+	start_resistance = yes
+	set_compliance = 5
+	set_resistance = 65
+	set_garrison_strength = 0.15
+}
 
 recruit_character = OMA_taimur_bin_feisal
 

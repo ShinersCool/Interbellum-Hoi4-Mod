@@ -1,0 +1,63 @@
+ideas = {
+	country = {
+		TUK_disbanded_army = {
+		    picture = TUK_disbanded_army
+			
+			allowed = {
+				tag = TUK
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org = -0.80
+				max_planning = -0.50
+				command_power_gain = -0.25
+				planning_speed = -0.5
+				custom_modifier_tooltip = disbanded_army_tt
+				
+			}
+
+		}
+	}	
+	country = {
+		pan_turkist_political_struggle = {
+		    picture = #
+			
+			allowed = {
+				tag = TKU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.30
+				stability_weekly = -0.05
+				autonomy_gain = 0.30
+				custom_modifier_tooltip = TUK_turkist_struggle_tt
+			}
+
+		}
+
+	}
+}

@@ -229,10 +229,13 @@
  
  SRL_CHARACTER_MANNING:0 "Sir William Henry Manning"
  
+ SRU_CHARACTER_ANTON_DENIKIN:0 "Anton Denikin"
+ 
  TIB_CHARACTER_THUBTEN_GYATSO:0 "Thubten Gyatso"
  
  TMS_CHARACTER_FUNTIKOV:0 "Fyodor Adrianovich Funtikov"
  
+ TUK_CHARACTER_ARISTARKH:0 "Aristarkh Andreyevich Kazakov"
  TUK_CHARACTER_TURAR:0 "Turar Ryskululy Ryskulov"
  
  TUR_CHARACTER_MEHMED:0 "Mehmed VI"

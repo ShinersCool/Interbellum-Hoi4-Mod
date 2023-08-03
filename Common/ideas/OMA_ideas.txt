@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		OMA_muscat_rebellion = {
+		    picture = OMA_muscat_rebellion
+			
+			allowed = {
+				tag = OMA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				resistance_growth = 0.25
+				resistance_decay = -0.75
+				
+			}
+
+		}
+	}	
+}

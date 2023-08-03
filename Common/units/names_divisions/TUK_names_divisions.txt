@@ -1,0 +1,28 @@
+﻿# Infantry
+TUK_INF_01 = {
+	name = "1-ya diviziya"
+
+	for_countries = { TUK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "1-ya diviziyai"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya diviziya" }
+		2 = { "1-ya diviziya" }
+		3 = { "1-ya diviziya" }
+		4 = { "1-ya diviziya" }
+		5 = { "1-ya diviziya" }
+		6 = { "1-ya diviziya" }
+		7 = { "1-ya diviziya" }
+		8 = { "1-ya diviziya" }
+		9 = { "1-ya diviziya" }
+		10 = { "1-ya diviziya" }
+	}
+}
+

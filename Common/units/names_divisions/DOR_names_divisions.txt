@@ -1,0 +1,216 @@
+﻿# Infantry
+DOR_INF_01 = {
+	name = "Karginskaya Konnaya Diviziya"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Karginskaya Konnaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Karginskaya Konnaya Diviziya" }
+		2 = { "2-ya Karginskaya Konnaya Diviziya" }
+		3 = { "3-ya Karginskaya Konnaya Diviziya" }
+		4 = { "4-ya Karginskaya Konnaya Diviziya" }
+		5 = { "5-ya Karginskaya Konnaya Diviziya" }
+		6 = { "6-ya Karginskaya Konnaya Diviziya" }
+		7 = { "7-ya Karginskaya Konnaya Diviziya" }
+		8 = { "8-ya Karginskaya Konnaya Diviziya" }
+		9 = { "9-ya Karginskaya Konnaya Diviziya" }
+		10 = { "10-ya Karginskaya Konnaya Diviziya" }
+	}
+}
+
+DOR_INF_02 = {
+	name = "Migulinskaya Konno-Peshaya Diviziya"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Migulinskaya Konno-Peshaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Migulinskaya Konno-Peshaya Diviziya" }
+		2 = { "2-ya Migulinskaya Konno-Peshaya Diviziya" }
+		3 = { "3-ya Migulinskaya Konno-Peshaya Diviziya" }
+		4 = { "4-ya Migulinskaya Konno-Peshaya Diviziya" }
+		5 = { "5-ya Migulinskaya Konno-Peshaya Diviziya" }
+		6 = { "6-ya Migulinskaya Konno-Peshaya Diviziya" }
+		7 = { "7-ya Migulinskaya Konno-Peshaya Diviziya" }
+		8 = { "8-ya Migulinskaya Konno-Peshaya Diviziya" }
+		9 = { "9-ya Migulinskaya Konno-Peshaya Diviziya" }
+		10 = { "10-ya Migulinskaya Konno-Peshaya Diviziya" }
+	}
+}
+
+DOR_INF_03 = {
+	name = "Kazanskaya Diviziya"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Kazanskaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Kazanskaya Diviziya" }
+		2 = { "2-ya Kazanskaya Diviziya" }
+		3 = { "3-ya Kazanskaya Diviziya" }
+		4 = { "4-ya Kazanskaya Diviziya" }
+		5 = { "5-ya Kazanskaya Diviziya" }
+		6 = { "6-ya Kazanskaya Diviziya" }
+		7 = { "7-ya Kazanskaya Diviziya" }
+		8 = { "8-ya Kazanskaya Diviziya" }
+		9 = { "9-ya Kazanskaya Diviziya" }
+		10 = { "10-ya Kazanskaya Diviziya" }
+	}
+}
+
+DOR_INF_04 = {
+	name = "Vyoshenskaya Diviziya"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Vyoshenskaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Vyoshenskaya Diviziya" }
+		2 = { "2-ya Vyoshenskaya Diviziya" }
+		3 = { "3-ya Vyoshenskaya Diviziya" }
+		4 = { "4-ya Vyoshenskaya Diviziya" }
+		5 = { "5-ya Vyoshenskaya Diviziya" }
+		6 = { "6-ya Vyoshenskaya Diviziya" }
+		7 = { "7-ya Vyoshenskaya Diviziya" }
+		8 = { "8-ya Vyoshenskaya Diviziya" }
+		9 = { "9-ya Vyoshenskaya Diviziya" }
+		10 = { "10-ya Vyoshenskaya Diviziya" }
+	}
+}
+
+DOR_INF_05 = {
+	name = "Yelanskaya Diviziya"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Yelanskaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Yelanskaya Diviziya" }
+		2 = { "2-ya Yelanskaya Diviziya" }
+		3 = { "3-ya Yelanskaya Diviziya" }
+		4 = { "4-ya Yelanskaya Diviziya" }
+		5 = { "5-ya Yelanskaya Diviziya" }
+		6 = { "6-ya Yelanskaya Diviziya" }
+		7 = { "7-ya Yelanskaya Diviziya" }
+		8 = { "8-ya Yelanskaya Diviziya" }
+		9 = { "9-ya Yelanskaya Diviziya" }
+		10 = { "10-ya Yelanskaya Diviziya" }
+	}
+}
+
+DOR_INF_06 = {
+	name = "Povstancheskaya Diviziya"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Povstancheskaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Povstancheskaya Diviziya" }
+		2 = { "2-ya Povstancheskaya Diviziya" }
+		3 = { "3-ya Povstancheskaya Diviziya" }
+		4 = { "4-ya Povstancheskaya Diviziya" }
+		5 = { "5-ya Povstancheskaya Diviziya" }
+		6 = { "6-ya Povstancheskaya Diviziya" }
+		7 = { "7-ya Povstancheskaya Diviziya" }
+		8 = { "8-ya Povstancheskaya Diviziya" }
+		9 = { "9-ya Povstancheskaya Diviziya" }
+		10 = { "10-ya Povstancheskaya Diviziya" }
+	}
+}
+
+DOR_INF_07 = {
+	name = "Ekspeditsionnaya Diviziya Armii"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Ekspeditsionnaya Diviziya Armii"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Ekspeditsionnaya Diviziya Armii" }
+		2 = { "2-ya Ekspeditsionnaya Diviziya Armii" }
+		3 = { "3-ya Ekspeditsionnaya Diviziya Armii" }
+		4 = { "4-ya Ekspeditsionnaya Diviziya Armii" }
+		5 = { "5-ya Ekspeditsionnaya Diviziya Armii" }
+		6 = { "6-ya Ekspeditsionnaya Diviziya Armii" }
+		7 = { "7-ya Ekspeditsionnaya Diviziya Armii" }
+		8 = { "8-ya Ekspeditsionnaya Diviziya Armii" }
+		9 = { "9-ya Ekspeditsionnaya Diviziya Armii" }
+		10 = { "10-ya Ekspeditsionnaya Diviziya Armii" }
+	}
+}
+
+DOR_INF_08 = {
+	name = "Zagradotryads"
+
+	for_countries = { DOR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%-ya Zagradotryads"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "1-ya Zagradotryads" }
+		2 = { "2-ya Zagradotryads" }
+		3 = { "3-ya Zagradotryads" }
+		4 = { "4-ya Zagradotryads" }
+		5 = { "5-ya Zagradotryads" }
+		6 = { "6-ya Zagradotryads" }
+		7 = { "7-ya Zagradotryads" }
+		8 = { "8-ya Zagradotryads" }
+		9 = { "9-ya Zagradotryads" }
+		10 = { "10-ya Zagradotryads" }
+	}
+}

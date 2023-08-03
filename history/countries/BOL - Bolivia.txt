@@ -1,6 +1,6 @@
 ﻿capital = 302
 
-oob = "BOL_1936"
+oob = "BOL_1919"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "BOL_1936_air_bba"
@@ -19,6 +19,7 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	fuel_silos = 1
+	tech_military_police = 1
 }
 
 ##recruit_character = BOL_josé_luis_tejada_sorzano
@@ -104,6 +105,10 @@ set_country_flag = monroe_doctrine
 	}
 }
 
+add_ideas = {
+	BOL_native_suppression
+}	
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1917.8.15"
@@ -114,8 +119,9 @@ set_politics = {
 set_cosmetic_tag = bol_flag
 
 set_popularities = {
-	democratic = 85
-	neutrality = 15
+	democratic = 75
+	neutrality = 5
+	conservative = 20
 }
 
 recruit_character = BOL_jose_guerra

@@ -1,3 +1,11 @@
+ICU = {
+	color = rgb { 62 120 217  }
+	color_ui = rgb { 62 120 217 }
+}
+SRU = {
+	color = rgb { 73 99 40 } 
+	color_ui = rgb { 216 216 216 }
+}	
 JGS = {
 	color = rgb { 204 162 26 }
 	color_ui = rgb { 254 205 33 }

@@ -1,0 +1,28 @@
+state={
+	id=1023
+	name="STATE_1023"
+	
+	resources={
+		tungsten=1.000
+		oil=1.000
+	}	
+	
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PAR
+		add_core_of = BOL
+
+	}
+	
+	provinces={
+		2195 2209 
+	}
+	manpower=22950
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

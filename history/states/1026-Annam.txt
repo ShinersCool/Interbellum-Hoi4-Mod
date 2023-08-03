@@ -1,0 +1,32 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+
+	history={
+		add_core_of = ICU
+		owner = ICU
+		victory_points = {
+			4401 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			4401 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1248 1300 1302 1328 1400 1605 4255 4334 4363 4379 4397 4405 7229 7280 7380 9988 10016 10137 10162 10180 10180 10309 11909 11936 12109 12297 
+	}
+	manpower=144100
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
