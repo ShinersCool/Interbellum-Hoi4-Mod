@@ -1086,3 +1086,27 @@ MSG = {
 	color = rgb { 118 33 7 }
 	color_ui = rgb { 118 33 7 }
 }
+TRG = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+KLT = {
+	color = rgb { 29 53 86 }
+	color_ui = rgb { 29 53 86 }
+}
+KDH = {
+	color = rgb { 181 57 66 }
+	color_ui = rgb { 181 57 66 }
+}
+STL = {
+	color = rgb { 188 84 141 }
+	color_ui = rgb { 255 73 121 }
+}
+PEL = {
+	color = rgb { 193 156 9 }
+	color_ui = rgb { 193 156 9 }
+}
+JOH = {
+	color = rgb { 23 63 137 }
+	color_ui = rgb { 23 63 137 }
+}

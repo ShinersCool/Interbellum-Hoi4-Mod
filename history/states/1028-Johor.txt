@@ -1,0 +1,20 @@
+state={
+	id=1028
+	name="STATE_1028"
+	history={
+		owner = JOH 
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = JOH 
+
+	}
+	state_category=city
+	provinces={
+		4367 4424 10313 12299 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

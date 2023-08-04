@@ -1,0 +1,20 @@
+state={
+	id=1032
+	name="STATE_1032"
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MAL
+
+	}
+	state_category=city
+	provinces={
+		1348 1392 4384 7399 12255 12271 13337 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
