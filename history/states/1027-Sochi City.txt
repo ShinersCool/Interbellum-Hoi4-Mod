@@ -1,0 +1,26 @@
+state={
+	id=1027
+	name="STATE_1027"
+	
+	history={
+		owner = KPR
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = GEO
+		add_core_of = KPR
+		victory_points = {
+			9663 1 
+		}
+
+	}	
+	
+	provinces={
+		3698 9663 
+	}
+	manpower=15250
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

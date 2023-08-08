@@ -4,6 +4,36 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
+		war_communism = {
+
+
+			allowed = {
+				tag = SOV
+			}
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_arms_factory_factor = 0.2
+				conversion_cost_civ_to_mil_factor= -0.2
+				conversion_cost_mil_to_civ_factor = -0.2
+				stability_weekly = -0.015
+			}
+
+			allowed_to_remove = {
+				OR = {
+					has_war = no
+					has_government = democratic
+					has_government = conservative
+					has_government = fascism
+					has_government = neutrality
+					has_government = monarchism
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
 		undisturbed_isolation = {
 
 

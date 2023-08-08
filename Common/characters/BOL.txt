@@ -11,4 +11,16 @@ characters={
 			expire="1929.1.1.1"
 		}
 	}
+	BOL_bautista_saavedra={
+		name=BOL_CHARACTER_BAUTISTA_SAAVEDRA
+		portraits={
+			civilian={
+				large="GFX_portrait_bol_bautista_saavedra_large"
+			}
+		}
+		country_leader={
+			ideology=republicanism
+			expire="1929.1.1.1"
+		}
+	}
 }

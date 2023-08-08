@@ -26,7 +26,8 @@
  
  BHU_CHARACTER_WANGCHUK:0 "Ugyen Wangchuck"
  
- BOL_CHARACTER_JOSE_GUERRA:0 "José Gutiérrez Guerra"}
+ BOL_CHARACTER_JOSE_GUERRA:0 "José Guerra"
+ BOL_CHARACTER_BAUTISTA_SAAVEDRA:0 "Bautista Saavedra"
  
  BRA_CHARACTER_PESSOA:0 "Epitácio Pessoa"
  
@@ -235,7 +236,6 @@
  
  TMS_CHARACTER_FUNTIKOV:0 "Fyodor Adrianovich Funtikov"
  
- TUK_CHARACTER_ARISTARKH:0 "Aristarkh Andreyevich Kazakov"
  TUK_CHARACTER_TURAR:0 "Turar Ryskululy Ryskulov"
  
  TUR_CHARACTER_MEHMED:0 "Mehmed VI"

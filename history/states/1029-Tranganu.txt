@@ -1,0 +1,20 @@
+state={
+	id=1029
+	name="STATE_1029"
+	history={
+		owner = TRG 
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = TRG 
+
+	}
+	state_category=city
+	provinces={
+		4355 12199 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
