@@ -12,27 +12,12 @@ state={
 	history={
 		owner = MAL
 		victory_points = {
-			12299 10 
-		}
-		victory_points = {
-			7329 1 
-		}
-		victory_points = {
 			10297 1 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 6
-			12299 = {
-				naval_base = 8
-				coastal_bunker = 3
-
-			}
-			7329 = {
-				naval_base = 1
-
-			}
 			10297 = {
 				naval_base = 5
 
@@ -44,7 +29,7 @@ state={
 	}
 
 	provinces={
-		1364 1376 4310 4412 7342 7427 10297 12113 12215 
+		1364 1376 4310 4412 7342 7427 10297 12215 
 	}
 	manpower=2893200
 	buildings_max_level_factor=1.000
