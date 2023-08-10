@@ -1,0 +1,38 @@
+focus_tree = { # Currently in development by WingedMolotov, feel free to help or ping me
+    id = lithuanian_focus
+
+    country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = LIT
+		}
+	}
+
+focus = {
+	id = LIT_the_bolshevik_onslaught
+	icon = GFX_
+	x = 5
+	y = 0
+	cost = 5
+
+	bypass = {
+        NOT = {
+            has_war_with
+        }
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	complete_tooltip = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+}

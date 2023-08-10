@@ -1,4 +1,4 @@
-version="0.01"
+version="1.0"
 picture="thumbnail.png"
 tags={
 	"Map"
@@ -8,7 +8,7 @@ tags={
 	"Historical"
 }
 name="Interbellum"
-supported_version="1.12.13"
+supported_version="1.12.*"
 path="C:/Users/User/Documents/Paradox Interactive/Hearts of Iron IV/mod/interwarperiod"
 remote_file_id="2847283261"
 

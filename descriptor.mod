@@ -1,4 +1,4 @@
-version="0.01"
+version="1.0"
 picture="thumbnail.png"
 tags={
 	"Map"
@@ -34,5 +34,5 @@ replace_path="common/units/names_ships"
 replace_path="common/peace_conference"
 replace_path="history/units"
 replace_path="history/general"
-supported_version="1.12.14"
+supported_version="1.12.*"
 remote_file_id="2847283261"
