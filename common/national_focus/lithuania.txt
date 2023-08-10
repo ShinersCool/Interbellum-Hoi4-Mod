@@ -10,29 +10,21 @@ focus_tree = { # Currently in development by WingedMolotov, feel free to help or
 		}
 	}
 
-focus = {
-	id = LIT_the_bolshevik_onslaught
-	icon = GFX_
-	x = 5
-	y = 0
-	cost = 5
+	focus = {
+		id = LIT_the_bolshevik_onslaught
+		icon = GFX_
+		x = 5
+		y = 0
+		cost = 5
 
-	bypass = {
-        NOT = {
-            has_war_with
-        }
+		bypass = {
+			NOT = {
+				# has_war_with = bros what is the communist russia tag
+			}
+		}
+
+		completion_reward = {
+
+		}
 	}
-
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-
-	complete_tooltip = {
-
-	}
-
-	completion_reward = {
-
-	}
-}
 }
