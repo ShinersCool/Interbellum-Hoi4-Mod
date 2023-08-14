@@ -1,0 +1,390 @@
+﻿focus_tree = { 
+	id = FRK
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRK
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	focus = {
+		id = FRK_german_spirit
+		icon = GFX_FRK_german_spirit
+		cost = 1
+		
+		x = 12
+		y = 0
+		#relative_position_id = SAU_the_saudi_economy
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+		
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_dying_for_a_fight
+		icon = GFX_FRK_dying_for_a_fight
+		cost = 1
+		
+		x = 0
+		y = 1
+		relative_position_id = FRK_german_spirit
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_german_spirit
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_march_on_riga
+		icon = GFX_FRK_march_on_riga
+		cost = 2
+		
+		x = 0
+		y = 1
+		relative_position_id = FRK_dying_for_a_fight
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_dying_for_a_fight
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_rossbachs_freikorps
+		icon = GFX_FRK_rossbachs_freikorps
+		cost = 5
+		
+		x = -1
+		y = 1
+		relative_position_id = FRK_march_on_riga
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_march_on_riga
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_baltische_landeswehr
+		icon = GFX_FRK_rossbachs_freikorps
+		cost = 5
+		
+		x = 1
+		y = 1
+		relative_position_id = FRK_march_on_riga
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_march_on_riga
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_consolidate_the_goverment
+		icon = GFX_FRK_consolidate_the_goverment
+		cost = 10
+		
+		x = 0
+		y = 2
+		relative_position_id = FRK_march_on_riga
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_rossbachs_freikorps
+		}
+		
+		prerequisite = {
+			focus = FRK_baltische_landeswehr
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	} 
+	
+	focus = {
+		id = FRK_our_road_ahead
+		icon = GFX_FRK_our_road_ahead
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = FRK_consolidate_the_goverment
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_consolidate_the_goverment
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_a_king_for_all
+		icon = GFX_FRK_a_king_for_all
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = FRK_our_road_ahead
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_our_road_ahead
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_assemble_a_parlament
+		icon = GFX_FRK_assemble_a_parlament
+		cost = 10
+		
+		x = -1
+		y = 1
+		relative_position_id = FRK_a_king_for_all
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_a_king_for_all
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_crack_down_on_protests
+		icon = GFX_FRK_crack_down_on_protests
+		cost = 10
+		
+		x = 1
+		y = 1
+		relative_position_id = FRK_a_king_for_all
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_a_king_for_all
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_latvian_corps
+		icon = GFX_FRK_latvian_corps
+		cost = 10
+		
+		x = 3
+		y = 1
+		relative_position_id = FRK_a_king_for_all
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_a_king_for_all
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	focus = {
+		id = FRK_onwards_to_golry
+		icon = GFX_FRK_onwards_to_golry
+		cost = 10
+		
+		x = 0
+		y = 1
+		relative_position_id = FRK_latvian_corps
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	
+		prerequisite = {
+			focus = FRK_latvian_corps
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+}
+
+

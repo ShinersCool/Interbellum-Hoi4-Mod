@@ -70,6 +70,10 @@ EGY_UK = {
     color = rgb { 196 68 100 }
     color_ui = rgb { 196 68 100 }
 }
+SUD_UK = {
+    color = rgb { 186 66 108 }
+    color_ui = rgb { 186 66 108 }
+}
 ALB_ITA = {
     color = rgb { 114 160 122 }
     color_ui = rgb { 114 160 122 }

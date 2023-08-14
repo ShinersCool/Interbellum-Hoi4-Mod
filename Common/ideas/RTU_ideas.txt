@@ -1,0 +1,58 @@
+ideas = {
+	country = {
+		RTU_kuva_yi_milliye = {
+		    picture = RTU_kuva_yi_milliye
+			
+			allowed = {
+				tag = RTU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				recruitable_population_factor = 0.03
+				war_support_weekly = 0.01
+				weekly_manpower = 500
+			}
+
+		}
+	}	
+	country = {
+		TUR_desertions = {
+		    picture = TUR_desertions
+			
+			allowed = {
+				tag = TUR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = -50
+			}
+
+		}
+	}
+}
+
+

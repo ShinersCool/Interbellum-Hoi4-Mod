@@ -7,7 +7,7 @@ tags={
 	"Gameplay"
 	"Historical"
 }
-name="Interbellum"
+name="Interbellum DEV"
 replace_path="common/ai_strategy"
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_templates"

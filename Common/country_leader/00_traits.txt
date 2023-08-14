@@ -6739,5 +6739,8 @@ leader_traits = {
 		}
 	}
 
-
+	EGY_pro_british = {
+		random = no
+		neutrality_drift = -0.05
+	}
 }

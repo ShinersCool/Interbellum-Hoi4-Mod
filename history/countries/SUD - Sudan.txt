@@ -1,5 +1,7 @@
 ﻿capital = 551
 
+set_cosmetic_tag = SUD_UK
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -1,0 +1,19 @@
+state={
+	id=1038
+	name="STATE_1038"
+	history = {
+		owner = EGY
+		buildings = {
+		}
+
+		add_core_of = EGY
+		add_core_of = SUD
+	}
+	provinces={
+		1977 
+	}
+	manpower=69
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

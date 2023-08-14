@@ -13,7 +13,7 @@
 
 	focus = {
 		id = SAU_the_saudi_economy
-		icon = GFX_SAU_the_saudi_economy
+		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10
 		
 		x = 5
@@ -42,7 +42,7 @@
 	
 	focus = {
 		id = SAU_relocate_the_court_to_riyadh
-		icon = GFX_SAU_relocate_the_court_to_riyadh
+		icon = GFX_focus_generic_court
 		cost = 10
 		
 		x = 0
@@ -72,7 +72,7 @@
 	
 	focus = {
 		id = SAU_date_selling
-		icon = GFX_SAU_the_saudi_economy
+		icon = GFX_goal_generic_positive_trade_relations
 		cost = 10
 		
 		x = -2
@@ -111,7 +111,7 @@
 
 	focus = {
 		id = SAU_horses_for_bombay
-		icon = GFX_SAU_the_saudi_economy
+		icon = GFX_focus_generic_horse_studs
 		cost = 10
 		
 		x = 1
@@ -150,7 +150,7 @@
 	
 	focus = {
 		id = SAU_camels_for_cairo
-		icon = GFX_SAU_camels_for_cairo
+		icon = GFX_focus_generic_camel_corps
 		cost = 10
 		
 		x = -1
@@ -189,7 +189,7 @@
 	
 	focus = {
 		id = SAU_support_caravan_trade
-		icon = GFX_SAU_support_caravan_trade
+		icon = GFX_focus_generic_truck
 		cost = 10
 		
 		x = 0
@@ -232,7 +232,7 @@
 	
 	focus = {
 		id = SAU_fund_the_creation_of_mic
-		icon = GFX_SAU_fund_the_creation_of_mic
+		icon = GFX_goal_generic_forceful_treaty
 		cost = 10
 		
 		x = 1
@@ -271,7 +271,7 @@
 	
 	focus = {
 		id = SAU_buy_egyptian_british_guns
-		icon = GFX_SAU_buy_egyptian_british_guns
+		icon = GFX_focus_ETH_freedom_at_gunpoint
 		cost = 10
 		
 		x = 0
@@ -306,7 +306,7 @@
 	
 	focus = {
 		id = SAU_improve_riyadh
-		icon = GFX_SAU_improve_riyadh
+		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10
 		
 		x = 0
@@ -372,7 +372,7 @@
 	
 	focus = {
 		id = SAU_greater_destiny
-		icon = GFX_SAU_greater_destiny
+		icon = GFX_focus_generic_befriend_saudi_arabia
 		cost = 10
 		
 		x = 12
@@ -401,7 +401,7 @@
 	
 	focus = {
 		id = SAU_end_of_jabal_shammar
-		icon = GFX_SAU_end_of_jabal_shammar
+		icon = GFX_goal_generic_attack_allies
 		cost = 10
 		
 		x = 0
