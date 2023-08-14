@@ -371,35 +371,6 @@
 	}
 	
 	focus = {
-		id = SAU_greater_destiny
-		icon = GFX_SAU_greater_destiny
-		cost = 10
-		
-		x = 12
-		y = 1
-		#relative_position_id = SAU_
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-	
-		prerequisite = {
-		}
-	
-		available = {	
-		}
-
-		completion_reward = {
-		}
-		
-		bypass = {
-		}
-		
-		ai_will_do = {
-		}
-	}
-	
-	focus = {
 		id = SAU_end_of_jabal_shammar
 		icon = GFX_SAU_end_of_jabal_shammar
 		cost = 10
@@ -422,9 +393,10 @@
 
 		completion_reward = {
 			SAU = {
-            declare_war_on = {
-                target = JAS
-                type = annex_everything
+				declare_war_on = {
+					target = JAS
+					type = annex_everything
+				}	
             }
 		}
 		
