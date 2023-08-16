@@ -237,7 +237,37 @@ ideas = {
 
 		}
 
-	}		
+	}	
+	country = {
+		saudi_ikhwan = {
+		    picture = GFX_idea_saudi_ikhwan
+			
+			allowed = {
+				tag = SAU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.02
+				weekly_manpower = 1000 
+				
+
+			}
+
+		}
+
+	}	
 	country = {
 		KHI_cossack_officers = {
 		    picture = GFX_idea_KHI_cossack_officers

@@ -7,14 +7,18 @@ state={
 			infrastructure = 2
 
 		}
+		
 		add_core_of = PEL
-
+		
+		victory_points = { 
+			13340 1 
+		}
 	}
-	state_category=city
+	state_category=rural
 	provinces={
 		13340 
 	}
-	manpower=50000
+	manpower=13452
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

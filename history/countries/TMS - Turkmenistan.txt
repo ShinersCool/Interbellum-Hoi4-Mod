@@ -1,6 +1,6 @@
 ﻿capital = 584
 
-#oob = ""
+oob = "TMS_1919"
 
 # Starting tech
 set_technology = {
@@ -51,10 +51,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 70
-	fascism = 0
-	communism = 20
-	neutrality = 10
+	democratic = 66
+	socialism = 34
 }
 
 recruit_character = TMS_funtikov

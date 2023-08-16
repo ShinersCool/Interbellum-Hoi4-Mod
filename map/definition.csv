@@ -13341,4 +13341,7 @@
 13340;249;200;205;land;true;urban;6
 13341;70;33;70;land;true;urban;6
 13342;0;234;254;land;true;urban;6
-13343;178;51;122;land;false;hills;7
+13343;178;51;122;land;true;hills;7
+13344;31;100;85;land;false;plains;5
+13345;51;89;81;land;true;desert;5
+13346;43;47;45;land;true;forest;5

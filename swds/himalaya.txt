@@ -1,0 +1,48 @@
+﻿focus_tree = { 
+	id = MUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	focus = {
+		id = MUS_renovating_the_walled_city
+		icon = GFX_SAU_the_saudi_economy
+		cost = 10
+		
+		x = 4
+		y = 2
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		prerequisite = {
+
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+
+	
+	
+	
+}
+

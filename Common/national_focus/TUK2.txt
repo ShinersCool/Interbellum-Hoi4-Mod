@@ -1,0 +1,77 @@
+﻿focus_tree = { 
+	id = TUK
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUK
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 55 y = 1500 }
+	
+	focus = {
+		id = TUK_turktsik
+		icon = GFX_SAU_the_saudi_economy
+		cost = 10
+		
+		x = 2
+		y = 2
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		mutually_exclusive = { focus = TUK_panturkism }
+		prerequisite = {
+			focus = TUK_turkestan_front
+		}
+	
+		available = {	
+		}
+
+		completion_reward = {
+		
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+
+	
+	focus = {
+		id = TUK_turkestan_front
+		icon = GFX_SAU_the_saudi_economy
+		cost = 10
+		
+		x = 9
+		y = 1
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		prerequisite = {
+			
+		}
+	
+		available = {
+			
+		}
+
+		completion_reward = {
+			recruit_character = TUK_belov
+		}
+		
+		bypass = {
+		}
+		
+		ai_will_do = {
+		}
+	}
+	
+	
+}
+

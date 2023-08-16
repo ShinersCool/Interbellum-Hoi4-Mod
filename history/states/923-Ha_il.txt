@@ -1,0 +1,27 @@
+state={
+	id=923
+	name="STATE_923"
+	resources={
+		oil=1.000
+	}
+	
+	history={
+		owner = JAS
+		add_core_of = JAS
+		buildings = {
+		    infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			
+		}	
+		
+	}	
+	
+	provinces={
+		2057 4974 5058 7970 8101 10815 10901 12455
+	}
+	manpower=288000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

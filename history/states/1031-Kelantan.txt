@@ -3,24 +3,21 @@ state={
 	name="STATE_1031"
 	history={
 		owner = KLT 
-		victory_points = {
-			7329 1 
-		}		
 		buildings = {
 			infrastructure = 2
-			7329 = {
-				naval_base = 1
 
-			}
 		}
 		add_core_of = KLT 
+		victory_points = { 
+			7329 1 
+		}
 
 	}
-	state_category=city
+	state_category=rural
 	provinces={
 		7329 10227 
 	}
-	manpower=50000
+	manpower=78231
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=5.000
 }

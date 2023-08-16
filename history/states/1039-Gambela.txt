@@ -1,0 +1,18 @@
+state={
+	id=1039
+	name="STATE_1039"
+	history = {
+		owner = ENG
+		add_core_of = ETH
+		
+		victory_points = { 13344 1 }
+		
+	}
+	provinces={
+		13344 
+	}
+	state_category = pastoral
+	manpower=11327
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

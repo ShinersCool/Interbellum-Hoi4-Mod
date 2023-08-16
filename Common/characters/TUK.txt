@@ -23,4 +23,22 @@ characters={
 			expire="1938.1.1.1"
 		}
 	}
+	
+	TUK_belov={
+		name=TUK_belov
+		portraits={
+			civilian={
+				large="GFX_portrait_aristarkh_andreyevich_kazakov"
+			}
+		}
+		
+		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
 }
