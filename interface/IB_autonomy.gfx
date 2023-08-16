@@ -1,0 +1,16 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_autonomy_ib_protectorate_icon"
+		texturefile = "gfx/interface/autonomy/autonomy_ib_protectorate_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_autonomy_ib_informal_protectorate_icon"
+		texturefile = "gfx/interface/autonomy/autonomy_ib_protectorate_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_autonomy_ib_clique_icon"
+		texturefile = "gfx/interface/autonomy/autonomy_ib_clique_icon.dds"	
+	}
+	
+}

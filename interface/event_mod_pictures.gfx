@@ -1,0 +1,28 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_trianon_treaty"
+		texturefile = "gfx/event_pictures/trianon_treaty.dds"
+	}
+	spriteType = {
+		name = "GFX_charles_i"
+		texturefile = "gfx/event_pictures/charles_i.dds"
+	}
+	spriteType = {
+		name = "GFX_ferdinand_i"
+		texturefile = "gfx/event_pictures/ferdinand_i.dds"
+	}
+	spriteType = {
+		name = "GFX_armenia_border_war"
+		texturefile = "gfx/event_pictures/armenia_border_war.dds"
+	}
+	spriteType = {
+		name = "GFX_syria_news_event_001"
+		texturefile = "gfx/event_pictures/syria_news_event.dds"
+	}
+	spriteType = {
+		name = "GFX_yugoslavia_carinthia"
+		texturefile = "gfx/event_pictures/yugoslavia_carinthia.dds"
+	}	
+
+}

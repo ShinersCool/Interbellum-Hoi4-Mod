@@ -1,0 +1,27 @@
+on_actions = {
+	on_startup = {
+		effect = {	
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 235
+					num_provinces = 2
+					on_win = armenia.1
+					on_lose = armenia.2
+					on_cancel = armenia.3
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 827
+					num_provinces = 2
+					on_win = armenia.2
+					on_lose = armenia.1
+					on_cancel = armenia.3
+					dig_in_factor = 1
+				}
+			}
+		}
+	}
+}
