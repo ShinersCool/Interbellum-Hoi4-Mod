@@ -155,4 +155,15 @@ on_actions = {
 			
 		}	
 	}	
+	on_startup = {
+		effect = {	
+            GEO = {
+                country_event = { 
+                    id = georgia_ib.1
+					days = 236
+                }
+			}				
+			
+		}	
+	}		
 }

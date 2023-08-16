@@ -64,11 +64,16 @@ if = {
 	}
 }
 
+add_ideas = {
+	GEO_bolshevik_clashes
+}	
+
 set_popularities = {
-	democratic = 80
+	democratic = 65
 	communism = 5
 	fascism = 0
-	neutrality = 15
+	neutrality = 10
+	socialism = 20
 }
 
 recruit_character = GEO_noe_zhordania

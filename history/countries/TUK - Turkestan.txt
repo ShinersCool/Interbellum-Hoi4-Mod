@@ -61,8 +61,8 @@ add_ideas = {
 
 country_lock_all_division_template = yes
 
-recruit_character = TUK_turar
 recruit_character = TUK_Aristarkh
+recruit_character = TUK_turar
 
 set_politics = {
 	ruling_party = communism
@@ -74,8 +74,7 @@ set_politics = {
 set_popularities = {
 	democratic = 0
 	fascism = 0
-	communism = 83
-	socialism = 17
+	communism = 100
 	neutrality = 0
 }
 

@@ -378,7 +378,7 @@ set_country_flag = SOV_TEST_REMOVE_VANILLA_ADVISORS_flag
 
 add_ideas = {	
 	home_of_revolution
-	#SOV_politicized_military
+	war_communism
 }
 
 set_convoys = 50

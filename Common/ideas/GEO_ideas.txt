@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		GEO_bolshevik_clashes = {
+		    picture = GEO_bolshevik_clashes
+			
+			allowed = {
+				tag = GEO
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.015
+				surrender_limit = -0.05
+				
+			}
+
+		}
+	}	
+}

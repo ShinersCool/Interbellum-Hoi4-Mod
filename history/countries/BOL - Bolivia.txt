@@ -125,6 +125,7 @@ set_popularities = {
 }
 
 recruit_character = BOL_jose_guerra
+recruit_character = BOL_bautista_saavedra
 
 1939.1.1 = {
 	set_politics = {

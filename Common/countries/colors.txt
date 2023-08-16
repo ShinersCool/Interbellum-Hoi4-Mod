@@ -259,7 +259,7 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 188 84 141 }
+	color = rgb { 155 7 10 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
@@ -477,8 +477,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 153 30 31 }
+	color_ui = rgb { 153 30 31 }
 }
 SAU = {
 	color = rgb { 0 108 53 }

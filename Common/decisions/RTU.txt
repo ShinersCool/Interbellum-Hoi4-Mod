@@ -34,7 +34,7 @@ RTU_expand = {
 		
 		remove_effect = { 
 			347 = {
-				transfer_state_to = RTU 
+			transfer_state_to = RTU 
 			}
 			
 			hidden_effect = {
