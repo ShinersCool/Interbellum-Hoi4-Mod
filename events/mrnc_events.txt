@@ -1,0 +1,198 @@
+﻿###########################
+# Saudia Events
+###########################
+
+add_namespace = mrnc_border_conflict
+
+country_event = {
+	id = mrnc_border_conflict.1
+	title = "Russians Troops Break Contact!!"
+	desc = mrnc_border_conflict.1.d
+	picture = GFX_saudia_border_conflict_1
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+	
+		ai_chance = { 
+			100
+		}
+		
+		name = "Allahuakbar!"
+		add_political_power = 50
+		add_war_support = 0.02
+		add_command_power = 20
+		army_experience = 5
+	}
+	option = {
+		
+		ai_chance = { 
+			0
+		}
+	
+		name = "Allahuakbar, push on for the Republic!"
+		add_political_power = 50
+		add_war_support = 0.02
+		add_command_power = 20
+		army_experience = 5
+		
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 827
+				num_provinces = 2
+				on_win = mrnc_border_conflict.7
+				on_lose = mrnc_border_conflict.2
+				on_cancel = mrnc_border_conflict.3
+				modifier = 0.1
+				dig_in_factor = 0
+				terrain_factor = 0
+			}	
+			defender = {
+				state = 1039
+				num_provinces = 2
+				on_win = mrnc_border_conflict.4
+				on_lose = mrnc_border_conflict.5
+				on_cancel = mrnc_border_conflict.6
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mrnc_border_conflict.2
+	title = "Our Troops Retreat in panic!"
+	desc = mrnc_border_conflict.2.d
+	picture = GFX_saudia_border_conflict_2
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Damnit!"
+		add_political_power = -100
+		add_stability = -0.04
+		add_war_support = -0.04
+	}
+}
+
+country_event = {
+	id = mrnc_border_conflict.3
+	title = "Stalemate On The Frontlines!"
+	desc = mrnc_border_conflict.3.d
+	picture = GFX_saudia_border_conflict_3
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "Damn those Russkies!"
+		add_political_power = -50
+		add_stability = -0.02
+		add_war_support = -0.02
+	}
+}
+
+country_event = {
+	id = mrnc_border_conflict.4
+	title = "Mountainous Republics Army Retreats!"
+	desc = mrnc_border_conflict.4.d
+	picture = GFX_saudia_border_conflict_4
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "For The Tsar!"
+		add_political_power = 50
+		add_war_support = 0.04
+		add_stability = 0.04
+		army_experience = 10
+	}
+}
+
+country_event = {
+	id = mrnc_border_conflict.5
+	title = "Our Troops Retreat!"
+	desc = mrnc_border_conflict.5.d
+	picture = GFX_saudia_border_conflict_5
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "DAMNIT! SOMEONE IS GETTING SHOT!"
+		add_political_power = -100
+		add_stability = -0.04
+		add_war_support = -0.04
+	}
+}
+
+country_event = {
+	id = mrnc_border_conflict.6
+	title = "Stalemate On The Frontlines."
+	desc = mrnc_border_conflict.6.d
+	picture = GFX_saudia_border_conflict_6
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "COWARDS! ALL OF YOU!"
+		add_stability = -0.02
+		add_war_support = -0.02
+	}
+}
+
+country_event = {
+	id = mrnc_border_conflict.7
+	title = "Our Troops Rapidly!"
+	desc = mrnc_border_conflict.7.d
+	picture = GFX_saudia_border_conflict_7
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	option = {
+		name = "ALLAHUAKBAR! FOR THE REPUBLC!"
+		add_political_power = 100
+		add_war_support = 0.05
+		add_stability = 0.05
+		add_command_power = 20
+		army_experience = 25
+		
+		MNC = {
+			transfer_state = 1039
+			transfer_state = 232
+		}	
+	}
+}
