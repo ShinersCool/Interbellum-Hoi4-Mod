@@ -2,11 +2,9 @@ state={
 	id=1038
 	name="STATE_1038"
 	history = {
-		owner = EGY
+		owner = SUD
 		buildings = {
 		}
-
-		add_core_of = EGY
 		add_core_of = SUD
 	}
 	provinces={
