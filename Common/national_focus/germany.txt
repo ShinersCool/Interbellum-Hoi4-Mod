@@ -1,5 +1,6 @@
-﻿focus_tree = { 
-	id = GER_ib
+focus_tree = {
+	id = germany
+	continuous_focus_position = { x = 1550 y = 420 } 
 	country = {
 		factor = 0
 		modifier = {
@@ -7,129 +8,813 @@
 			tag = GER
 		}
 	}
-	default = no
-	continuous_focus_position = { x = 55 y = 1500 }
-	
-
+	#Successful Putsch
 	focus = {
-		id = ger_weimar_constitution
-		icon = GFX_goal_
-		x = 25
+		id = GER_successful_putsch
+		icon = GFX_GER_successful_putsch-525857
+		x = 8
+		y = 12
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = GER_beer_hall_putsch  }
+		mutually_exclusive = { focus = GER_prison  }
+		available = {
+			has_government = fascism
+			
+			
+		}
+		completion_reward = {
+			add_stability = 0.1
+			
+			add_popularity = {
+			    ideology = fascism
+			    popularity = 0.35
+			}
+			
+			
+			
+		}
+	}
+
+	#Council Democracy
+	focus = {
+		id = GER_council_democracy
+		icon = GFX_GER_council_democracy-521291
+		x = 26
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_workersreforms  }
+		completion_reward = {
+			
+						add_popularity = {
+						    ideology = democratic
+						    popularity = 0.05
+						}
+						
+						
+						
+					
+		}
+	}
+
+	#Female Rights
+	focus = {
+		id = GER_female_rights
+		icon = GFX_GER_female_rights-521289
+		x = 32
+		y = 5
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_antidiscriminatory_laws  }
+		completion_reward = {
+			
+						add_manpower = 70000
+						
+						
+					
+		}
+	}
+
+	#Extra Research Slots
+	focus = {
+		id = GER_extra_research_slots
+		icon = GFX_goal_continuous_research
+		x = 29
+		y = 4
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_collectivization  }
+		completion_reward = {
+			
+						add_research_slot = 2
+						
+						
+					
+		}
+	}
+
+	#Economic Miracle
+	focus = {
+		id = GER_economic_miracle
+		icon = GFX_GER_economic_miracle-521292
+		x = 29
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_reichsautobahn  }
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+						limit = {
+						free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+						}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+						}
+						set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+						}
+						
+						
+						add_political_power = 400
+						
+						
+					
+		}
+	}
+
+	#The New German Worker
+	focus = {
+		id = GER_the_new_german_worker
+		icon = GFX_GER_the_new_german_worker-521293
+		x = 26
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_council_democracy  }
+		completion_reward = {
+			
+						add_manpower = 10000
+						
+						
+					
+		}
+	}
+
+	#Fortschritt!
+	focus = {
+		id = GER_fortschritt
+		icon = GFX_GER_fortschritt-521294
+		x = 29
+		y = 8
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_racial_liberation  focus = GER_economic_miracle  focus = GER_the_new_german_worker  }
+		completion_reward = {
+			
+						add_manpower = 150000
+						
+						add_political_power = 1000
+						
+						add_stability = 0.1
+						
+						
+						
+					
+		}
+	}
+
+	#Racial Liberation
+	focus = {
+		id = GER_racial_liberation
+		icon = GFX_GER_racial_liberation-521290
+		x = 32
+		y = 6
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_female_rights  }
+		completion_reward = {
+			
+						add_manpower = 10000
+						
+						add_stability = -0.1
+						
+						
+					
+		}
+	}
+
+	#Workers' Reforms
+	focus = {
+		id = GER_workersreforms
+		icon = GFX_focus_por_workers_of_iberia
+		x = 27
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_collectivization  }
+		completion_reward = {
+			
+						add_stability = 0.1
+						
+						
+					
+		}
+	}
+
+	#Anti-Discriminatory Laws
+	focus = {
+		id = GER_antidiscriminatory_laws
+		icon = GFX_GER_antidiscriminatory_laws-521284
+		x = 31
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_collectivization  }
+		completion_reward = {
+			
+						add_stability = 0.03
+						
+						add_popularity = {
+						    ideology = communism
+						    popularity = 0.05
+						}
+						
+						
+						
+					
+		}
+	}
+
+	#Collectivization
+	focus = {
+		id = GER_collectivization
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 29
+		y = 3
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_free_socialist_republic_of_germany  }
+		available = {
+			has_civil_war = no
+			
+			
+		}
+		completion_reward = {
+			
+						add_manpower = 10000
+						
+						
+						random_owned_controlled_state = {
+						limit = {
+						free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+						}
+						}
+						add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+						}
+						set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+						}
+						
+						
+						
+						add_ideas = GRM_collectivization
+						
+						
+						
+					
+		}
+	}
+
+	#Reichsautobahn
+	focus = {
+		id = GER_reichsautobahn
+		icon = GFX_GER_reichsautobahn-521135
+		x = 29
+		y = 5
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_extra_research_slots  }
+		completion_reward = {
+			
+						
+									
+												custom_effect_tooltip = GER_autobahn_tt
+												hidden_effect = {
+													64 = {
+														if = {
+															limit = { is_controlled_by = ROOT }
+															add_building_construction = {
+																type = infrastructure
+																level = 5
+																instant_build = yes
+															}
+														}
+													}
+													59 = {
+														if = {
+															limit = { is_controlled_by = ROOT }
+									
+															add_building_construction = {
+																type = infrastructure
+																level = 5
+																instant_build = yes
+															}
+														}
+													}
+													60 = {
+														if = {
+															limit = { is_controlled_by = ROOT }
+															add_building_construction = {
+																type = infrastructure
+																level = 5
+																instant_build = yes
+															}
+														}
+													}
+													54 = {
+														if = {
+															limit = { is_controlled_by = ROOT }
+															add_building_construction = {
+																type = infrastructure
+																level = 5
+																instant_build = yes
+											}
+									    }
+									}
+								}
+							
+					
+		}
+	}
+
+	#Formation of NSDAP
+	focus = {
+		id = GER_formation_of_nsdap
+		icon = GFX_GER_formation_of_nsdap-521278
+		x = 11
+		y = 6
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_form_reichstag  }
+		mutually_exclusive = { focus = GER_consolidate_power  }
+		available = {
+			date > 1921.01.01
+			
+			
+		}
+		completion_reward = {
+			promote_character = GER_adolf_hitler
+			  promote_character = {
+			      character = GER_adolf_hitler
+			      Ideology = nazism
+			  }
+			
+			
+		}
+	}
+
+	#The Future of Germany
+	focus = {
+		id = GER_the_future_of_germany
+		icon = GFX_GER_the_future_of_germany-524140
+		x = 10
 		y = 0
-		cost = 6.43
-		available_if_capitulated = no
-		#search_filters = { }
-		
-		available = {  
-			has_government = democratic
-		}	
-		completion_reward = {
-			GER = {
-				unlock_decision_category_tooltip = GER_form_reichstag
-				unlock_decision_tooltip = GER_form_the_reichstag
-			}	
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
 	}
 
+	#Ratify The Democratic Constitution
 	focus = {
-		id = ger_war_guilt_committee
-		icon = GFX_goal_
-		relative_position_id = ger_weimar_constitution
-		x = 1
-		y = 1
-		cost = 1.43
-		available_if_capitulated = yes
-		#search_filters = { }
-
-		completion_reward = {
-			GER = {
-				add_ideas = ger_war_guilt_committee_idea
-			}
-		}
-		prerequisite = { focus = ger_weimar_constitution }
-	}
-	
-	focus = {
-		id = ger_volkspflege
-		icon = GFX_goal_
-		relative_position_id = ger_war_guilt_committee
-		x = -1
-		y = 1
-		cost = 3
-		available_if_capitulated = yes
-		#search_filters = { }
-
-		completion_reward = {
-			GER = {
-				add_ideas = {
-					agency_for_homeland_service_volkspflege
-				}
-				remove_ideas = {
-					agency_for_homeland_service
-				}	
-				unlock_decision_tooltip = GER_boost_anti_french_sentiment
-			}
-		}
-		prerequisite = { focus = ger_war_guilt_committee }
-	}	
-
-	focus = {
-		id = ger_form_reichswehr
-		icon = GFX_goal_
-		relative_position_id = ger_weimar_constitution
-		x = -3
+		id = GER_ratify_the_democratic_constitution
+		icon = GFX_focus_generic_treaty
+		x = 5
 		y = 1
 		cost = 5
-		available_if_capitulated = yes
-		#search_filters = { }
-
-		completion_reward = {
-			GER = {
-				activate_advisor = walther_reinhardt
-				activate_advisor = gustav_noske
-			}
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
 		}
-		prerequisite = { focus = ger_weimar_constitution }
+		prerequisite = { focus = GER_the_future_of_germany  }
+		mutually_exclusive = { focus = GER_spartakusbund  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = democratic
+			    popularity = 0.05
+			}
+			
+			
+			
+		}
 	}
-	focus = {
-		id = ger_form_reichsmarine
-		icon = GFX_goal_
-		relative_position_id = ger_form_reichswehr
-		x = -1
-		y = 1
-		cost = 3
-		available_if_capitulated = yes
-		#search_filters = { }
 
-		completion_reward = {
-			GER = {
-				activate_advisor = adolf_von_trotha
-				add_ideas = { 
-					ger_navy_refitting 
-				}
-			}
-		}
-		prerequisite = { focus = ger_form_reichswehr }
-	}	
+	#Form Reichstag
 	focus = {
-		id = ger_form_reichwaffenamt
-		icon = GFX_goal_
-		relative_position_id = ger_form_reichswehr
+		id = GER_form_reichstag
+		icon = GFX_GER_form_reichstag-519110
+		x = 5
+		y = 2
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_ratify_the_democratic_constitution  }
+		available = {
+			  
+						has_government = democratic
+					
+		}
+		completion_reward = {
+			
+						GER = {
+							unlock_decision_category_tooltip = GER_form_reichstag
+							unlock_decision_tooltip = GER_form_the_reichstag
+						}	
+					
+		}
+	}
+
+	#Spartakusbund
+	focus = {
+		id = GER_spartakusbund
+		icon = GFX_GER_spartakusbund-524424
+		x = 22
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_the_future_of_germany  }
+		mutually_exclusive = { focus = GER_ratify_the_democratic_constitution  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = communism
+			    popularity = 0.15
+			}
+			
+			
+			
+		}
+	}
+
+	#Free Socialist Republic of Germany
+	focus = {
+		id = GER_free_socialist_republic_of_germany
+		icon = GFX_GER_free_socialist_republic_of_germany-521285
+		x = 29
+		y = 2
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_spartakusbund  }
+		completion_reward = {
+			start_civil_war = {
+			    ruling_party = communism
+			    ideology = GER
+			    size = 0.8
+			    only_own_territory = no
+			    capital = 282
+			    states = { 
+			        973 57 64 56 65 52 53
+			    }
+			    keep_unit_leaders = {
+			 
+			    }
+			    keep_political_leader = yes
+			    keep_political_party_members = yes
+			}
+			
+			
+			
+		}
+	}
+
+	#Form Reichswehr
+	focus = {
+		id = GER_form_reichswehr
+		icon = GFX_focus_chi_army_reform
+		x = 8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = GER_form_reichstag  }
+		completion_reward = {
+			
+						GER = {
+							activate_advisor = walther_reinhardt
+							activate_advisor = gustav_noske
+						}
+					
+		}
+	}
+
+	#Form Reichsmarine
+	focus = {
+		id = GER_form_reichsmarine
+		icon = GFX_GER_form_reichsmarine-524439
+		x = 9
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = GER_form_reichswehr  }
+		completion_reward = {
+			
+						GER = {
+							activate_advisor = adolf_von_trotha
+							add_ideas = { 
+								ger_navy_refitting 
+							}
+							add_manpower = 10000
+			
+						}
+					
+			
+		}
+	}
+
+	#Form Reichwaffenamt
+	focus = {
+		id = GER_form_reichwaffenamt
+		icon = GFX_focus_generic_combined_arms
+		x = 7
+		y = 4
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_WAR_SUPPORT
+		}
+		prerequisite = { focus = GER_form_reichswehr  }
+		completion_reward = {
+			
+						GER = {
+							add_ideas = { 
+								ger_reichwaffenamt 
+							}
+						}
+					
+		}
+	}
+
+	#Hitler
+	focus = {
+		id = GER_hitler
+		icon = GFX_GER_hitler-524508
+		x = 8
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_formation_of_nsdap  }
+		mutually_exclusive = { focus = GER_strasser  }
+		completion_reward = {
+			promote_character = GER_adolf_hitler
+			  promote_character = {
+			      character = GER_adolf_hitler
+			      Ideology = nazism
+			  }
+			
+			
+		select_effect = {
+add_stability = 0.02
+}
+}
+}
+
+	#Strasser
+	focus = {
+		id = GER_strasser
+		icon = GFX_GER_strasser-524513
+		x = 14
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_formation_of_nsdap  }
+		mutually_exclusive = { focus = GER_hitler  }
+		completion_reward = {
+			create_country_leader = {
+				name = "Otto Strasser"
+			
+			
+		}
+	}
+}
+
+	#Ein Volk, Ein Reich, Ein Fuhrer
+	focus = {
+		id = GER_einvolkeinreicheinfuhrer
+		icon = GFX_GER_einvolkeinreicheinfuhrer-525775
+		x = 8
+		y = 9
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_hitler  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = fascism
+			    popularity = 0.1
+			}
+			
+			
+			
+		}
+	}
+
+	#The Workers' Nationale!
+	focus = {
+		id = GER_theworkersnationale
+		icon = GFX_GER_theworkersnationale-525807
+		x = 14
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_strasser  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = fascism
+			    popularity = 0.15
+			}
+			
+			
+			
+		}
+	}
+
+	#Kill Hitler
+	focus = {
+		id = GER_kill_hitler
+		icon = GFX_GER_kill_hitler-516784
+		x = 14
+		y = 9
+		cost = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_theworkersnationale  }
+		completion_reward = {
+			add_stability = -0.05
+			
+			
+		}
+	}
+
+	#Beer Hall Putsch
+	focus = {
+		id = GER_beer_hall_putsch
+		icon = GFX_GER_beer_hall_putsch-525844
+		x = 11
+		y = 10
+		cost = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_einvolkeinreicheinfuhrer  focus = GER_kill_hitler  }
+		available = {
+			date > 1923.01.01
+			
+			
+		}
+	}
+
+	#Prison!
+	focus = {
+		id = GER_prison
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		x = 14
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_beer_hall_putsch  }
+		mutually_exclusive = { focus = GER_successful_putsch  }
+		completion_reward = {
+			add_stability = -0.05
+			
+			
+		}
+	}
+
+	#Rise of The Nazi Party
+	focus = {
+		id = GER_rise_of_the_nazi_party
+		icon = GFX_focus_chi_mission_to_germany
+		x = 14
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_prison  }
+		available = {
+			date > 1927.01.01
+			
+			
+		}
+		completion_reward = {
+			add_popularity = {
+			    ideology = fascism
+			    popularity = 0.3
+			}
+			
+			
+			
+		}
+	}
+
+	#Knight of The Long Knives
+	focus = {
+		id = GER_knight_of_the_long_knives
+		icon = GFX_GER_knight_of_the_long_knives-516067
+		x = 11
+		y = 14
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = GER_rise_of_the_nazi_party  focus = GER_successful_putsch  }
+		completion_reward = {
+			add_manpower = 10000
+			
+			
+		}
+	}
+
+	#Consolidate Power
+	focus = {
+		id = GER_consolidate_power
+		icon = GFX_GER_consolidate_power-519097
+		x = 0
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_form_reichstag  }
+		mutually_exclusive = { focus = GER_formation_of_nsdap  }
+		completion_reward = {
+			add_stability = 0.05
+			
+			
+		}
+	]
+
+	#Solidify Democracy
+	focus = {
+		id = GER_solidify_democracy
+		icon = GFX_GER_solidify_democracy-516780
 		x = 1
-		y = 1
-		cost = 3
-		available_if_capitulated = yes
-		#search_filters = { }
-
-		completion_reward = {
-			GER = {
-				add_ideas = { 
-					ger_reichwaffenamt 
-				}
-			}
+		y = 10
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ger_form_reichswehr }
-	}	
+		prerequisite = { focus = GER_consolidate_power  }
+		completion_reward = {
+			add_popularity = {
+			    ideology = fascism
+			    popularity = -0.5
+			}
+			
+			
+			add_popularity = {
+			    ideology = communism
+			    popularity = -0.5
+			}
+			
+			
+			
+		}
+	}
 
 }
 
