@@ -1,0 +1,21 @@
+state={
+	id=1044
+	name="STATE_1044"
+	provinces={
+		13354 
+	}
+	history = {
+		owner = SAK
+		add_core_of = SAK
+		
+		buildings = {
+            infrastructure = 2
+			industrial_complex = 1
+        }
+		
+	}
+	manpower=2751
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

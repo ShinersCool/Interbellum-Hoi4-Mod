@@ -1,0 +1,23 @@
+state={
+	id=1046
+	name="STATE_1046"
+	provinces={
+		13347 13348 13352 
+	}
+	history = {
+		owner = SAK
+		add_core_of = SAK
+		
+		victory_points = { 13347 3 }
+		
+		buildings = {
+            infrastructure = 2
+			civilian_industry = 1
+        }
+		
+	}
+	manpower=6672
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

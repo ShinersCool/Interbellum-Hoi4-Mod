@@ -1,0 +1,22 @@
+state={
+	id=1053
+	name="STATE_1053"
+	provinces={
+		13356
+	}
+	history = {
+		controller = RAJ
+		add_claim_by = TIB
+		add_core_of = RAJ
+		set_demilitarized_zone = yes
+		
+		buildings = {
+            infrastructure = 2
+        }
+		
+	}
+	state_category = town
+	manpower=13972
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

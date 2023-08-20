@@ -1,0 +1,35 @@
+
+state={
+	id=1057
+	name="STATE_1057"
+
+	history={
+		owner = KPR
+		add_claim_by = MNC
+		victory_points = {
+			719 3 
+		}
+		victory_points = {
+			3734 5 
+		}
+		buildings = {
+			infrastructure = 2
+			719 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = KPR
+
+	}
+
+	provinces={
+		714 717 719 735 3717 3720 3760 6736 6738 6741 9691 9694 9696 11633 11668 11681 
+	}
+	manpower=983010
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
