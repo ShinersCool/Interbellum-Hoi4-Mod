@@ -1,5 +1,5 @@
 ﻿###########################
-# Saudia Events
+# MRNC Events
 ###########################
 
 add_namespace = mrnc_border_conflict
@@ -8,7 +8,7 @@ country_event = {
 	id = mrnc_border_conflict.1
 	title = "Russians Troops Break Contact!!"
 	desc = mrnc_border_conflict.1.d
-	picture = GFX_saudia_border_conflict_1
+	picture = GFX_mrnc_border_conflict_1
 	
 	fire_only_once = yes
 	
@@ -20,7 +20,7 @@ country_event = {
 	option = {
 	
 		ai_chance = { 
-			100
+			base = 100
 		}
 		
 		name = "Allahuakbar!"
@@ -32,7 +32,7 @@ country_event = {
 	option = {
 		
 		ai_chance = { 
-			0
+			base = 0
 		}
 	
 		name = "Allahuakbar, push on for the Republic!"
@@ -68,7 +68,7 @@ country_event = {
 	id = mrnc_border_conflict.2
 	title = "Our Troops Retreat in panic!"
 	desc = mrnc_border_conflict.2.d
-	picture = GFX_saudia_border_conflict_2
+	picture = GFX_mrnc_border_conflict_2
 	
 	fire_only_once = yes
 	
@@ -89,7 +89,7 @@ country_event = {
 	id = mrnc_border_conflict.3
 	title = "Stalemate On The Frontlines!"
 	desc = mrnc_border_conflict.3.d
-	picture = GFX_saudia_border_conflict_3
+	picture = GFX_mrnc_border_conflict_3
 	
 	fire_only_once = yes
 	
@@ -110,7 +110,7 @@ country_event = {
 	id = mrnc_border_conflict.4
 	title = "Mountainous Republics Army Retreats!"
 	desc = mrnc_border_conflict.4.d
-	picture = GFX_saudia_border_conflict_4
+	picture = GFX_mrnc_border_conflict_4
 	
 	fire_only_once = yes
 	
@@ -132,7 +132,7 @@ country_event = {
 	id = mrnc_border_conflict.5
 	title = "Our Troops Retreat!"
 	desc = mrnc_border_conflict.5.d
-	picture = GFX_saudia_border_conflict_5
+	picture = GFX_mrnc_border_conflict_5
 	
 	fire_only_once = yes
 	
@@ -153,7 +153,7 @@ country_event = {
 	id = mrnc_border_conflict.6
 	title = "Stalemate On The Frontlines."
 	desc = mrnc_border_conflict.6.d
-	picture = GFX_saudia_border_conflict_6
+	picture = GFX_mrnc_border_conflict_6
 	
 	fire_only_once = yes
 	
@@ -173,7 +173,7 @@ country_event = {
 	id = mrnc_border_conflict.7
 	title = "Our Troops Rapidly!"
 	desc = mrnc_border_conflict.7.d
-	picture = GFX_saudia_border_conflict_7
+	picture = GFX_mrnc_border_conflict_7
 	
 	fire_only_once = yes
 	

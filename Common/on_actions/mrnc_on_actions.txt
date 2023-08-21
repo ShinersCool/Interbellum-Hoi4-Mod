@@ -24,4 +24,9 @@ on_actions = {
 			}
 		}
 	}
+	on_startup = {
+		effect = {	
+			MNC = { country_event = want_the_focus_tree.1 }
+		}
+	}
 }

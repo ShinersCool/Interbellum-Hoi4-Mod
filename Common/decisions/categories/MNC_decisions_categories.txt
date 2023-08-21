@@ -1,0 +1,17 @@
+MNC_donations_category = {
+	icon = GFX_decision_gre_investment_decisions
+	
+	priority = 1
+	
+	allowed = {
+		MNC = {
+			has_completed_focus = MNC_personal_donations
+        }
+	}
+	
+	visible = {
+		MNC = {
+			has_completed_focus = MNC_our_oil_millionaires
+		}
+	}
+}
