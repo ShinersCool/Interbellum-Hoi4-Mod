@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_daybreak_of_democracy_bookmark"
+		texturefile = "gfx/interface/daybreak_1919.dds"
+	}	
+}

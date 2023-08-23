@@ -11,7 +11,7 @@ state=
 		victory_points = {
 			3288 3
 		}
-		owner = FRA
+		owner = GER
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -19,7 +19,12 @@ state=
 				naval_base = 1
 			}
 		}
-		add_claim_by = LIT
+		add_core_of = LIT
+
+		1939.3.22 = {
+			owner = GER
+			controller = GER
+		}
 	}
 	provinces={
 		3288 	

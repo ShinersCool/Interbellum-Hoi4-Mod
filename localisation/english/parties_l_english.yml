@@ -615,6 +615,7 @@
  UKR_communism_party:0 "Communist Party of Ukraine"
  UKR_neutrality_party:0 "Ukrainian Progress Party"
  GEO_fascism_party:0 "Tbilisi Council"
+ GEO_democratic_party:0 "Social Democratic Party of Georgia"
  GEO_communism_party:0 "Communist Party of Georgia"
  GEO_neutrality_party:0 "Gori Convention"
  KAZ_fascism_party:0 "Zhuze Ultşildiq"
@@ -1070,5 +1071,3 @@
  
  BOL_conservative_party_long:0 "Partido Republicano Socialista"
  BOL_conservative_party:0 "PRS"
- GEO_socialism_party:0 "Mensheviks"
- GEO_democratic_party:0 "Mensheviks"

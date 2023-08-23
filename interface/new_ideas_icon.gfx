@@ -1,0 +1,79 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_weakened_military"
+		texturefile = "gfx/interface/ideas/weakened_military_icon.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_KHI_cossack_officers"
+		texturefile = "gfx/interface/ideas/GFX_KHI_cossack_officers.dds"	
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MOR_question_of_tanger"
+		texturefile = "gfx/interface/ideas/GFX_MOR_question_of_tanger.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_walther_reinhardt"
+		texturefile = "gfx/interface/ideas/GFX_walther_reinhardt.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_gustav_noske"
+		texturefile = "gfx/interface/ideas/GFX_gustav_noske.dds"	
+	}		
+	spriteType = {
+		name = "GFX_idea_adolf_von_trotha"
+		texturefile = "gfx/interface/ideas/GFX_adolf_von_trotha.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_CIN_volunteer_army_control"
+		texturefile = "gfx/interface/ideas/GFX_CIN_volunteer_army_control.dds"	
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_monarchist_return"
+		texturefile = "gfx/interface/ideas/GFX_monarchist_return.dds"	
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_horthys_grip"
+		texturefile = "gfx/interface/ideas/GFX_horthys_grip.dds"	
+	}
+	
+	spriteType = {
+		name = "GFX_idea_white_terror_idea"
+		texturefile = "gfx/interface/ideas/GFX_white_terror_idea.dds"	
+	}
+	
+	spriteType = {
+		name = "GFX_idea_white_terror_idea_2"
+		texturefile = "gfx/interface/ideas/GFX_white_terror_idea_2.dds"	
+	}
+	
+	spriteType = {
+		name = "GFX_idea_white_terror_idea_3"
+		texturefile = "gfx/interface/ideas/GFX_white_terror_idea_3.dds"	
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_mor_resistance"
+		texturefile = "gfx/interface/ideas/GFX_mor_resistance.dds"	
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_anhui_remobalisation"
+		texturefile = "gfx/interface/ideas/GFX_anhui_remobalisation.dds"	
+	}
+	
+	spriteType = {
+		name = "GFX_idea_BEL_in_flanders_fields"
+		texturefile = "gfx/interface/ideas/GFX_BEL_in_flanders_fields.dds"	
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_TUK_disbanded_army"
+		texturefile = "gfx/interface/ideas/GFX_TUK_disbanded_army.dds"	
+	}	
+	
+}
+

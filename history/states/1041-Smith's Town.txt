@@ -1,18 +1,17 @@
 state={
 	id=1041
 	name="STATE_1041"
+
 	history = {
 		owner = ENG
 		add_core_of = ENG
 		
 		victory_points = { 13352 1 }
-		
-		 buildings = {
-            infrastructure = 4
+
+		buildings = {
+			infrastructure = 4
             dockyard = 1
-            13352 = {
-                naval_base = 5
-            }
+            naval_base = 5
         }
 		
 	}

@@ -1,0 +1,520 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = hungary_ib
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+		   add = 10
+		   tag = HUN
+		}  
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+
+	continuous_focus_position = { x = 50 y = 1600 }
+
+	focus = {
+		id = trianon_enforce
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 5
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		
+		available = { 
+			has_war_with = ROM 
+		}
+		
+		bypass = {
+		}
+
+		cost = 4
+		
+		completion_reward = {
+			HUN = {
+				country_event = { 
+					id = hungary_ib.1
+				}
+			}	
+		}
+
+		available_if_capitulated = no
+		
+		ai_will_do = {
+			factor = 1.0
+		}
+	}
+
+	focus = {
+		id = overthrow_gyula_peidl
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 1
+		y = 2
+		relative_position_id = trianon_enforce
+		
+		available = { has_government = democratic }
+
+		bypass = {
+		}
+
+		cost = 1.50
+		prerequisite = { focus = trianon_enforce }
+		
+		completion_reward = {
+			HUN = {
+				drop_cosmetic_tag = yes
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1919.8.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				set_popularities = {
+					democratic = 25
+					fascism = 5
+					neutrality = 35
+					communism = 35
+				}
+				create_country_leader = {
+					name = "István Friedrich"
+					desc = ""
+					picture = istván_friedrich.dds
+					expire = "1921.1.1"
+					ideology = oligarchism
+					traits = {
+					}
+				}	
+			}
+		}
+		
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		complete_tooltip = {
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = white_terror
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 1
+		y = 1
+		relative_position_id = overthrow_gyula_peidl
+		
+		available = { has_government = neutrality }
+
+		bypass = {
+
+		}
+
+		cost = 10
+		prerequisite = { focus = overthrow_gyula_peidl }
+		
+		completion_reward = {
+			HUN = {
+				add_timed_idea = { idea = white_terror_idea days = 70 }
+				add_political_power = 75
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	focus = {
+		id = imprison_socialists
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = white_terror
+		
+		available = { has_ideas = white_terror_idea }
+
+		bypass = {
+
+		}
+
+		cost = 8
+		prerequisite = { focus = white_terror }
+		
+		completion_reward = {
+			HUN = {
+				remove_ideas = white_terror_idea
+				add_ideas = white_terror_idea_2
+				add_stability = -0.25
+			}	
+
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}	
+	
+	focus = {
+		id = force_exile
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -1.5
+		y = 1
+		relative_position_id = imprison_socialists
+		
+		available = { has_ideas = white_terror_idea }
+
+		bypass = {
+
+		}
+
+		cost = 10
+		prerequisite = { focus = imprison_socialists }
+		
+		completion_reward = {
+			HUN = {
+				remove_ideas = white_terror_idea_2
+				add_ideas = white_terror_idea_3
+				add_popularity = {
+					ideology = communism
+					popularity = -0.1
+				}
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	
+	focus = {
+		id = kill_all_who_disagree
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 1
+		y = 1
+		relative_position_id = imprison_socialists
+		
+		available = { has_ideas = white_terror_idea_2 }
+
+		bypass = {
+
+		}
+
+		cost = 10
+		prerequisite = { focus = imprison_socialists }
+		
+		completion_reward = {
+			HUN = { 
+				add_popularity = {
+					ideology = communism
+					popularity = -0.15
+				}
+				add_manpower = -1500
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+	}	
+	
+	focus = {
+		id = install_karoly
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 3
+		y = 1
+		relative_position_id = white_terror
+		
+		available = { has_ideas = white_terror_idea }
+
+		bypass = {
+
+		}
+
+		cost = 5.8
+		prerequisite = { focus = white_terror }
+		
+		completion_reward = {
+			HUN = {
+				create_country_leader = {
+					name = "Károly Huszár"
+					desc = ""
+					picture = huszar.dds
+					expire = "1921.1.1"
+					ideology = oligarchism
+					traits = {
+					}
+				}	
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+		}
+	}	
+	
+	focus = {
+		id = hold_parliamentary_elections
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 1
+		y = 2
+		relative_position_id = install_karoly
+		
+		#available = { has_country_leader = "huszar" }
+
+		bypass = {
+
+		}
+
+		cost = 9.5
+		prerequisite = { focus = install_karoly }
+		
+		completion_reward = {
+			HUN = {
+				set_popularities = {
+					democratic = 13
+					neutrality = 80
+					fascism = 2
+					communism = 5
+				}
+				create_country_leader = {
+					name = "The Coalition Government"
+					desc = ""
+					picture = hun_coalition.dds
+					expire = "1921.1.1"
+					ideology = oligarchism
+					traits = {
+		
+					}
+				}	
+		
+			}
+		}	
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+		}
+	}
+	
+	focus = {
+		id = begin_monarchist_return
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = hold_parliamentary_elections
+		
+		#available = { has_country_leader = "huszar" }
+
+		bypass = {
+
+		}
+
+		cost = 3.5
+		prerequisite = { focus = hold_parliamentary_elections }
+		
+		completion_reward = {
+			HUN = {
+				add_ideas = monarchist_return
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+		}
+	}
+	
+	focus = {
+		id = horthys_regency
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 0
+		y = 1
+		relative_position_id = begin_monarchist_return
+		
+		#available = { has_country_leader = "huszar" }
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = begin_monarchist_return }
+		
+		completion_reward = {
+			HUN = {
+				set_politics = {
+					ruling_party = neutrality
+					last_election = "1920.2.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				create_country_leader = {
+					name = "Miklos Horthy"
+					desc = ""
+					picture = horthy.dds
+					expire = "1950.1.1"
+					ideology = despotism
+					traits = {
+		
+					}
+				}
+			}
+		}
+		
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	focus = {
+		id = hun_authoritarian
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = -2
+		y = 1
+		relative_position_id = horthys_regency
+		
+		#available = { has_idea = monarchist_return }
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = horthys_regency }
+		
+		completion_reward = {
+			HUN = {
+				remove_ideas = monarchist_return
+				add_political_power = 20
+				add_ideas = horthys_grip
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		mutually_exclusive = { focus = hun_monarchism }
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	focus = {
+		id = hun_monarchism
+		icon = GFX_focus_ETH_callout_to_the_world
+		x = 2
+		y = 1
+		relative_position_id = horthys_regency
+		
+		#available = { has_idea = monarchist_return }
+
+		bypass = {
+
+		}
+
+		cost = 10
+		prerequisite = { focus = horthys_regency }
+		
+		completion_reward = {
+			HUN = {
+				country_event = { 
+					id = hungary_ib.2 
+				}	
+			}	
+		}
+
+	    cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		mutually_exclusive = { focus = hun_authoritarian }
+
+		complete_tooltip = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
