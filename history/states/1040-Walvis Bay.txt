@@ -1,0 +1,18 @@
+state={
+	id=1040
+	name="STATE_1040"
+	history = {
+		owner = SAF
+		add_core_of = SAF
+		
+		victory_points = { 13351 1 }
+		
+	}
+	provinces={
+		13351
+	}
+	state_category = town
+	manpower=11327
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

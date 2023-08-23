@@ -1,0 +1,32 @@
+on_actions = {
+	on_startup = {
+		effect = {	
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 1039
+					num_provinces = 2
+					on_win = mrnc_border_conflict.4
+					on_lose = mrnc_border_conflict.5
+					on_cancel = mrnc_border_conflict.6
+					modifier = 0.1
+					dig_in_factor = 0
+					terrain_factor = 0
+				}	
+				defender = {
+					state = 827
+					num_provinces = 2
+					on_win = mrnc_border_conflict.1
+					on_lose = mrnc_border_conflict.2
+					on_cancel = mrnc_border_conflict.3
+					dig_in_factor = 1
+				}
+			}
+		}
+	}
+	on_startup = {
+		effect = {	
+			MNC = { country_event = want_the_focus_tree.1 }
+		}
+	}
+}

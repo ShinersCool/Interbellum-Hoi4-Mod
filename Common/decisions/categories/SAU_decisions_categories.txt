@@ -1,20 +1,16 @@
 SAU_ikhwan = {
 	icon = eng_move_to_secure_the_dominions
 	picture = GFX_ikhwan_image
+	
+	
 	allowed = {
 		tag = SAU
 	}
+	
 	visible = {
 		tag = SAU
 	}
-	custom_icon = {
-		tag = SAU
-		value = ikhwan_anger
-		desc = ikhwan_anger_desc 
-		visible = {
-			country_exists = SAU
-		}
-	}
+	
 	priority = 1
 }
 

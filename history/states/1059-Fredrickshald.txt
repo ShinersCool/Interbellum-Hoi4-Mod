@@ -1,0 +1,23 @@
+state={
+	id=1059
+	name="STATE_1059"
+	
+		history={
+		owner = NOR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = NOR
+		set_demilitarized_zone = yes
+
+	}
+	
+	provinces={
+		179 3007 3136 11151 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=1051
+	name="STATE_1051"
+	provinces={
+		13361 
+	}
+	history = {
+		owner = NCH
+		add_core_of = NCH
+		
+		victory_points = { 13361 1 }
+		
+		buildings = {
+            infrastructure = 1
+        }
+		
+	}
+	state_category = rural
+	manpower=12382
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

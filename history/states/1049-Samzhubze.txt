@@ -1,0 +1,23 @@
+state={
+	id=1049
+	name="STATE_1049"
+	provinces={
+		2014 4900 8121 12807 
+	}
+	history = {
+		owner = TLO
+		add_core_of = TLO
+		
+		#victory_points = { 13351 1 }
+		
+		buildings = {
+            infrastructure = 3
+			civilian_industry = 2
+        }
+		
+	}
+	state_category = town
+	manpower=54612
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

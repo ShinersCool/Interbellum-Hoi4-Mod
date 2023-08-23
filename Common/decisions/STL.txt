@@ -1,0 +1,39 @@
+STL_give_up_land = {
+	STL_give_up_dindings = {
+		
+		priority = 1
+		
+		cost = 5
+		
+		icon = decision_icon
+		
+		available = {
+			1036 = {
+				is_owned_by = STL
+			}
+		}		
+		
+		visible = {
+		
+		}
+		ai_will_do = {
+			base = 10
+		}
+		
+		days_remove = 14
+		
+		remove_effect = { 
+			1036 = {
+				transfer_state_to = MAL
+			}
+			MAL = {
+				add_opinion_modifier = { 
+					target = STL 
+					modifier = huge_increase	 
+				}
+			}
+		}
+		
+		fire_only_once = yes
+    }
+}

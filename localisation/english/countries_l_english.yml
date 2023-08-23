@@ -19,6 +19,27 @@
  RTU_DEF:0 "Turkey"
  RTU_ADJ:0 "Turkish"
  
+ TLO_neutrality:0 "Tashi Lhumpo"
+ TLO_neutrality_DEF:0 "Tashi Lhumpo" 
+ TLO_neutrality_ADJ:0 "Tashi Lhumpo"
+ TLO:0 "Tashi Lhumpo"
+ TLO_DEF:0 "Tashi Lhumpo"
+ TLO_ADJ:0 "Tashi Lhumpo"
+ 
+ NCH_neutrality:0 "Nancheng"
+ NCH_neutrality_DEF:0 "Nancheng" 
+ NCH_neutrality_ADJ:0 "Nancheng"
+ NCH:0 "Nancheng"
+ NCH_DEF:0 "Nancheng"
+ NCH_ADJ:0 "Nancheng"
+ 
+ SAK_neutrality:0 "Sakya"
+ SAK_neutrality_DEF:0 "Sakya" 
+ SAK_neutrality_ADJ:0 "Sakya"
+ SAK:0 "Sakya"
+ SAK_DEF:0 "Sakya"
+ SAK_ADJ:0 "Sakya"
+ 
  JOH_conservative:0 "Johore"
  JOH_conservative_DEF:0 "Johore" 
  JOH_conservative_ADJ:0 "Johorean"

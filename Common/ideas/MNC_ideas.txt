@@ -1,0 +1,111 @@
+ideas = {	
+	country = {
+		MNC_symbolic_donation = {
+		    picture = POL_disjointed_industry
+			
+			allowed = {
+				tag = TUR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.01
+			}
+
+		}
+	}
+
+	country = {
+		MNC_regular_donation_start = {
+		    picture = man_five_year_plan_industry
+			
+			allowed = {
+				tag = RTU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
+	}
+
+	country = {
+		MNC_regular_donation = {
+		    picture = man_five_year_plan_industry
+			
+			allowed = {
+				tag = RTU
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+
+		}
+	}
+	
+	country = {
+		MNC_generous_donation = {
+		    picture = generic_foreign_capital
+			
+			allowed = {
+				tag = TUR
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+			}
+
+		}
+	}
+}
+
+

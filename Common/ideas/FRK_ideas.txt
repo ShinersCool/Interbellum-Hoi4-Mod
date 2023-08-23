@@ -1,0 +1,28 @@
+ideas = {
+	country = {
+		FRK_freikorps_units = {
+		    picture = #
+			
+			allowed = {
+				tag = FRK
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			}
+		}
+	}
+}
+
+

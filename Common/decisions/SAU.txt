@@ -133,31 +133,260 @@ SAU_integration = {
 
 SAU_ikhwan = {
 
-	SAU_recruite_troops = {
+	SAU_ikhwan_rebelion = {
 		
 		priority = 1
 		
 		cost = 10
 		
+		days_mission_timeout = 1080
+		
+		is_good = no
+		
 		icon = decision_icon
 		picture = GFX_ikhwan_image
 		available = {
+			SAU = {
+				has_war = yes
+			}
 		}		
 		
 		visible = {
 		}
 		
 		ai_will_do = {
-			base = 10
+			base = 0
 		}
 		
 		days_remove = 1
 		
 		remove_effect = {  
-			set_variable =  {
-				ikhwan_anger = 150
-			}
+			
+		}
+		
+		timeout_effect = {
+			
 		}
     }
+	
+	SAU_ikhwan_raid = {
+		
+		priority = 1
+		
+		cost = 10
+		
+		days_mission_timeout = 180
+		
+		is_good = no
+		
+		icon = decision_icon
+		picture = GFX_ikhwan_image
+		available = {
+			SAU = {
+				has_war = yes
+			}
+		}		
+		
+		visible = {
+		}
+		
+		ai_will_do = {
+			base = 0
+		}
+		
+		days_remove = 1
+		
+		remove_effect = {  
+			
+		}
+		
+		timeout_effect = {
+			random_list = {
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 923
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 947
+							num_provinces = 2
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+				
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 855
+							num_provinces = 1
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 1001
+							num_provinces = 2
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+				
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 923
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 926
+							num_provinces = 2
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+				
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 859
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 656
+							num_provinces = 1
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+				
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 859
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 765
+							num_provinces = 1
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+				
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 859
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 658
+							num_provinces = 1
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+				
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 926
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 293
+							num_provinces = 1
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+
+				12.5 = {
+					start_border_war = {
+						change_state_after_war = no
+						attacker = {
+							state = 960
+							num_provinces = 2
+							on_win = armenia.1
+							on_lose = armenia.2
+							on_cancel = armenia.3
+							modifier = 0.1
+							dig_in_factor = 0
+							terrain_factor = 0
+						}	
+						defender = {
+							state = 1004
+							num_provinces = 1
+							on_win = armenia.2
+							on_lose = armenia.1
+							on_cancel = armenia.3
+						}
+					}
+				}
+			} 
+		} 
+	}
 
 }

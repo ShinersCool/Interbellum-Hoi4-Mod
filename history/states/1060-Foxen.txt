@@ -1,0 +1,23 @@
+state={
+	id=1060
+	name="STATE_1060"
+	
+	history={
+		owner = SWE
+
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SWE
+		set_demilitarized_zone = yes
+
+	}	
+	
+	provinces={
+		147 171 3128 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

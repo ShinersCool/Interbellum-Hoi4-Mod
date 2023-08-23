@@ -2,18 +2,12 @@ state={
 	id=1028
 	name="STATE_1028"
 	history={
-		owner = JOH 
 		victory_points = {
-			12299 10 
+			12299 5 
 		}
+		owner = JOH 
 		buildings = {
 			infrastructure = 2
-			12299 = {
-				naval_base = 8
-				coastal_bunker = 3
-
-			}			
-			
 
 		}
 		add_core_of = JOH 
@@ -23,7 +17,7 @@ state={
 	provinces={
 		4367 4424 10313 12299 
 	}
-	manpower=50000
+	manpower=1
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

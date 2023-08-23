@@ -1,0 +1,13 @@
+STL_give_up_land = {
+	icon = eng_move_to_secure_the_dominions
+	
+	priority = 1
+	
+	allowed = {
+		tag = STL
+	}
+	
+	visible = {
+		tag = STL
+	}
+}

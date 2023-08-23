@@ -1,3 +1,15 @@
+TLO = {
+	color = rgb { 51 15 15 }
+	color_ui = rgb { 51 15 15 }
+}
+SAK = {
+	color = rgb { 190 115 60  }
+	color_ui = rgb { 190 115 60 }
+}
+NCH = {
+	color = rgb { 72 70 115  }
+	color_ui = rgb { 72 70 115 }
+}
 ICU = {
 	color = rgb { 62 120 217  }
 	color_ui = rgb { 62 120 217 }
@@ -1109,4 +1121,8 @@ PEL = {
 JOH = {
 	color = rgb { 23 63 137 }
 	color_ui = rgb { 23 63 137 }
+}
+FRK = {
+	color = rgb { 64 73 73 }
+	color_ui = rgb { 64 73 73 }
 }

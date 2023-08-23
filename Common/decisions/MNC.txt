@@ -1,0 +1,70 @@
+MNC_donations_category = {
+    MNC_donations_tickdown = {
+        
+        priority = 1
+        
+        cost = 100
+        
+        days_mission_timeout = 180
+        
+        icon = GFX_decision_generic_fundraising
+        
+        available = {
+			TAG = MRG
+        }        
+        
+        visible = {
+            MNC = {
+                has_completed_focus = MNC_personal_donations
+            }
+        }
+        
+        ai_will_do = {
+            base = 10
+        }
+        
+        remove_effect = { 
+			remove_ideas = {
+				MNC_regular_donation_start
+				MNC_regular_donation
+				MNC_symbolic_donation
+				MNC_generous_donation
+				MNC_broke_ass
+			}
+            random_list = {
+                0.4 = {
+                    MNC = {
+                        add_timed_idea = {
+                            idea = MNC_regular_donation
+                            days = 180
+                        }
+                    }
+                }
+                0.2 = {
+                    MNC = {
+                        add_timed_idea = {
+                            idea = MNC_symbolic_donation
+                            days = 180
+                        }
+                    }
+                }
+                0.1 = {
+                    MNC = {
+                        add_timed_idea = {
+                            idea = MNC_generous_donation
+                            days = 180
+                        }
+                    }
+                }
+                0.3 = {
+					MNC = {
+						add_timed_idea = {
+							idea = MNC_broke_ass
+							days = 180
+						}
+					}
+                }
+            }
+        }
+    }
+}

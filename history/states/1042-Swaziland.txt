@@ -1,0 +1,24 @@
+state={
+	id=1042
+	name="STATE_1042"
+	provinces={
+		7900 
+	}
+	history = {
+		owner = ENG
+		#add_core_of = ENG
+		
+		victory_points = { 7900 1 }
+		
+		 buildings = {
+            infrastructure = 2
+			industrial_complex = 1
+        }
+		
+	}
+
+	state_category = rural
+	manpower=37621
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
