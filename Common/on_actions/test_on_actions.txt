@@ -58,17 +58,6 @@ on_actions = {
 				}
 			}
 		}	
-	}	
-	on_startup = {
-		effect = {	
-			IRE = {
-				declare_war_on = {
-					target = ENG
-					type = take_state_focus
-					generator = { 113 119 134 }	
-				}
-			}
-		}	
 	}		
 	on_startup = {
 		effect = {	
