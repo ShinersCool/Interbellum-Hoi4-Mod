@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		BRA_sortition_laws = {
+		    picture = BRA_sortition
+			
+			allowed = {
+				tag = BRA
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.5
+				recrutaible_manpower = -5
+				
+			}
+
+		}
+	}	
+}
