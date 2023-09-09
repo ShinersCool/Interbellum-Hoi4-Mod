@@ -34,6 +34,17 @@ set_convoys = 10
 ##recruit_character = IRE_douglas_hyde
 ##recruit_character = IRE_sean_ceallaigh
 
+if = {
+	limit = {
+		has_start_date < 1919.06.30
+	}
+
+	declare_war_on = {
+		target = ENG
+		type = take_state_focus
+		generator = { 113 119 134 }	
+	}
+}
 
 1939.1.1 = {
 
