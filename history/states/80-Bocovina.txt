@@ -19,7 +19,7 @@ state={
 		add_claim_by = UKR
 	}
 	provinces={
-		577 9548
+		577 6761 9548 11689
 	}
 
 	local_supplies=0.0 

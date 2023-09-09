@@ -1,35 +1,26 @@
 
 state={
 	id=446
-	name="STATE_446"
+	name="STATE_446" #this is a mountain in china, not cairo anymore :( 
 
 	history={
-		owner = EGY
+		owner = SIK
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 5
-		
+			infrastructure = 1
 
 		}
+		add_core_of = SIK
 		victory_points = {
-			7011 20 
-		}
-		victory_points = {
-			3996 5 
-		}
-		victory_points = {
-			1068 3 
-		}
-		add_core_of = EGY
+			4973 1
+		}		
 
 	}
 
 	provinces={
-		10031 12004
+		4973 10911
 	}
-	manpower=4391064
+	manpower=8000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=wasteland
 	local_supplies=0.000
 }

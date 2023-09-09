@@ -15,10 +15,16 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = BLR
+		1919.6.29.12 = {		
+			SOV = {
+				set_province_controller = 233
+				set_province_controller = 358			
+			} 			
+		}
 	}
 
 	provinces={
-		233 277 358 406 6340 9341 11391 
+		233 277 358 406 9341 
 	}
 
 	local_supplies=0.0 

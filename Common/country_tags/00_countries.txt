@@ -317,4 +317,6 @@ FRK = "countries/Freikorps.txt"
 TLO = "countries/Tashilhunpo.txt"
 SAK = "countries/Sakya.txt"
 NCH = "countries/Nancheng.txt"
-
+GAL = "countries/Galicia_poland.txt"
+CLT = "countries/Central Lithuania.txt"
+LEM = "countries/Lemko.txt"

@@ -1,0 +1,388 @@
+ideas = {
+	country = {
+	
+		POL_pilsudski_iron_fist = {
+		    picture = POL_pilsudski_iron_fist
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				POL = {
+					has_country_leader = {
+						character = POL_jozef_pilsudski
+					}
+				}	
+			}
+			
+			cancel = { 
+				POL = {
+					NOT = {
+						has_country_leader = {
+							character = POL_jozef_pilsudski
+						}
+					}
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				party_popularity_stability_factor = 0.35
+				drift_defence_factor = 0.1 
+				
+			}
+
+		}
+		POL_fablok = {
+		    picture = POL_fablok
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				production_speed_rail_way_factor = 0.1
+				
+			}
+
+		}
+		POL_trains_fablok = {
+		    picture = POL_train_fablok
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+				POL = {
+					has_idea = POL_fablok
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+
+		}
+		POL_dreams_of_intermarium = {
+		    picture = POL_dreams_of_intermarium
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				POL = {
+					has_war_with = SOV
+				}
+			}
+			
+			cancel = { 
+				POL = {
+					has_idea = POL_fulfilling_dreams_of_intermarium
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale = 5
+				war_support_weekly = 0.02
+				
+			}
+
+		}	
+		POL_fulfilling_dreams_of_intermarium = {
+		    picture = POL_fulfilling_dreams_of_intermarium
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				POL = {
+					has_war_with = SOV
+				}	
+			}
+			
+			cancel = { 
+				AND = {
+					UKR = {
+						days_since_capitulated > 60
+					}	
+					POL	= {
+						NOT = {
+							has_war_with = SOV
+						}
+					}
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale = 5
+				war_support_weekly = 0.02
+				
+			}
+
+		}	
+		POL_overconfidence_against_soviets = {
+		    picture = POL_overconfidence_against_soviets
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				POL = { 
+					has_war_with = SOV
+				}	
+			}
+			
+			cancel = { 
+				POL = {
+					NOT = {
+						has_war_with = SOV
+					}
+				}		
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}	
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.05
+			}	
+			targeted_modifier = {
+				tag = USR
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.05
+			}
+			targeted_modifier = {
+				tag = BLR
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.05
+			}			
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = -0.1
+				war_support_weekly = 0.015
+
+				
+			}
+
+		}
+		POL_increased_construction_speed = {
+		    picture = POL_increased_construction_speed
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				POL = { 
+					has_completed_focus = POL_raise_import_taxes
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = FRA
+				trade_cost_for_target_factor = -0.15
+			}		
+			targeted_modifier = {
+				tag = CZE
+				trade_cost_for_target_factor = -0.15
+			}				
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+
+			}
+
+		}
+		POL_german_embargo = {
+		    picture = POL_german_embargo
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				GER = { 
+					has_opinion_modifier = POL_protectionism_trade_modifier
+				}	
+			}
+
+			cancel = { 
+				GER = { 
+					NOT = {
+						has_opinion_modifier = POL_protectionism_trade_modifier
+					}	
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+
+			}
+		}	
+		POL_german_submission = {
+		    picture = POL_german_submission
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				POL = { 
+					has_completed_focus = POL_german_boot_licking
+				}	
+			}
+
+			cancel = { 
+				GER = { 
+					has_opinion_modifier = POL_protectionism_trade_modifier
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1
+			
+			targeted_modifier = {
+				tag = GER
+				trade_cost_for_target_factor = -0.25
+			}			
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
+
+		}
+		POL_introduce_the_zloty = {
+			picture = generic_foreign_capital
+			
+			allowed = {
+				tag = POL
+			}
+			available = { 
+				POL = { 
+					has_completed_focus = POL_introduce_zloty
+				}	
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+		
+		POL_gold_standard = {
+			picture = generic_foreign_capital
+			allowed = {
+				original_tag = POL
+			}
+			available = { 
+				POL = { 
+					has_completed_focus = POL_adopt_the_gold_standard
+				}	
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+			}
+		}		
+	}	
+	materiel_manufacturer = {
+		POL_national_engineering_works = {
+			picture = POL_national_engineering_works
+			
+			allowed = {
+				original_tag = POL
+				has_completed_focus = POL_national_engineering_works
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			removal_cost = -1
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}	
+	industrial_concern = {
+	}
+	aircraft_manufacturer = {
+	}
+	naval_manufacturer = { 
+	}
+	tank_manufacturer = { 
+	}
+}

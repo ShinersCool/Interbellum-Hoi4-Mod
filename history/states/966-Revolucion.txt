@@ -9,6 +9,7 @@ state={
 
 		}
 		add_core_of = VIL
+		add_core_of = MEX
 
 	}
 	

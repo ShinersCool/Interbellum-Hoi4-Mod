@@ -1,3 +1,7 @@
+LIT_pmo = {
+	color = rgb { 181 117 120 }
+	color_ui = rgb { 181 117 120 }
+}
 JGS_Zhilli = {
 	color = rgb { 101 137 46 }
 	color_ui = rgb { 144 198 67 }

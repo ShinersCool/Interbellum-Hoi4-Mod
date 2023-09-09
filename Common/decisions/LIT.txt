@@ -1,0 +1,88 @@
+LIT_soviet_peace = {
+	LIT_send_delegates = {
+		
+		priority = 100
+		
+		cost = 35
+		
+		fire_only_once = yes
+		
+		icon = decision_icon
+		available = {
+			tag = LIT
+			LIT = {
+				is_subject = no
+				has_war_with = SOV
+				has_civil_war = no
+				has_country_flag = negotiating_with_soviets	
+			}
+			
+		}
+	
+		visible = {
+			has_war_with = SOV
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 235
+		
+		remove_effect = { 
+			custom_effect_tooltip = negotiating_with_soviets_decison_tt
+			if = { 
+				limit = {
+					LIT = {
+						has_war_with = SOV
+					}	
+				}
+				SOV = {
+					country_event = {
+						id = soviet_ib.4
+					}
+				}
+			}	
+		}	
+    }
+	LIT_demand_vilnius = {
+		
+		priority = 100
+		
+		cost = 50
+		
+		fire_only_once = yes
+		
+		icon = decision_icon
+		available = {
+			tag = LIT
+			LIT = {
+				is_subject = no
+				has_civil_war = no
+				has_country_flag = white_peace_with_soviets
+			}
+			SOV = {
+				controls_state = 784
+			}
+		}
+	
+		visible = {
+			has_country_flag = white_peace_with_soviets
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 30
+		
+		remove_effect = { 
+			SOV = {
+				country_event = {
+					id = soviet_ib.7
+				}
+			}	
+		}	
+    }	
+}	
+

@@ -8,14 +8,9 @@ set_war_support = 0.8
 set_research_slots = 4
 set_fuel_ratio = 1.0
 add_ideas = {
-	state_shintoism
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-
-	JAP_zaibatsus
-	JAP_duplicate_research_efforts
-	JAP_militarism
 }
 
 609 = {
@@ -74,18 +69,6 @@ add_ideas = {
 	set_garrison_strength = 1.0
 }
 
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	add_ideas = {
-		JAP_interservice_rivalry_balanced		
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
 
 set_technology = {
 	infantry_weapons = 1
@@ -192,9 +175,9 @@ if = {
 }
 
 create_import = {
-		resource = oil
-		factories = 2
-		exporter = USA
+	resource = oil
+	factories = 2
+	exporter = USA
 }
 
 1939.1.1 = {
@@ -204,24 +187,10 @@ create_import = {
 	
 
 	#adding ministers
-	add_ideas = {
-		JAP_mitsumasa_yonai
-		minoru_genda
-		hajime_sugiyama
-		soemu_toyoda
-		fushimi_hiroyasu
-		kawasaki
-
-		#laws
-		tot_economic_mobilisation
-		service_by_requirement
-		closed_economy
-	}
 	if = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		remove_ideas = MTG_naval_treaty_adherent
 	}
 	complete_national_focus = JAP_purge_the_kodoha_faction
 	complete_national_focus = JAP_army_expansion_law

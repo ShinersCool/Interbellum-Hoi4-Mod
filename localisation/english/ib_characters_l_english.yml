@@ -26,7 +26,8 @@
  
  BHU_CHARACTER_WANGCHUK:0 "Ugyen Wangchuck"
  
- BOL_CHARACTER_JOSE_GUERRA:0 "José Gutiérrez Guerra"}
+ BOL_CHARACTER_JOSE_GUERRA:0 "José Guerra"
+ BOL_CHARACTER_BAUTISTA_SAAVEDRA:0 "Bautista Saavedra"
  
  BRA_CHARACTER_PESSOA:0 "Epitácio Pessoa"
  
@@ -41,6 +42,8 @@
  BYA_CHARACTER_BOGDANOV:0 "Mikhail Bogdanov"
  
  CAN_CHARACTER_BORDEN:0 "Robert Borden"
+ 
+ CLT_CHARACTER_ZELIGOWSKI:0 "Lucjan Żeligowski"
  
  COL_CHARACTER_SUAREZ:0 "Marco Fidel Suárez"
  
@@ -83,6 +86,8 @@
  FUJ_CHARACTER_WANG_YOUNGQUAN:0 "Wang Yongquan"
  
  FRA_CHARACTER_CLEMENCEAU:0 "Georges Clemenceau"
+ 
+ GAL_CHARACTER_VOLODYMYR_ZATONSKY:0 "Volodymyr Zatonsky"
  
  GEO_CHARACTER_ZHORDANIA:0 "Noe Zhordania"
  
@@ -146,9 +151,12 @@
  
  LAT_CHARACTER_CAKSTE:0 "Jānis Čakste"
  
+ LEM_CHARACTER_KACYMARCYK:0 "Jaroslav Kacmarcyk"
+ 
  LIB_CHARACTER_DANIEL_HOWARD:0 "Daniel Edward Howard"
  
  LIT_CHARACTER_SMETONA:0 "Antanas Smetona"
+ LIT_CHARACTER_PMO:0 "Polish Military Organisation"
  
  MAK_CHARACTER_MAKHNO:0 "Nestor Makhno"
  
@@ -235,7 +243,6 @@
  
  TMS_CHARACTER_FUNTIKOV:0 "Fyodor Adrianovich Funtikov"
  
- TUK_CHARACTER_ARISTARKH:0 "Aristarkh Andreyevich Kazakov"
  TUK_CHARACTER_TURAR:0 "Turar Ryskululy Ryskulov"
  
  TUR_CHARACTER_MEHMED:0 "Mehmed VI"

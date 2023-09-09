@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		EGY_discontent_with_british_protectorate = {
-		    picture = #
+		    picture = EGY_discontent_with_british_protectorate
 			
 			allowed = {
 				tag = EGY
@@ -32,7 +32,7 @@ ideas = {
 	
 	country = {
 		EGY_british_martial_law = {
-		    picture = #
+		    picture = EGY_british_martial_law
 			
 			allowed = {
 				tag = EGY
@@ -55,9 +55,6 @@ ideas = {
 				resistance_target = 1.0
 				autonomy_gain = -0.1
 				weekly_manpower = -50
-				ENG = { 
-					weekly_manpower = -10
-				}
 			}
 
 		}

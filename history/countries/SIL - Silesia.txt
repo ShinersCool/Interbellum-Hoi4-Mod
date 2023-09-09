@@ -194,16 +194,14 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = neutrality
+	last_election = "1918.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 50
-	fascism = 5
-	communism = 35
-	neutrality = 10
+	democratic = 20
+	neutrality = 80
 }
 
 create_country_leader = {
@@ -211,7 +209,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_SIL_Jozef_iniszkiewicz"
 	expire = "1953.3.1"
-	ideology = socialism
+	ideology = socialism_democratic
 	traits = {
 		
 	}

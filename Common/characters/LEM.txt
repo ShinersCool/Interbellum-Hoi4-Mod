@@ -1,0 +1,14 @@
+characters={
+	LEM_jaroslav_kacmarcyk={
+		name=LEM_CHARACTER_KACYMARCYK
+		portraits={
+			civilian={
+				large="GFX_portrait_lem_jaroslav_kacmarcyk_large"
+			}
+		}
+		country_leader={
+			ideology=socialism_democratic
+			expire="1944.1.1.1"
+		}
+	}
+}

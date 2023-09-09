@@ -162,11 +162,6 @@ set_popularities = {
 	}
 }
 
-
-add_ideas = {
-	sisu
-}
-
 ### VARIANTS ###
 # 1936 Start #
 if = {

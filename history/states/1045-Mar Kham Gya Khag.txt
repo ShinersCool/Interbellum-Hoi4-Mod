@@ -3,7 +3,6 @@ state={
 	name="STATE_1045"
 	provinces={
 		13359
-
 	}
 	history = {
 		owner = SAK

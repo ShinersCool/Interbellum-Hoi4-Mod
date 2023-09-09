@@ -4,6 +4,7 @@ state={
 	
 	history={
 		owner = FEL
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2

@@ -23,6 +23,16 @@ state={
 
 		}
 		add_core_of = LAT
+		1919.6.29.12 = {		
+			SOV = {
+				set_province_controller = 222
+				set_province_controller = 310
+				set_province_controller = 319
+				set_province_controller = 341				
+				set_province_controller = 6459
+				set_province_controller = 9275				
+			} 			
+		}		
 
 	}
 

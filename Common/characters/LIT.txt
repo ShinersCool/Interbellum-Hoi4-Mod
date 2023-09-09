@@ -11,4 +11,16 @@ characters={
 			expire="1944.1.1.1"
 		}
 	}
+	LIT_pmo={
+		name=LIT_CHARACTER_PMO
+		portraits={
+			civilian={
+				large="GFX_portrait_LIT_pmo_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1960.1.1.1"
+		}
+	}	
 }

@@ -1,0 +1,325 @@
+POL_lithuanian_issues = {
+	POL_prepare_coup_lithuania = {
+		
+		priority = 100
+		
+		cost = 35
+		
+		fire_only_once = yes
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			LIT = {
+				is_subject = no
+			}
+			has_completed_focus = POL_coup_lithuania
+		}
+	
+		visible = {
+			has_country_leader = {
+				character = POL_jozef_pilsudski
+			}
+			has_completed_focus = POL_coup_lithuania
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 30
+		
+		remove_effect = { 
+			custom_effect_tooltip = polish_coup_decison_tt
+			if = { 
+				limit = {
+					LIT = {
+						has_country_flag = LIT_investigate_polish_coup
+					}	
+				}	
+				LIT = {
+					country_event = {
+						id = poland_ib.6
+					}
+				}
+			}
+			
+			else_if = { 
+				limit = {
+					LIT = {
+						has_country_flag = LIT_ignore_polish_coup
+					}	
+				}	
+				LIT = {
+					country_event = {
+						id = poland_ib.5
+					}
+					clr_country_flag = LIT_ignore_polish_coup
+				}
+			}
+			
+			
+		}	
+
+    }
+
+}	
+POL_railway_endeavours = {
+	POL_purchase_american_trains = {
+		
+		priority = 100
+		
+		cost = 65
+		
+		fire_only_once = yes
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+			}
+			USA = {
+				is_subject = no
+				has_government = democratic
+				NOT = {
+					has_war_with = POL
+				}				
+			}			
+		}
+	
+		visible = {
+			tag = POL
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 30
+		
+		remove_effect = { 
+			USA = {
+				country_event = {
+					id = poland_ib.16
+					days = 5
+				}
+			}			
+		}	
+    }
+	POL_demand_german_trains = {
+		
+		priority = 95
+		
+		cost = 80
+		
+		fire_only_once = yes
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+			}
+			GER = {
+				is_subject = no
+				NOT = {
+					has_war_with = POL
+				}	
+			}			
+		}
+	
+		visible = {
+			tag = POL
+		}
+		
+		ai_will_do = {
+			base = 8
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			GER = {
+				country_event = {
+					id = poland_ib.19
+					days = 5
+				}
+			}			
+		}	
+    }
+	POL_demand_austrian_trains = {
+		
+		priority = 90
+		
+		cost = 70
+		
+		fire_only_once = yes
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+			}
+			AUS = {
+				is_subject = no
+				NOT = {
+					has_war_with = POL
+				}	
+			}			
+		}
+	
+		visible = {
+			tag = POL
+		}
+		
+		ai_will_do = {
+			base = 8
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			AUS = {
+				country_event = {
+					id = poland_ib.22
+					days = 5
+				}
+			}			
+		}	
+    }	
+}
+POL_balance_of_power_category = {
+	POL_silesian_uprising_support = {
+		
+		priority = 100
+		
+		cost = 70
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+			}
+			GER = {
+				is_subject = no
+				NOT = {
+					has_war_with = POL
+				}	
+			}			
+		}
+	
+		visible = {
+			tag = POL
+			has_completed_focus = POL_silesian_uprisings
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 80
+		
+		remove_effect = { 
+			POL	= {
+				add_power_balance_value = {
+					id = POL_power_balance
+					value = 0.15
+					tooltip_side = POL_silesia_high_side
+				}
+			}			
+		}	
+    }
+	POL_pro_polish_propaganda = {
+		
+		priority = 90
+		
+		cost = 40
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+			}
+			GER = {
+				is_subject = no
+				NOT = {
+					has_war_with = POL
+				}	
+			}			
+		}
+	
+		visible = {
+			tag = POL
+			has_completed_focus = POL_silesian_uprisings
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			POL	= {
+				add_power_balance_value = {
+					id = POL_power_balance
+					value = 0.08
+					tooltip_side = POL_silesia_high_side
+				}
+			}			
+		}	
+    }	
+	POL_anti_german_propaganda = {
+		
+		priority = 90
+		
+		cost = 35
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+			}
+			GER = {
+				is_subject = no
+				NOT = {
+					has_war_with = POL
+				}	
+			}			
+		}
+	
+		visible = {
+			tag = POL
+			has_completed_focus = POL_silesian_uprisings
+		}
+		
+		ai_will_do = {
+			base = 10
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			POL	= {
+				add_power_balance_value = {
+					id = POL_power_balance
+					value = 0.05
+					tooltip_side = POL_silesia_high_side
+				}
+			}			
+		}	
+    }	
+}	
+

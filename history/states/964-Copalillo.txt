@@ -4,6 +4,7 @@ state={
 	
 	history={
 		owner = ZAP
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

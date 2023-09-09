@@ -8,17 +8,6 @@ set_technology = {
 	
 }
 
-if = {
-	limit = { has_dlc = "Waking the Tiger" }
-	set_country_flag = MAN_northern_bandits
-	set_country_flag = MAN_eastern_bandits
-	set_country_flag = MAN_western_bandits
-	add_ideas = MAN_banditry
-	add_ideas = MAN_kwantung_veto
-	add_ideas = MAN_low_legitimacy_5
-	#recruit_character = MAN_songgotu_zhanshan
-}
-
 #recruit_character = MAN_aisin_gioro_puyi
 #recruit_character = MAN_zhang_haipeng
 #recruit_character = MAN_zhang_jinghui
@@ -91,7 +80,6 @@ set_convoys = 5
 		
 		#No bandits
 		unlock_national_focus = MAN_pacify_the_countryside
-		remove_ideas = MAN_banditry
 
 		complete_national_focus = MAN_army_modernization
 		complete_national_focus = MAN_mukden_military_academy
@@ -100,7 +88,6 @@ set_convoys = 5
 
 		#Five year plan
 		unlock_national_focus = MAN_first_five_year_plan
-		add_timed_idea = { days = 1275 idea = MAN_five_year_plan_industry }
 
 		complete_national_focus = MAN_trade_delegation
 		complete_national_focus = MAN_expand_the_textile_industry

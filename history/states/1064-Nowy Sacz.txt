@@ -1,0 +1,34 @@
+state={
+	id=1064
+	name="STATE_1064"
+	
+	history={
+		owner = LEM
+		victory_points = {
+			3410 3 
+		}
+		victory_points = {
+			417 1 
+		}
+		victory_points = {
+			466 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = POL
+		add_core_of = LEM
+
+	}	
+	
+	provinces={
+		417 466 3410 
+	}
+	manpower=34000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

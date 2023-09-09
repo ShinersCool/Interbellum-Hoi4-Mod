@@ -1,32 +1,22 @@
 spriteTypes = {	
     SpriteType = {
-	name = "GFX_goal_the_future_of_the_emirate"
-	texturefile = "gfx/interface/goals/focus_the_future_of_the_emirate.dds"			
-	}	
-	SpriteType = {
-	name = "GFX_goal_combine_research_efforts"
-	texturefile = "gfx/interface/goals/focus_combine_research_efforts.dds"			
-	}	
-	SpriteType = {
-	name = "GFX_goal_strenghthen_ties_with_the_british"
-	texturefile = "gfx/interface/goals/focus_strengthen_ties_with_the_british.dds"			
-	}	
-	SpriteType = {
-	name = "GFX_goal_seek_military_guidance"
-	texturefile = "gfx/interface/goals/focus_seek_military_guidance.dds"			
-	}	
-	SpriteType = {
-	name = "GFX_goal_strenghthen_ties_with_the_french"
-	texturefile = "gfx/interface/goals/focus_strengthen_ties_with_the_french.dds"		
+	name = "GFX_goal_POL_treaty_of_warsaw"
+	texturefile = "gfx/interface/goals/focus_POL_treaty_of_warsaw.dds"			
 	}
-	SpriteType = {
-	name = "GFX_a_divided_arabia"
-	texturefile = "gfx/interface/goals/focus_a_divided_arabia.dds"			
+    SpriteType = {
+	name = "GFX_goal_POL_fablok_train_deal"
+	texturefile = "gfx/interface/goals/focus_POL_fablok_train_deal.dds"			
 	}	
-	SpriteType = {
-	name = "GFX_a_unified_arabia"
-	texturefile = "gfx/interface/goals/focus_a_unified_arabia.dds"			
-	}	
+    SpriteType = {
+	name = "GFX_goal_POL_establish_fablok"
+	texturefile = "gfx/interface/goals/focus_POL_establish_fablok.dds"			
+	}
+	
+    SpriteType = {
+	name = "GFX_goal_POL_latvia_faction"
+	texturefile = "gfx/interface/goals/focus_POL_latvia_faction.dds"			
+	}		
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {

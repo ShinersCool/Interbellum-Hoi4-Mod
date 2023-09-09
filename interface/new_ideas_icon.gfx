@@ -74,6 +74,9 @@ spriteTypes = {
 		name = "GFX_idea_TUK_disbanded_army"
 		texturefile = "gfx/interface/ideas/GFX_TUK_disbanded_army.dds"	
 	}	
-	
+	spriteType = {
+		name = "GFX_idea_POL_national_engineering_works"
+		texturefile = "gfx/interface/ideas/POL_national_engineering_works.dds"	
+	}	
 }
 

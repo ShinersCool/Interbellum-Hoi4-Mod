@@ -16,7 +16,7 @@
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
  socialism_democratic:0 "Socialism"
- socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
+ socialism_democratic_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate."
  marxism:0 "Marxism"
  marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
  leninism:0 "Leninism"
@@ -86,7 +86,7 @@
  POL_communism_party_long:2 "Komunistyczna Partja Polski"
  POL_democratic_party:0 "PSL"
  POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
- POL_neutrality_party:1 "Sanacja"
+ POL_neutrality_party:1 "Sejm"
  POL_OZON_party:1 "OZN"
  POL_OZON_party_long:0 "Obóz Zjednoczenia Narodowego" #Camp of National Unity
  POL_POS_party:0 "POS"
@@ -615,7 +615,6 @@
  UKR_communism_party:0 "Communist Party of Ukraine"
  UKR_neutrality_party:0 "Ukrainian Progress Party"
  GEO_fascism_party:0 "Tbilisi Council"
- GEO_democratic_party:0 "Social Democratic Party of Georgia"
  GEO_communism_party:0 "Communist Party of Georgia"
  GEO_neutrality_party:0 "Gori Convention"
  KAZ_fascism_party:0 "Zhuze Ultşildiq"
@@ -1071,3 +1070,5 @@
  
  BOL_conservative_party_long:0 "Partido Republicano Socialista"
  BOL_conservative_party:0 "PRS"
+ GEO_socialism_party:0 "Mensheviks"
+ GEO_democratic_party:0 "Mensheviks"

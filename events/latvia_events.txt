@@ -1,0 +1,95 @@
+﻿###########################
+# Latvia Events
+###########################
+
+add_namespace = latvia_ib
+
+country_event = {
+	id = latvia_ib.1
+	title = "latvia_ib.1.t"
+	desc = latvia_ib.1.d
+	picture = GFX_soviet_latvia_ceasefire
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			LAT = {
+				controls_province = 310
+				is_in_faction_with = POL
+			}	
+			POL = {
+				controls_province = 310
+				is_in_faction_with = LAT
+			}	
+		}
+	}	
+	
+	option = { # Latvian White Peace
+		name = "latvia_ib.1.a"
+		ai_chance = { factor = 100 }
+		SOV = {
+			country_event = {
+				id = latvia_ib.2
+			}
+		}	
+	}
+}		
+country_event = {
+	id = latvia_ib.2
+	title = "latvia_ib.2.t"
+	desc = latvia_ib.2.d
+	picture = GFX_soviet_latvia_ceasefire
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Latvian White Peace
+		name = "latvia_ib.2.a"
+		ai_chance = { factor = 100 }
+		SOV = {
+			white_peace = LAT
+			diplomatic_relation = {
+				country = LAT
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+		LAT = {
+			diplomatic_relation = {
+				country = SOV
+				relation = non_aggression_pact
+				active = yes	
+			}
+			set_country_flag = LAT_peace_with_soviets
+		}	
+		POL = {
+			dismantle_faction = yes
+		}	
+	}
+	option = { # NEVER SURRENDER
+		name = "latvia_ib.2.b"
+		ai_chance = { factor = 100 }
+		LAT = {
+			country_event = {
+				id = latvia_ib.3
+			}
+		}
+	}	
+}	
+country_event = {
+	id = latvia_ib.3
+	title = "latvia_ib.3.t"
+	desc = latvia_ib.3.d
+	picture = GFX_soviet_latvia_ceasefire
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # They have made a grave mistake them soviets, messing with titan latvia!
+		name = "latvia_ib.3.a"
+		ai_chance = { factor = 100 }
+	}	
+}

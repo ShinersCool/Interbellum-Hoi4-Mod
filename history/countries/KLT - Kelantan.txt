@@ -114,7 +114,9 @@ set_politics = {
 }
 
 set_popularities = {
-	monarchism = 100
+	democratic = 30
+	communism = 5
+	neutrality = 65
 }
 
 1939.1.1 = {
@@ -166,4 +168,3 @@ set_popularities = {
 	}
 }
 
-recruit_character = KLT_SULTAN

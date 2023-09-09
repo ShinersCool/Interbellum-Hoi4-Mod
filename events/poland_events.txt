@@ -1,0 +1,599 @@
+﻿###########################
+# poland Events
+###########################
+
+add_namespace = poland_ib
+
+country_event = {
+	id = poland_ib.1
+	title = "poland_ib.1.t"
+	desc = poland_ib.1.d
+	picture = GFX_sejny_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # polish Victory
+		name = "poland_ib.1.a"
+		ai_chance = { factor = 100 }
+		POL = {
+		    transfer_state = 1063
+		}
+
+	}
+}
+
+country_event = {
+	id = poland_ib.2
+	title = "poland_ib.2.t"
+	desc = poland_ib.2.d
+	picture = GFX_sejny_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # lithuanian victory
+		name = "poland_ib.2.a"
+		ai_chance = { factor = 100 }
+		finalize_border_war = {
+			defender_win = yes
+			attacker = 97
+			defender = 1063
+		}
+	}
+}
+
+country_event = {
+	id = poland_ib.3
+	title = "poland_ib.3.t"
+	desc = poland_ib.3.d
+	picture = GFX_sejny_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Sue For Peace
+		name = "poland_ib.3.a"
+		ai_chance = { factor = 100 }
+		cancel_border_war = {
+			dont_fire_events = yes
+			defender = 1063
+			attacker = 97
+		}
+	}
+}
+
+country_event = {
+	id = poland_ib.4
+	title = "poland_ib.4.t"
+	desc = poland_ib.4.d
+	picture = GFX_investigate_polish_in_lithuania
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #When Lithuania loses border war, Lithuania investigates Polish coup attempts, which causes Polish coup to fail
+		name = "poland_ib.4.a"
+		ai_chance = { factor = 95 }
+		set_country_flag = LIT_investigate_polish_coup
+
+	}
+	option = { #When Lithuania loses border war, Lithuania ignores polish coups
+		name = "poland_ib.4.b"
+		ai_chance = { factor = 5 }
+		set_country_flag = LIT_ignore_polish_coup
+
+	}
+}
+
+country_event = {
+	id = poland_ib.5
+	title = "poland_ib.5.t"
+	desc = poland_ib.5.d
+	picture = GFX_lithuanian_coup_succeeds
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Lithuanian coup succeeds
+		name = "poland_ib.5.a"
+		ai_chance = { factor = 100 }
+		LIT = {
+			add_stability = -0.25
+			set_cosmetic_tag = LIT_pmo
+		}	
+		POL = {
+			set_autonomy = {
+				target = LIT
+				autonomous_state = autonomy_puppet
+			}
+		}	
+	}
+}	
+
+country_event = {
+	id = poland_ib.6
+	title = "poland_ib.6.t"
+	desc = poland_ib.6.d
+	picture = GFX_lithuanian_coup_fails
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Lithuanian coup fails
+		name = "poland_ib.6.a"
+		ai_chance = { factor = 100 }
+		add_opinion_modifier = { target = POL modifier = LIT_polish_coup_discovered }
+	}
+}
+
+country_event = {
+	id = poland_ib.7
+	title = "poland_ib.7.t"
+	desc = poland_ib.7.d
+	picture = GFX_galician_soviet_republic
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			POL = {
+				has_war_with = SOV
+			}	
+			SOV = {
+				controls_state = 89
+				controls_state = 91
+				controls_state = 963
+			}	
+			tag = SOV
+		}
+	}	
+	
+	option = { # Galician SSR is formed
+		name = "poland_ib.7.a"
+		ai_chance = { factor = 95 }
+		GAL = {
+			transfer_state = 89
+			transfer_state = 91
+			transfer_state = 963
+		}
+		SOV = {
+			set_autonomy = {
+			target = GAL
+			autonomous_state = autonomy_integrated_puppet
+		}	
+	}
+	}
+	option = { # Galician SSR isnt formed
+		name = "poland_ib.7.b"
+		ai_chance = { factor = 5 }
+		
+	}	
+}
+
+country_event = {
+	id = poland_ib.8
+	title = "poland_ib.8.t"
+	desc = poland_ib.8.d
+	picture = GFX_peace_in_poland
+	
+	fire_only_once = yes
+	
+	trigger = {
+		AND = {
+			POL = {
+				surrender_progress > 0.65
+			}	
+			POL = {
+				has_war_with = SOV
+			}	
+			tag = POL
+			date < 1920.07.01
+			date > 1925.00.00
+		}
+	}	
+	
+	option = { # Poland makes peace with soviets
+		name = "poland_ib.8.a"
+		ai_chance = { factor = 90 }
+		POL = {
+			white_peace = SOV
+		}		
+		if = {
+			limit = {
+				GAL = {
+					owns_state = 89
+					owns_state = 91
+					owns_state = 963
+				}
+			}	
+		}
+		POL = {
+			transfer_state = 89
+			transfer_state = 91
+			transfer_state = 963
+		}
+	}
+	option = { # Never Surrender!
+		name = "poland_ib.8.b"
+		ai_chance = { factor = 10 }	
+		
+	}	
+}	
+country_event = {
+	id = poland_ib.9
+	title = "poland_ib.9.t"
+	desc = poland_ib.9.d
+	picture = GFX_latvia_polish_alliance
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Poland makes faction with Latvia
+		name = "poland_ib.9.a"
+		ai_chance = { factor = 95 }
+		LAT = {
+			set_rule = { can_join_factions = yes }
+		}	
+		POL = {
+			create_faction = "east_liberation_front"
+		}	
+		POL = {
+			add_to_faction = LAT
+		}		
+	}
+	option = { # nah we good
+		name = "poland_ib.9.b"
+		ai_chance = { factor = 5 }	
+		
+	}		
+}
+country_event = {
+	id = poland_ib.10
+	title = "poland_ib.10.t"
+	desc = poland_ib.10.d
+	picture = GFX_treaty_of_warsaw
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Poland makes faction with ukraine
+		name = "poland_ib.10.a"
+		ai_chance = { factor = 95 }
+		UKR = {
+			set_rule = { can_join_factions = yes }
+		}	
+		POL = {
+			create_faction = "treaty_of_warsaw"
+		}	
+		POL = {
+			add_to_faction = UKR
+			country_event = {
+				id = poland_ib.11
+			}	
+		}
+		
+	}
+	option = { # nah we good
+		name = "poland_ib.10.b"
+		ai_chance = { factor = 5 }	
+		
+	}		
+}
+
+country_event = {
+	id = poland_ib.11
+	title = "poland_ib.11.t"
+	desc = poland_ib.11.d
+	picture = GFX_treaty_of_warsaw
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Poland gets Dream of Intermarium spirit
+		name = "poland_ib.11.a"
+		ai_chance = { factor = 100 }
+		POL = {
+			add_ideas = {
+				POL_fulfilling_dreams_of_intermarium
+			}	
+		}
+		
+	}		
+}
+
+country_event = {
+	id = poland_ib.12
+	title = "poland_ib.12.t"
+	desc = poland_ib.12.d
+	picture = GFX_wilno_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # polish Victory
+		name = "poland_ib.12.a"
+		ai_chance = { factor = 100 }
+		CLT = {
+		    transfer_state = 784
+		}
+		POL = {
+			puppet = CLT
+		}	
+
+	}
+}
+
+country_event = {
+	id = poland_ib.13
+	title = "poland_ib.13.t"
+	desc = poland_ib.13.d
+	picture = GFX_wilno_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Lithuania victory
+		name = "poland_ib.13.a"
+		ai_chance = { factor = 100 }
+		finalize_border_war = {
+			defender_win = yes
+			attacker = 95
+			defender = 784
+		}
+	}
+}
+
+country_event = {
+	id = poland_ib.14
+	title = "poland_ib.14.t"
+	desc = poland_ib.14.d
+	picture = GFX_wilno_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Sue For Peace
+		name = "poland_ib.14.a"
+		ai_chance = { factor = 100 }
+		cancel_border_war = {
+			dont_fire_events = yes
+			defender = 784
+			attacker = 95
+		}
+	}
+}
+
+country_event = {
+	id = poland_ib.15
+	title = "poland_ib.15.t"
+	desc = poland_ib.15.d
+	picture = GFX_wilno_border_war
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Lithuania defeat
+		name = "poland_ib.15.a"
+		ai_chance = { factor = 100 }
+		add_stability = -0.15
+
+	}
+}
+country_event = {
+	id = poland_ib.16
+	title = "poland_ib.16.t"
+	desc = poland_ib.16.d
+	picture = GFX_american_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Certaintly
+		name = "poland_ib.16.a"
+		ai_chance = { factor = 90 }
+		USA = {
+			send_equipment = {
+				equipment = train_equipment
+				amount = 3
+				target = POL
+			}	
+		}
+		POL = {
+			country_event = {
+				id = poland_ib.17
+				days = 5
+			}	
+		}			
+	}	
+	option = { #no
+		name = "poland_ib.16.b"
+		ai_chance = { factor = 10 }
+		POL = {
+			country_event = {
+				id = poland_ib.18
+				days = 5
+			}	
+		}			
+	}	
+}	
+country_event = {
+	id = poland_ib.17
+	title = "poland_ib.17.t"
+	desc = poland_ib.17.d
+	picture = GFX_american_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Poland is notified about train delivery
+		name = "poland_ib.17.a"
+		ai_chance = { factor = 100 }		
+	}	
+}	
+country_event = {
+	id = poland_ib.18
+	title = "poland_ib.18.t"
+	desc = poland_ib.18.d
+	picture = GFX_american_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Poland is notified about train decline
+		name = "poland_ib.18.a"
+		ai_chance = { factor = 100 }		
+	}	
+}	
+country_event = {
+	id = poland_ib.19
+	title = "poland_ib.19.t"
+	desc = poland_ib.19.d
+	picture = GFX_german_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Certaintly
+		name = "poland_ib.19.a"
+		ai_chance = { factor = 90 }
+		GER = {
+			send_equipment = {
+				equipment = train_equipment
+				amount = 3
+				target = POL
+			}
+		}
+		POL = {
+			country_event = {
+				id = poland_ib.20
+				days = 5
+			}	
+		}			
+	}	
+	option = { #no
+		name = "poland_ib.19.b"
+		ai_chance = { factor = 10 }
+		POL = {
+			country_event = {
+				id = poland_ib.21
+				days = 5
+			}	
+		}			
+	}	
+}	
+country_event = {
+	id = poland_ib.20
+	title = "poland_ib.20.t"
+	desc = poland_ib.20.d
+	picture = GFX_german_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Poland is notified about train delivery
+		name = "poland_ib.20.a"
+		ai_chance = { factor = 100 }		
+	}	
+}	
+country_event = {
+	id = poland_ib.21
+	title = "poland_ib.21.t"
+	desc = poland_ib.21.d
+	picture = GFX_german_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Poland is notified about train decline
+		name = "poland_ib.21.a"
+		ai_chance = { factor = 100 }		
+	}	
+}	
+country_event = {
+	id = poland_ib.22
+	title = "poland_ib.22.t"
+	desc = poland_ib.22.d
+	picture = GFX_german_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Certaintly
+		name = "poland_ib.22.a"
+		ai_chance = { factor = 90 }
+		AUS = {
+			send_equipment = {
+				equipment = train_equipment
+				amount = 3
+				target = POL
+			}
+		}
+		POL = {
+			country_event = {
+				id = poland_ib.23
+				days = 5
+			}	
+		}			
+	}	
+	option = { #no
+		name = "poland_ib.22.b"
+		ai_chance = { factor = 10 }
+		POL = {
+			country_event = {
+				id = poland_ib.24
+				days = 5
+			}	
+		}			
+	}	
+}	
+country_event = {
+	id = poland_ib.23
+	title = "poland_ib.23.t"
+	desc = poland_ib.22.d
+	picture = GFX_austrian_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Poland is notified about train delivery
+		name = "poland_ib.23.a"
+		ai_chance = { factor = 100 }		
+	}	
+}	
+country_event = {
+	id = poland_ib.24
+	title = "poland_ib.24.t"
+	desc = poland_ib.24.d
+	picture = GFX_austrian_trains
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Poland is notified about train decline
+		name = "poland_ib.24.a"
+		ai_chance = { factor = 100 }		
+	}	
+}	

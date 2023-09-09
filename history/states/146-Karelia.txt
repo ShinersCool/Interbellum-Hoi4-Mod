@@ -7,7 +7,6 @@ state={
 		owner = SOV
 		add_core_of = FIN
 		add_core_of = KAR
-		add_core_of = NIN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

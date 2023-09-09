@@ -21,8 +21,6 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
 add_ideas = {
-	victor_emmanuel
-	vittoria_mutilata
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -46,6 +44,7 @@ add_ideas = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	support_lance = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
@@ -129,12 +128,6 @@ if = {
 	}
 	set_naval_oob = "ITA_1936_naval_mtg"
 }
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
 
 1939.1.1 = {
 
@@ -146,21 +139,8 @@ if = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-		remove_ideas = MTG_naval_treaty_adherent
 	}
 	#adding ministers
-	add_ideas = {
-		ITA_giovanni_marinelli
-		ITA_giacomo_acerbo
-		emilio_de_bono
-		vittorio_ambrosio
-		fiat
-		beretta
-
-		#laws
-		partial_economic_mobilisation
-		extensive_conscription
-	}
 
 	complete_national_focus = ITA_ethiopian_war_logistics
 	complete_national_focus = ITA_industrial_effort

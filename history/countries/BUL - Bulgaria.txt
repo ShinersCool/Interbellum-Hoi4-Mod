@@ -47,12 +47,6 @@ if = { #DLC
 	set_cosmetic_tag = BUL_neutrality
 
 	#IDEAS SETUP
-	add_ideas = { #DLC
-		BUL_second_national_catastrophe
-		BUL_army_restrictions
-		BUL_imro_01
-		volunteer_only
-	}
 
 	#Army limitations due to Treaty of Neuilly sur Seine
 	set_rule = { #DLC
@@ -377,8 +371,6 @@ if = {
 		complete_national_focus = BUL_illusions_of_a_non_partisan_system
 
 		#Remove Army Restrictions NS and all limitations 								Negotiate Bulgarian Rearmament
-		remove_ideas = BUL_army_restrictions
-		remove_ideas = BUL_zveno_ns
 		#Destroy Zveno 																 	Dissolve the Military Union
 		set_country_flag = BUL_disposed_of_zveno_generals_flag
 		set_country_flag = BUL_zveno_leaders_imprisoned_flag

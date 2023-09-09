@@ -566,10 +566,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_bol_bautista_saavedra_large"
 		texturefile = "gfx/leaders/BOL/portrait_large_bautista_saavedra.dds"
-	}		
-
+	}	
 	spriteType = {
-		name = "GFX_KLT_SULTAN"
-		texturefile = "gfx/leaders/KLT/KLT_sultan.dds"
-	}		
+		name = "GFX_portrait_LIT_pmo_large"
+		texturefile = "gfx/leaders/LIT/portrait_large_pmo.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_gal_volodymyr_zatonsky_large"
+		texturefile = "gfx/leaders/GAL/portrait_large_volodymyr_zatonsky.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_clt_lucjan_zeligowski_large"
+		texturefile = "gfx/leaders/CLT/portrait_large_lucjan_zeligowski.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_lem_jaroslav_kacmarcyk_large"
+		texturefile = "gfx/leaders/LEM/portrait_large_jaroslav_kacmarcyk.dds"
+	}	
 }

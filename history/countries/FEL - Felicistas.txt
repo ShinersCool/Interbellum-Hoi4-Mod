@@ -1,4 +1,4 @@
-﻿capital = 915
+﻿capital = 965
 
 # Starting tech
 set_technology = {

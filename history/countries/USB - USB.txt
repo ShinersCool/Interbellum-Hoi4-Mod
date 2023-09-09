@@ -84,15 +84,8 @@ if = {
 	
 	#adding ministers
 	add_ideas = {
-		army_ordnance_department
-		general_electric
-		USA_prepare_intervention
-
-		#laws
 		isolation
 		volunteer_only
-
-		new_deal
 	}
 
 	#focuses
@@ -199,13 +192,6 @@ set_popularities = {
 	communism = 1
 }
 
-add_ideas = {
-	civilian_economy
-	limited_conscription
-	free_trade
-	home_of_the_free
-	neutrality_idea
-}
 
 1939.1.1 = {
 	set_politics = {

@@ -5,7 +5,6 @@ state={
 	history={
 		owner = WHR
         add_core_of = SOV
-		add_core_of = NEN
 		add_core_of = WHR
 		buildings = {
 			infrastructure = 1

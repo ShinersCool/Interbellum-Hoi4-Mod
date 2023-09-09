@@ -70,7 +70,9 @@ set_popularities = {
 	communism = 5
 	neutrality = 90
 }
-
+add_ideas = {
+	MAK_altercations_with_soviet_government
+}	
 recruit_character = MAK_makhno
 
 1939.1.1 = {

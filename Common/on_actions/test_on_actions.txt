@@ -69,18 +69,7 @@ on_actions = {
 				}
 			}
 		}	
-	}		
-	on_startup = {
-		effect = {	
-			ALA = {
-				declare_war_on = {
-					target = FRA
-					type = take_state_focus
-					generator = { 799 }	
-				}
-			}
-		}	
-	}	
+	}			
 	on_startup = {
 		effect = {	
             FRA = {
@@ -143,18 +132,7 @@ on_actions = {
 			}				
 			
 		}	
-	}		
-	on_startup = {
-		effect = {	
-            every_country = {
-                country_event = { 
-                    id = news.1
-					days = 88
-                }
-			}				
-			
-		}	
-	}	
+	}			
 	on_startup = {
 		effect = {	
             GEO = {
@@ -165,5 +143,26 @@ on_actions = {
 			}				
 			
 		}	
-	}		
+	}
+	on_capitulation = {
+		effect = { 
+			if = {
+				limit = {
+					SOV = {
+						has_government = communism
+					}
+					USR = {
+						is_puppet_of = SOV
+					}
+					tag = UKR
+				}	
+				USR = {
+					transfer_state = 201
+					transfer_state = 199
+					transfer_state = 198
+				}
+			}
+		}
+	}				
 }
+

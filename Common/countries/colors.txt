@@ -1,3 +1,15 @@
+LEM = {
+	color = rgb { 120 180 255 }
+	color_ui = rgb { 120 180 255 }
+}
+CLT = {
+	color = rgb { 206 113 141 }
+	color_ui = rgb { 206 113 141 }
+}
+GAL = {
+	color = rgb { 147 65 89 }
+	color_ui = rgb { 150 75 82 }
+}
 TLO = {
 	color = rgb { 51 15 15 }
 	color_ui = rgb { 51 15 15 }
@@ -271,7 +283,7 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 155 7 10 }
+	color = rgb { 188 84 141 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
@@ -489,8 +501,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 153 30 31 }
-	color_ui = rgb { 153 30 31 }
+	color = rgb { 195 107 160 }
+	color_ui = rgb { 198 169 248 }
 }
 SAU = {
 	color = rgb { 0 108 53 }

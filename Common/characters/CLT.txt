@@ -1,0 +1,14 @@
+characters={
+	CLT_lucjan_zeligowski={
+		name=CLT_CHARACTER_ZELIGOWSKI
+		portraits={
+			civilian={
+				large="GFX_portrait_clt_lucjan_zeligowski_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1947.1.1.1"
+		}
+	}
+}

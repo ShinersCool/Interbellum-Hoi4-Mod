@@ -1,0 +1,14 @@
+characters={
+	GAL_volodymyr_zatonsky={
+		name=GAL_CHARACTER_VOLODYMYR_ZATONSKY
+		portraits={
+			civilian={
+				large="GFX_portrait_gal_volodymyr_zatonsky_large"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1937.1.1.1"
+		}
+	}
+}

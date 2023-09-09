@@ -23,6 +23,45 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_yugoslavia_carinthia"
 		texturefile = "gfx/event_pictures/yugoslavia_carinthia.dds"
+	}		
+	spriteType = {
+		name = "GFX_sejny_border_war"
+		texturefile = "gfx/event_pictures/sejny_border_war.dds"
 	}	
-
+	spriteType = {
+		name = "GFX_investigate_polish_in_lithuania"
+		texturefile = "gfx/event_pictures/investigate_polish_in_lithuania.dds"
+	}	
+	spriteType = {
+		name = "GFX_lithuanian_coup_succeeds"
+		texturefile = "gfx/event_pictures/lithuanian_coup_succeeds.dds"
+	}	
+	spriteType = {
+		name = "GFX_lithuanian_coup_fails"
+		texturefile = "gfx/event_pictures/lithuanian_coup_fails.dds"
+	}	
+	spriteType = {
+		name = "GFX_galician_soviet_republic"
+		texturefile = "gfx/event_pictures/galician_soviet_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_peace_in_poland"
+		texturefile = "gfx/event_pictures/peace_in_poland.dds"
+	}
+	spriteType = {
+		name = "GFX_treaty_of_warsaw"
+		texturefile = "gfx/event_pictures/treaty_of_warsaw.dds"
+	}
+	spriteType = {
+		name = "GFX_wilno_border_war"
+		texturefile = "gfx/event_pictures/wilno_border_war.dds"
+	}
+	spriteType = {
+		name = "GFX_soviet_latvia_ceasefire"
+		texturefile = "gfx/event_pictures/soviet_latvia_ceasefire.dds"
+	}		
+	spriteType = {
+		name = "GFX_baltic_peace"
+		texturefile = "gfx/event_pictures/baltic_peace.dds"
+	}		
 }

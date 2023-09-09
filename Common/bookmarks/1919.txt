@@ -69,6 +69,15 @@ bookmarks = {
 		}
 
 		# minors (shiners gf reference) ####
+		"POL"={
+			minor = yes
+			history = "POL_DD_DESC_LOC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
 		"HUN"={
 			minor = yes
 			history = "HUN_DD_DESC_LOC"

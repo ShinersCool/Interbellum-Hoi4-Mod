@@ -4,7 +4,6 @@ state={
 	provinces={
 		13353 13354 13355 13358
 	}
-	
 	history = {
 		owner = SAK
 		add_core_of = SAK

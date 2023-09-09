@@ -1,0 +1,165 @@
+﻿###########################
+# soviet Events
+###########################
+
+add_namespace = soviet_ib
+
+country_event = {
+	id = soviet_ib.1
+	title = "soviet_ib.1.t"
+	desc = soviet_ib.1.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # Lithuania agrees to make peace in may 1920
+		name = "soviet_ib.1.a"
+		ai_chance = { factor = 95 }
+		SOV = {
+		    country_event = {
+				id = soviet_ib.2
+				days = 3
+			}	
+		}
+		LIT = {
+			unlock_decision_category_tooltip = LIT_soviet_peace
+			unlock_decision_tooltip = LIT_send_delegates
+			activate_decision = LIT_send_delegates
+			set_country_flag = negotiating_with_soviets	
+		}	
+		
+	}
+	option = { # Lithuania doesnt agrees to make peace in may 1920
+		name = "soviet_ib.1.b"
+		ai_chance = { factor = 5 }
+		SOV = {
+		    country_event = {
+				id = soviet_ib.3
+				days = 3
+			}	
+		}
+
+	}	
+}
+country_event = {
+	id = soviet_ib.2
+	title = "soviet_ib.2.t"
+	desc = soviet_ib.2.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # soviets get confirmation that lithuania accepts
+		name = "soviet_ib.2.a"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = soviet_ib.3
+	title = "soviet_ib.3.t"
+	desc = soviet_ib.3.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # soviets get confirmation that lithuania didn't accept
+		name = "soviet_ib.3.a"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = soviet_ib.4
+	title = "soviet_ib.4.t"
+	desc = soviet_ib.4.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # soviets white peace lithuania
+		name = "soviet_ib.4.a"
+		ai_chance = { factor = 95 }
+		SOV = {
+			white_peace = LIT
+		}	
+		LIT = {
+			unlock_decision_tooltip = LIT_demand_vilnius
+		    country_event = {
+				id = soviet_ib.6
+				days = 3
+			}				
+		}	
+	}
+	option = { # soviets dont white peace lithuania
+		name = "soviet_ib.4.b"
+		ai_chance = { factor = 5 }
+		LIT = {
+		    country_event = {
+				id = soviet_ib.5
+				days = 3
+			}	
+		}
+	}	
+}
+country_event = {
+	id = soviet_ib.5
+	title = "soviet_ib.5.t"
+	desc = soviet_ib.5.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # lithuania get confirmation that soviets didn't accept
+		name = "soviet_ib.5.a"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = soviet_ib.6
+	title = "soviet_ib.6.t"
+	desc = soviet_ib.6.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # lithuania gets notified about peace and decision to demand vilnius
+		name = "soviet_ib.6.a"
+		ai_chance = { factor = 100 }
+		custom_effect_tooltip = lit_white_peace_negotiations_tt
+		set_country_flag = white_peace_with_soviets
+		clr_country_flag = negotiating_with_soviets	
+	}
+}
+country_event = {
+	id = soviet_ib.7
+	title = "soviet_ib.7.t"
+	desc = soviet_ib.7.d
+	picture = GFX_baltic_peace
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { # soviets give lithuania vilnius
+		name = "soviet_ib.7.a"
+		ai_chance = { factor = 95 }
+		LIT = {
+			transfer_state = 784
+		}	
+	}
+	option = { # soviets dont give lithuania vilnius
+		name = "soviet_ib.7.b"
+		ai_chance = { factor = 5 }	
+	}	
+}

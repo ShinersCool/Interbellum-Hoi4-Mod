@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+		MAK_altercations_with_soviet_government = {
+		    picture = MAK_altercations_with_soviet_government
+			
+			allowed = {
+				tag = MAK
+			}
+			
+			available = { 
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.15
+				
+			}
+
+		}
+	}	
+}

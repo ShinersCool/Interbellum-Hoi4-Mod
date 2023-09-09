@@ -11,7 +11,6 @@ state = {
 			infrastructure = 1
 		}
 		add_core_of = WHR
-		add_core_of = YAK
 
 	}
 

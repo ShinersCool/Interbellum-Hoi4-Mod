@@ -51,6 +51,8 @@ country_event = {
 			transfer_state = 943
 			transfer_state = 69
 			transfer_state = 74
+			transfer_state = 1062
+			transfer_state = 1061
 		}	
 		AUS = {
 			transfer_state = 910

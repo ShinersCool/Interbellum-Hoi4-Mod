@@ -1,0 +1,33 @@
+ideas = {
+	country = {
+		LIT_foch_line = {
+		    picture = LIT_foch_line
+			
+			allowed = {
+				tag = LIT
+			}
+			
+			available = { 
+				POL = {
+					controls_state = 784
+				}	
+			}
+			
+			cancel = { 
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = 0.025
+				custom_modifier_tooltip = foch_line_tt
+				
+			}
+
+		}
+	}	
+}

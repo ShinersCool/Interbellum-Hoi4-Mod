@@ -115,7 +115,6 @@ set_stability = 0.7
 		improved_infantry_weapons = 1
 		support_weapons = 1
 		support_weapons2 = 1
-		paratroopers = 1
 
 		#doctrines
 		delay = 1

@@ -96,7 +96,6 @@ if = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
 	}
-	add_ideas = bureau_of_ordnance_spirit
 }
 
 if = {
@@ -143,7 +142,6 @@ if = {
 		mtg_transport = 1
 		improved_airplane_launcher = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 #Monroe Doctrine

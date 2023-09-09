@@ -107,11 +107,6 @@ if = {
 		has_dlc = "Man the Guns"
 	}
 	add_ideas = {
-		MEX_callistas
-		MEX_church_power_2
-		MEX_oil_concessions
-		MEX_politicised_army
-		MEX_cedillo_tension_2
 	}
 }
 
@@ -183,10 +178,6 @@ if = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-
-		remove_ideas = {
-			MEX_cedillo_tension_2 # Already rebelled by this point
-		}
 		
 		complete_national_focus = MEX_focus_plan_of_agua_prieta
 		# 70
@@ -216,9 +207,6 @@ if = {
 		# 910
 		unlock_national_focus = MEX_focus_nationalize_the_oil_fields
 		# 980
-		remove_ideas = {
-			MEX_oil_concessions
-		}
 		
 		ENG = {
 			add_opinion_modifier = {

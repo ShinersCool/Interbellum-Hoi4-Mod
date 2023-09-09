@@ -53,6 +53,7 @@ if = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	support_lance = 1
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
@@ -148,7 +149,6 @@ if = {
 		mtg_transport = 1
 		cruiser_submarines = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 if = {
 	limit = {
@@ -164,20 +164,6 @@ if = {
 	add_command_power = 100
 
 	#adding ministers
-	add_ideas = {
-		FRA_charles_tillon
-		francois_darlan
-		philippe_fequant
-		famh
-		jean_marie_bergeret
-		renault_fra
-		FRA_full_employment
-	    FRA_political_violence
-	    FRA_inefficient_economy_2
-	    FRA_matignon_agreements
-		#laws
-		partial_economic_mobilisation
-	}
 
 	complete_national_focus = FRA_begin_rearmament
 	complete_national_focus = FRA_form_the_popular_front
@@ -300,8 +286,6 @@ if = {
 			improved_secondary_battery = 1
 			improved_ship_torpedo_launcher = 1
 		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
 }
 
@@ -342,13 +326,7 @@ set_popularities = {
 recruit_character = FRA_georges_clemenceau
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
 	limited_conscription
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
 	weakened_military
 }
 

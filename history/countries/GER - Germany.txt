@@ -24,6 +24,7 @@ set_fuel_ratio = 0.8
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	support_lance = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -151,15 +152,6 @@ set_war_support = 0.3
 	
 	#adding ministers
 	add_ideas = {
-		henschel
-		ig_faben
-		heinrich_himmler
-		rudolf_hess
-		ludwig_beck
-		gerd_von_rundstedt
-		GER_autarky_idea
-
-		#laws
 		war_economy
 		extensive_conscription
 	}
@@ -243,7 +235,6 @@ set_war_support = 0.3
 		improved_infantry_weapons = 1
 		support_weapons = 1
 		support_weapons2 = 1
-		paratroopers = 1
 		
 
 		#doctrines
@@ -360,14 +351,11 @@ recruit_character = GER_walther_reinhardt
 recruit_character = GER_adolf_von_trotha
 
 add_ideas = {
-	sour_loser
-	general_staff
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 	agency_for_homeland_service
 }
-add_ideas = GER_mefo_bills_1
 
 activate_mission = GER_mefo_bills_mission
 

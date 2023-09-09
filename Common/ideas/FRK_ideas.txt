@@ -1,7 +1,7 @@
 ideas = {
 	country = {
 		FRK_freikorps_units = {
-		    picture = #
+		    picture = FRK_freikorps_units
 			
 			allowed = {
 				tag = FRK
