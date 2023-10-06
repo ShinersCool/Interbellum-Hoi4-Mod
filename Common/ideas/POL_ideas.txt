@@ -1,44 +1,5 @@
 ideas = {
 	country = {
-	
-		POL_pilsudski_iron_fist = {
-		    picture = POL_pilsudski_iron_fist
-			
-			allowed = {
-				tag = POL
-			}
-			
-			available = { 
-				POL = {
-					has_country_leader = {
-						character = POL_jozef_pilsudski
-					}
-				}	
-			}
-			
-			cancel = { 
-				POL = {
-					NOT = {
-						has_country_leader = {
-							character = POL_jozef_pilsudski
-						}
-					}
-				}	
-			}
-
-			allowed_civil_war = {
-			   always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				party_popularity_stability_factor = 0.35
-				drift_defence_factor = 0.1 
-				
-			}
-
-		}
 		POL_fablok = {
 		    picture = POL_fablok
 			
@@ -354,8 +315,114 @@ ideas = {
 				consumer_goods_factor = 0.05
 				stability_factor = 0.1
 			}
+		}
+		
+		POL_the_march_constitution = {
+		    picture = POL_the_march_constitution
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+				has_completed_focus = POL_march_constitution
+			}
+
+			cancel = { 
+
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1			
+			
+			modifier = {
+				stability_weekly_factor = 0.05
+				conservative_drift = 0.03
+			}
+
+		}	
+		
+		POL_high_inflation = {
+		    picture = POL_high_inflation
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+	
+			}
+
+			cancel = { 
+
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1			
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+			}
+
+		}
+		
+		POL_high_illiteracy = {
+		    picture = POL_high_illiteracy
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+	
+			}
+
+			cancel = { 
+
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1		
+			
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = -0.10
+			}
+
+		}
+		lanckorona_pact = {
+		    picture = POL_lanckorona_pact
+			
+			allowed = {
+				tag = POL
+			}
+			
+			available = { 
+	
+			}
+
+			cancel = { 
+
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}			
+			removal_cost = -1		
+			
+			modifier = {
+				conservative_acceptance = 50
+				conservative_drift = 0.05
+			}
+
 		}		
-	}	
+	}
 	materiel_manufacturer = {
 		POL_national_engineering_works = {
 			picture = POL_national_engineering_works

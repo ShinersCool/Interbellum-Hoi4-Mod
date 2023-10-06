@@ -582,5 +582,41 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_lem_jaroslav_kacmarcyk_large"
 		texturefile = "gfx/leaders/LEM/portrait_large_jaroslav_kacmarcyk.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_kum_yulbars_khan_large"
+		texturefile = "gfx/leaders/KUM/portrait_large_yulbars_khan.dds"
 	}	
+	spriteType = {
+		name = "GFX_portrait_jin_li_tiancai_large"
+		texturefile = "gfx/leaders/JIN/portrait_large_li_tiancai.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_hub_wang_zhanyuan_large"
+		texturefile = "gfx/leaders/HUB/portrait_large_wang_zhanyuan.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_jng_chen_guangyuan_large"
+		texturefile = "gfx/leaders/JNG/portrait_large_chen_guangyuan.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_pol_gabriel_narutowicz_large"
+		texturefile = "gfx/leaders/POL/portrait_large_gabriel_narutowicz.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_pol_stanislaw_wojciechowski_large"
+		texturefile = "gfx/leaders/POL/portrait_large_stanislaw_wojciechowski.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_pol_kazimierz_morawski_large"
+		texturefile = "gfx/leaders/POL/portrait_large_kazimierz_morawski.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_pol_maciej_rataj_large"
+		texturefile = "gfx/leaders/POL/portrait_large_maciej_rataj.dds"
+	}	
+	spriteType = {
+		name = "GFX_portrait_pol_maurycy_zamoysk_large"
+		texturefile = "gfx/leaders/POL/portrait_large_maurycy_zamoysk.dds"
+	}		
 }

@@ -1,0 +1,14 @@
+characters={
+	HUB_wang_zhanyuan={
+		name=HUB_CHARACTER_WANG_ZHANYUAN
+		portraits={
+			civilian={
+				large="GFX_portrait_hub_wang_zhanyuan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1934.1.1.1"
+		}
+	}
+}

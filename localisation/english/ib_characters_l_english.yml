@@ -117,6 +117,8 @@
  
  HON_CHARACTER_BERTRAND:0 "Francisco Bertrand"
  
+ HUB_CHARACTER_WANG_ZHANYUAN:0 "Wang Zhanyuan"
+ 
  HUN_CHARACTER_KUN:0 "Béla Kun"
  
  HUT_CHARACTER_KLOCHURAK:0 "Stepan Klochurak"
@@ -133,7 +135,11 @@
  
  JAS_CHARACTER_RASHID:0 "Saud bin Abdulaziz Al Rashid"
  
+ JIN_CHARACTER_LI_TIANCAI:0 "Li Tiancai"
+ 
  JGS_CHARACTER_QI_XIEYUAN:0 "Qi Xieyuan"
+ 
+ JNG_CHARACTER_CHEN_GUANGYUAN:0 "Chen Guangyuan"
  
  KHI_CHARACTER_ABDULLAH:0 "Sayid Abdullah"
  
@@ -142,6 +148,7 @@
  KSI_CHARACTER_NAMGYAL:0 "Tashi Namgyal"
  
  KUM_CHARACTER_MASQUAD:0 "Maqsud Shah"
+ KUM_CHARACTER_YULBARS_KHAN:0 "Yulbars Khan"
  
  KUW_CHARACTER_AL_SABAH:0 "Salim Al-Mubarak Al-Sabah"
  
@@ -195,6 +202,17 @@
  PER_CHARACTER_QAJAR:0 "Ahmad Shāh Qājār"
  
  POL_CHARACTER_PILSUDSKI:0 "Józef Piłsudski"
+ POL_CHARACTER_GABRIEL_NAURUTOWICZ:0 "Gabriel Narutowicz"
+ POL_CHARACTER_WOJCIECHOWSKI:0 "Stanisław Wojciechowski"
+ POL_CHARACTER_KAZIMIERZ_MORWASKI:0 "Kazimierz Morawski"
+ POL_CHARACTER_MACIEJ_RATAJ:0 "Maciej Rataj"
+ POL_CHARACTER_MAURYCY_ZAMOYSK:0 "Maurycy Klemens Zamoyski"
+ POL_CHARACTER_SKRZYNSKI:0 "Aleksander Skrzyński"
+ POL_CHARACTER_GRABSKI:0 "Władysław Grabski"
+ POL_CHARACTER_WINCENTY_WITOS:0 "Wincenty Witos"
+ POL_CHARACTER_FERDINAND_FOCH:0 "Ferdinand Foch"
+ 
+ 
  
  POR_CHARACTER_CANTO_CASTRO:0 "João do Canto e Castro"
  

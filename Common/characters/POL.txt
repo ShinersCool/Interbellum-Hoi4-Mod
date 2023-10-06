@@ -5,10 +5,229 @@ characters={
 			civilian={
 				large="GFX_portrait_pol_jozef_pilsudski_large"
 			}
+			army={
+				small="GFX_idea_jozef_pilsudski"
+			}
+			army={
+				large="GFX_portrait_pol_jozef_pilsudski_large"
+			}			
 		}
 		country_leader={
-			ideology=despotism
+			ideology=authoritarian_democracy
 			expire="1935.1.1.1"
+			traits = { POL_pilsudski_iron_fist }
+		}
+		advisor={
+			slot = high_command
+			idea_token = jozef_pilsudski
+			ledger = army
+			allowed = {
+				original_tag = POL
+				NOT = {
+					has_country_leader = {
+						character = POL_jozef_pilsudski
+					}	
+				}	
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 85
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 	}
+	POL_gabriel_narutowicz={
+		name=POL_CHARACTER_GABRIEL_NAURUTOWICZ
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_gabriel_narutowicz_large"
+			}
+		}
+		country_leader={
+			ideology=agrarianism
+			expire="1925.1.1.1"
+		}
+	}
+	POL_stanislaw_wojciechowski={
+		name=POL_CHARACTER_WOJCIECHOWSKI
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_stanislaw_wojciechowski_large"
+			}
+		}
+		country_leader={
+			ideology=agrarianism
+			expire="1925.1.1.1"
+		}
+	}
+	POL_kazimierz_morawski={
+		name=POL_CHARACTER_KAZIMIERZ_MORWASKI
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_kazimierz_morawski_large"
+			}
+		}
+		country_leader={
+			ideology=republicanism
+			expire="1925.1.1.1"
+		}
+	}
+	POL_maciej_rataj={
+		name=POL_CHARACTER_MACIEJ_RATAJ
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_maciej_rataj_large"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1940.1.1.1"
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = maciej_rataj
+			allowed = {
+				original_tag = POL
+				NOT = {
+					POL_wladyslaw_grabski = {	
+						is_hired_as_advisor = yes
+					}
+					POL_aleksander_skrzynski = {	
+						is_hired_as_advisor = yes
+					}			
+					POL_wincenty_witos = {	
+						is_hired_as_advisor = yes
+					}						
+				}					
+			}
+	
+			traits = {
+
+			}
+		}		
+	}	
+	POL_maurycy_zamoysk={
+		name=POL_CHARACTER_MAURYCY_ZAMOYSK
+		portraits={
+			civilian={
+				large="GFX_portrait_pol_maurycy_zamoysk_large"
+			}
+		}
+		country_leader={
+			ideology=republicanism
+			expire="1939.1.1.1"
+		}
+	}
+	POL_wincenty_witos={
+		name=POL_CHARACTER_WINCENTY_WITOS
+		portraits={
+			army={
+				small="GFX_idea_pol_wincenty_witos"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wincenty_witos
+			allowed = {
+				original_tag = POL
+				NOT = {
+					POL_wladyslaw_grabski = {	
+						is_hired_as_advisor = yes
+					}
+					POL_aleksander_skrzynski = {	
+						is_hired_as_advisor = yes
+					}	
+					POL_maciej_rataj = {	
+						is_hired_as_advisor = yes
+					}						
+				}					
+			}
+	
+			traits = {
+				deteriorating_cabinet
+			}
+		}
+	}	
+	POL_wladyslaw_grabski={
+		name=POL_CHARACTER_GRABSKI
+		portraits={
+			army={
+				small="GFX_idea_pol_wladyslaw_grabski"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wladyslaw_grabski
+			allowed = {
+				original_tag = POL
+				NOT = {
+					POL_wincenty_witos = {	
+						is_hired_as_advisor = yes
+					}
+					POL_aleksander_skrzynski = {	
+						is_hired_as_advisor = yes
+					}
+					POL_maciej_rataj = {	
+						is_hired_as_advisor = yes
+					}					
+				}	
+			}	
+			traits = {
+				financial_expert
+			}
+		}
+	}	
+	POL_aleksander_skrzynski={
+		name=POL_CHARACTER_SKRZYNSKI
+		portraits={
+			army={
+				small="GFX_idea_pol_aleksander_skrzynski"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = aleksander_skrzynski
+			allowed = {
+				original_tag = POL
+				NOT = {
+					POL_wincenty_witos = {	
+						is_hired_as_advisor = yes
+					}
+					POL_wladyslaw_grabski = {	
+						is_hired_as_advisor = yes
+					}					
+					POL_maciej_rataj = {	
+						is_hired_as_advisor = yes
+					}					
+				}	
+			}	
+			traits = {
+				skrzynski_instability
+			}
+		}
+	}
+	POL_ferdinand_foch={
+		name=POL_CHARACTER_FERDINAND_FOCH
+		portraits={
+			army={
+				small="GFX_idea_pol_ferdinand_foch"
+			}
+			army={
+				large=GFX_portrait_pol_ferdinand_foch
+			}
+		}
+		field_marshal={
+			traits={ aggressive_assaulter offensive_doctrine }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+			visible = { has_completed_focus = POL_replace_the_marshal }
+		}
+
+	}	
 }

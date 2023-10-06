@@ -1,0 +1,55 @@
+﻿capital = 620
+
+#oob = "ABK_1936"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		early_bomber = 1
+		strategic_bomber1 = 1
+		naval_bomber1 = 1
+	}
+}
+
+set_cosmetic_tag = HUB_Zhilli
+
+ZHI = {
+	set_autonomy = {
+		target = HUB
+		autonomy_state = autonomy_ib_clique
+	}
+}	
+
+recruit_character = HUB_wang_zhanyuan
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1912.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 0
+	fascism = 5
+	communism = 10
+	neutrality = 85
+}
+
+
+
+
+

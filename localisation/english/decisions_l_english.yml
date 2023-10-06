@@ -125,6 +125,14 @@
  polish_coup_decison_tt:0 "§GA Coup will be Launched in Lithuania"
  POL_prepare_coup_lithuania:0 "Prepare a Coup in Lithuania"
  POL_lithuanian_issues:0 "Polish-Lithuanian Conflicts"
+ POL_railway_endeavours:0 "Railway Endeavours"
+ POL_purchase_american_trains:0 "Purchase American Trains"
+ POL_demand_german_trains:0 "Demand German Trains"
+ POL_demand_austrian_trains:0 "Demand Austrian Trains"
+ POL_parliamentary_elections:0 "Prepare for Elections"
+ POL_boost_conservative_support:0 "Boost ZLN Support"
+ POL_boost_agrarian_support:0 "Boost PSL Wyzwolenie"
+ POL_boost_socialist_support:0 "Boost PPS Support"
  
  SOV_baltic_peace:0 "Peace in the Baltics"
  SOV_make_peace_lithuania:0 "Make Peace with Lithuania"
@@ -136,7 +144,11 @@
  LIT_demand_vilnius:0 "Demand Vilnius"
  white_peace_with_soviets:0 "Peace with Soviets"
  LIT_demand_vilnius_desc:0 "Vilnius, a primarily Lithuanian city, has been left in the hands of the Soviet military. This may be our last chance to seize Vilnius!"
- POL_railway_endeavours:0 "Railway Endeavours"
- POL_purchase_american_trains:0 "Purchase American Trains"
- POL_demand_german_trains:0 "Demand German Trains"
- POL_demand_austrian_trains:0 "Demand Austrian Trains"
+ 
+
+ 
+ 
+ form_moghulistan_category:0 "Form Moghulistan"
+ form_moghulistan_category_desc:0 "Reform the Kumul Khanate into Moghulistan"
+ form_moghulistan:0 "Form Moghulistan"
+ form_moghulistan_desc:0 "As the last succesor state to the Chagatai Khanate, the Kumul Khanate should reclaim former territories of Moghulistan"

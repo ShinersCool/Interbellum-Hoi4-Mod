@@ -49,17 +49,21 @@ set_technology = {
 		dispersed_industry2 = 1
 	}
 }
-
+add_ideas = {
+	KUM_forced_labour_and_high_taxes
+	KUM_the_twenty_one_begs
+}	
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1882.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	monarchism = 100
 }
 
 recruit_character = KUM_masquad
+recruit_character = KUM_yulbars_khan

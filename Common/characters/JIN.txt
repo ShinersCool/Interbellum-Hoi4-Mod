@@ -1,0 +1,14 @@
+characters={
+	JIN_li_tiancai={
+		name=JIN_CHARACTER_LI_TIANCAI
+		portraits={
+			civilian={
+				large="GFX_portrait_jin_li_tiancai_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1927.1.1.1"
+		}
+	}
+}

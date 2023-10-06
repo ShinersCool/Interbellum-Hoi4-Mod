@@ -78,5 +78,25 @@ spriteTypes = {
 		name = "GFX_idea_POL_national_engineering_works"
 		texturefile = "gfx/interface/ideas/POL_national_engineering_works.dds"	
 	}	
+	spriteType = {
+		name = "GFX_idea_yulbars_khan"
+		texturefile = "gfx/interface/ideas/GFX_yulbars_khan.dds"	
+	}		
+	spriteType = {
+		name = "GFX_idea_jozef_pilsudski"
+		texturefile = "gfx/interface/ideas/GFX_jozef_pilsudski.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_pol_wincenty_witos"
+		texturefile = "gfx/interface/ideas/GFX_wincenty_witos.dds"	
+	}	
+	spriteType = {
+		name = "GFX_idea_pol_wladyslaw_grabski"
+		texturefile = "gfx/interface/ideas/GFX_wladyslaw_grabskis.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_pol_aleksander_skrzynski"
+		texturefile = "gfx/interface/ideas/GFX_aleksander_skrzynski.dds"	
+	}	
 }
 

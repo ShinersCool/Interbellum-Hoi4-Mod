@@ -1,6 +1,6 @@
-﻿capital = 613 # Nanjing
+﻿capital = 592 # Nanjing
 
-oob = "CHI_1919"
+#oob = "CHI_1919"
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "CHI_1936_naval_mtg"

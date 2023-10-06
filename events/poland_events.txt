@@ -597,3 +597,311 @@ country_event = {
 		ai_chance = { factor = 100 }		
 	}	
 }	
+country_event = {
+	id = poland_ib.25
+	title = "poland_ib.25.t"
+	desc = poland_ib.25.d
+	picture = GFX_parliamentary_elections
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #instability with sejm
+		name = "poland_ib.25.a"
+		ai_chance = { factor = 100 }
+		ROOT = {
+			add_stability = -0.10
+		}	
+		hidden_effect = {
+			country_event = {
+				id = poland_ib.26
+				days = 35
+			}
+		}	
+	}	
+}
+country_event = {
+	id = poland_ib.26
+	title = "poland_ib.26.t"
+	desc = poland_ib.26.d
+	picture = GFX_presidential_elections
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Gabriel Narutowicz
+		name = "poland_ib.26.a"
+		ai_chance = { factor = 85 }
+		ROOT = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}			
+		}	
+		hidden_effect = {
+			ROOT = {
+				country_event = {
+					id = poland_ib.27
+					days = 5
+				}
+				remove_country_leader_role = {
+					character = POL_jozef_pilsudski
+					ideology = authoritarian_democracy
+				}				
+
+			}	
+		}	
+	}	
+	option = { #Maurycy Zamoyski
+		name = "poland_ib.26.b"
+		ai_chance = { factor = 15 }
+		ROOT = {
+			set_politics = {
+				ruling_party = conservative
+				elections_allowed = yes
+			}		
+		}		
+	}		
+}
+country_event = {
+	id = poland_ib.27
+	title = "poland_ib.27.t"
+	desc = poland_ib.27.d
+	picture = GFX_presidential_elections
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Assasination of Gabriel
+		name = "poland_ib.27.a"
+		ai_chance = { factor = 100 }
+		ROOT = {
+			add_stability = -0.1
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.1
+			}
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = yes
+			}			
+		}	
+		hidden_effect = {
+			ROOT = {
+				country_event = {
+					id = poland_ib.28
+					days = 10
+				}
+				kill_ideology_leader = democratic	
+				retire_ideology_leader = conservative
+				set_country_flag = POL_assassination_of_narutowicz
+			}	
+		}	
+	}		
+}
+
+country_event = {
+	id = poland_ib.28
+	title = "poland_ib.28.t"
+	desc = poland_ib.28.d
+	picture = GFX_presidential_elections
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Second Presidential Election
+		name = "poland_ib.28.a"
+		ai_chance = { factor = 95 }
+		ROOT = {
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+			}	
+			
+		}		
+		hidden_effect = {		
+			remove_country_leader_role = {
+				character = POL_maciej_rataj
+				ideology = centrism
+			}
+		}	
+	}	
+	option = { #Second Presidential Election
+		name = "poland_ib.28.b"
+		ai_chance = { factor = 5 }
+		ROOT = {
+			set_politics = {
+				ruling_party = conservative
+				elections_allowed = yes
+			}			
+		}	
+		hidden_effect = {		
+			remove_country_leader_role = {
+				character = POL_maciej_rataj
+				ideology = centrism
+			}
+		}		
+	}		
+}
+
+country_event = {
+	id = poland_ib.29
+	title = "poland_ib.29.t"
+	desc = poland_ib.29.d
+	picture = GFX_romanian_alliance
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Romanian Alliance
+		name = "poland_ib.29.a"
+		ai_chance = { factor = 85 }
+		ROOT = {
+			give_guarantee = POL
+		}	
+		POL = {
+			give_guarantee = ROM
+		}		
+	}	
+	option = { #No Romanian Alliance
+		name = "poland_ib.29.b"
+		ai_chance = { factor = 15 }		
+	}		
+}
+
+country_event = {
+	id = poland_ib.31
+	title = "poland_ib.31.t"
+	desc = poland_ib.31.d
+	picture = GFX_may_coup
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Pilsudski civil war
+		name = "poland_ib.31.a"
+		ai_chance = { factor = 100 }
+		ROOT = {
+			country_event = {
+				id = poland_ib.32
+				days = 2
+			}	
+		}			
+	}		
+}
+
+country_event = {
+	id = poland_ib.32
+	title = "poland_ib.32.t"
+	desc = poland_ib.32.d
+	picture = GFX_may_coup
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Pilsudski civil war
+		name = "poland_ib.32.a"
+		ai_chance = { factor = 100 }
+		ROOT = {
+			start_civil_war = {
+				ideology = neutrality
+				size = 0.8
+				states = { 10 }
+				set_country_flag = POL_anti_pilsudski_poland_flag
+
+			}	
+			PPO = { change_tag_from = POL }
+        }
+		hidden_effect = {	
+			PPO = {
+				set_cosmetic_tag = PPO_pilsudski
+				add_country_leader_role = {
+					character = POL_jozef_pilsudski
+					promote_leader = yes
+					country_leader = {
+						ideology = authoritarian_democracy
+						expire = "1935.1.1.1"
+						traits = { POL_pilsudski_iron_fist }
+					}
+				}				
+			}
+			POL = {
+				country_event = {
+					id = poland_ib.33
+					days = 5
+				}	
+			}
+
+		}
+    }	
+	option = { #Pilsudski civil war
+		name = "poland_ib.32.b"
+		ai_chance = { factor = 0 }
+		ROOT = {
+			start_civil_war = {
+				ideology = neutrality
+				size = 0.8
+				states = { 10 }
+				set_country_flag = POL_anti_pilsudski_poland_flag
+
+			}	
+        }	
+		PPO = {
+			set_cosmetic_tag = PPO_pilsudski
+			add_country_leader_role = {
+				character = jozef_pilsudski
+				promote_leader = yes
+				country_leader = {
+					ideology = authoritarian_democracy
+					expire = "1935.1.1.1"
+					traits = { POL_pilsudski_iron_fist }
+				}
+			}				
+		}
+		POL = {
+			country_event = {
+				id = poland_ib.33
+				days = 5
+			}	
+		}
+
+    }	
+}
+
+country_event = {
+	id = poland_ib.33
+	title = "poland_ib.33.t"
+	desc = poland_ib.33.d
+	picture = GFX_may_coup
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = { #Pilsudski civil war
+		name = "poland_ib.33.a"
+		ai_chance = { factor = 100 }
+		PPO = {
+			POL = { change_tag_from = PPO }
+		}	
+		POL = {
+			annex_country = {
+				target = PPO
+				transfer_troops = yes
+			}
+			set_cosmetic_tag = PPO_pilsudski
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			
+		}			
+	}		
+}

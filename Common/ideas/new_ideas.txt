@@ -591,7 +591,42 @@ ideas = {
 
 		}
 
-	}		
+	}	
+	country = {
+		GER_upper_silesian_violence = {
+		    picture = GFX_idea_upper_silesian_violence
+			
+			allowed = {
+				tag = GER
+			}
+			
+			available = { 
+				
+			}
+			
+			cancel = { 
+				GER = {
+					NOT = {
+						owns_state = 762
+						owns_state = 62
+					}
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly_factor = -0.025
+				political_power_cost = -0.15
+			}
+
+		}
+
+	}
 }
 
 

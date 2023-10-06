@@ -12,4 +12,21 @@ leader_traits = {
 		compliance_growth = -0.33
 		compliance_growth_on_our_occupied_states = 0.5
 	}
+	
+	deteriorating_cabinet = {
+		random = no
+    	stability_weekly_factor = -0.05	
+		political_power_factor = -0.05
+	}	
+	skrzynski_instability = {
+		random = no
+		production_speed_arms_factory_factor = -0.05
+		stability_weekly_factor = -0.15
+		
+	}	
+	POL_pilsudski_iron_fist = {
+		random = no
+		party_popularity_stability_factor = 0.35
+		drift_defence_factor = 0.1 
+	}	
 }

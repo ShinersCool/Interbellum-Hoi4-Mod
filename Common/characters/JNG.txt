@@ -1,0 +1,14 @@
+characters={
+	JNG_chen_guangyuan={
+		name=JNG_CHARACTER_CHEN_GUANGYUAN
+		portraits={
+			civilian={
+				large="GFX_portrait_jng_chen_guangyuan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+		}
+	}
+}

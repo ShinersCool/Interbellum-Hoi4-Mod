@@ -28,7 +28,15 @@ if = {
 			right_side = POL_silesia_high_side
 			set_value = 0.25
 		}
-	}	
+	}
+	GER = {
+		set_power_balance = {
+			id = POL_power_balance
+			left_side = POL_silesia_low_side
+			right_side = POL_silesia_high_side
+			set_value = 0.25
+		}
+	}		
 }	
 if = {
 	limit = {
@@ -43,6 +51,11 @@ if = {
 			id = POL_power_balance
 		}
 	}	
+	GER = {
+		remove_power_balance = {
+			id = POL_power_balance
+		}
+	}		
 }
 
 set_rule = { can_join_factions = no }
@@ -67,13 +80,17 @@ set_technology = {
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	basic_train = 1
+	mountain_warfare_militias_tech = 1
 }
 
 add_ideas = {
 	POL_dreams_of_intermarium
 	POL_overconfidence_against_soviets
 	POL_pilsudski_iron_fist
+	POL_high_illiteracy	
+	POL_high_inflation
 }	
+
 
 set_convoys = 10
 
@@ -84,13 +101,25 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 37
+	conservative = 33
 	fascism = 0
-	communism = 19
-	neutrality = 44
+	democratic = 15
+	communism = 0
+	neutrality = 43
+	socialism = 9
 }
 
 recruit_character = POL_jozef_pilsudski
+recruit_character = POL_gabriel_narutowicz
+recruit_character = POL_stanislaw_wojciechowski
+recruit_character = POL_maciej_rataj
+recruit_character = POL_maurycy_zamoysk
+recruit_character = POL_kazimierz_morawski
+recruit_character = POL_wincenty_witos
+recruit_character = POL_wladyslaw_grabski
+recruit_character = POL_aleksander_skrzynski
+recruit_character = POL_ferdinand_foch
+
 
 1939.1.1 = {
 	set_popularities = {

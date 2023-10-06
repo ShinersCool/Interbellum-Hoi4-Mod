@@ -38,3 +38,19 @@ POL_balance_of_power_category = {
 	visible_when_empty = no
 	priority = 500
 }
+POL_parliamentary_elections = {
+	icon = eng_move_to_secure_the_dominions
+	picture = GFX_decision_cat_picture_gateway_to_europe
+	allowed = {
+		original_tag = POL
+		POL = {
+			has_completed_focus = POL_prepare_parliamentary_elections
+		}	
+	}
+	visible = {
+		POL = {
+			has_completed_focus = POL_prepare_parliamentary_elections
+		}
+	}	
+	priority = 480
+}

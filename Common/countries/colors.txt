@@ -1,5 +1,17 @@
+JNG = {
+	color = rgb { 255 239 0 }
+	color_ui = rgb { 255 239 0 }
+}
+HUB = {
+	color = rgb { 255 239 0 }
+	color_ui = rgb { 255 239 0 }
+}
+JIN = {
+	color = rgb { 135 62 45 }
+	color_ui = rgb { 135 62 45 }
+}
 LEM = {
-	color = rgb { 120 180 255 }
+	color = rgb { 100 150 210 }
 	color_ui = rgb { 120 180 255 }
 }
 CLT = {
@@ -321,15 +333,15 @@ AUS = {
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 195 171 102 }
+	color = rgb { 198 158 63 }
 	color_ui = rgb { 255 255 155 }
 }
 EST = {
-	color = rgb { 56 110 137 }
+	color = rgb { 9 98 165 }
 	color_ui = rgb { 99 204 254 }
 }
 LAT = {
-	color = rgb { 102 52 107 }
+	color = rgb { 178 23 45 }
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
@@ -409,11 +421,11 @@ BHU = {
 	color_ui = rgb { 172 122 88 }
 }
 BOL = {
-	color = rgb { 206 185 68 } #255 180 136
+	color = rgb { 230 185 25 } #255 180 136
 	color_ui = rgb { 255 234 177 }
 }
 BRA = {
-	color = rgb { 108 137 85 }
+	color = rgb { 39 122 62 }
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
@@ -437,7 +449,7 @@ COS = {
 	color_ui = rgb { 152 128 43 }
 }
 ECU = {
-	color = rgb { 93 165 198 }
+	color = rgb { 214 216 80 }
 	color_ui = rgb { 255 190 127 }
 }
 ELS = {
@@ -521,11 +533,11 @@ TIB = {
 	color_ui = rgb { 222 247 198 }
 }
 URG = {
-	color = rgb { 171 190 152 }
+	color = rgb { 100 170 183 }
 	color_ui = rgb { 222 247 198 }
 }
 VEN = {
-	color = rgb { 199 204 108 }
+	color = rgb { 224 167 83 }
 	color_ui = rgb { 222 247 198 }
 }
 YUN = {

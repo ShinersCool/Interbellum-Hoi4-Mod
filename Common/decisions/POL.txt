@@ -231,7 +231,7 @@ POL_balance_of_power_category = {
 			POL	= {
 				add_power_balance_value = {
 					id = POL_power_balance
-					value = 0.15
+					value = 0.08
 					tooltip_side = POL_silesia_high_side
 				}
 			}			
@@ -273,7 +273,7 @@ POL_balance_of_power_category = {
 			POL	= {
 				add_power_balance_value = {
 					id = POL_power_balance
-					value = 0.08
+					value = 0.05
 					tooltip_side = POL_silesia_high_side
 				}
 			}			
@@ -315,11 +315,113 @@ POL_balance_of_power_category = {
 			POL	= {
 				add_power_balance_value = {
 					id = POL_power_balance
-					value = 0.05
+					value = 0.03
 					tooltip_side = POL_silesia_high_side
 				}
 			}			
 		}	
     }	
 }	
+POL_parliamentary_elections = {
+	POL_boost_conservative_support = {
+		
+		priority = 100
+		
+		cost = 50
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+				has_completed_focus = POL_prepare_parliamentary_elections
+			}			
+		}
+	
+		visible = {
+			tag = POL
+		}
+		
+		ai_will_do = {
+			base = 5
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			add_popularity = {
+				ideology = conservative
+				popularity = 0.05
+			}	
+		}	
+    }
 
+	POL_boost_agrarian_support = {
+		
+		priority = 100
+		
+		cost = 50
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+				has_completed_focus = POL_prepare_parliamentary_elections
+			}			
+		}
+	
+		visible = {
+			tag = POL
+		}
+		
+		ai_will_do = {
+			base = 8
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}			
+		}	
+    }
+	
+	POL_boost_socialist_support = {
+		
+		priority = 100
+		
+		cost = 50
+		
+		icon = decision_icon
+		available = {
+			tag = POL
+			has_civil_war = no
+			POL = {
+				is_subject = no
+				has_completed_focus = POL_prepare_parliamentary_elections
+			}			
+		}
+	
+		visible = {
+			tag = POL
+		}
+		
+		ai_will_do = {
+			base = 2
+		}
+	
+		days_remove = 50
+		
+		remove_effect = { 
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}	
+		}		
+    }		
+}	

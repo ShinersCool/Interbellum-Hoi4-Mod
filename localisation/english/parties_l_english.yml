@@ -70,6 +70,9 @@
  syndicalism_desc:0 "Syndicalism is a revolutionary current within the labor movement that seeks to unionize workers according to industry and advance their demands through strikes with the eventual goal of gaining control over the means of production and the economy at large. Developed in French labor unions during the late 19th century, syndicalist movements were most predominant amongst the socialist movement during the interwar period."
  jadidism:0 "Jadidism"
  jadidism_desc:0 "The Jadids were Muslim modernist reformers within the Russian Empire in the late 19th and early 20th century. adid movement advocated for an Islamic social and cultural reformation through the revival of pristine Islamic teachings; while simultaneously engaging with modernity."
+ agrarianism:0 "Agrarianism"
+ agrarianism_desc:0 "Agrarianism is a political and social philosophy that has promoted subsistence agriculture, smallholdings, and egalitarianism, with agrarian political parties normally supporting the rights and sustainability of small farmers and poor peasants against the wealthy in society."
+ 
  
  GER_fascism_party:0 "NSDAP"
  GER_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
@@ -86,7 +89,11 @@
  POL_communism_party_long:2 "Komunistyczna Partja Polski"
  POL_democratic_party:0 "PSL"
  POL_democratic_party_long:0 "Polskie Stronnictwo Ludowe"
- POL_neutrality_party:1 "Sejm"
+ POL_conservative_party:0 "ZLN"
+ POL_conservative_party_long:0 "Związek Ludowo-Narodow"
+ POL_socialism_party:0 "PPS"
+ POL_socialism_party_long:0 "Polska Partia Socjalistyczna" 
+ POL_neutrality_party:1 "Provisional Government"
  POL_OZON_party:1 "OZN"
  POL_OZON_party_long:0 "Obóz Zjednoczenia Narodowego" #Camp of National Unity
  POL_POS_party:0 "POS"
@@ -1060,7 +1067,9 @@
  republicanism_desc:0 "Republicanism is a political ideology centred on citizenship in a state organized as a republic. Historically, it emphasizes the idea of self-rule and ranges from the rule of a representative minority or oligarchy to popular sovereignty."
  tribalism:0 "Tribalism"
  tribalism_desc:0 "Tribalism is the state of being organized by, or advocating for, tribes or tribal lifestyles. Human evolution has primarily occurred in small hunter-gatherer groups, as opposed to in larger and more recently settled agricultural societies or civilizations. With a negative connotation and in a political context, tribalism can also mean discriminatory behavior or attitudes towards out-groups, based on in-group loyalty."
-
+ authoritarian_democracy:0 "Authoritarian Democracy"
+ authoritarian_democracy_desc:0 "Minimally defined, an authoritarian government lacks free and competitive direct elections to legislatures, free and competitive direct or indirect elections for executives, or both."
+ 
  MOR_monarchism_party:0 "'Alawi Dynasty"
  #MOR_neutrality_party:0 "Maghribiun Ulamā"
  MOR_neutrality_party:0 "Makhzen"

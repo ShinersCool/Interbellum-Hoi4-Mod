@@ -21,10 +21,17 @@
  germany_ib.1.t:0 "The Treaty of Versailles"
  germany_ib.1.d:0 "The Entente yesterday had forced upon us a treaty which will cripple our Reich! Territories are to be ceded across our nation, our armies are to be reduced significantly and war reparations are to be payed. We can only wait until this horrific treaty becomes effective..."
  germany_ib.1.o:0 "We can not yet oppose this"
- 
  germany_ib.2.t:0 "Versailles is upon Ourselves"
  germany_ib.2.d:0 "Today, the Treaty of Versailles, signed on the 28th of July, comes into effect. Our territories in the east will fall to Poland, plebiscite zones will be created in Denmark and Belgium, our military might will be heavily restricted and vast reparations must be payed. Can we save ourselves?"
  germany_ib.2.o:0 "We have no other option"
+ germany_ib.3.t:0 "Poland raises import taxes!"
+ germany_ib.3.d:0 "In a shocking turn of events, Poland has raised import taxes on German goods significantly compared to other Polish trade partners!\n\nThis cannnot be tolerated, we must initiate a Trade War to bankrupt the Second  Polish Republic!"
+ germany_ib.3.a:0 "Embargo Polish Goods!"
+ germany_ib.4.t:0 "Tension growing in Upper Silesia"
+ germany_ib.4.d:0 "There is tension growing in Upper Silesia between the German and Polish-Silesian population. We may need to worry about violence errupting soon..."
+ germany_ib.4.a:0 "Fiddlesticks"
+ germany_ib.5.t:0 "A Silesian Uprising!"
+ 
  
  austria_ib.1.t:0 "The Treaty of Saint-Germain-en-Laye"
  austria_ib.1.d:0 "The Entente has forced upon us a treaty which will cripple the remnants of the Austo-Hungarian Empire! Territories are to be ceded across our nation and our armies are to be disarmed. We can only wait until this horrific treaty becomes effective..."
@@ -135,6 +142,27 @@
  poland_ib.24:0 "Austria Refuses Train Demands
  poland_ib.24.d:0 "Austria refuses our demands for compensation"
  poland_ib.24.a:0 "Bad news"
+ poland_ib.25.t:0 "The Legislative Sejm Has been Elected"
+ poland_ib.25.d:0 "The Sejm has finally been democratically elected, however the results are concerning. The resulting coalitions are unstable, and the situation is leading to political instability within the Sejm./n/nWith this news also comes brighter news, with the Presidential elections occuring for the first time!"
+ poland_ib.25.a:0 "Everything will be fine, right..?"
+ poland_ib.26.t:0 "Presidential Election"
+ poland_ib.26.d:0 "For the first time in Polish history, fully democratic elections are being held, with two parties running, Gabriel Narutowicz from the Liberal, Agrarian party of the PSL Wyzwolenie, and Maurycy Zamoyski of the conservative Związek Ludowo-Narodowy party. Both are quite popular, so the question remains who shall lead Poland?"
+ poland_ib.26.a:0 "Gabriel Narutowicz is our man!"
+ poland_ib.26.b:0 "Maurycy Zamoyski shall lead us!"
+ poland_ib.27.t:0 "Narutowicz Assasinated!"
+ poland_ib.27.d:0 "Five days after taking office, while attending an art exhibition in the Warsaw's National Gallery of Art "Zachęta", Narutowicz was assassinated during a conversation with a British envoy. The assassin was a painter, Eligiusz Niewiadomski, who fired three shots at the president./n/nNiewiadomski had connections with the right wing National Democratic Party, and some of the right have seen him as a hero! /n/nWe must have a second presidential election to unright this wrong!"
+ poland_ib.27.a:0 "A travesty!"
+ poland_ib.28.t:0 "The Second Presidential Elections"
+ poland_ib.28.d:0 "After the assasination of Gabriel Narutowicz, a second election has been established. Stanisław Wojciechowski is running for the agrarian PSL Wyzwolenie party, while Kazimierz Morawski is running for the conservative ZLN party."
+ poland_ib.28.a:0 "The PSL deserve a second chance"
+ poland_ib.28.b:0 "The ZLN weren't assasinated"
+ poland_ib.29.t:0 "The Convention on Defensive Alliance"
+ poland_ib.29.d:0 "After the end of the Polish-Soviet war, Poland has quickly become interested in a defensive pact with ourselves. So much so that they have offered to guarentee our independence in exchange for our guarentee in case of a future Soviet invasion."
+ poland_ib.29.a:0 "The Polish are a great Ally"
+ poland_ib.29.b:0 "We are better off by ourselves" 
+ 
+ 
+ 
  
  LAT_peace_with_soviets:0 "Latvian-Soviet Peace"
  

@@ -10,6 +10,9 @@ ideologies = {
 			socialism_democratic = {
 			}
 			
+			agrarianism = {
+			}			
+			
 		}
 
 		dynamic_faction_names = {
@@ -260,7 +263,10 @@ ideologies = {
 
 			oligarchism  = {
 			}
-
+			
+			authoritarian_democracy = {
+			}
+			
 			anarchism = {
 				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
@@ -278,6 +284,7 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			tribalism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -391,6 +398,7 @@ ideologies = {
 			jadidism = {
 				can_be_randomly_selected = no
 			}
+			
 		}
 
 		dynamic_faction_names = {

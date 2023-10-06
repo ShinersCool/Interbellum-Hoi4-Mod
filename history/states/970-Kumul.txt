@@ -5,16 +5,17 @@ state={
 	history={
 		owner = KUM
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
+			industrial_complex = 1
 		}
+		victory_points = { 4704 3 }
 
 	}	
 	
 	provinces={
 		1838 4704 4843 12598 12671 
 	}
-	manpower=60000
+	manpower=30000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	local_supplies=0.000

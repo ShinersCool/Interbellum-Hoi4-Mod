@@ -1,6 +1,18 @@
+PPO_pilsudski = {
+	color = rgb { 183 51 71 }
+	color_ui = rgb { 145 76 75 }
+}
+KUM_moghulistan = {
+	color = rgb { 206 164 39 }
+	color_ui = rgb { 206 164 39 }
+}
 LIT_pmo = {
 	color = rgb { 181 117 120 }
 	color_ui = rgb { 181 117 120 }
+}
+HUB_Zhilli = {
+	color = rgb { 101 137 46 }
+	color_ui = rgb { 144 198 67 }
 }
 JGS_Zhilli = {
 	color = rgb { 101 137 46 }

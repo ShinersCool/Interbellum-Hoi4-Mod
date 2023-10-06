@@ -8,7 +8,7 @@
 		}
 	}
 	default = no
-	continuous_focus_position = { x = 55 y = 1500 }
+	continuous_focus_position = { x = 1500 y = 1200 }
 	
 	focus = {
 		id = POL_coup_lithuania
@@ -110,6 +110,21 @@
 				}
 			}	
 		}	
+		
+		bypass = {
+			AND = {
+				GER = {
+					NOT = {
+						owns_state = 762
+					}
+				}
+				POL = {
+					NOT = {
+						owns_state = 762
+					}
+				}				
+			}
+		}		
 		prerequisite = { focus = POL_sejny_uprising }
 		
 		completion_reward = {					
@@ -148,6 +163,22 @@
 				}
 			}			
 		}	
+		
+		bypass = {
+			AND = {
+				LIT = {
+					NOT = {
+						owns_state = 784
+					}
+				}
+				POL = {
+					NOT = {
+						owns_state = 784
+					}
+				}				
+			}
+		}		
+		
 		prerequisite = { focus = POL_sejny_uprising }
 		
 		completion_reward = {
@@ -274,7 +305,591 @@
 			}	
 		}	
 	}
+	focus = {
+		id = POL_lemko_invasion
+		icon = GFX_goal_POL_lemko_invasion
+		x = 3
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+			}
+			LEM = {
+				NOT = {
+					is_subject = yes
+				}
+			}	
+		}	
+		prerequisite = { focus = POL_latvia_faction }
+		
+		completion_reward = {	
+			POL = {
+				create_wargoal = {
+					type = take_state_focus
+					target = LEM
+					generator = { 1064 }
+					expire = 365
+				}	
+			}	
+		}	
+	}	
+	focus = {
+		id = POL_march_constitution
+		icon = GFX_goal_POL_march_constitution
+		x = 1
+		y = 6
+		cost = 8
+		available_if_capitulated = no
+		#search_filters = { }
+		
+
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+			}
+			ROOT = {
+				NOT = {
+					has_war = yes
+				}
+			}	
+		}	
+		prerequisite = { focus = POL_treaty_of_warsaw }
+		prerequisite = { focus = POL_lemko_invasion }
+		prerequisite = { focus = POL_zeligowski_mutiny }
+		prerequisite = { focus = POL_silesian_uprisings }
+		
+		completion_reward = {	
+			POL = {
+				add_ideas = {
+					POL_the_march_constitution
+				}	
+			}	
+		}	
+	}
+	focus = {
+		id = POL_polish_romanian_alliance
+		icon = GFX_goal_POL_polish_romanian_alliance
+		x = 3
+		y = 7
+		cost = 8
+		available_if_capitulated = no
+		#search_filters = { }
+		
+
+		
+		available = {  		
+			ROOT = {
+				is_subject = no
+			}
+			ROOT = {
+				has_war = no
+			}	
+			ROM = {
+				is_subject = no
+			}
+			ROM = {
+				has_war = no
+			}				
+		}	
+		prerequisite = { focus = POL_march_constitution }
+		
+		completion_reward = {	
+			ROM = {
+				country_event = {
+					id = poland_ib.29
+				}
+			}	
+		}	
+	}		
+	focus = {
+		id = POL_prepare_parliamentary_elections
+		icon = GFX_goal_POL_prepare_parliamentary_elections
+		x = 1
+		y = 7
+		cost = 8
+		available_if_capitulated = no
+		#search_filters = { }
+		
+
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+			}
+		}	
+		prerequisite = { focus = POL_march_constitution }	
+		completion_reward = {	
+			POL = {
+				unlock_decision_category_tooltip = POL_parliamentary_elections
+				unlock_decision_tooltip = POL_boost_conservative_support
+				unlock_decision_tooltip = POL_boost_agrarian_support
+				unlock_decision_tooltip = POL_boost_socialist_support
+			}	
+			hidden_effect = {
+				country_event = {
+					id = poland_ib.25
+					days = 245
+				}
+			}	
+		}	
+	}	
+	focus = {
+		id = POL_liquidate_the_military_council
+		icon = GFX_goal_POL_liquidate_the_military_council
+		x = 1
+		y = 8
+		cost = 4
+		available_if_capitulated = no
+		#search_filters = { }
+		
+
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+				has_government = democratic
+			}
+		}	
+		prerequisite = { focus = POL_prepare_parliamentary_elections }	
+		completion_reward = {	
+			ROOT = {
+				add_war_support = -0.05
+				add_stability = 0.1
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_lanckorona_pact
+		icon = GFX_goal_POL_lanckorona_pact
+		x = 1
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_liquidate_the_military_council }	
+		completion_reward = {	
+			ROOT = {
+				add_ideas = {
+					lanckorona_pact
+				}	
+			}		
+		}	
+	}
+	focus = {
+		id = POL_consolidate_authority
+		icon = GFX_goal_POL_consolidate_authority
+		x = 3
+		y = 10
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		mutually_exclusive = { focus = POL_instigate_anti_government_sentiment }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_lanckorona_pact }	
+		completion_reward = {	
+			ROOT = {
+				activate_advisor = wincenty_witos
+			}		
+		}	
+	}
+	focus = {
+		id = POL_begin_polonisation
+		icon = GFX_goal_POL_begin_polonisation
+		x = 3
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		mutually_exclusive = { focus = POL_elect_wladyslaw_grabski }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_consolidate_authority }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_integrate_ukrainians
+		icon = GFX_goal_POL_begin_polonisation
+		x = 5
+		y = 13
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_begin_polonisation }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_integrate_lemkos
+		icon = GFX_goal_POL_begin_polonisation
+		x = 3
+		y = 12
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_begin_polonisation }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_integrate_belarussians
+		icon = GFX_goal_POL_begin_polonisation
+		x = 1
+		y = 13
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_begin_polonisation }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}		
+	focus = {
+		id = POL_elect_wladyslaw_grabski
+		icon = GFX_goal_POL_elect_wladyslaw_grabski
+		x = 7
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		mutually_exclusive = { focus = POL_begin_polonisation }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_consolidate_authority }	
+		completion_reward = {	
+			ROOT = {
+				deactivate_advisor = wincenty_witos
+				activate_advisor = wladyslaw_grabski
+				
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_economic_reform
+		icon = GFX_goal_POL_economic_reform
+		x = 7
+		y = 12
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_elect_wladyslaw_grabski }	
+		completion_reward = {	
+			ROOT = {
+				custom_effect_tooltip = begin_economic_reforms_tt
+				hidden_effect = {
+					add_political_power = 100
+				}	
+			}		
+		}	
+	}		
+	focus = {
+		id = POL_elect_skrzynski
+		icon = GFX_goal_POL_elect_skrzynski
+		x = 7
+		y = 13
+		cost = 6
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_economic_reform }
+		completion_reward = {	
+			ROOT = {
+				deactivate_advisor = wladyslaw_grabski
+				activate_advisor = aleksander_skrzynski				
+			}		
+		}	
+	}
+	focus = {
+		id = POL_reelect_witos
+		icon = GFX_goal_POL_reelect_witos
+		x = 3
+		y = 15
+		cost = 10
+		available_if_capitulated = no
+		#search_filters = { }
 	
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+				OR = {
+					AND = {
+						has_completed_focus = POL_integrate_belarussians
+						has_completed_focus = POL_integrate_lemkos
+						has_completed_focus = POL_combat_the_ukrainian_military_organisation
+					}
+					has_completed_focus = POL_elect_skrzynski
+				}	
+			}
+		}	
+		prerequisite = { focus = POL_integrate_belarussians focus = POL_integrate_lemkos focus = POL_combat_the_ukrainian_military_organisation focus = POL_elect_skrzynski }
+		completion_reward = {	
+			ROOT = {
+				deactivate_advisor = aleksander_skrzynski
+				activate_advisor = 	wincenty_witos	
+			}		
+			hidden_effect = {
+				ROOT = {
+					country_event = {
+						id = poland_ib.30
+						days = 3
+					}
+				}
+			}	
+		}	
+	}	
+	focus = {
+		id = POL_instigate_anti_government_sentiment
+		icon = GFX_goal_POL_instigate_anti_government_sentiment
+		x = -1
+		y = 10
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		mutually_exclusive = { focus = POL_consolidate_authority }
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_lanckorona_pact }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_organise_strikes
+		icon = GFX_goal_POL_organise_strikes
+		x = -2
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_instigate_anti_government_sentiment }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}		
+	focus = {
+		id = POL_organise_riots
+		icon = GFX_goal_POL_organise_riots
+		x = 0
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_instigate_anti_government_sentiment }	
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}	
+	focus = {
+		id = POL_krakow_uprising
+		icon = GFX_goal_POL_organise_riots
+		x = -1
+		y = 12
+		cost = 8
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				has_war = no
+			}
+		}	
+		prerequisite = { focus = POL_organise_riots }	
+		prerequisite = { focus = POL_organise_strikes }
+		completion_reward = {	
+			ROOT = {
+				
+			}		
+		}	
+	}
+	focus = {
+		id = POL_replace_the_marshal
+		icon = GFX_goal_POL_form_the_general_inspector_of_the_armed_forces
+		x = 15
+		y = 3
+		cost = 8
+		available_if_capitulated = no
+		#search_filters = { }
+		
+		
+		available = {  		
+			ROOT = {
+				NOT = {
+					is_subject = yes
+				}
+				has_country_flag = POL_assassination_of_narutowicz
+				
+			}
+		}	
+		completion_reward = {	
+			ROOT = {
+				custom_effect_tooltip = POL_ferdinand_foch_marshal
+			}		
+		}	
+	}	
 	focus = {
 		id = POL_establish_fablok
 		icon = GFX_goal_POL_establish_fablok
@@ -304,7 +919,7 @@
 
 	focus = {
 		id = POL_introduce_zloty
-		icon = GFX_goal_
+		icon = GFX_goal_POL_introduce_zloty
 		x = 10
 		y = 0
 		cost = 7
@@ -330,7 +945,7 @@
 	}	
 	focus = {
 		id = POL_adopt_the_gold_standard
-		icon = GFX_goal_
+		icon = GFX_goal_POL_adopt_the_gold_standard
 		x = 11
 		y = 1
 		cost = 5
@@ -343,10 +958,10 @@
 			ROOT = {
 				is_subject = no
 				NOT = {
-					has_idea = POL_introduce_zloty
+					has_idea = POL_introduce_the_zloty
 				}	
-			}	
-			
+				has_completed_focus = POL_economic_reform
+			}		
 			
 		}	
 		
@@ -355,6 +970,9 @@
 				add_ideas = {
 					POL_gold_standard
 				}	
+				remove_ideas = {
+					POL_high_inflation
+				}
 			}	
 		}	
 	}	
@@ -396,7 +1014,7 @@
 
 	focus = {
 		id = POL_ursus_sa
-		icon = GFX_goal_
+		icon = GFX_goal_POL_ursus_sa
 		x = 8
 		y = 3
 		cost = 4
@@ -423,7 +1041,7 @@
 	}	
 	focus = {
 		id = POL_national_engineering_works
-		icon = GFX_goal_
+		icon = GFX_goal_POL_national_engineering_works
 		x = 7
 		y = 4
 		cost = 8
@@ -456,7 +1074,7 @@
 	}		
 	focus = {
 		id = POL_poznan_lodz_rail_line
-		icon = GFX_goal_
+		icon = GFX_goal_POL_railway
 		x = 10
 		y = 3
 		cost = 5
@@ -489,7 +1107,7 @@
 	}
 	focus = {
 		id = POL_lodz_ptock_rail_line
-		icon = GFX_goal_
+		icon = GFX_goal_POL_railway
 		x = 9
 		y = 4
 		cost = 4
@@ -516,7 +1134,7 @@
 	}	
 	focus = {
 		id = POL_lubliniec_kepno_rail_line
-		icon = GFX_goal_
+		icon = GFX_goal_POL_railway
 		x = 11
 		y = 4
 		cost = 4
@@ -734,9 +1352,7 @@
 			}
 		}	
 		bypass = {
-			807 = {
-				num_of_naval_factories > 1
-			}
+			num_of_naval_factories > 1
 		}	
 		completion_reward = {
 			807 = {

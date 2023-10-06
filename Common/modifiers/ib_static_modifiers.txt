@@ -1,0 +1,7 @@
+# All global modifiers are here. They are applied from certain game-features.
+# Effects are fully scriptable here.
+# These names can NOT be removed or changes, as the code uses them....
+
+POL_power_balance_mod = {
+	power_balance_weekly = 0.02
+}

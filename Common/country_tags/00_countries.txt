@@ -320,3 +320,6 @@ NCH = "countries/Nancheng.txt"
 GAL = "countries/Galicia_poland.txt"
 CLT = "countries/Central Lithuania.txt"
 LEM = "countries/Lemko.txt"
+JIN = "countries/Jingguo.txt"
+HUB = "countries/Hubei.txt"
+JNG = "countries/Jiangxi.txt

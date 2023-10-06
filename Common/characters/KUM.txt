@@ -7,8 +7,54 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=absolute_monarchy
 			expire="1930.1.1.1"
 		}
 	}
-}
+	KUM_yulbars_khan={
+		name=KUM_CHARACTER_YULBARS_KHAN
+		portraits={
+			civilian={
+				large="GFX_portrait_kum_yulbars_khan_large"
+			}		
+			army={
+				large="GFX_portrait_kum_yulbars_khan_large"
+			}
+			army={
+				small="GFX_idea_yulbars_khan"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yulbars_khan
+			allowed  = {
+				original_tag  = KUM
+			}
+			available  = {
+				original_tag = KUM
+			}
+			ledger = army
+			cost = 5.00
+			traits = {
+				staunch_monarchist
+			}	
+			do_effect  = {
+				has_government = monarchism 
+			}
+			ai_will_do  = {
+				factor  = 10.000
+			}
+		}
+		corps_commander = {
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}	
+		country_leader={
+			ideology=stratocracy
+			expire="1971.1.1.1"
+		}		
+	}
+}	

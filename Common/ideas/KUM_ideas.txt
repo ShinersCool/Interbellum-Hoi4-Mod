@@ -1,0 +1,69 @@
+ideas = {
+	country = {
+		KUM_forced_labour_and_high_taxes = {
+		    picture = GFX_idea_KUM_forced_labour_and_high_taxes
+			
+			allowed = {
+				tag = KUM
+			}
+			
+			available = { 
+				
+			}
+			
+			cancel = { 
+				KUM = {
+					NOT = {
+						has_country_leader = {
+							character = KUM_masquad
+						}	
+					}
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly_factor = -0.1
+				political_power_cost = 0.05
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		KUM_the_twenty_one_begs = {
+		    picture = GFX_idea_KUM_the_twenty_one_begs
+			
+			allowed = {
+				tag = KUM
+			}
+			
+			available = { 
+				
+			}
+			
+			cancel = { 
+				KUM = {
+					NOT = {
+						has_country_leader = {
+							character = KUM_masquad
+						}	
+					}
+				}	
+			}
+
+			allowed_civil_war = {
+			   always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = 0.015
+				recruitable_population = 0.05
+			}
+		}		
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=1065
+	name="STATE_1065"
+	
+	history={
+		owner = JIN
+		add_core_of = JIN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			5030 3 
+		}
+
+	}	
+	
+	provinces={
+		5030 10757 12414 
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

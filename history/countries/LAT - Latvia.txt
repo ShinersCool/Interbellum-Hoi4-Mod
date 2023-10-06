@@ -34,6 +34,8 @@ set_popularities = {
 	socialism = 10
 }
 
+set_rule = { can_join_factions = no }
+
 
 ### VARIANTS ###
 # 1936 Start #

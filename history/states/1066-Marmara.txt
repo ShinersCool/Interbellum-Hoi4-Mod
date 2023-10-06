@@ -1,0 +1,29 @@
+state={
+	id=1066
+	name="STATE_1066"
+
+	history={
+		owner = ENG
+		victory_points = {
+			11811 5 
+		}
+		victory_points = {
+			947 3 
+		}		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = TUR
+
+	}
+	
+	provinces={
+		947 3851 6912 11811 
+	}
+	manpower=479046
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

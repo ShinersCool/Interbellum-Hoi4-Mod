@@ -1,4 +1,24 @@
-spriteTypes = {	
+spriteTypes = {
+    SpriteType = {
+	name = "GFX_goal_POL_railway"
+	texturefile = "gfx/interface/goals/focus_POL_railway.dds"			
+	}
+    SpriteType = {
+	name = "GFX_goal_POL_national_engineering_works"
+	texturefile = "gfx/interface/goals/focus_POL_national_engineering_works.dds"			
+	}
+    SpriteType = {
+	name = "GFX_goal_POL_ursus_sa"
+	texturefile = "gfx/interface/goals/focus_POL_ursus_sa.dds"			
+	}	
+    SpriteType = {
+	name = "GFX_goal_POL_adopt_the_gold_standard"
+	texturefile = "gfx/interface/goals/focus_POL_adopt_the_gold_standard.dds"			
+	}	
+    SpriteType = {
+	name = "GFX_goal_POL_introduce_zloty"
+	texturefile = "gfx/interface/goals/focus_POL_introduce_zloty.dds"			
+	}
     SpriteType = {
 	name = "GFX_goal_POL_treaty_of_warsaw"
 	texturefile = "gfx/interface/goals/focus_POL_treaty_of_warsaw.dds"			
