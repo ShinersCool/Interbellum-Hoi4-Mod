@@ -1,0 +1,87 @@
+POL_historical = {
+	name = "POL historical plan"
+	desc = ""
+
+	allowed = {
+		original_tag = POL
+	}
+	enable = {
+		is_historical_focus_on = yes
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		POL_coup_lithuania
+		POL_sejny_uprising
+		POL_silesian_uprisings
+		POL_establish_fablok
+		POL_introduce_zloty
+		POL_silesian_uprisings
+		POL_integrate_minsk
+		POL_latvia_faction
+		POL_lemko_invasion
+		POL_treaty_of_warsaw
+		POL_zeligowski_mutiny
+		POL_incorporate_central_lithuania
+		POL_march_constitution
+		POL_polish_romanian_alliance
+		POL_poznan_lodz_rail_line
+		POL_lodz_ptock_rail_line
+		POL_ursus_sa
+		POL_national_engineering_works
+		POL_prepare_parliamentary_elections
+		POL_liquidate_the_military_council
+		POL_lanckorona_pact
+		POL_consolidate_authority
+		POL_lubliniec_kepno_rail_line
+		POL_huta_pokoje_steel_working
+		POL_replace_the_marshal
+		POL_begin_polonisation
+		POL_integrate_ukrainians
+		POL_integrate_lemkos
+		POL_integrate_belarussians
+		POL_elect_wladyslaw_grabski
+		POL_economic_reform
+		POL_adopt_the_gold_standard
+		POL_raise_import_taxes
+		POL_elect_skrzynski
+		POL_reelect_witos
+		POL_gdynia_new_port
+		POL_coal_trunk_line
+		POL_establish_the_officers_aviation_school
+		
+	}
+
+	research = {
+		industry = 10.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+		dd_tech = 5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+

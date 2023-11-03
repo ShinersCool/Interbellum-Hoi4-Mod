@@ -1,0 +1,24 @@
+state={
+	id=1079
+	name="STATE_1079"
+	
+	history={
+		owner = TUR	
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARM
+		add_core_of = TUR
+		set_demilitarized_zone = yes
+
+	}
+	
+	provinces={
+		13380 13381 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

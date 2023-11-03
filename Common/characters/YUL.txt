@@ -1,0 +1,14 @@
+characters={
+	SHA_jing_yuexiu={
+		name=SHA_CHARACTER_YUEXIU
+		portraits={
+			civilian={
+				large="GFX_portrait_sha_jing_yuexiu_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1936.1.1.1"
+		}
+	}
+}

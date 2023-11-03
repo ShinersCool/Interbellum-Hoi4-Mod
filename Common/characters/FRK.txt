@@ -1,0 +1,14 @@
+characters={
+	FRK_rudiger_von_der_goltz={
+		name=FRK_CHARACTER_RUDIGER_VON_DER_GOLTZ
+		portraits={
+			civilian={
+				large="GFX_portrait_frk_rudiger_von_der_goltz_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1946.1.1.1"
+		}
+	}
+}

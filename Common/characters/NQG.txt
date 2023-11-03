@@ -1,0 +1,14 @@
+characters={
+	NQG_liu_cunhou={
+		name=NQG_CHARACTER_LIU_CUNHOU
+		portraits={
+			civilian={
+				large="GFX_portrait_nqg_liu_cunhou_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+		}
+	}
+}

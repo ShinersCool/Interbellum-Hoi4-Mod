@@ -1,0 +1,95 @@
+﻿focus_tree = { 
+	id = generic_nothing
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POW
+		}
+		modifier = {
+			add = 10
+			tag = TRG
+		}
+		modifier = {
+			add = 10
+			tag = KDH
+		}
+		modifier = {
+			add = 10
+			tag = JOH
+		}
+		modifier = {
+			add = 10
+			tag = PEL
+		}
+		modifier = {
+			add = 10
+			tag = STL
+		}
+		modifier = {
+			add = 10
+			tag = BRU
+		}
+		modifier = {
+			add = 10
+			tag = TLO
+		}	
+		modifier = {
+			add = 10
+			tag = MSG
+			
+		}
+		modifier = {
+			add = 10
+			tag = SAK
+		}
+		modifier = {
+			add = 10
+			tag = NCH
+		}
+		modifier = {
+			add = 10
+			tag = DEG
+		}
+		modifier = {
+			add = 10
+			tag = LIG
+		}	
+		modifier = {
+			add = 10
+			tag = NIN
+		}	
+		modifier = {
+			add = 10
+			tag = ZAP
+		}	
+		modifier = {
+			add = 10
+			tag = FEL
+		}
+		modifier = {
+			add = 10
+			tag = VIL
+		}
+		modifier = {
+			add = 10
+			tag = QAT
+		}
+		modifier = {
+			add = 10
+			tag = UAE
+		}
+		modifier = {
+			add = 10
+			tag = KUW
+		}
+		modifier = {
+			add = 10
+			tag = NAJ
+		}		
+	}
+	default = no	
+
+}
+
+

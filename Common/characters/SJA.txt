@@ -1,0 +1,14 @@
+characters={
+	SJA_yu_youren={
+		name=SJA_CHARACTER_YU_YOUREN
+		portraits={
+			civilian={
+				large="GFX_portrait_sja_yu_youren_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1960.1.1.1"
+		}
+	}
+}

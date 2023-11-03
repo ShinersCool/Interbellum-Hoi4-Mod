@@ -1,0 +1,14 @@
+characters={
+	FIU_annunzio={
+		name=FIU_CHARACTER_ANNUNZIO
+		portraits={
+			civilian={
+				large="GFX_portrait_fiu_annunzio_large"
+			}
+		}
+		country_leader={
+			ideology=stratocracy
+			expire="1920.12.31"
+		}
+	}
+}

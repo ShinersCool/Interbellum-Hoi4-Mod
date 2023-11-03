@@ -1,0 +1,25 @@
+state={
+	id=1077
+	name="STATE_1077"
+	
+	history={
+		owner = LNL
+		add_core_of = LNL
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4125 3 
+		}
+
+	}	
+	
+	provinces={
+		4125 9982 11918 12378
+	}
+	manpower=3500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

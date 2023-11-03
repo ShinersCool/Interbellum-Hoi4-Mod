@@ -1,0 +1,14 @@
+characters={
+	JIL_meng_enyuan={
+		name=JIL_CHARACTER_MENG_ENYUAN
+		portraits={
+			civilian={
+				large="GFX_portrait_jil_meng_enyuan_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1933.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+state={
+	id=1078
+	name="STATE_1078"
+	
+	history={
+		owner = WUP
+		add_core_of = WUP
+		buildings = {
+			arms_factory = 1
+
+		}
+		victory_points = {
+			7502 3 
+		}
+		victory_points = {
+			13143 3 
+		}
+
+	}	
+	
+	provinces={
+		1448 1640 7159 7502 12350 13143 
+	}
+	manpower=122000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
