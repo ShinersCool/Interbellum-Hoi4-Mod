@@ -1,0 +1,25 @@
+state={
+	id=1069
+	name="STATE_1069"
+	
+	history={
+		owner = NQG
+		add_core_of = NQG
+		victory_points = {
+			4295 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	provinces={
+		4167 4295 10257
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

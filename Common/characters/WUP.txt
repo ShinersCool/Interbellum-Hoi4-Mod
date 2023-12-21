@@ -1,0 +1,14 @@
+characters={
+	WUP_wu_peifu={
+		name=WUP_CHARACTER_WU_PEIFU
+		portraits={
+			civilian={
+				large="GFX_portrait_wup_wu_peifu_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1939.1.1.1"
+		}
+	}
+}

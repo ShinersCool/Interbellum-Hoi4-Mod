@@ -1,0 +1,29 @@
+state={
+	id=1070
+	name="STATE_1070"
+	
+	history={
+		owner = GUZ
+		add_core_of = SIC
+		add_core_of = GUZ
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			6999 20 
+		}
+		victory_points = {
+			12705 3 
+		}
+
+	}	
+	
+	provinces={
+		4431 6999 11972 12705
+	}
+	manpower=275000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

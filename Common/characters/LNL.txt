@@ -1,0 +1,14 @@
+characters={
+	LNL_zhao_hengti={
+		name=LNL_CHARACTER_ZHAO_HENGTI
+		portraits={
+			civilian={
+				large="GFX_portrait_lnl_zhao_hengti_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1969.1.1.1"
+		}
+	}
+}

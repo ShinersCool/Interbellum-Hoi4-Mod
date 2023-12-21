@@ -1,0 +1,14 @@
+characters={
+	LSR_peteris_stucka={
+		name=LSR_CHARACTER_PETERIS_STUCKA
+		portraits={
+			civilian={
+				large="GFX_portrait_lsr_peteris_stucka_large"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1932.1.1.1"
+		}
+	}
+}

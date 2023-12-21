@@ -1,0 +1,14 @@
+characters={
+	WHU_he_long={
+		name=WHU_CHARACTER_HE_LONG
+		portraits={
+			civilian={
+				large="GFX_portrait_whu_he_long_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1967.1.1.1"
+		}
+	}
+}
